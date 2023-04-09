@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Basho open-sources its Riak TS database for the Internet Of Things • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">Basho开源其物联网Riak TS数据库TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/05/05/basho-open-sources-its-riak-ts-database-for-the-internet-of-things/">https://web.archive.org/web/https://techcrunch.com/2016/05/05/basho-open-sources-its-riak-ts-database-for-the-internet-of-things/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">似乎世界上每个设备制造商都想把自己的产品连接到互联网上，从床垫、洗衣机到烤面包机和T2榨汁机。有如此多的数据在等待分析。</p>
+<p class="translated">存在的这种数据量只会增加，传输这种数据的能力正在<a href="https://web.archive.org/web/20221007163748/https://beta.techcrunch.com/2016/05/04/frances-sigfox-will-expand-its-dedicated-iot-network-to-100-u-s-cities/">慢慢变得可以从SigFox(它已经为这样的网络筹集了高达1.5亿美元)这样的公司</a>获得。然而，大多数分布式数据库体系结构不能以与市场其他部分正在大步前进的带宽相匹配的速率提供和写入数据。</p>
+<p class="translated">总部位于西雅图的Basho试图通过他们最新发布的noSQL Riak TS数据库来解决这些问题。TS代表时间序列，数据点的唯一键值是它们产生时的时间戳。虽然TS系统现在已经向Basho的企业客户(包括优步和AT T这样的公司)提供了很短的时间，但开源版本标志着开发者第一次有机会访问专门用于这种类型数据的平台。</p>
+<p class="translated">在MongoDB和DataStax等同行中，Basho是资本最少的，过去一年只有2500万美元的融资。<span class="message_body">很明显，该公司寄希望于时间序列数据能够在noSQL领域获得竞争优势。</span></p>
+<p class="translated"><span class="message_body">新版本还提供了与<a target="_blank" href="https://web.archive.org/web/20221007163748/https://spark.apache.org/"> Apache Spark集群框架</a>的集成，为Spark中的内存处理和Riak TS中的存储提供了数据的自动分发和交互。</span></p>
+<p class="translated"><span class="message_body">虽然这对大多数人来说可能微不足道，但作为一个摆弄过大量来自传感器的时间序列数据点的人，大规模的分布式数据经常会导致长时间的读/写操作，甚至在计算运行期间，而分布的冗余会导致效率的下降。</span></p>
+<p class="translated">大多数解决方案使用哈希排序将数据的密钥均匀分布在数据集群中，虽然哈希排序通常很有效，但它会将同一时间范围内的数据放在大量节点上，这使得访问范围成为一项高负载操作。</p>
+<p class="translated">Basho的首席执行官Adam Wray说，Riak TS使用的独特分发系统让用户在处理带有时间戳或其他连续数据时具有优势。</p>
+<p class="translated">“我们优化了数据放置，以便特定节点可以获得特定范围的数据，”他说，并解释说，这种放置可以减少从特定时间范围获取数据的操作。</p>
+<p class="translated">虽然个人开发人员肯定会从新版本提供的REST API中受益，但它与现有SQL数据库命令的Riak TS兼容性使其在企业领域大受欢迎。</p>
+<p class="translated">“这是正常的SQL[命令]，而不是某种CQL或我们自己的SQL变体，”巴肖公司的首席技术官Dave McCrory说。"我们支持人们关心的传统手术."</p>
+<p class="translated">虽然支持最常见的SQL操作肯定会对传统用户和许多企业有吸引力，但许多企业用户在内部SQL平台上构建的定制解决方案可能会阻碍Riak TS在企业领域的广泛采用。</p>
+<p class="translated">Riak中的节点可以分布在虚拟化和物理机器上，也可以分布在像微软的Azure或亚马逊网络服务这样的平台上的云实例上。</p>
+<p class="translated">Basho声称，与Apache Software Foundation的开源noSQL Cassandra数据库等竞争对手相比，Riak TS系统在时间序列数据上的运行速度快了50%以上。TechCrunch尚未独立验证这些统计数据，但随着今天的开源发布，Riak TS系统的性能提升将对用户可见。</p>
+<p class="translated">该系统的内置弹性是否足以动摇企业用户，还有待观察。每个群集存储其包含的每个位的三个相同副本，多群集复制理论上可以无限次地增加该数量。从规模上看，这导致了相当高的正常运行时间和低故障率，但代价是许多较小的用户可能不愿意承担系统规模。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

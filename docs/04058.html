@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Google, Microsoft, Mozilla And Others Team Up To Launch WebAssembly, A New Binary Format For The Web | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">谷歌、微软、Mozilla和其他公司联手推出WebAssembly，一种新的Web | TechCrunch二进制格式</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2015/06/17/google-microsoft-mozilla-and-others-team-up-to-launch-webassembly-a-new-binary-format-for-the-web/">https://web.archive.org/web/https://techcrunch.com/2015/06/17/google-microsoft-mozilla-and-others-team-up-to-launch-webassembly-a-new-binary-format-for-the-web/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated"><a target="_blank" href="https://web.archive.org/web/20230404073509/https://twitter.com/jfbastien/status/611201861245399041">谷歌</a>、<a target="_blank" href="https://web.archive.org/web/20230404073509/http://blogs.msdn.com/b/mikeholman/archive/2015/06/17/working-on-the-future-of-compile-to-web-applications.aspx">微软</a>、<a target="_blank" href="https://web.archive.org/web/20230404073509/https://blog.mozilla.org/luke/2015/06/17/webassembly/"> Mozilla </a>和<a target="_blank" href="https://web.archive.org/web/20230404073509/https://bugs.webkit.org/show_bug.cgi?id=146064"> WebKit项目</a>的工程师们今天宣布，他们已经合作推出了<a target="_blank" href="https://web.archive.org/web/20230404073509/https://github.com/WebAssembly"> WebAssembly </a>，一种新的<a target="_blank" href="https://web.archive.org/web/20230404073509/https://github.com/WebAssembly/design/blob/master/BinaryEncoding.md">二进制格式</a>，用于编译网络应用。</p>
+<p class="translated">网络因标准而繁荣，无论好坏，JavaScript是它的编程语言。然而，这些年来，我们已经看到越来越多的努力，允许开发人员通过构建将其他语言的代码转换成JavaScript的编译器来解决JavaScript的一些限制。其中一些项目专注于向语言添加新功能(如微软的<a target="_blank" href="https://web.archive.org/web/20230404073509/http://www.typescriptlang.org/"> TypeScript </a>)或加速JavaScript(如Mozilla的<a target="_blank" href="https://web.archive.org/web/20230404073509/http://asmjs.org/"> asm.js </a>项目)。现在，许多这样的项目开始以WebAssmbly的形式聚集在一起。</p>
+<p class="translated">这种新格式旨在允许程序员为浏览器编译他们的代码(目前的重点是C/C++，其他语言也会跟上)，然后在JavaScript引擎中执行。不过，WebAssembly可以显著加快解码速度，而不必解析整个代码，这通常需要很长时间(尤其是在移动设备上)</p>
+<p class="translated">这个想法是WebAssembly将为开发者提供一个单一的web编译目标，最终将成为在所有浏览器中实现的web标准。</p>
+<p class="translated">默认情况下，JavaScript文件是从服务器下载的简单文本文件，然后由浏览器中的JavaScript引擎进行解析和编译。例如，WebAssembly团队决定采用二进制格式，因为该代码甚至可以比标准JavaScript文本文件压缩得更多，还因为引擎解码二进制格式比解析asm.js代码快得多(在当前原型中快23倍)。</p>
+<p class="translated">Mozilla的asm.js一直致力于为网络带来近乎本土的速度。谷歌的用于在浏览器中运行本地代码的<a target="_blank" href="https://web.archive.org/web/20230404073509/https://code.google.com/p/nativeclient/"> Native Client </a>项目也有类似的目标，但相对来说没什么吸引力。看起来WebAssemly现在可以将这些项目中的精华带到浏览器中了。</p>
+<p class="translated">作为第一步，WebAssembly团队的目标是提供与asm.js大致相同的功能(开发人员将能够为WebAssembly使用与他们今天编译asm.js代码相同的Emscripten工具)。</p>
+<p class="translated">在这个早期阶段，该团队还计划推出一个所谓的<a target="_blank" href="https://web.archive.org/web/20230404073509/https://remysharp.com/2010/10/08/what-is-a-polyfill"> polyfill库</a>，它将把WebAssembly代码翻译成JavaScript，以便它可以在任何浏览器中运行——甚至是那些没有本机WebAssembly支持的浏览器(这显然有点荒谬，但一旦浏览器可以本机运行这些代码，就不需要最后一步了)。随着时间的推移，团队将构建<a target="_blank" href="https://web.archive.org/web/20230404073509/https://github.com/WebAssembly/design/blob/master/Tooling.md">更多的工具</a>(编译器、调试器等)。)并增加对更多语言的支持(比如Rust、Go和C#)。</p>
+<p class="translated">正如JavaScript发明者(和<a target="_blank" href="https://web.archive.org/web/20230404073509/https://blog.mozilla.org/blog/2014/04/05/faq-on-ceo-resignation/">短期</a> Mozilla CEO) Brendan Eich <a target="_blank" href="https://web.archive.org/web/20230404073509/https://brendaneich.com/2015/06/from-asm-js-to-webassembly/">今天所指出的</a>，一旦主流浏览器原生支持新格式，JavaScript和WebAssembly将会再次分离。</p>
+<p class="translated">该团队指出，顺便说一句，这里的想法并不是要取代JavaScript，而是允许更多的语言为网络编译。事实上，JavaScript和WebAssembly可能会同时使用，应用程序的某些部分可能会使用WebAssembly模块(动画、可视化、压缩等)。)，而用户界面仍然主要是用JavaScript编写的。</p>
+<p class="translated">我们很少看到所有主要的浏览器供应商在这样的项目上合作，所以这绝对是未来几个月和几年值得关注的事情。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

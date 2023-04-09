@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Massive Security Bug In OpenSSL Could Affect A Huge Chunk Of The Internet | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">OpenSSL中的大量安全漏洞可能会影响互联网的大部分</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2014/04/07/massive-security-bug-in-openssl-could-effect-a-huge-chunk-of-the-internet/">https://web.archive.org/web/https://techcrunch.com/2014/04/07/massive-security-bug-in-openssl-could-effect-a-huge-chunk-of-the-internet/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">有一次我看到一件t恤。“我是一名拆弹技术员，”上面写道。“如果你看到我在跑，试着跟上。”</p>
+<p class="translated">同样的想法也适用于网络安全:当你认识的所有网络安全人员都吓坏了，这可能是一个担心的好时机。</p>
+<p class="translated">今天下午，我认识的许多网络安全人士都吓坏了。OpenSSL——一个用于保护非常大比例的互联网流量的加密库——中的一个非常严重的错误刚刚被发现并公开披露。</p>
+<p class="translated">即使您从未听说过OpenSSL，它也可能以这样或那样的方式成为您生活的一部分——或者，更有可能，以许多方式。你使用的应用程序，你访问的网站；如果他们加密来回发送的数据，他们很有可能使用OpenSSL来加密。例如，为大约50%的互联网网站提供支持的Apache web服务器就使用了OpenSSL。</p>
+<p class="translated">通过一个被安全研究人员称为“<a target="_blank" href="https://web.archive.org/web/20230402051610/http://heartbleed.com/"> Heartbleed </a>的漏洞，似乎可以欺骗几乎任何运行过去两年的任何版本的OpenSSL的系统，泄露其系统内存中的大块数据。</p>
+<p class="translated">为什么不好:非常非常敏感的数据通常位于服务器的系统内存中，包括它用来加密和解密通信的密钥(如用户名、密码、信用卡等。)这意味着攻击者可以很容易地让服务器吐出它的秘密密钥，允许他们读取他们拦截的任何通信，就像它没有加密一样。有了这些密钥，攻击者还可以冒充一个安全的站点/服务器，欺骗浏览器的许多内置安全检查。</p>
+<p class="translated">如果攻击者只是从服务器上吞噬大量的加密数据，希望在某个时候破解它呢？他们现在很可能有解密它的密钥，这取决于他们攻击的服务器是如何配置的(比如它是否被设置为利用<a target="_blank" href="https://web.archive.org/web/20230402051610/http://en.wikipedia.org/wiki/Forward_secrecy#Perfect_Forward_Secrecy">完美转发保密</a>)。)</p>
+<p class="translated">该漏洞利用了OpenSSL“心跳”功能实现中的一个缺陷，因此得名“心脏出血”。安全公司Codenomicon在这里写了一篇关于<a target="_blank" href="https://web.archive.org/web/20230402051610/http://heartbleed.com/">心脏出血错误的深入分析。</a></p>
+<p class="translated"><strong>引用他们的发现:</strong></p>
+<blockquote><p class="translated">我们已经从攻击者的角度测试了一些我们自己的服务。我们从外面攻击自己，不留痕迹。在不使用任何特权信息或凭证的情况下，我们能够从自己那里窃取用于我们的X.509证书、用户名和密码、即时消息、电子邮件以及业务关键文档和通信的密钥。</p></blockquote>
+<p class="translated">在今天公开宣布发现之前，这个错误似乎已经在OpenSSL中存在两年多了(从2011年12月开始，OpenSSL版本1.0.1到1.0.1f)。更糟糕的是，利用这个漏洞似乎不会在服务器日志中留下任何痕迹。因此，系统管理员没有简单的方法来知道他们的服务器是否已经受到威胁；他们只需要假设他们已经。</p>
+<p class="translated">谷歌安全团队的尼尔·梅塔(Neel Mehta)发现了这个漏洞，并将其报告给了OpenSSL团队。今天下午，OpenSSL发布了一个针对<a target="_blank" href="https://web.archive.org/web/20230402051610/https://www.openssl.org/news/secadv_20140407.txt">漏洞的紧急补丁和一个安全建议</a>。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

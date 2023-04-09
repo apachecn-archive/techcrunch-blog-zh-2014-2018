@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Apple Confirms Malware-Infected Apps Found And Removed From Its Chinese App Store • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">苹果证实在其中国应用商店TechCrunch中发现并移除了受恶意软件感染的应用</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2015/09/21/apple-confirms-malware-infected-apps-found-and-removed-from-its-chinese-app-store/">https://web.archive.org/web/https://techcrunch.com/2015/09/21/apple-confirms-malware-infected-apps-found-and-removed-from-its-chinese-app-store/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">苹果公司证实了其中国应用商店的一个安全漏洞，该漏洞导致<a target="_blank" href="https://web.archive.org/web/20221007103055/http://www.nytimes.com/2015/09/21/business/apple-confirms-discovery-of-malicious-code-in-some-app-store-products.html">近四十</a>个流行应用程序感染了恶意软件——这是由于应用程序开发者被诱骗下载了苹果Xcode开发者工具包的一个受损版本。这一漏洞是由阿里巴巴移动安全的研究人员首先发现的，它影响了该地区的一些流行应用，包括微信、滴滴快的(一种类似优步的服务)、名片扫描应用CamCard和其他几个应用。</p>
+<p class="translated">据总部位于美国的安全公司<a target="_blank" href="https://web.archive.org/web/20221007103055/http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/">帕洛阿尔托网络</a>称，该恶意软件为“XcodeGhost”，39个iOS应用程序受到影响。该公司表示，该恶意软件可能会影响数亿用户。</p>
+<p class="translated">鉴于苹果历来严格的应用审查政策，这一违规行为令人惊讶。然而，在这种情况下，恶意软件作者利用了开发者对苹果官方Xcode软件的需求。Xcode软件的一个受损版本被上传到百度的云存储网站，承诺比苹果自己网站上的官方版本下载更快，由于中国的防火长城，官方版本的下载速度很慢。</p>
+<p class="translated">但是，即使要安装这个受影响的Xcode软件版本，开发人员也不得不忽略一个警告，该警告表明该软件已损坏，应该被移到垃圾桶:</p>
+
+<p class="translated"><a target="_blank" href="//web.archive.org/web/20221007103055/https://platform.twitter.com/widgets.js">//platform . Twitter . com/widgets . js</a></p>
+<p class="translated">换句话说，苹果的看门人技术，防止非应用商店和未签名版本的程序，如Xcode，被安装，正在做它的工作。然而，开发人员最终选择忽略警告，继续安装和使用受损软件。</p>
+<p class="translated">然后，当应用程序开发人员使用这个版本的Xcode编写他们的应用程序时，他们的应用程序就会感染该恶意软件。(据称，百度已经撤下了被感染的软件。)</p>
+<p class="translated">Palo Alto Networks在<a target="_blank" href="https://web.archive.org/web/20221007103055/http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/">博客文章</a>中解释说，恶意代码将用户的设备信息和应用程序信息上传到攻击者的命令和控制服务器，这使得用户的设备能够接收恶意软件创建者的指令。其中一些指令包括一个提示，这可能是一个虚假的警报，通过网络钓鱼获取用户凭据；劫持打开特殊网站URL的方法，这将允许在iOS系统中进一步利用；以及在从密码管理工具复制密码的情况下，向用户的剪贴板写入和写入数据的能力，该剪贴板可用于读取用户的密码。</p>
+<p class="translated">Palo Alto Networks指出，一名开发者表示，XcodeGhost已经发起了旨在获取用户iCloud密码的网络钓鱼攻击。</p>
+<p class="translated">该安全公司表示，目前还不清楚谁是此次攻击的幕后黑手，但它确实表明，所用的技术可能是“犯罪和间谍组织”用来访问iOS设备的技术。</p>
+<p class="translated">在一份声明中，苹果公司证实了这一安全问题，并表示已从iTunes应用商店中删除了受感染的应用程序。该公司还表示，它正在与开发者合作，以确保他们的应用程序没有风险，并且他们使用的是正确版本的Xcode。</p>
+<p class="translated">完整的声明如下:</p>
+<blockquote><p class="translated">“苹果非常重视安全性，iOS从你打开设备的那一刻起就被设计为可靠和安全的。我们为开发人员提供业界最先进的工具来创建优秀的应用程序。其中一个工具的伪造版本是由不可信的来源发布的，这可能会危及使用该伪造工具创建的应用程序的用户安全。为了保护我们的客户，我们已经从App Store中删除了我们知道用这种假冒软件创建的应用程序，我们正在与开发者合作，以确保他们使用正确版本的Xcode来重建他们的应用程序。”</p></blockquote>
+<p class="translated">拥有超过5亿用户的微信是受XcodeGhost影响最大的应用之一。母公司腾讯已经在其<a target="_blank" href="https://web.archive.org/web/20221007103055/http://blog.wechat.com/2015/09/19/fixed-security-flaw-in-wechat-v6-2-5-for-ios/">官方博客</a>上证实了安全漏洞的发现，并指出只有运行iOS版微信6.2.5版本的用户才会下载其应用程序的受感染版本。在新版本(6.2.6或更高版本)中，该缺陷已被修复，它说。</p>
+<p class="translated">此外，腾讯表示，其初步调查显示，“没有盗窃和泄露用户的信息或资金”，但该公司将继续密切关注这一情况。</p>
+<p class="translated">虽然受感染的应用程序现在已经从App Store下架，苹果公司也在联系受影响的应用程序开发者，但几个问题仍然存在。</p>
+<p class="translated">首先，目前还不清楚有多少用户在商店上可以下载这些恶意软件的应用程序，以及如何通知这些用户升级到最新版本。</p>
+<p class="translated">此外，几年前，苹果创始人兼首席执行官史蒂夫·乔布斯<a target="_blank" href="https://web.archive.org/web/20221007103055/http://www.wsj.com/articles/SB121842341491928977">证实，事实上，苹果确实有一个从用户设备上删除应用</a>的“死亡开关”。</p>
+<p class="translated">当时，他表示，苹果需要这样一个功能，以防恶意程序——比如窃取用户数据的程序——意外进入iTunes应用商店。“希望我们永远不需要拉这个杠杆，但如果没有这样的杠杆，我们将是不负责任的，”乔布斯说。</p>
+<p class="translated">现在这种情况已经发生了，我们想知道苹果是否真的会继续使用这种机制。</p>
+<p class="translated"><strong>更新</strong> : Lookout在这里有一份受影响应用<a target="_blank" href="https://web.archive.org/web/20221007103055/https://blog.lookout.com/blog/2015/09/21/xcodeghost-apps/">的完整列表，具体说明如何发现你是否有受影响或打了补丁的版本。该公司正在继续增加这一名单，因为它独立确认哪些是受影响的。</a></p>
+			</div>
+
+			</div>    
+</body>
+</html>

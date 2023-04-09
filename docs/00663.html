@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Amazon Web Services Launches SSD-Based, General-Purpose Storage Volumes For EBS • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">亚马逊网络服务为EBS TechCrunch推出基于固态硬盘的通用存储卷</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/http://techcrunch.com/2014/06/17/amazon-web-services-launches-ssd-based-general-purpose-storage-volumes-for-ebs/?ncid=rss">https://web.archive.org/web/http://techcrunch.com/2014/06/17/amazon-web-services-launches-ssd-based-general-purpose-storage-volumes-for-ebs/?ncid=rss</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">Amazon Web Services为EBS推出基于SSD的通用存储卷</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">就在谷歌<a href="https://web.archive.org/web/20230128103807/https://techcrunch.com/2014/06/16/google-cloud-platform-gets-ssd-persistent-disks-and-http-load-balancing/">为其云平台推出</a>基于SSD的<a target="_blank" href="https://web.archive.org/web/20230128103807/https://developers.google.com/compute/docs/disks">持久存储</a>卷的一天后，亚马逊<a target="_blank" href="https://web.archive.org/web/20230128103807/https://aws.amazon.com/blogs/aws/new-ssd-backed-elastic-block-storage/">今天宣布</a>为其用户提供一项非常类似的服务。凭借其新的通用固态硬盘卷，亚马逊现在为其<a target="_blank" href="https://web.archive.org/web/20230128103807/http://aws.amazon.com/ebs/">弹性块存储</a> (EBS)提供了一个介于标准硬盘存储选项和更昂贵的<a target="_blank" href="https://web.archive.org/web/20230128103807/http://aws.amazon.com/blogs/aws/fast-forward-provisioned-iops-ebs/">配置IOPS </a>卷之间的中间层，后者已经使用了固态硬盘。</p>
+<p class="translated">Elastic Block Store是亚马逊的一项服务，用于创建持久存储卷，然后可以与它的EC2云计算实例一起使用。</p>
+<p class="translated">与供应的IOPS卷不同，亚马逊称之为新的通用(SSD)磁盘，不包含任何额外或前期的输入/输出费用。在亚马逊的俄勒冈州和弗吉尼亚州的数据中心，价格从每月每千兆字节0.10美元开始。其他地区的价格略高，但仍低于谷歌对其固态硬盘支持的卷每月0.325美元/GB的收费。</p>
+<p class="translated">亚马逊承诺，这种存储类型可以在30分钟内处理每个卷每秒3000次输入/输出操作(IOPS)的突发，与卷大小无关。调配的IOPS卷最多可连接支持48，000个IOPS，但这对大多数应用程序来说可能有些过了。新的通用卷构建在该公司为调配的IOPS创建的同一技术堆栈上。</p>
+<p class="translated"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1017210" src="../Images/f669241b534f3fb6e6abd10480280c71.png" alt="console_ec2_launch_general_purpose_ssd_3" srcset="https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png 863w, https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png?resize=150,78 150w, https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png?resize=300,155 300w, https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png?resize=768,397 768w, https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png?resize=680,351 680w, https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png?resize=50,26 50w" sizes="(max-width: 863px) 100vw, 863px" data-original-src="https://web.archive.org/web/20230128103807im_/https://techcrunch.com/wp-content/uploads/2014/06/console_ec2_launch_general_purpose_ssd_3.png"/></p>
+<p class="translated">亚马逊指出，与基于硬盘的解决方案相比，基于固态硬盘的卷可以处理约10倍多的IOPS，延迟为1/10，性能更稳定。该公司特别指出，因为每个新创建的SSD备份卷都自动配置了3，000 IOPS突发分配，所以从它们启动比从磁盘启动花费的时间少一半。</p>
+<p class="translated">“随着今天推出EBS通用(SSD)卷，SSD技术现在可以以更低的成本应用于更广泛的用例，同时还提供高IOPS、低延迟和高带宽，”亚马逊网络服务计算副总裁彼得·德森蒂斯峰在今天的一份声明中说。</p>
+<p class="translated">看起来亚马逊希望将这些新的基于SSD的通用卷变成开发者的标准选项。以前基于硬盘的“标准”存储卷现在被称为“EBS磁卷”</p>
+<p class="translated">当谷歌昨天推出其SSD持久磁盘时，该公司特别指出，它希望保持定价简单，不会对每次输入/输出操作收取任何额外费用。亚马逊现在也以简单的固定费用提供这项新服务，这可能不是巧合。开发者长期以来一直抱怨亚马逊复杂的定价结构，所以今天的声明可能标志着更多只收取单一费用的服务的趋势。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

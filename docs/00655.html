@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Google Cloud Platform Gets SSD Persistent Disks And HTTP Load Balancing • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">谷歌云平台获得SSD持久磁盘和HTTP负载平衡TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/http://techcrunch.com/2014/06/16/google-cloud-platform-gets-ssd-persistent-disks-and-http-load-balancing/?ncid=rss">https://web.archive.org/web/http://techcrunch.com/2014/06/16/google-cloud-platform-gets-ssd-persistent-disks-and-http-load-balancing/?ncid=rss</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">谷歌云平台获得SSD持久磁盘和HTTP负载平衡</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">谷歌的I/O开发者大会可能还有几天就要召开了，但这并没有阻止该公司在大会之前为其云平台推出一些新功能。正如谷歌<a target="_blank" href="https://web.archive.org/web/20230128103946/http://googlecloudplatform.blogspot.com/2014/06/introducing-http-load-balancing-and-ssd-persistent-disk-on-google-cloud-platform.html">今天宣布</a>的那样，云平台将获得两个长期以来一直在开发者愿望清单上的功能:<a target="_blank" href="https://web.archive.org/web/20230128103946/https://developers.google.com/compute/docs/load-balancing/"> HTTP负载平衡</a>和<a target="_blank" href="https://web.archive.org/web/20230128103946/https://developers.google.com/compute/docs/disks">基于SSD的持久存储</a>。这两个功能现在都处于有限的预览阶段，想要测试它们的开发者可以在这里注册。</p>
+<p class="translated">开发人员的应用程序需要固态硬盘每秒进行大量的输入/输出操作，现在他们可以以每月每千兆字节0.325美元的固定费用获得这一功能。值得注意的是，这比谷歌对常规持久存储收取的0.04美元要贵得多。与亚马逊网络服务不同，谷歌对实际的输入/输出请求不收取任何额外费用。亚马逊也提供基于SSD的EC2实例，但这些实例没有任何持久存储功能。</p>
+<p class="translated">虽然标准持久磁盘的读取速度约为0.3 IOPS/GB，写入速度约为1.5/GB，但基于SSD的服务可获得高达30 IOPS/GB的读取和写入速度。基于SSD的卷的最大持续吞吐量也明显更高。</p>
+<p class="translated"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1016713" src="../Images/e893b4e9c79625f3270d328c0ac3dceb.png" alt="2014-06-16_1301" srcset="https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png 955w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png?resize=150,65 150w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png?resize=300,129 300w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png?resize=768,331 768w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png?resize=680,293 680w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png?resize=50,22 50w" sizes="(max-width: 955px) 100vw, 955px" data-original-src="https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/2014-06-16_1301.png"/></p>
+<p> </p>
+<p class="translated">至于HTTP负载平衡功能，谷歌表示，它可以在没有任何预热时间的情况下，将p扩展到每秒超过100万个请求。它支持基于内容的路由，谷歌特别指出，用户可以在不同地区实现负载平衡，这应该有助于希望减少服务延迟的全球玩家。想要跨实例优化负载请求而不是延迟的开发人员也可以这样做。网络本身只有一个外部IP地址，根据谷歌的说法，对于想要使用这一功能的用户来说，这应该使网络操作非常简单。</p>
+<p class="translated">然而，到目前为止，HTTP负载平衡还不支持SSL协议。想要使用该功能的开发者将不得不使用谷歌现有的基于协议的网络负载平衡系统。</p>
+<p class="translated"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1016526" src="../Images/82d6f71b5ba0107cbcbd25800184e724.png" alt="cross-region-load-balancing-thumb" srcset="https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/cross-region-load-balancing-thumb.png 700w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/cross-region-load-balancing-thumb.png?resize=150,128 150w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/cross-region-load-balancing-thumb.png?resize=300,257 300w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/cross-region-load-balancing-thumb.png?resize=680,582 680w, https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/cross-region-load-balancing-thumb.png?resize=50,43 50w" sizes="(max-width: 700px) 100vw, 700px" data-original-src="https://web.archive.org/web/20230128103946im_/https://techcrunch.com/wp-content/uploads/2014/06/cross-region-load-balancing-thumb.png"/></p>
+			</div>
+
+			</div>    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>The Unavoidable Truth Of Moving Fast And Breaking Things | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">快速移动和打破事物的不可避免的事实</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/http://techcrunch.com/2015/03/10/move-fast-and-break-things/">https://web.archive.org/web/http://techcrunch.com/2015/03/10/move-fast-and-break-things/</a></blockquote><div><div class="article-content">
+				<div class="article__contributor-byline-wrapper">
+<div class="article__contributor-byline">
+	<div class="contributor-byline__contributor">
+		<p class="byline__author translated"><span class="byline__author-name">安德鲁·麦科勒姆</span><span class="byline__author-title">撰稿人</span></p>
+
+			</div>
+
+	
+	</div>
+</div><p id="speakable-summary" class="translated"><strong>编者按:</strong> <em>安德鲁·麦科勒姆(Andrew McCollum)是脸书的联合创始人，也是面向开发者的ops平台<a target="_blank" href="https://web.archive.org/web/20230327085527/https://opbeat.com/"> Opbeat </a>的投资人。</em></p>
+<p class="translated">“快速行动，打破常规”:这是从一开始就指导脸书发展进程的原则之一。这五个词概括了快速开发、不断迭代和勇于抛弃过去的哲学。当然，有些人可能想知道为什么你不能仅仅停留在“快速行动”的部分。事实是，打破东西是不可避免的。</p>
+<p class="translated">即使不考虑那些“有效”但需要被打破才能继续创新的功能(例如，这些年来个人资料如何发生了巨大的变化)，脸书也是一个连接全球超过10亿人的社交产品。根本不可能模拟这种程度的活动产生的独特菌株。更重要的是，在一个特性被实现并推向生产之前(尽管通常首先是对一部分用户)，通常不可能理解人们将如何使用它或对一个变化做出反应。</p>
+<p class="translated">十亿人会很快尝试各种可能的方式与你的代码交互，所以特性会以你从未预料到的方式使用，有时事情会以你没有预料到的方式发生。因为在事情进入生产阶段之前，您无法获得这种级别的反馈，这意味着快速发展与部署过程密不可分。</p>
+<p class="translated">在脸书的早期，当它只是一个哈佛学生的社交网络时，“部署”只是意味着将组成脸书的十几个PHP文件推送到一个Apache服务器上。开发和部署之间没有明确的界限，当然也没有正式的发布过程。随着社交网络在越来越多的大学推出，该网站迅速扩展到几十台服务器，然后扩展到我们的第一个配置中心，在那里我们自己在一个史诗般的通宵会议中安装了所有服务器。</p>
+<p>	</p><div class="article-block block--pullout block--left">
+		<blockquote class="translated">快速行动与部署过程密不可分。</blockquote>
+	</div>
+	
+<p class="translated">随着脸书的发展，部署过程很快变得更加结构化，这使我们认识到MFABT哲学的必然结果:信任和授权工程师。这一发现是在脸书雇佣第一批运营团队成员时发现的。当新的运营团队到来时，他们立即希望改变脸书处理部署的方式。脸书还不到一岁，在那个时候，任何工程师都可以将代码投入生产——当然，前提是这些更改已经被其他工程师检查过。</p>
+<p class="translated">新的运营团队希望通过创建一个临时环境来改变这一过程，该环境将是任何代码进入生产环境之前的一个必要停止点。一旦发布，QA团队将对每个版本进行彻底的测试，以确保在发布时不会出现任何问题。</p>
+<p class="translated">后来成为脸书首席技术官的Adam D'Angelo带头抵制这一变革。他认为，这不仅是不可能的，因为脸书的独特性(如上所述)，而且它将大大减缓脸书的发展速度。最后，Mark同意了Adam的观点，话题转到了我们如何构建工具来支持这种快速开发。</p>
+<p class="translated">随着脸书的不断扩大，以及服务器数量增加到数百台，在短时间内推出新版本的代码很快变得不切实际。这使得每周的发布周期成为必要，这发生在网站使用的低谷期。这创造了一个机会，将分期的想法带回来，尽管是以一种修改过的形式。对代码的修改首先在内部推送到员工使用的脸书版本，有效地使整个公司成为QA团队的一部分。</p>
+<p class="translated">工程师仍然有很大的自由来决定他们的代码什么时候可以投入生产，但是有一个时间窗口，在这个时间窗口内，更改在到达外部世界之前可以在内部看到大量的使用。这也允许团队从一个更大的群体中获得对仍在变化的特性的反馈。</p>
+<p class="translated">虽然部署已经变得更加先进，并且不再与每周周期紧密联系，但在很大程度上，这仍然是今天的系统，并且ops团队继续致力于使工程师更快地发布他们的代码(尽管有一些重要的保护措施)。事后看来，人们总是更容易找到正确的答案，但事实证明，脸书的技术进步速度是其在与早期竞争对手的斗争中最大的优势之一。</p>
+<p class="translated">随着所有云平台的出现，部署和扩展web服务比以往任何时候都更容易。这种轻松导致许多初创公司长期放弃专门的运营团队，将部署和服务器管理的职责留给开发人员。这要求开发人员在出现问题时进行修复，但也使他们能够更快地行动。与十多年前脸书成立时相比，这无疑是一个巨大的变化，但它赋予了那些没有脸书资源的团队以更快的速度，打破更多的东西。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

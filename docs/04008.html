@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Facebook Open-Sources Infer To Help Developers Identify Bugs Before They're Shipped • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">脸书开源推断帮助开发者在发布前识别bug TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2015/06/11/facebook-open-sources-infer-to-help-developers-identify-bugs-before-theyre-shipped/">https://web.archive.org/web/https://techcrunch.com/2015/06/11/facebook-open-sources-infer-to-help-developers-identify-bugs-before-theyre-shipped/</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">脸书开源推断帮助开发者在产品发布前识别bug</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">脸书今天<a target="_blank" href="https://web.archive.org/web/20221208175451/https://code.facebook.com/posts/1648953042007882/open-sourcing-facebook-infer-identify-bugs-before-you-ship">宣布</a>开源<a target="_blank" href="https://web.archive.org/web/20221208175451/http://fbinfer.com/">推断</a>，这是一个静态程序分析器，公司用它在移动代码发货前发现其中的错误。在内部，该公司使用该工具分析Android和iOS的脸书应用程序、Facebook Messenger、Instagram和其他应用程序。</p>
+<p class="translated">脸书表示，Infer每个月都会通过扫描代码来发现数百个潜在的漏洞，如<a target="_blank" href="https://web.archive.org/web/20221208175451/https://blog.udemy.com/java-null-pointer-exception/">空指针访问</a>以及资源和内存泄漏——这些问题很容易导致应用程序崩溃。</p>
+<p class="translated"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1169880" src="../Images/4be1f0e5fd89902aa391aaa4c45cd399.png" alt="fbinfer" data-original-src="https://web.archive.org/web/20221208175451im_/https://beta.techcrunch.com/wp-content/uploads/2015/06/fbinfer.gif"/></p>
+<p class="translated">显然，脸书以其最快的运输速度而闻名。虽然它可以像发布代码一样快速地修复网络漏洞，但对于移动应用程序来说，这根本不是一个选项，因为在大多数情况下，用户必须下载更新才能获得修复。</p>
+<p class="translated">虽然脸书主要使用Infer来查看Android Java代码和iOS Objective-C项目，但开发人员没有理由不能使用相同的工具来查看任何其他C和Java代码。事实上，脸书表示，它也在寻求扩大Infer的使用范围(或许还有语言)。</p>
+<p class="translated">在脸书，每当开发人员将代码修改签入该公司一个主要应用的源代码时，Infer就会自动运行，然后该工具在发现问题时将评论写入代码。</p>
+<p class="translated">你可以在脸书的博客文章中读到这个工具如何工作的所有技术细节，但值得一提的是，Infer使用了一个名为“<a target="_blank" href="https://web.archive.org/web/20221208175451/http://en.wikipedia.org/wiki/Separation_logic">分离逻辑</a>”的概念来发现这些问题。这和有意识的解耦没有任何关系。这种理论允许分析器查看应用存储的一小部分，而不是整个应用。使用它，Infer可以在10分钟内分析大多数代码更改。为了加快速度，Infer还只查看运行之间发生变化的代码部分。没有这些技术，这种静态分析几乎是不可能的。</p>
+<p class="translated">推断现在可用<a target="_blank" href="https://web.archive.org/web/20221208175451/http://fbinfer.com/">这里</a>。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

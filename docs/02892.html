@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>This Facebook Bug Allowed Anyone To Delete Your Photos | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">这个脸书漏洞允许任何人删除你的照片</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2015/02/12/this-bug-wouldve-let-anyone-delete-your-photos-from-facebook/">https://web.archive.org/web/https://techcrunch.com/2015/02/12/this-bug-wouldve-let-anyone-delete-your-photos-from-facebook/</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">这个脸书病毒允许任何人删除你的照片</h1>
+		
+
+			
+	
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated"><img decoding="async" class="aligncenter size-large wp-image-1118718" src="../Images/9a49cba882b8ddbede678ddcecc071f0.png" alt="fb" srcset="https://web.archive.org/web/20230326195956im_/https://techcrunch.com/wp-content/uploads/2015/02/fb.png 735w, https://web.archive.org/web/20230326195956im_/https://techcrunch.com/wp-content/uploads/2015/02/fb.png?resize=150,89 150w, https://web.archive.org/web/20230326195956im_/https://techcrunch.com/wp-content/uploads/2015/02/fb.png?resize=300,178 300w, https://web.archive.org/web/20230326195956im_/https://techcrunch.com/wp-content/uploads/2015/02/fb.png?resize=680,404 680w, https://web.archive.org/web/20230326195956im_/https://techcrunch.com/wp-content/uploads/2015/02/fb.png?resize=50,30 50w" sizes="(max-width: 680px) 100vw, 680px" data-original-src="https://web.archive.org/web/20230326195956im_/https://techcrunch.com/wp-content/uploads/2015/02/fb.png?w=680"/></p>
+<p class="translated">你有多少张脸书的照片？其中有多少是你从未想过要备份的照片？</p>
+<p class="translated">这个刚刚披露的脸书漏洞会让任何有点技术知识的人删除脸书上的任何照片。</p>
+<p class="translated">幸运的是，发现窃听器的人(印度的拉克西曼·穆西亚赫)很快给了脸书一个提醒——由于他的麻烦，他得到了12500美元的奖金。(当然，这种病毒很容易给脸书造成超过12500美元的损失——但这并不是病毒奖励项目的工作方式。)</p>
+<p class="translated">脸书转过身来，在大约两个小时内修复了这个bug。</p>
+<p class="translated">拉克斯曼在这里对<a target="_blank" href="https://web.archive.org/web/20230326195956/http://www.7xter.com/2015/02/how-i-hacked-your-facebook-photos.html">它是如何工作的</a>进行了分解，但这里有一个简短的版本:脸书的图形API没有正确检查权限。如果你向Graph API发送一个删除另一个用户相册的请求，并抛出你自己的Android脸书令牌作为所需的批准印章，它会盲目接受，相册就会消失。</p>
+<p class="translated">在攻击者端，album delete命令看起来应该是这样的:</p>
+<blockquote><p class="translated">请求:-<br/>DELETE/[受害者的_photo_album_id] HTTP/1.1 <br/>主持人:graph.facebook.com<br/>Content-Length:245<br/>Access _ Token =[你的(攻击者)_脸书_for_Android_Access_Token]</p></blockquote>
+<p class="translated">在受害者这边，相册会…消失。</p>
+<p class="translated">这是一个相当简单的错误，真的——你永远也不会想到它会真正工作。</p>
+<p class="translated">但它确实发生了——而且可能会产生相当恶劣的后果。正如Sophos security指出的那样，脸书的相册是用简单的序列号来识别和存储的。如果有人在服务器上弹出这个东西，并编写一个基本的数字增量器来盲目地挖掘相册，攻击者可能会在脸书知道之前删除T2的大量照片。</p>
+<p class="translated"><strong>更新:</strong>脸书的一名代表告诉我们，要想全部删除并不容易:</p>
+<blockquote><p class="translated">我们收到了一份关于我们的Graph API的问题的报告，并在验证声明的两个小时内迅速修复了它。需要说明的是，触发此问题需要知道目标相册的ID，以及根据相册的隐私设置查看相册的权限。我们要感谢通过我们的bug赏金计划向我们报告这个问题的研究人员</p></blockquote>
+<p class="translated">让它成为一个温和的提醒:脸书不是一个备份驱动器。虽然你的照片<em>有望</em>不会毫无预警地消失，但脸书的代码并不是绝对可靠的。备份你喜欢的东西。</p>
+<p class="embed breakout embed-oembed embed--video embed--youtube"/>
+			</div>
+
+			</div>    
+</body>
+</html>

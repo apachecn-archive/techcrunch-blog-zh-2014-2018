@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Hundreds Of Apps Banned From App Store For Accessing Users’ Personal Information | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">数百款应用因获取用户个人信息而被App Store封杀</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2015/10/19/hundreds-of-apps-banned-from-app-store-for-accessing-users-personal-information/">https://web.archive.org/web/https://techcrunch.com/2015/10/19/hundreds-of-apps-banned-from-app-store-for-accessing-users-personal-information/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">在分析服务<a target="_blank" href="https://web.archive.org/web/20230405163036/https://sourcedna.com/"> SourceDNA </a>的一份报告披露了一组提取用户个人身份信息的应用程序之后，数百款iOS应用程序已从App Store中下架，这些信息包括与他们的Apple IDs、设备和外设序列号相关的电子邮件地址，以及安装在他们手机上的应用程序列表。报告发现，有问题的应用程序一直在使用一家名为<a target="_blank" href="https://web.archive.org/web/20230405163036/http://youmi.net/">米优</a>的中国广告公司的SDK，该公司通过私有API访问这些信息。</p>
+<p class="translated">几乎所有的开发者都在中国，所以目前来看，这似乎是一个孤立的事件。然而，这里更大的问题是这一活动已经发生了多长时间，以及这对苹果应用商店审查过程意味着什么，因为它直到第三方提醒它才发现这一可疑活动。</p>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20230405163036/https://sourcedna.com/blog/20151018/ios-apps-using-private-apis.html">据SourceDNA报道，</a>一段时间以来，米优显然一直在试验从用户设备中获取何种信息。例如，近两年前，该公司开始混淆一个调用，以获得最前面(目前正在运行)的应用程序的名称——似乎是对它可能潜入应用程序商店的一个小测试。当它意识到它能够通过苹果的应用审查过程获得这些数据时，它开始使用相同的模糊技术来请求其他数据，包括广告ID。</p>
+<p class="translated">该报告推测，可以访问广告ID来跟踪广告点击，但鉴于米优正在秘密收集它，该公司可能已经将它用于其他目的。</p>
+<p class="translated">此外，SourceDNA指出，虽然苹果公司一直在锁定私有API，以防止应用程序读取iOS 8的平台序列号，但米优通过列举外围设备，如电池系统，解决了这个问题。然后，它会发送这些序列号作为硬件标识符。</p>
+<p class="translated">帮助应用开发者改进代码和解决安全漏洞的SourceDNA表示，它发现了米优在更新其<a target="_blank" href="https://web.archive.org/web/20230405163036/https://searchlight.sourcedna.com/">探照灯</a>产品以检查私有API的使用时所做的事情——这应该会使开发者的应用从应用商店中被禁止。令人惊讶的是，它实际上发现了相当多的应用程序已经通过。</p>
+<p class="translated">总的来说，SourceDNA发现了256个应用程序，估计总下载量为100万次，这些应用程序使用了侵犯用户隐私的米优SDK版本。然而，该公司补充说，有可能开发者自己没有意识到SDK在做什么，因为用户数据被上传到米优的服务器上。</p>
+<p class="translated">这里更值得关注的是SourceDNA的发现的含义。该公司表示，混淆方法相当简单，应用程序已经使用了很长一段时间。事实上，SourceDNA的创始人内特·劳森告诉我们，这种情况已经持续了大约一年半。</p>
+<p/>
+<p class="translated">“我们担心其他已发布的应用程序可能使用不同但相关的方法来隐藏他们的恶意行为，”SourceDNA博客帖子称。“我们正在继续向我们的引擎添加新功能，以发现应用程序代码中的异常行为，并确定是否是这种情况。”</p>
+<p class="translated">SourceDNA向苹果公司提交了报告，苹果公司通过向该公司提供一份声明(见下文)做出回应，表明有问题的应用程序已被禁止。苹果表示，它现在正与使用米优软件开发工具包的开发者合作，更新他们的应用程序，以符合苹果的指导方针，这样他们就可以回到应用商店。</p>
+<p class="translated">苹果的声明:</p>
+<blockquote><p class="translated">“我们已经发现了一组使用第三方广告软件开发工具包的应用，该工具包由移动广告提供商米优开发，使用私有API来收集私人信息，如用户电子邮件地址和设备标识符，并将数据路由到其公司服务器。这违反了我们的安全和隐私准则。使用米优SDK的应用程序已从App Store中移除，任何使用此SDK提交到App Store的新应用程序都将被拒绝。我们正在与开发者密切合作，帮助他们获得对客户安全的、符合我们指导方针的应用程序更新版本，并迅速返回应用程序商店。”</p></blockquote>
+			</div>
+
+			</div>    
+</body>
+</html>

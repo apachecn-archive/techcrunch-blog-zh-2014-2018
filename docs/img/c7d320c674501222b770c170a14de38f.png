@@ -1,0 +1,1844 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	Home - Broadcom Community - Discussion Forums, Technical Docs, and Expert Blogs
+</title><meta name='audience' content='ALL' /><meta name='rating' content='General' /><meta name='distribution' content='Global, Worldwide' /><meta name='copyright' content='Higher Logic, LLC' /><meta name='content-language' content='EN' /><meta name='referrer' content='strict-origin-when-cross-origin' /><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel='SHORTCUT ICON' href='https://higherlogicdownload.s3.amazonaws.com/BROADCOM/6232077c-a199-4b7e-96f8-fbb5043a9ab4/UploadedImages/favicon.png' type='image/png' /><link href='https://higherlogiccloudfront.s3.amazonaws.com/HigherLogic/Font-Awesome/5.3.1-pro/css/fontawesome.all.min.css' type='text/css' rel='stylesheet' /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link href='https://d2x5ku95bkycr3.cloudfront.net/jquery/bootstrap-3.0.1/css/bootstrap.min.css' rel='stylesheet' />
+                                <!--[if gt IE 8]>
+                                    <link href='https://d2x5ku95bkycr3.cloudfront.net/jquery/bootstrap-3.0.1/css/bootstrap.min.css' rel='stylesheet' />
+                                 <![endif]--> 
+                                <!--[if lt IE 9]><link rel='stylesheet' type='text/css' href='/higherlogic/css/bootstrap-3.0.1.min.css' /><![endif]-->
+                                 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+                                    <!--[if lt IE 9]>
+                                      <script src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'></script>
+                                      <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
+                                    <![endif]--><link type='text/css'  rel='stylesheet' href='https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Bundles/Desktop_bundle.min.efbaef34fc72f9b95b2016e0f5bfa8d8fb2a2594.hash.css'/><link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css' type='text/css' rel='stylesheet' /><link href='https://d132x6oi8ychic.cloudfront.net/higherlogic/microsite/generatecss/dbba4001-7652-4d97-aa23-877edb145191/3a409080-2324-4ef1-9b63-a18ce43b75f7/637902996316100000/28' type='text/css' rel='stylesheet' /><script type='text/javascript' src='https://d2x5ku95bkycr3.cloudfront.net/HigherLogic/JavaScript/promise-fetch-polyfill.js'></script><script type='text/javascript' src='https://d2x5ku95bkycr3.cloudfront.net/HigherLogic/JavaScript/systemjs/3.1.6/system.min.js'></script><script type='systemjs-importmap'>{ "imports": {"ajaxbootstrapselect":"https://d2x5ku95bkycr3.cloudfront.net/jquery/ajax-bootstrap-select/ajax-bootstrap-select.min.js","google-charts":"https://d2x5ku95bkycr3.cloudfront.net/HigherLogic/JavaScript/google-charts.loader.js","runtime~main.bundle.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/runtime~main.bundle.8c01700808be9a3e9cbf.hash.js","main~vendor-_yarn_cache_wicg-inert-npm-3_0_3-05486da2fa-fc8cc73865_zip_node_modules_wicg-inert_src-45ad74.bundle.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_cache_wicg-inert-npm-3_0_3-05486da2fa-fc8cc73865_zip_node_modules_wicg-inert_src-45ad74.bundle.403d9b996bb845818a4c.hash.js","main~vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_es_array_find-index_-66cd58.bundle.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_es_array_find-index_-66cd58.bundle.8072ae9d8821ba7a29f5.hash.js","main~vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_modules_es_array_con-716c4f.bundle.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_modules_es_array_con-716c4f.bundle.9710971baca5f5a363bf.hash.js","main~vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_modules_esnext_aggre-b014eb.bundle.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_modules_esnext_aggre-b014eb.bundle.b259cd8cef20a3e99510.hash.js","main~main.bundle.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/main.bundle.4c15b4f6ed759c053cc9.hash.js","hl_webpackPublicPath":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/","Bundles/CmsAdmin_bundle.min.css":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Bundles/CmsAdmin_bundle.min.271314b21ee0b8b27917a7b51521e5cf133b7003.hash.css","Bundles/Desktop_bundle.min.css":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Bundles/Desktop_bundle.min.efbaef34fc72f9b95b2016e0f5bfa8d8fb2a2594.hash.css","Bundles/Desktop_bundle.min.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Bundles/Desktop_bundle.min.4b73eee5f997afb5ca956b401c40030af1fe14da.hash.js","AutoSave.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/AutoSave.f7985768e74f895006714e41258dfbbf7f655862.hash.js","IControlBase.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/IControlBase.d5ec8052ffcaef2428c7a7b0248f9988ffdf2db9.hash.js","IPropertyBase.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/IPropertyBase.d5ec8052ffcaef2428c7a7b0248f9988ffdf2db9.hash.js","Util.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Util.a28154bf9182096e7a81b4b9800eeb9df571f63f.hash.js","Common/BackToDiscussionContent.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/BackToDiscussionContent.fe125b3374e4a3cf1a95928df53a090d4f172360.hash.js","Common/Dialog.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Dialog.42aeae8b7c3a6466f1d491f32c7ef53a1713f65f.hash.js","Common/FeaturedImages.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FeaturedImages.302b75f7d43a8778eb3384d05d17399417b3bafa.hash.js","Common/FilePickerImageUpload.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FilePickerImageUpload.b217782e6fdea88648bc03b047a2ace3be59fddc.hash.js","Common/FileStackExt.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FileStackExt.25bbd2233e336299fc65edd08df7249ab0994021.hash.js","Common/Form.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Form.b51911a839d1604932d4e7adc01b00d654b054ff.hash.js","Common/FormBuilder.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FormBuilder.2a395dc44b334b7860cb75c622a0403d9815ec0a.hash.js","Common/HLajaxSelectPicker.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/HLajaxSelectPicker.4fe96ec5ca9a38aa44cd76ad5e5af394e8cea25f.hash.js","Common/IBusinessResult.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/IBusinessResult.d5ec8052ffcaef2428c7a7b0248f9988ffdf2db9.hash.js","Common/MvcFilePickerFileUpload.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/MvcFilePickerFileUpload.211a30bbe673da0056dbb2faa8971193a44d39e5.hash.js","Common/ReactJsCssLink.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/ReactJsCssLink.d5ec8052ffcaef2428c7a7b0248f9988ffdf2db9.hash.js","Common/Recaptcha.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Recaptcha.c3a892228aaf3bec318a6853b65d15cde40c8c12.hash.js","Common/SearchAndRefineBy.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/SearchAndRefineBy.607f9910b2d651c8d532151a6709db6ea3e90bf5.hash.js","Common/SearchBox.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/SearchBox.d1678c9fef5c7e5d942efecd096705d3b1335590.hash.js","Common/SocialWidget.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/SocialWidget.fc53d5acb84e781b5a67df1cb5b3fa90ba38ea78.hash.js","Common/Tagging.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Tagging.075da9ef1d4b1d49542954ec00176b12fec80d9d.hash.js","Common/Ui.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Ui.09fa5ef7c9fb8d82d30ae2aaf7c0491f358875dc.hash.js","Community/AnonymousPosting.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/AnonymousPosting.9f8c0c1094446555c061ee5863140af357f2b369.hash.js","Community/CommunityMembers.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/CommunityMembers.970caf1aef7923b53cddcf98ce9cf388d2a6e7e1.hash.js","Community/ContactFind.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/ContactFind.102e665df27cb82bd833e520f29b0db9d0ebb135.hash.js","ContributedContent/ComposeQuestion.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/ComposeQuestion.f7e9c5bc9ea91de557f705b407ce4c645c9eb4d2.hash.js","ContributedContent/ContributedContentList.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/ContributedContentList.e1a85c0731625e5c5cc755ff3876d1c6b41e1936.hash.js","ContributedContent/ContributedContentUtil.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/ContributedContentUtil.469b1646812aec75db0212a3928ca86b7d5c6b1d.hash.js","ContributedContent/DeleteContent.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/DeleteContent.c8a49904c6686be65be210be83f205a1c6701e02.hash.js","ContributedContent/EditAnswer.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/EditAnswer.9a96a1faacea52c048647783ab1138e400ccdf3f.hash.js","ContributedContent/EditQuestion.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/EditQuestion.853be461044c9040e52af09774dc4c340f85046a.hash.js","ContributedContent/FileJobUploaderContributedContent.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/FileJobUploaderContributedContent.82449bd8f653af6465368908036d87e423e92b2e.hash.js","ContributedContent/ReplyInlineContributedContent.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/ReplyInlineContributedContent.a07fbd3555b30bed5ad1fd172c988f965191f43f.hash.js","ContributedContent/ViewAnswer.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/ViewAnswer.d08ab5f71e9a0a80fc322e1a61854544fde29978.hash.js","ContributedContent/ViewQuestion.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ContributedContent/ViewQuestion.3d3fe35979284a84eb81568b4c1fd9e293563386.hash.js","Core/SlidingSession.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Core/SlidingSession.4f61b4ddf9ec0034656a239563e451c42e0027d6.hash.js","Directory/BlogDisplay.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/BlogDisplay.a7d74598332904b3fb1c8ee595163b313ce2d494.hash.js","Directory/CommunityManagementGear.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/CommunityManagementGear.d85bebe006cb20510b147475f0ea48e076d5e154.hash.js","Directory/ComposeMessage.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/ComposeMessage.4803926ac9197ba00a9c37a7b3d41a4cf57daccc.hash.js","Directory/ComposeMessageEdit.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/ComposeMessageEdit.1fa868afcadc88a95ed0af1edca4c7f9a2cb24f0.hash.js","Directory/ContactPresentation.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/ContactPresentation.a3d9ae3784200df6637e50003ca0e2d786356363.hash.js","Directory/Contributions.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/Contributions.7cb3dd6340fb995580331ca8427e8ac27948c56d.hash.js","Directory/Directory.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/Directory.f77916ba685df6ecd05c35825652dc0a78e0fd6d.hash.js","Directory/DisableMyAccount.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/DisableMyAccount.a5c99fd6404129704dd2bc94c1c6652224781a80.hash.js","Directory/DisableUserAccount.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/DisableUserAccount.1fac89b951df3b46e09f8a24574b0b438449e780.hash.js","Directory/InlineInboxReply.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/InlineInboxReply.e0543392b5c96a22994a9ed8c7133d05c430d10c.hash.js","Directory/InlineInboxReplyEdit.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/InlineInboxReplyEdit.d6263db21361184fa0b6e625157937b7144ea775.hash.js","Directory/Profile.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/Profile.e31dd9df4b5264d53df96475580bdf9e5fff552c.hash.js","Directory/SaveBlogDraft.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/SaveBlogDraft.169d8fcbdbb8f382a6865861b11fccdb9cd0332e.hash.js","Directory/SendMessageModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/SendMessageModal.ac8b58b26654b0f63af4b7cf1eb0b1221b6f940a.hash.js","eGroups/EditMessages.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/eGroups/EditMessages.79f7fa76838f40ac5163723890d789a7f868377e.hash.js","eGroups/PostMessage.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/eGroups/PostMessage.06e04be38899e38b76d8a5f9753cdb177272295b.hash.js","eGroups/ReplyInline.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/eGroups/ReplyInline.647f1ea98fbb6e9013d84ba55da93bafb718095e.hash.js","eGroups/SaveMessageDraft.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/eGroups/SaveMessageDraft.8df240c0e74f6ffa52940500c6cb5edd8e111cbb.hash.js","Events/AdminInvite.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/AdminInvite.08831303bcfffa54d91c6bf0c29fe37ec4fbf335.hash.js","Events/CommunityEventInviteSettings.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/CommunityEventInviteSettings.4ecf53837c837e2643b88b9e250268faec9483b4.hash.js","Events/EventAddAttendeeModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/EventAddAttendeeModal.d39b320b98827e9bdaf47163f4515d31c1f1e252.hash.js","Events/EventAttendanceButton.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/EventAttendanceButton.30f14974fd8e389da4f50f971d95eff1c5bf4e0a.hash.js","Events/RegistrantBulkEmailButton.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/RegistrantBulkEmailButton.616a6cfd7dc4cb3faa73b70da4ddc75d2063e05f.hash.js","Events/RegistrationProcess.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/RegistrationProcess.ce9cc357524096f60eb0305b9add84c4fd94fad1.hash.js","Events/RepeatingEvents.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/RepeatingEvents.12e944708759ba9c23c85638201910a2d61e46b2.hash.js","ResourceLibrary/OneClickUpload.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ResourceLibrary/OneClickUpload.028282dee5b0abf328e5ca859fe133479d7b7f06.hash.js","ResourceLibrary/VideoJs.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ResourceLibrary/VideoJs.e17299373e3efef98527356871d24f0a9c9654a1.hash.js","Shared/FollowIcon.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Shared/FollowIcon.d10d6e65742b2a787813301f4384273f2203e2bb.hash.js","Common/AdBuilder/CommunityAds.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/AdBuilder/CommunityAds.a58df69eed3e09ac6b015acd27ecf7cdff3f3e58.hash.js","Common/AdBuilder/ManageAdPanel.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/AdBuilder/ManageAdPanel.4f0bd4bfe6ce608e858deb63666a2c337558276b.hash.js","Common/AdBuilder/ManageAds.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/AdBuilder/ManageAds.1269ff911b78382a929130b9b7a4907d24d7a8b2.hash.js","Common/Bootstrap/ManageCarousel.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Bootstrap/ManageCarousel.c12d33045dae7b10ad94fdd28c6855d6ed75b560.hash.js","Common/EmailStatistics/EmailBounceBarGraph.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/EmailStatistics/EmailBounceBarGraph.8e2be2d49e044a8a5e5d679037add4726fe8065e.hash.js","Common/EmailStatistics/EmailBounceTable.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/EmailStatistics/EmailBounceTable.87bbcf657fa7c56561129f62819c1ef92535e502.hash.js","Common/EmailStatistics/SESEmailStatistics.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/EmailStatistics/SESEmailStatistics.39d5f36b9c47c3df6fcd374bc177996829a49a1a.hash.js","Common/EmailStatistics/TenantEmailStatistics.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/EmailStatistics/TenantEmailStatistics.6281c527a0c07f50267b239d7be6ed15ea8711c5.hash.js","Common/FacetedSearch/FacetAccordion.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FacetedSearch/FacetAccordion.899d91052ad46e6b7e04665b202933e9661c0546.hash.js","Common/FacetedSearch/FacetedSearch.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FacetedSearch/FacetedSearch.03b53e08c8a4c737578902be5645c2b00792f597.hash.js","Common/FacetedSearch/FacetQuery.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FacetedSearch/FacetQuery.8431543314485c4a3e02a80e594da6faa2710674.hash.js","Common/FacetedSearch/Search.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FacetedSearch/Search.ee78e9839aa78140455d43a59c27afb804a8f568.hash.js","Common/Feed/ActivityFeed.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Feed/ActivityFeed.f06fb8797d06efa78aafea302fffef66ff235eec.hash.js","Common/Feed/ActivityFeedItem.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Feed/ActivityFeedItem.3389af1c3a8a56e84ded0b1623286e1b64f732af.hash.js","Common/Feed/ActivityFeedScrollable.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Feed/ActivityFeedScrollable.e0fd9f94cd6fd3d296d4be47f59d156c48480687.hash.js","Common/FileStack/AddEntryUpload.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FileStack/AddEntryUpload.857e3a488a7f86a0b01a52b46665abd6bd894de1.hash.js","Common/FileStack/CMSFileUpload.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FileStack/CMSFileUpload.bcf29c3670dc771a6414236ba9785fd326350ae7.hash.js","Common/FileStack/FilePicker.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/FileStack/FilePicker.df47813b5d36ea9c5fd6fecfa0e49eaa7fdff2ab.hash.js","Common/Ideation/IdeationAddEditModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Ideation/IdeationAddEditModal.3ce25269e69e5f57bd507d935c72be63e617a8c9.hash.js","Common/Ideation/IdeationDetail.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Ideation/IdeationDetail.1ff9c82b6cbfce3ef454749b0cfe1ff35b96bf15.hash.js","Common/Ideation/IdeationHomePage.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Ideation/IdeationHomePage.1e5e8f66148394376d82567381fea3edf49df3b6.hash.js","Common/Ideation/IdeationVote.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Ideation/IdeationVote.8f42e070295931f8218bcc20a659ea00c43e37fd.hash.js","Common/Ideation/IdeationWidget.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/Ideation/IdeationWidget.dde292d0298613cabc979eb3fc261f00021e4c99.hash.js","Common/ItemRating/RecommendItem.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/ItemRating/RecommendItem.8ce74df979deea958af41f847089f9bf22a70e6d.hash.js","Common/ModerationItem/ModerationApproveReject.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/ModerationItem/ModerationApproveReject.7f66f6ade27d0a2e795b8fc09754b45b372785b0.hash.js","Common/ModerationItem/ModerationRejectModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/ModerationItem/ModerationRejectModal.5d6b754d571f15ffa6e5a850506e4dc4e0b17e69.hash.js","Common/ModerationItem/ModerationUtil.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/ModerationItem/ModerationUtil.a291d038aa240134e30c2cd6e6e0b3692b3ad150.hash.js","Common/ModerationItem/SelfModerateItem.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/ModerationItem/SelfModerateItem.7f8818e3ecf363a674394a7a0ae6de06e297d54f.hash.js","Common/RedemptionPoints/RedeemablePointsSummary.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/RedemptionPoints/RedeemablePointsSummary.cb8572f3406f6ac2c963647f47bbd1392a80d21c.hash.js","Common/RedemptionPoints/RedeemablePointsGraph.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/RedemptionPoints/RedeemablePointsGraph.f52596977d15db8bc41302d36b2889d4ffa7d031.hash.js","Common/RedemptionPoints/RedeemPointsModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/RedemptionPoints/RedeemPointsModal.12a2ced9dd34610ee61903d6671ace2b5880bcc3.hash.js","Common/TinyMCE/hl_common_ui_tinymce.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/hl_common_ui_tinymce.b25089dade4ee224c976e34e800a59b9f7d916d2.hash.js","Common/TinyMCE/hl_common_ui_tinymce_hashmention.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/hl_common_ui_tinymce_hashmention.c4a7e29a94133aede7c9bd61d0ac9eb0c6c48786.hash.js","Common/TinyMCE/hl_common_ui_tinymce_hashtag.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/hl_common_ui_tinymce_hashtag.afc21b6e6e3417e3ac5fba60da082cecce269872.hash.js","Common/TinyMCE/hl_common_ui_tinymce_mention.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/hl_common_ui_tinymce_mention.dddaa4988b5a4ee323cb6014eeed3acdf6d619ee.hash.js","Community/CommunitySlideshow/AddEditAlbum.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/CommunitySlideshow/AddEditAlbum.02b570c74f572feccfa12fd5e05982963e4bc196.hash.js","Community/CommunitySlideshow/CommunitySlideshow.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/CommunitySlideshow/CommunitySlideshow.9ece39e503608c65bdb24b967704b6ef961910f3.hash.js","Community/CommunitySlideshow/ImagePanel.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/CommunitySlideshow/ImagePanel.fecf1aee7581b029543b14d4f62556fea2223b06.hash.js","Community/CommunitySlideshow/ManageAlbums.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/CommunitySlideshow/ManageAlbums.bba9e47f0bc467fd423e49f2460c659e9aa8b1d5.hash.js","Community/EmailCommunityMembers/AddMeetingInvitation.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/EmailCommunityMembers/AddMeetingInvitation.b099587fb176f9b780a8960cad8be18cfcb5eea8.hash.js","Community/EmailCommunityMembers/EmailCommunityMembers.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/EmailCommunityMembers/EmailCommunityMembers.ed8ae386f22b2f82d5d821492e8469c7125f38fc.hash.js","Community/EmailCommunityMembers/RecipientsList.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/EmailCommunityMembers/RecipientsList.00d372b1e92e93c704c117f7d12260b93d531e83.hash.js","Community/JoinRequest/JoinRequestButton.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/JoinRequest/JoinRequestButton.65ffeb59c0b38aeac1a5b77684f41abdea1316d6.hash.js","Community/JoinRequest/JoinRequestModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/JoinRequest/JoinRequestModal.09d3243c79a72e7f9e944619bd489e7c09392b22.hash.js","Community/JoinRequest/PendingRequest.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/JoinRequest/PendingRequest.9f98ddb5d0c6435b71e60fd4cdb16f37b4e3b28d.hash.js","Community/JoinRequest/RejectedRequest.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/JoinRequest/RejectedRequest.411dc7e1f13479ae659934ea79f8a51f9676c147.hash.js","Community/ManagerDashboard/BarGraph.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/ManagerDashboard/BarGraph.6917531e2c9c43b442e955bb7b52a81e1ceaddb0.hash.js","Community/ManagerDashboard/GaugeGraph.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/ManagerDashboard/GaugeGraph.4a197d09e3c69b7a0d5905a56990f1b5cfc7902b.hash.js","Community/ManagerDashboard/LineGraph.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/ManagerDashboard/LineGraph.ab1cee3d10d0a298200bfd75543cd91c0b9e97f2.hash.js","Community/ManagerDashboard/PieGraph.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/ManagerDashboard/PieGraph.110763997a53bfcc492973f5a0c34c44e8825379.hash.js","Community/NestedCommunity/BreadCrumbs.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/NestedCommunity/BreadCrumbs.2d62beb326917e382cbe62a4661613b737cef262.hash.js","Community/NestedCommunity/TreeView.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/NestedCommunity/TreeView.c7ba757493b5908b43685e3c8f2adb58b671d713.hash.js","Community/SubscribeByTopic/BoostButton.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/SubscribeByTopic/BoostButton.4c31de6dca34d09042b2e09ebee2f03fd58ef4ec.hash.js","Community/SubscribeByTopic/BoostedContentList.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/SubscribeByTopic/BoostedContentList.800ce995186385efcfd79988ed0e79ae66d7969c.hash.js","Community/SubscribeByTopic/ObservedInterests.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/SubscribeByTopic/ObservedInterests.c44567e867252c2e129c68c44a22daadff6b96d3.hash.js","Community/SubscribeByTopic/TopicSelector.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Community/SubscribeByTopic/TopicSelector.c791b8ba6d53c5e4e8badfcf51675b3fa7799dd8.hash.js","Custom/HLSTAFF/BusinessObjectSync.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Custom/HLSTAFF/BusinessObjectSync.591538e3577a5118b3d567148a938283fe157c2f.hash.js","Custom/HLSTAFF/CustomQueryExport.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Custom/HLSTAFF/CustomQueryExport.8bc21cab9c8c0a8265c4c7e76b1a234b0e18e696.hash.js","Custom/HLSTAFF/releaseChannelSwitch.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Custom/HLSTAFF/releaseChannelSwitch.eda42d6bb24e3eb7991bad0c6792f1a2b0d0af09.hash.js","Directory/Following/FollowedContent.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/Following/FollowedContent.467bea615763d9272004c628ba48e62f9ee4955a.hash.js","Directory/Following/FollowingItem.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/Following/FollowingItem.248ad60352e9024da969f0aac413e4eacc2efb12.hash.js","Events/ManageEvents/AddEditEventModal.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/ManageEvents/AddEditEventModal.30df7711d14b6b25e55dfd9e24edd9d881622b20.hash.js","Directory/VolunteerAdmin/VolunteerOpportunityCreate.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Directory/VolunteerAdmin/VolunteerOpportunityCreate.acfe8087a4e1bee34fa45ee422db987bb8b2e222.hash.js","Events/ManageEvents/ManageEvents.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/ManageEvents/ManageEvents.91d6f712887046573e0c49a21e5991955399020a.hash.js","Events/RegistrantList/EventOptionRegistrantList.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/RegistrantList/EventOptionRegistrantList.953a6f25e4e90d08a515e09bcb68a5dbc05c5411.hash.js","Events/RegistrationReports/MyRegistrations.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/RegistrationReports/MyRegistrations.413d4ea2ae71ff7def4459c0843c9045a1f55e15.hash.js","Events/RegistrationReports/RegistrationReports.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Events/RegistrationReports/RegistrationReports.accc8d51152445e58b401156ed59302f8424719a.hash.js","Common/TinyMCE/CCAdmin/hl_common_ui_tinymce.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/CCAdmin/hl_common_ui_tinymce.2e1d928d8a035a330d12761a9257231e13349d5d.hash.js","Common/TinyMCE/CCAdmin/hl_common_ui_tinymce_hashmention.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/CCAdmin/hl_common_ui_tinymce_hashmention.7f1023362844221344eaea543148c3edce5b67c5.hash.js","Common/TinyMCE/CCAdmin/hl_common_ui_tinymce_hashtag.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/CCAdmin/hl_common_ui_tinymce_hashtag.c8d9cd1d55c60e12a2251bec009ef03e29dbaac8.hash.js","Common/TinyMCE/CCAdmin/hl_common_ui_tinymce_mention.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Common/TinyMCE/CCAdmin/hl_common_ui_tinymce_mention.2e3a896d7f94fd5ab602737106520712762bb9e2.hash.js","Ribbit/main.css":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Ribbit/main.css","Ribbit/main.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Ribbit/main.js","hlAdminOCRemote.js":"https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/HLAdmin/hlAdminOCRemote.f2670e0a.hash.js","hlAdminOCRemoteScope":"hlAdminOCRemote"} }</script><script type='text/javascript' src='https://d3gliviwslgzfo.cloudfront.net/WebRoot/stable/Bundles/jQuery.1.10.2-patched051821.js'></script><script src='https://d2x5ku95bkycr3.cloudfront.net/HigherLogic/JavaScript/jquery-migrate-1.2.1.min.js'></script><script type='text/javascript' src='https://d3gliviwslgzfo.cloudfront.net/WebRoot/stable/Bundles/jQuery-ui.1.10.1-patched100621.js'></script><script src='https://d2x5ku95bkycr3.cloudfront.net/jquery/bootstrap-3.0.1/js/bootstrap.min.js'></script><script type='text/javascript'>var higherlogic_crestApi_origin = 'https://api.connectedcommunity.org'</script><script type='text/javascript' src='/HigherLogic/CORS/easyXDM/easyXDM.Min.js'></script><script crossorigin src='https://d2x5ku95bkycr3.cloudfront.net/react/react.production.16.10.1.min.js'></script><script crossorigin src='https://d2x5ku95bkycr3.cloudfront.net/react/react-dom.production.16.10.1.min.js'></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js" integrity="sha512-axJX7DJduStuBB8ePC8ryGzacZPr3rdLaIDZitiEgWWk2gsXxEFlm4UW0iNzj2h3wp5mOylgHAzBzM4nRSvTZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-xCfKr8zIONbip3Q1XG/u5x40hoJ0/DtP1bxyMEi0GWzUFoUffE+Dfw1Br8j55RRt9qG7bGKsh+4tSb1CvFHPSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script type='text/javascript' src='https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Bundles/Desktop_bundle.min.4b73eee5f997afb5ca956b401c40030af1fe14da.hash.js'></script><meta property="og:type" content="website"><script>window.CDN_PATH = 'https://d3uf7shreuzboy.cloudfront.net'</script><script>var filestackUrl = 'https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js'; var filestackUrlIE11 = 'https://d2x5ku95bkycr3.cloudfront.net/HigherLogic/JavaScript/filestack.ie11.min.js';</script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KF7XWD');</script><!-- End Google Tag Manager --><style type="text/css">
+	/* <![CDATA[ */
+	#AuxMenu img.icon { border-style:none;vertical-align:middle; }
+	#AuxMenu img.separator { border-style:none;display:block; }
+	#AuxMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#AuxMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#AuxMenu ul.dynamic { z-index:1; }
+	#AuxMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#AuxMenu a.static { text-decoration:none;border-style:none;padding-left:0.15em;padding-right:0.15em; }
+	#AuxMenu a.popout { background-image:url("/WebResource.axd?d=YAYach_zykzn7tRotFpEUup3eGoCmUF_gB2eiL-h8NebNNSxFR1P2Up45RF2PIqBlf5gv1SoGJlXC6Ao5Qi6X_H1nok1&t=637823185705833095");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	/* ]]> */
+</style><style type="text/css">
+	/* <![CDATA[ */
+	#BottomMenu img.icon { border-style:none;vertical-align:middle; }
+	#BottomMenu img.separator { border-style:none;display:block; }
+	#BottomMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#BottomMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#BottomMenu ul.dynamic { z-index:1; }
+	#BottomMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#BottomMenu a.static { padding-left:0.15em;padding-right:0.15em; }
+	#BottomMenu a.popout { background-image:url("/WebResource.axd?d=YAYach_zykzn7tRotFpEUup3eGoCmUF_gB2eiL-h8NebNNSxFR1P2Up45RF2PIqBlf5gv1SoGJlXC6Ao5Qi6X_H1nok1&t=637823185705833095");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	/* ]]> */
+</style></head>
+<body class="bodyBackground  home home ">
+	<!-- Google Tag Manager (noscript) --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KF7XWD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+	
+    
+    
+
+	
+	
+
+	<div id="MPOuterMost" class="container wide">
+		<form method="post" action="./home" onsubmit="javascript:return WebForm_OnSubmit();" id="MasterPageForm" class="form">
+<div class="aspNetHidden">
+<input type="hidden" name="ScriptManager1_TSM" id="ScriptManager1_TSM" value="" />
+<input type="hidden" name="StyleSheetManager1_TSSM" id="StyleSheetManager1_TSSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="3BYhDgHV1OXPa9Og+Cp5r4ySB1GiOPb4wMfj4LT59T2aocrOaPaVqKRzrz6f47Q55cnt7cu1+ETMcnBhabCciUgyQb2a7rM7xGnHQHy4a/96h6IeW+QMvYnzjGRrdtqA4tO1oTQ4u4dgdObvlgADdPcKRnwOPADncL7dduFtHnmtJ7i8mJ0mdTCACTM0AqMmT27L8yzAAg0p+IcP3KrspqCHI2YggGEoGBysZeGlpfQ6/2xMDzVnT1lhGfZ3m6VAZ7go37flNhlQn5dqp0y08igTvaFasVq6e3TlnovrN30fOjDFJY0YqzUPOaNURwJYV6/WT1jDb2c8K1NCseEsMop0MLZuzRpwDannGGTzGjras6wFqEzVEBlpnZnqZAWIpXxFZAbEHJRh38wJnDfJbu9N7UxYptaWQI3SX8YWhwD0ASHknh1uZ/ICRRaSoFSu90HcRKGxp2qGwr84RdQmdPjY16erA/GTNbRrSMglCjrwVr7injFw5tI5GaCCxXtyTgFIRSZO4nm2sPwonTxvNZzIaKkIXp+Btt8UaDuasCt6RXYbd7ImyzF5JX+lFAJhtkXJpnVIQjTmsDa3VNVqfeNrAZXYwbfUxxWjQhrHnvQHxsAjgyxWK9wTygpsJgCIT0AqYuCSaWQHc0V+4qKwP8JLWVJyRdcBDQGJEXFIUeN/QC1w2TggrNGofY34hBpWiE+O12vEJJTRkn3/csyCPuR9ep1hqAWJLYsvW1Ts88pD09zqyh7d3VQoUe1J+nanqL2tqGioP+2S8I5oxN2KAAFYWR2MbjyjMOSAjxWNF02r5C/s07IoYb+uAIkFNV0t5FWgQWWvDVG6Ei7WeDPdfSTr0viKoCFhrIH1mVYInuBXOcDQrlq17CEaccbo4lsaji3G/zeDKcG/Qp8UYiUpPxxb5Vy0wJILUfxNXVjfoHvovbI1myfImnqASEubkaszdS2oJWZSn8oCMPJ+etLn8ohzwafD+j/x8rHGX11a92407hBm4AXtg1VRyztTUpulZtR9ffLIhonpKwez7KaSCRxiPAFqxQSp2/8FMvVgseueifOE2bRy9nsvYv1Fi+N1BHPM7N/Tjoggfi4ccIcLZIvyp1CR2v+9lUe59JKR6xEthob7phzhF2c2OLFixRATcyaIwDaHOF+0v7DAKJ20/UxzZMwLOgCtcXd/+uXA6TXeshG32qxUqaPNJHAtTcms3oKTMG1kwOXnOt+AiZ1qQb1o0kNQpnUBo3CI+mijlUA6+vLo0y7x7Fm71EvUVd1xMOWA6WKk+wbJWT3Clk4uDr1X+2uOeO8yrHCFadi3PJ4V4IJYSwL8TYDE9Im5nn9FOEq+LhVFDXftcY/Xl+QLcIi+Gs7JS48LPUcZgnc8zEn7s5EJtnCQEpXT958I0vyECCagSMBzIWIck6bkReFMT83y/bLwD0zPHyRrND57JvnXyDBmyKJEK72uyJElS8314Lxxc2f0KLFSYbm0fMhhz7TUiYKWyIfgpcD7zWDrvhwJqF9pL2BSgLj2ALIS738FCZRXEhugnLxFfOt0KrwTtn1KmriL9suvEpLBcE+f1LCZ2pEkEz/Yl+uzh5esoB0w4RulsxtxjtRZvbbr/xEPJE4aWnz7ynl+zZcLsZzMLkxVYRwGgOBgH1mbqsYI/5Dono4IOInfTrqxhDDkTCZfGNQF8VeJ5hyyWiwJHHqyqMG85hJuh7RHzPcW2awVpoGRp+BmAfNgF5BUizMqLStooXYnV7DYUfsUUvqtGHeHlDDwax9YJtPKL81N+ZuOxfVzbkdgQ59t8OC+gHH5TsdzbOOZguCyV19ClHvfnnbw45Y+qylbrBHSOiLbOx/A2zCc+AD/kwO3sqeQkoAT4fu2vHd9UcwXnm42/9YXKT12d/g2ZXUxMGkHyNGAPC1wWoMPSDrYphDRVVyNWNn8CM65uB7nXKHhxufKPN/E+UAjIz9ybue2e59uS3f3Oeh52kRTic3FwecTs1Ot6lyJvLoFcCngYEGF5WAEL0m9C+Ia1FfUEdRxM7E1gaLWZmNc9dkxzVZxn7c/l1sFA0OcqaFIWnb1sxritjvkh+lTIbSkdA6KZp9mgVRY8wctr5r204tVlU3Z18J9vJ+yINTiuF8LYmL+U2cHCLojvLAMIA3ZCXdWZTtg5xJJBg3mantXr24C/nUHyIKUHibv+MByhgP5rY0cjEYCP+g9Y/EqxMtOk6+WAJrT+43jjrUTVYSJMzryU9Cyg8vTd/A1yBp2o+6lfWKYRAtGodahIiyPI+cFVhy4AaeYRkh48BkmICXx+ieuwV074BBumuBJmFwuK02cu+hsNgUVusnHIvLjHS23Ats9vF2LDhq6pETObEjaUz+xERyywvIpJadv5lyFJRW1qoxnLp34VumCnsjzRdh918jH0r7QLk8UkS64b+oLCEFbR/fWJlKZV/sVIia8o9CpPrraGIrv/8fSB/pNWIATJtWBiUHascNmnaZTb/dY/ZxwN3O/fJtnXqxfaABL0RPJ9aX0J5xcxl9q6nX7STNftiRwz7x2UfVocn/9pdhN+8exb+kTsb/o6QaytSztx7LfSQ2jrORPiRq2tUAbYB/j3VlfjBzwDDy/G7dnqHPIWCIGONr+zUCZoxQte/i1RG6jWbG6SSv9IklXe1+zXPQSQH4gNJJT9EAmTiAVATvoSzaJFHN8VPpZxiQCRkYEgXSvwq9bA5bI7cAK1hZjnUP1EpVl3Eb4TD5FjmJQ6mSTymo8nd3QWm1tY4tfBaPX7zhGldDGMOFPv8/SFMwOV82cLLNg+qBz92pmdb67SP6aLYSeaIhpfWEikNC+ePzZa+2VuAqHHzfHANfZlJ/aJnE6oQqw6ohnoHf6PcFlKoKlRuXwbVCb/H2GAPi159XfDGWLuYrryf+BuM2FJ99AkMeUynUm+mLVTDLdv5Z0SFIzD4d3IJ+6yXI6Ncf6uzduSqntg+w0QsXK5q6+U5OGCaBVvbVe23GQS22dUYQmJAucEkhQ9k7I2YbQuj5UNCuSS+E2RFNJHh+zj8LKwFRWUMLSA1KzM0CV2/dzN9/Ye8AM6tSVY6LdlAS/il01brPINkVOLY/+Yj/EIBpMCTPELLDzaHvHpOBvyE/1rmQ6naWu/Msg3methNFXTVZOU5lLdsH4B302djht2rsb9tGWjGd903LLdHeM997GJKR6c2i/HruTpXnXhptgUWKlbaGfIgaK+AaKwZLaSoOnXxi9pLr8NmQKor/tRsQRO5tfZ+WiqNZ9pXzwgmF9Jo/OatKUVVHPX1UyNdRPbuxIwNiIKU9YXrmuem2WLKyJEndhuKpL5m402zZQfUJElwuu+pcSYyqffJNgRUbtR05mf2Q1FaWNyE7K9sGS49CEmQAjdZDWAy29wPqIV7iuMW/6DJ2f4C+Gy0yv5WkrCFF4F6i8Lp+cU3i/jAgb5qOvhFUmfIoxINyEiTkrMh7ZAMoqGR1Lk2EbOe0NcVJEl18jhx+8dL/MATPTGmcHShJhynrQGDJBPBFaMEBsmLTpurc9tJ+F+Bh5ljcV+8LMS+L77/IiNZ+MAO51rn6hmPZoI4+E00m/a0GVQltjIzctGjYVqlIF0EXQ8uWjOtDaIBouacZJ1E5VRq/e/zPdPRwCvJ93n2T3KGeHqkHuvwY2Eum/iHABZhkYBuTO/9eSCyNs31DTtW0LQFiZRJl1RuhutIt5gbWy6FQ8Nl99gUcq14LR54Cy7xeRLc93dLdStTWTUaLzlYAtcueIsuO0rRzPP3g9qabjb1BUQHhU4pIUgoGhpXO4QgpelsHym7fAenlOrMhw11GeaH90p21s3CheNSPTkmwRof3xjn91/hVd1x8LDecMU4s+VG5PhTUjG4602xv9EiFXdwsKK5rxrQnIkZfMvGM1de+GaDHjFN2hKYy3D5v7vr2aleydvRXQT6+MOtYnC7P2rmfF3FaeKNsWUrZ1u2k4EJxLpHQ5uMkz8oBAQRiT8Bhljwj2tp0eiUcZnIEQGAxvwqSZwfyg+pZGTxDH/I5Qmr62rpkTZMIVfast9DKoC1O8mZgGyZOspK1gCa6aEd5W0w4Jqq0DvCocJ4ysmPjdXI4Y24tTdGfObIsgFxdzAe+TxqYBReKclK5a33NLi6VkDcuGMxBIvjDCv8plBaet3I4X/imjKLLFn7VXWGlGSEfOu7yfcyLj5DNlrHscOR3cikZ0N58Ap+7mX6ek8pvivEdPRAzrtl9cIGAtZvsuNJF+zd49vOSrLZz4iKYX9tCI8111Kw+sdgwv33/e7uFsPjSNHFZzD+LoVsbEOvhOzHvOBU9zrMtIHcHiT+w1MS0q1K9Z4z04vq+wvveAVLNkgV1rWQaH5TmOET54wNucqntwsHF24i9NoWyvUIdUDIN/5ngFHHLjZZRdh1F8AnmzSwHCWvUkvpzNy5ZUTwfS6SJbAlQJgr+drZg/ZWjohwg2olLzHIbXkQ/WAB+X5WFLORs4rU2JB5mlKopz1kUjbBfZSFljSkksxRYFkO7QsmseYIkai8qBorpm1klf2id//Y7x5Cf7NLzJHaaVqcOmuh1gT7A8s45IdpERU8F4qVohYj5vmvbuNhYCLCo+yTeU/OsoUXgq7C1EMmyKlgGOcX7k2KbK90PD/ozwWxFxszlgYYR4z17CuRUYNHpcD0QfOw+Rc/bSY2qHQDnYpzTYezRknqSalQzGygI5zT4iTd7qHEYLJKUlWmm4YZyN8qVS7uhvvn+dXCqYYDIEuVXNjO7hhVKwhBfHqH3waTcm3K8jFt+3DD1hFB+lQju6tRrnMBDxrxtDUKByobNw31XPUAOmAOmKIpgqIfGJW6Y1c6Jak9uUxC8v6rDWulpmzFBlr5IESAeE3RlOQ08yut6ECW/g6GudqAd3f6Xci3iSqFBsgou1+eDLELFyIQ+L+aIfz147b0Va+kveFV2J/dP5ws0neQmYDAxSx8UfcS7aqz3dU1c0pUFYFNP+GKAtsdxF5OIq9vQKplEIR8hSNPRTsbLfHIrm2Pm1yA4/pFpw+L37HkplarNvsQAIZMe2ndykXSkg35+bK8tcbxKXoGWv/hEwZQW/7rCgbAZCSpEOrMHKNMi/16SySe9h9yMU5IUHw1Ogyj86v4YyAA1aqibardrt30XzBjktbo3i6cEuLo0bNydUTPI0Od+wP8STTr1wJjMy462YSWf4+9G2uaYYHcCUpkO87yWsBK+OoLhBt7FhMa6sDv2/usykEEweyXn+w+bHmiKczqyHHKtgGPOUMirZHnFU6oO1jZL1vEE+6NSE+6wZbhmJ/NzUmykXFYl7EpF36OC1jaanWuIGtzwcl4WxWnbcxMP6ofLCUY7wHgamIhNlUSKj4h09ahSrXAbpPk1PykVQGdTPP84XFKvvFgSJq07ZAgOG02+DwJGadJx9iGKnUsHLWKYlcN4jsodmh3fVDz9ObSKwtnTQwJ7Wv/SImahVbutTG+dOCgA0Nzd6OL1izKZKoZLfRx91tQPFWgrCoGUf9iHrjGmKZKqjtVYl0VSQNkZlwoFBLURS2OWDG0T43UMrf//CY3rFEVAlmY+jxg3CVlWxLXlKIXNBVbObbmgr6WcHO5Mf64/u12z0cJ2VsOc2CeFH4A0p9aqZlruTDholmJ6ziKbhOsuvgaAU0FrepA+J6kH/8LHCrckTOfmW9OAvYtOo93PMYCQBW54tMFee3YR9NUN6IrwWQQ+zzosiMeICQ3RR3d1Wj38Xuh/cDeEFlqzq1LC4x4ICV/Sz1IS6ly5z3+TYVUmJHbWs4hj949J0qT8+lzAErspouI2vr2pna4wfo14TB5Q8TS+lpC5/NB0YHmKV0+hR4UPqHTG4FA65WJhocEs6SDfDoJSFzTMoCdMXoWs7vKE+EcrUtFn/IGxvkoxkx1Uwe+1YVJA5zcAoNZ7Lz0t9rodpEPpCsjKIYxbgaLKq2d5J2M/2CvccuW/0q0zRg7YRoKAnf12FXTtxmH0j7X16lvprOim+UAJWebT/634gS1YAjiDORRMQsI4WK2EV/EhLWkIfc8DhPuYLfC5bkV3bewuq2zvRzL9eQUyWH+T7wmTFKjZBeFTY8bGnnL2OoFqETH8qfz+oPj75bCvf3HJbPtnZdBqAuoo8+qoqDe73bIfHGocA5KnFA2jWzKIlXvdYpKjkYWGxsiRNpyhBWFansoy+W+NCAB8f9WP089eaglfY85YTarMSw06KtN1YJ9cj9wakz3pz8OqiI0lBEy7xLW6IYsq+2o49JpNLWkJMdql/OiGNjouxeZYizvsu+z0kCzzINB8KpCS4rHl01KgG+ot8TcI9Ku+HDoNvJzl0HT5LaAdna4yJ39DSCB3kz+0IQeouvhuFLPWcblzs1gRsuoG4nkHL24zdJhdK/lkVgaZvLoB8DzWieyhWRILyShV9MyPuyXIo6Evd3GAiI5NcDUUOVfZJIEIHPxXDMx1M6Uz/szcEfsnpWlpff0PS6fynZG4TjSdsjLbf+fsZfHtZsAzqEWPML5SMIw24Cx3JSYhaS3luzFCk8HZz+mXn+clMTguBdFzCwlMhUsxaf/WkdtQ1zTEkl0gnd0hURnzTty/M0nByIR+ezJfAo8n/SGruHye/d821GT51l9/djaUnoHpEpRAyovkU2y/A1kfafDvAbohSag0kVD7qPJRE+Kf5PyCrhLyk6HeqJpipjvesbHcGMY3gpoD2fcfHh4+sKATJT2h30NNDfCIsdt+jDuNJtm1d4neavpCy6nkHrPbm2jqbMqHvGOdovGJJrmAEUdH38IYE9qseSCPbs68vgWFE52sllD2rx9u4GJd9Vvfhdj6xjt4iwkxp4+zwKmmdY2DmNBFZHv76AYT1byBM+lTg6DzrE9MiFhSlUUJnPux2KiBCjq5wOQ/184b38iyfyIGLT7OTse3kOyWQ985RBV8/P7AnAMn47cXTlHhuvBxH8r0umhRsdyb3t+2hEfGgWsQm0uujv64wc+ILbmtV9fIEL38mbUsqZbMwTU0oZ0hTJIeVGRNMZqzzcNOv792cFr4btFjZNqzBZHY9c4Aa0O4qZgSyT8gEqHE8Hs9u786APWLN45ASshTwDP1BzXCXWpQizVJw//zmhR+6LykyD/QXaouiQdhr6+XnV62V02QweF/0feH6oHEflXHYT7VofZZPEN0JIrIpdLdy278HW83F5TSzhMOpjcGoFTF9xl4hkZ7uh7900qzrjbj5gZuRWv6rfsJHU6pa7jMuwe1xkjy81Agv1UlmndsNnZpVld+XGglWRee1jFZlh8OBmFM1eBDPziT+/RfmF0ovHmdmDfjVzqG7/wY7QLzFbESCVkP0KtOecTYNSXoIVYIalGst9ewvsLOeQM6h7hO223Gc530wCpDPBn2k2DB5GfNfFcofccTuAngyAKpIUSwWTfyiT9ou6JguTM5pU5P29PiuibJy0A1R980nTtJzjODF2QD2wCfMfjueXu2mExpScsOvSYrn1+SoY8y7lPpoZEiL7Kg04nP2XSpTjSDP8PdYLvXCbQLz/ITof/Hb0DFOjgUnulnHbdztw37FoSh8DFXX/AFymvJUdDBgASXHruhIOjvyVuHKe/MAOwSnEX6QMe1/po9yYwIYqvdGCfEan9jIc2eq4RKou9gp+jX6tujqeMUFqU2bcNJDWzpifCwNWfLpEc6o3aF29e0DGFcbyLKcCkaR9/UV33o/P9YSXU6bC64shgVPmCYeiCAfkey/ON5U+M5cGXHq8gdKSW1ONg2XM677E52X48fgQrcLfEs7zcTzDZB1CuAuSdbaccp/Ut70lHODYjaytqqEfxMnY81hfB2lxXPyO9RXzzgUGUeTyCCLQanap5vByy+jCg4aIQXwTiqnkEa0O23ySu11oxGKm3ipe4YBJB6Cj6/0zIlqVn1aNKi8lvrGOOZmewyuQhc+bNfuODqkwIiyngNtISRsOR77gO4gurchuVI7i/aBMuLF6zFW4ckQDStxVIJ+4Tf9RQ1kl0ih2gdQCs7OU/QikvMNlexvsywMcdVO+ClLdlvwMbbRM+axmkgYiHVWYgBcFcLBOM32q7Ef73Amv8mmIwielT4yobv1MHuYoiUSY2cMgFLPYMyIUEg+orDGzc4h5wl8ruz6o5UnceSJ19ZXP2MFE/FwKPrreZ/iEPvTeV0Qeg9In4QUjpkk8NeCZYBvJylQD9//6Ks8w4mRJBl2PE0j53o9jT5Xmc8jFR4NOChKCtMlQUMcAbCQq4XzfShtnJ3AKTKpRpWVUdy6O6pjY0EZzcc+sEXjunI5WR9vpEahbpJmmQBoLIH1qRvoc4L1RvvhLF5PswLtB82oy44Abj/G67LgejYejdauXz+rqGt8e1fDOXjLFBi3XPAAU8D09iOjeekRge1ZFJ0RKjRA/ggQwookYanUa68zTXkBs5ahZ76E9P1DVBCRnk6l456lGMYsdas0B0n2FRBIxq0CC+nN03oASZxEfZJcz16niMWEdFxMkhST5lXcu4WAYALdN9hOH0XZW2/m24zAFtPhs3xfV+xnbOHt7MI5sEX9NFge1ocYfBF1UtyPD2+Jtc8Z844VzhXJ0PmAVjmDtgMvG2G2ePbNQDY5rm+zn1wj5Leeyl4zB3ejQ+yub7GO//QTWN819K3NTL9ykfucyFBpyJgsk0iTAWFOsJnsv08T0TkBhQ+fc4aq4+eN4lGft6h4nZ6Nhx9wTzWOOU2eHSG4L7RyWXXSxtbGc//YqVolhAR3WFnRPtYII7J+3Cz1t4j31EVhOCoYcDVdrEbc4URUySHh/Tj0Oh5/KELuWyqK5L5eaKsfjC0VZmkPD4agzhDCFMgLh1fiS04JjDqurOEQuXO7imGwf8wreyV9+3c4v7NcNkWm9ah+fWweu88gzAZcle/A/fi61DrwtCH2su/uLUyz7ennQ0cLPgkAJX3Vlsn4k2F0BnOnI0cSpmRoeKmyjAhDaG4VOBVPGIyUCTifi0JPQxtlrEPiBOnXBq4cDLZX0J1PeVpQf329ANB46oiPwaBrGD2nWRYzGVIaUxswrEo5DCJ+S8CjE+rMzQfxoufV+6rHLnkJ8vdiSFyiTaP+F6UOWeHsPNFnLndBsaShTRoQCGLwpDJ76cQ/9YbPtXTh4Wx8qEoNkUOnYw8KiCzLb49auAo8rvANsExastuRohX0ucuWx6vgMIQnq8r6rH0Rq4c1MWvD6uoJIUK+d6raBav5eKdhBo1tslchg/DkvNKEbKb72YRXwH8Q94yFRtfpwuhYBNqNztjet3mGGX5bUjAaw+iHjX3y16MXSDlYaSIpWkRrdXwJf5TErUHJuDfWNBKBxXhC9XGsSkNXUWInBAGa6Pc4WwfqZKKQ2V4q/PbNt7XbYYtpF89auOzY+0sHMQ8vw4CzD1MjeQHBIfN+/1K1gkOYQ8eh4EQllu0Sek+8VPcQ2Yx+yMm8cVbRC1B/4tHhdXtYaoNT/mWaxgQ5RtynsHbueA/jKH9MtA3DvXx3OgZ+6o9PNszcj1C9mB40Rdfp0DxyxllDuWFULFjrLM3YyhuP6UM9mmxx/UMTT1+T8/dPviyRy4SxOOD37YFGkngOwzlyk7G61yCSA4cNwygTKeGVGiWc+VTO2CZkwipigrxn/MAJqLFgr8pDZttNrmIFP7vRoEtyPCuR/9FNMv2RBRsfTsBJzxXz3Min7LoU75D/xnss+qeu0nMZEinua3tTSIcnCFM4HcixVqwtzMT/ZZyUH3J8km9smIFIOshZZjq1/j0pK4EMyi1GjuMRAGpB5cfXPBN4sRx7qH/TM/sT+3JIXwf4ayHIPXMYnlbRRaVnbk1Lf4zUcrkAZrzXP77BH9uuu/kYF+yKeHhns/i+PYcSZEVfp8zmc1xWUy51rOMBq/ee9Inm0CjLGaoECon1ODSYDuilZKvEd18fWpVqiVUWRWrzvxEuPwWupfUJXhgTjT9Sh+Cb24cucMnSaQ0SmB8UaA8NkTpHyDFRBeRqvk5AX28tcI2vMBzMk/ELSTb+figGbO51lIA7QCeyQ9l/MP9vxinFtGRzySqauHnqyik7xfVQzgSmnICydcRVdAjvmd4EAGNjDW7zQrRyVIEt8W2eFd3OLgl0lEuSzu4XJdXBYw8qR7hkQxjbtUTvBshm60A6vusaNdQ2ImU2iy+zcrDZEzwQ8a7ieTrVPHtM16TdbXwQpaw4NB83NZSj5IxFoh0jJTpg5DkT6gfqkh5J/ZMHMan79tLytujt58/E+Hm9V3Qv6IgiwDVGs+useLILGQsUo4LrS/zgtvGIaJkPwGPjgINgCasZN719Lk7CHRHeNotFrCrtmnjOxQLrWsNFWfZSIjIhtWoKDdCLhlasyMH2E5BWqm5iyaws5YLG0yRNwG/6SP2dIG4UEl1hMiKoWmFAdI/38qNoPhHTmA8o20Ko5A4T9Kji6e6tMzXhtQuNDnJ8hs1C8SNXpj+cf/t6sB3rwj2PSWE28wCBBojhsKkoSY7HfM0nk+6vE3yznJdr6yrjLvOhRKyAqrCuIupGk861F3fmhvpyNT91D+ayPC2QJo1wqTlX1YJsoFfJt/fka8C0QnyOpFrBW+XWfXJLJ6Qut65z5b/KLrvF0NAIx63XAVXwrtB32G4qcWwy9r1LjD8tmxcXgAVKiinNJqNdcjku368aeB0+qMXRIroXFPXNrr9ug9EAjmLg3lYbvDodc2aG/GicerKlfxDx7Z8Ziutz05yOoxtE7RBdoa6XXFKHOsWJB0TFaQ6ny/MGw/UD9lYNABd/hJ/eOnHiHglw4K14+Q71ggbSworEsgzcivGyvPKQ5MOj7A0/VDl1THrh/mBYM5tC3GJw8ldne7nxsdo96jd387LdfPkUqGE//bK1T/FU6TfbP8HMlSuo4kZRd//MPgvbWZ2urLs1jPx08G+75mnp34sRhilR1Ml1DcG636Qsza6a97IreN0ZBKQkoXhkKVlFt4e1IQugxXX/OILwowWtxrRG+ANP6IRaYcbnpRUr6gVg0vU+/yFXMGoQT5cUP6zm3749y2ovdp31I4rmUQb9Q1jIdF3M4yd9oXy/RHmvxTeqXEHdA8K96lqc2DjEEMSmp909w05BxFj+s/7wV43BHl5sXh0WbtbKWMfR3VYr9leMyntN/gvvUSUC3KF8X5RQKhmnAykCWNPmHo52DKn5T9xEc3FqitxitdyPN7QRbU3ix2BoVkap3WuVpC0AaF51x3BclNCddBJA9P49pp1iksjqbhE6YifGNNP9eXtAIK7Hj8lJqsT/m6Z0eyF2Btx6G0AHZouMuB/Yhg2Xgk0rogGE89L3wa9sGhF1Rb62VnUBDJk/hGzpQIrVDpU/Hy8ZPmBnMa57/LzfKVk+/nkoCLa0VrgcfGWJPpwf7L16zB2MA8xpIikONKBCRBan0QWt9LIT0B9K3tP7UkgmITgi5vhfON61nmFUcx6y/6uuIZZae2VG7e4lYjSXsHzkk5QOD7mZOcFRiMJeNhShjt08wP9Xcmz0hAvmk1dTg8EYThKahs1yRWJKY4ZHAQDM4kUzJUkCY3v0AKj4PiipWmpECWJYJkR/FjIWHHNIdwjEvF7YDkNA0hZDvBK6kdzhFwD4nJUNowhclHgSYBsIG1ToWOlscYkDr/Shpjlz/SWcwzIdss8DAX4OLavFOAOy8VROSd/nniuHAN0VPELqmnEpGvH1VmTeSudfINKMtlQRGUgedgh3x4GE4OHWHbWxLP5Rfw9JCFvBjBtRnsftmsbMHgRqz90s728X76thFmQtswPIb/+VjpKrxxeOwnNDrUlscqvD8LlGAv65E2sIEAkzQLeB2/jCOzdEeQS6rEJ0aVhUYcdfF9Xq7uU7yF7AQ5zakAFnzhPxD7o+8PFO0reMQBuepS+io/9+Jhs6MzWqZ0hnkL/4AZ9WCOWpA2amg7LwZ0muryWMCMmxWHweDaa2Nht7wFLm1jlaGHkeWLzHffDzch4dwqaPEJNKB9SKrjbeQcflW7EveDfsOOSVsLpRRYAbmFLo7Kzf/mussMqSkfDSo8gsbH0otXOuBqcAgAvFfOokrE4SPba+4HcNrlKzZFV7DRW2nzfaby5MKpC/cQ7wUQRfvSBzimO1IhSAWaP3yhTcLuZDFishuaQHdihvy70rSxppl/mf8l1Dyvu4RMjGvh2DosWi8NzvXmafSJGqYHseJJForZUQYAlLxDDncWnulyC0e6FGo2s1xjYr7AHKeOvPBvNiHFFTkxmg13WD1R9f3osxpo+mT+QWaHp9g2+buHlJ/w5mC5XemU0ChTMB39wZbUl8t6S0HrLRy0LmAU2hxH1ZlDYa2iXEW9xM0BINxrczlGxFnFFjfojz0S8sU7zta3QKUSdxRgPPy/JdQK0AsAxTwtVwejJhJaPms4Qn5d7eDpSjb2JTJb2JvRICsT4URM/cenXc46iSY3ffjRiJAYHfNn0vIuNU7p4hkJZQy8kpJGE1cpQL57KvKgNWuXBW92FgEdSbVgW8W2jIutrMtL17G2Herm5zBH/rEFeM8Vr0OY02EJIj6AU0PUkUfk/3IHL4To5eJpTuwiphxT0HRpURf4YNDScLp47GCzfC06HeQw+axZovTwAb8RMRLHWQyvgiAdD7eYj6HdYurxszqitFdyYXSY+gc/raXw76iYgq8QQ8uBUNzGzMLdDyKW65IJDnviphAkTZFFxzIdyEnMfoLBE18zF8eOcOPKLTGgLoKzkUnc6ILz/BsJ4R/cR7mCYEwGVNI00aoZ9gtyc3SbKUsh30u4p0ADMpYE9o5VUBGq9ESDw+y/XWEmMBDEQxlMTya0j4cI7lXD8nqfRlfw470KdvqAttYG0n2Gn/l+72Il2pKV++u27be82T//+X1oEw5yfomFWeVRacfB8K1xf7NG+T6me6rkRluSfHyJi99y9hH64pMM4UMoI7+Hu5Kx3wjXw17NaOcAV+KKOQ1BYQbi1ovj0DwjkcEqqC2yzop4EcY6OZn++idV0rj4sZh/xGGkZeQ84CKgZbHvhKsLIEPPd/pzV+iihBnTF8ybqPV2d/0Q93hpAmzbsBFp/HyVGZgFtsYLAdoapDbsy7zJ8c1ppCb++8mSuIebnHXQwBSzyXNjsVccCeGGXkDDFpT+hg/zJ+aiAbFtu5UTXWaLpdKfMVBjdJpD4J27vnP5XeapiTOkr7HdVtAnzTX98/7UBJtEr6xXYgvDcJvt9IVbO72SpkAbCEGC5wTLXDo8mUId1QdkufL1WbJ/euvXfuefq501i4Gbm3p+TS9gJwGneawQqM6YB4mHSu5PE9uPc2sC7eWGeophVG3dgThQKg7kkl+MvSlmznA+h3HSuhW3K2TXpC2VB/N6ajhIfQvuJMsALhEINXA2JhRzzzt2KA8AZgy2N4OODdFaDWoOgAbQZ6K8OHRasmx2hF2/ox1C4jx5UPoSzxFkyaGxy4kr0Xv1o2/rq0SgF/oG4gzlGIKDimKXX7nE0KYEqybO1zMI7RNOkCth/WecKC6+nGg1LYj+ZZ1D3kHumlZ+wBK/0266ph9c7YdQLNXBCa7WRphu05t8JunEpg5USXLyUB711jW0O+blGgIUmkBCEPSRgIBcJ//1ywggsMS9iFx6pH9BM8wyok04D+BReD5P4/Uwt7pfudRDfO59nxCLusxuouCn8eqjF4af96GHOPvr3H0CoziHoJ9yWcw0CrXIkQj6M0Ak0io/XlHGlMyUjA0jc9+ah58MCHiqsdpLgSnTtS8JrtdqAdEmkxQQgznkwrdFEUem5YOdg89wsJu6eHwyFMOduT2M8nWPmffaZF1ScQAHGlCNVz+Exohl1H+vmUHZfTaFbnN3kDo+IwMGZTkkAtuYc2xF9+n5UFDDKj43gsLsCob1npEYhaGSd4/riPVsbAxOwBpRSB6lUzTgZD2Z2cxnrxrIEczqLr7tHPOjGsi6hYvN4Na/V6PdBgKmJV6vfDHZuGNdt87RZbpj6cu/pGT+hR71cKpLYgg/LI3N8R3aGUk39O6hUd2ewthKi7q71jRS/BbsNxC8TR1asWML3L7/GQd3b0jb3YEJgMGegKj8Vt1t3BoMpltNwA+eoxEarDkEX7hHjH0x927Nhfck33Ybji2y2zD8f/ZAXgV5S8xt6FzGlgsV1ZyPxNibpdMkQTMcgxHm/Fq8cayaqN0Zs1eToenO2mJH+KIjh6avlFKzQ/eEXNBxZHzkF87kolP9PGPqb0zlcXvIOs13Vqd/t/6yGPA8WpB+9g9I+NLwWNWGVOy4CzZWGBNkCMrtUYdvC3TGZp+zD0YufLIlZwLufOTLXCk4A/IiXPuLki3Tv13gCcIYDTdjQcSNBvs1dXn7UNrego6wKIoiq0pJ0wbS0dPOR9Jsyz8z2ewuk4s+cqenN9JAridX6EqFne02MR9W2q92gq089iGzGZwu0n5s+P62z624zG9i6k+hcyj/EAOXf0fIIaYAsh+odVY3Ord06w1aBvlenwdUy3JqhAST5ppK9qlckfPXyDfP+EJ0GUQFQxEcgBCA+PK5bO8s/49KpkgImKhurEMXiRjku9ZDPsZQKuOjXTSx/jge3Wk12N/BTepsO1XtUR68pYBvIR8eRp2hr6N5IIhr5R2QBxIiPbqET75M4qwr5eBfZZwmRDncqxMvm9qZlhG8lvzqVOID6b6DTFL+58MOXj+NrB6F8/FtjMMadbIYIlcVKsZS797/m0g8M3XA9d6VVQBfyzXE6OyRv2AsDSLU9gkvUQvoo+g22BLoyfKI5/gD1hWTA5ptFJ75i7DaZO8jHI4defNUe9s0mdo7wHxc/pXaQik12zcd7HMshpoxC6+erluFIvYsulBvcJGKwc9EF2MTeGplLmSBxFDJQ3PYVQ68523xI6CoEtNb0nxgQmeupNJXe00tv50qoZzWdRDuipE0HBI/ivPuomfmElfjsBU2qwg0/LVV7fF8WSG3R9Ujb8B32wAx5vis9YwP9JCkc3WDaCm0Ga5ISK9TpiCvOIffQMJ5P6WTVbpa+lSFObPJv+8VDrcEElTgcDWa+aYQ33f4cRGWy3bW9TYwAssa1quMp64xfnfwWgTAL9nmt2/TBQu+kI5j/1VycOz+nL/8cU5+yFmebYqy1AX9RqCVvxc3GmNso5TyS+QAFaT2vtEHfErtVNiJ65ggi7Apy5qxUMgzziq7nmqG883+I1QMpygykoab30NbLaTROfJuHSMB+tiBbxHvM/nwJta2tBhSPrldnj6tx22iWi9ELm6NHVQSU+T3AoW5vCd20KItm00Q0jcnA34YGbAUdr1/ducIE/CAmBrhw6jcZfLfezHeSvqyCCu3IgR0bZ6JAYKdB/9Z6F0gkRjYS4/EyxE18B7BhD9Vkni3CLz1n+V1RBGkW9yMXTj9a2s4eulY0b/GVdhh9HqsSYBjM+3vk6lKhQJbYgG4A+BcDrZ2xhu9PiX8Q2AO8loWuC1r+cjHVGGarDzltYLs3ettHUzKtaCmtsncmg6yk1aL3lYywPLO3upMj4ypRyQFQ0GoV2sn7J8cTmd7UNsoE2EXNQ7oAdrWIp4VoroEmIVt+FfNDiBc31mjf43BayKpfd4hzrbOnKLF2qpffzC7av9cx9cDvgz6WIssltnDroTWMj84GNLcf8fNtuaXrSaFfTaXlwJAmA/Nl1nhPlMmp7qPFimw5mviaQBNBbFYK9D888L48XP05CbuCdBAFxEJGC1QXla30bFg9NmRVHEbzyVAgjd1g1Ot/grlLPYnv7P2M4Pf8FDHy5JgmvQquuhCBQkZwXgFtp9axb0LrWnjiYo5+AbAYhylPVyHt8JCGiIOnsWsLfICDQ3+A/cYWoh77+R+HTfXWyZh6DEiZ4IQai2yRBLfS2KKFzEc76wwYSf1UoFY22XDNJfIBpda+1hkwEh8VdKzTIgknkMk1L08QReZmpycZ3Jc8pnles9jjdCpckCyb+Bt4rDPoFhGxSTthSvwS0WCHJWG7jMsj6tdVYmpdwsHHAGdRVLeVps132VLYmkWREVIE+zXOB83/K8qag4Mb3sjIEoy7unIueRkTO7ReSI2PO1V/Vt3A/tRcUILh+Dinh7bs3rfdW370B+/q/t8suKDFSh7HCrI7UszriBBJFJTfzVlSsxU83U1Z0GoiAu+EMlAjoDjgOa3eZjlWubMEK6uYAK1jICGDX2i7Ekp/FZXsV8kOEiFufDSl8iUgfJRLoLWnuA8psxZqegt6qS+OjKw1W1I+4/8CN2fGpGiF/dhPFKg1hC67+FReXavvcU/QT3y0r6Dqs0LiHdh0a1d04I7nAMhBgSEPv1Ppvn0GPFIZahH0DiHhbs/dnJyxKZKEVUmo0zaEpACRYFipnr/qGy7Q6Uj1WJkBmai1WuV0ft7b7IUxARV4Xws7QiOxa1wX2WEsUYD+/317RKYDmld5ZPWsae+rhWY/i/EnO/AOVLM3zpcQ7NX24Ukh1KoDXkSrB5U+cRjvSCF5ICDLpTM4a3D17lPCEZt2gqj8BQ+Iue5+FwHLEbIKGQTB2nj6m5Q+dRlXk75pztpUjUCy06KaQCHFH3mXP8Kcz9eoUXowCAZG/eDRWcV5r272nS0RvMMiPU1swhIL4ttLCQftIHOxLzQhstdyDvmS+NNdzNrSSOiK8kzXyaGAZdGZiFRocltvH3suASkyLTmuamhIPB8Jo30f/K7ZImmf43VQ/B2IslcsAz5qKjh41o40NWVGtsDJ1kFdwOqJHN7mOJu/Z1osCDyimkPf7ny8AvN5Zfbi6NoG2JfWXXH5IXjNujyZgqBZXiZ0Nd1bJgRtrqHpZuwwUQkJobPXSc/QngzeSBVc91syP8R+Bsp3Zk54VSTqpkzyniFqln/8LbJs7hSSMV0Gz87ZBfcdb8O6ktiKHsoii9GqMJ8m9fdNlsidwZAVRbk7kdjNbogYFhVWaudgRotRMVi8p5zAGCcfnrC/yK1KrYDZHxzCExn3dukoHwJAkXVolXBmIpE32Tx26J7VnuPCAKzA/XKOk//lsi1sfB4gNNzLMfLkiwWrynVzfpBOE7xAXvqEvKrekXgr8V3QpP5tNnnvRqVGmJMcw8zJZEkCErBuNyFGJU03d5FybQf4rn3NTF+kzd++EivGh7o7Y04Pd1kd/L8hRhtAjhoXwQDBx4i5OPoY7AjR6g+Y49c83u/UyZKrR+NGlwDcJ0yltLrCtRE1Mt6y9zS40/P4BhVvNv+IVr13y+k5w8S2E76S84Or7pcHmd17NJX6JnSb7+x0P8AE2aGD3Xe2wQguqnaQbf/UfNgVQCuz/AHevZ3nQvo7V94OmDH5Wls5953y/WZ3N3zAsG1EpIDtImqkrrTt4ouGtIqv5dK1haReQ7uLKqWllj7HWvY9q2et7OMXLZTR6SY3cLDRcH8oT88yhcpUOmKagrMUWp1prFj1dzHuMVSxPIFrA+thfL/fDHasyAc2oyWt4GiQ6OI+cI851c/IaDKMilPZDs/7TR3j/l2lNDluXfJyn0tg3ypXNp7I7c3GEe7C+9aEqAATg3vx8lHemQBT1rCsseHm+XNodDAUdHO3S2ZSuSWpRhv71TnGdrkQQXOsojBVWKWrC6hrIpbcXrCBFZGX7fbcjduezgfU2GlsYqHUY78cqSa26h0n+E01K09Pg+dVLI09Np8Pcyz8bu/wX6J2IBE+Hka10byXtAX7odLn7UAU2A/DXYe0eDw4IMxVk7LtvmfT3gQ/7q9FBr5uqdl/zHAzE6MGLBEsIEOzMHAzj1NaG/bx3yg7gh4VYxx9WilfGBC7Vznp8iS/VPPTdOXpngkmg2HkPvlN2Si9I0i9IrpmhCUwnWOvwKpGvbQUMGLGZh5XW4GIvT5H+BBr/YSx7rpMix+zU6VNAtXpNYPiHJqhLKTjal/Uxj1k8VnsVLyshxRDi6CVqwnZgVr7eozIYNXV8LcZOA0lKP8K8nUIecPVrz035b267Oez5BRLmusZTqGL5AYD9nLgDvrmsw56uc1fJUjLq5yHcwj/i2c2xkiB/x6/S/ZsR3XS83716roXdezQegd0Vl9BlSjhYQQDozx8Eouz7gK3EYVMVdMRsn0FuEvqW9WbTcKWp2v4qrsYwSKSRcS+HRBizE+rN9z9ADl0Mw7HYCAEFD5FjeYqt6g8/TWQvR9V6rv28tIKs+Z9faOOYtai/xskMM+7dyqiSdRN87h4cUrVa1PV4VV8p4/dKxYHudhjKDRizS9SMt+hvZQz+wHN0d27GxHREUIhL/seYvJRSkRFs1AAh/IJKW577sOLdg6Zbq8rYzbDmXUdz0XNsRuqpqpEJ1qZKS3N4g0SP7Cte9bvHeSenVkhdHlS4hHdR2YlDLFLk9Sq1vYTVrdED7V+kim6GBw6cHxkNTogpXQRtb9lV9BoiyLOhuSfj9fQrsjr8qtyLGsyGOyrXLj28kFaTiMyVCJLFS46dWZD77SKMKkurvALLHSQ+W16XVY2GG9osAOviFPXBxA7tq0nPgcUaWWkl5TXiOsDHwqaQTLEEes+TphIfxUcnrAKX7z+nHmzq0aMLbS6nZyWcEZxNVQ3Pp5rjblWDGZF3emnKE78CmlPcjPCHxEPLIGtT3+q9Bu13JwyKSNVcWk//MXuU04FBUst21VQkdULg83UobCY4uNsKGMY6URJcpSu5wU3J3a6/T0Gr24COyGV5WqRTPeTOkZJlMCwNQrT1TmuN+b53Aq9wwcBl7Wdpbrs8aXgonlHg4LGec6zn9el9EZPn03+FQVdSrn1Tn0QqIU5VEZEaLUyanE0vfrp16WFz670o2vi1TE3QQmPKQ7MAlimczGEpfzVBj6Lk2c8L7j1xeqnU2W31r9Ffo/7UXX5I7amiXzXCnUaK3aHCmsBvYGsUAbNeC2zOR5QNkBjXOFDNaldrSEbjR2UTrQZ9F8Wba1uHAiEfx1cNvuD4pRUjC1XpiLwguQ7utcM+TTfIEoe/ShiZdPMc1IpwMp6M3qtfmcjvwIlvbR+ZyRFQJP1Xqhjn3OTsOHWBMK8gu/FHIgkRRmy9DnTXeg4zAXV3ak7LWABtoaVJBxUGKb8ClNV/6Va4z6OJrVIGDR8gLc1XU69fqDJGxOaCNfJqGxfOGEjkoyx0jScs7gwVkeZPM5fTjaO3tR1aF6gGNigOiLB2y5UBkzaW1Zx0aDWF86Zro/zS/OA6LdLX9Gl46hXGBfSzh8cQUvVzjhaoFGt3N+cI02YNk/7BuDkPOCUUtvbve+SGDL20zd1jwOBPj/RsbMDBXpQCrJAmXirg631QRUH8OiesUPbUQhp13TYTziehTB002wKR74vBdMeFp9MwPnGL8UW+wpZ5twRNdW+rYEt0TFH2NuPD2SvwmAAzWprVc4HWOwYyDfOBZfDncD4WQszQajmaBX0gjDRxKN3WmAd9LPxCZjV8yXOvScupa7wl0Pvgpc5srtouHP5cLE7Be2Ka3DYcZ4Tp/1klB7fm9p9qhTPaRjYg02qffgQ7OCBaByTAkJOyoh7yZs09TSKeEah8v4gWZ67hK/0M3YoKdCpY8h7WSZO/sLx9nlTFEFq3Ttc7ezIbIxX6zv3pRLLP9ygiBV3Oh7Rxt9wtSuVQLxbUePJvVIIpejoqqX2ZPAQOOh7GOCFl4GsPOl5o6TPIpbwl4lNstqvgpxuXtid+pN4XiJlnSV2knZ9S2iG/LAyxXEsmcOnmSlpT5KLOKW5Ea7U84/JIhJLCVvLuInHxXQkRRI44J0bN3ANNMC8LMpOMRtJ54bHlAVe5xninzqDeHmfKzZ+FNc0I8hO9g9OGEBmt7htUKWm5Kyr+ywZ1fVXuHNuP2pMq4bFqg5FXpu6rYYoKIty6eEpqDs4HgV1uecG546ZgPtpgz4LiWM2fma1wuqCIj0mDpNKwnEpcVjpUh46OMAnOiiHlmM7rDK04Goia1SuMf8XPY25LOhvs6iD2nLSnw1XtiPNijxdniy/Nd9O/rH/21a3CTnXVaJQPqRWA6Gz+JfB1kdIjB5LPn8Qmh1an7UqfL+xbnyf1MC/wf388tk1Uu/bSFNG8f+oIkzjRtkNRwfPU5BYh9JJKpoGvDUpeK3RyrniIT14aW0G0Jt/qJVZzYR2lq+mmH4qHlyKQalO+af3x1LZlB8QUCATGRcHPzpxX8d0aR9xWbcwhmV8UsYZb4M450i5Jp1Hn5/bhfQdseWJAR6RVaerAwnPYmkbJNQPwAQyMet+yOFUJf2Q1Wj7APz5OAnJQ0IBPK88jjivm21lGFM1FfOx3iUqmGAD56bWKy0Iy5tYy7rE6st3UQru7pe8kgxIBn1noIhm4GjmrkQOtpKHsACP4uEejoFje5oYf3p4f/l/C77KbN9PUg//SUnRCLBUVkz25UiiBjmK+ahMyKYD4y8/BZC9LbHAGxVeWA23xBCMXyShIbVyAWjvSLDTCSiyoAMvyqdety863S5Eg3GZ8ew1OlTdgAvz67yMk90S+zNRqyATPXupdRYpZNKmbECTv1vdfMCi2DZHqe9WdhaL8ZIGm7c8ADIPZdUK/AHiuNF9gR1P0lQmLQZuOoqYDlJ5bzn2CWT5wGtaSMVNa0CzYV5Wt1V6jRHyzx+YJtsY75YgrqIMZT9jl5X+GnjVwThiIiVSGzNieDvl0tnZh2xKVVYo6rsAzyfQ933IEWTMWZbzzqO+cKqFJwwYrZ+kouzFepeydmYRI4dDe0v4myn/L+z8y9yjo6gSbgUVJ/u7OGeJ6F381M9XNYPyaZb652nFJJ50baS9nuzSnNyF4gV0IhCJOqnFFgqmfvxPFmNlm/w4KnronEMbGNGEXG4PaHTdmwwbNnioZ/vIYJKnh5CNvb99cOyY+IUebt0+p+Y+UwHOmP5jAxlnb8df1j/Smur9QdDksv/0z1cBMSv3KnkuE2St+0Ts5V1OkUiE960snxi0Emea23ZAhOqjceA2Rzj/KpZufvKu8AMqSpyy9J1+N2gt/FsEuEphg8NgZvrtgy2hKinFBzg6hhNLs09uoBZSgzZHXjP3MZP1DZZ5o7pKJP9ioUVsiMVm5+z/7qQBEpIB9jzpTmJq0FY9MspsZJaLITQSdGrFdGqKFdM0oMb/EAofGZiG40qhoAw0IK9ZqaqLJHTJDjiPmA2k0Q/kasiXHptjbt0Mvk0eXZjtxfHkJlYwd6f07Y+zsy4BkK469Veje1egRARwWtxUnRdeFEEr1JUf0Hs+IX3HR8Hdg934pG95FqqpNfV2be0l6Ei3wOndnwVt1ydC81PEb1esY9GKNFjEB33Qu8O/Jh0/wE2jNtm0AYIrTRz/2HP7LGi9dYtFrRf2j62F3piaKFQSI4RWt6ku4wfzDwxjEx/tvCn8x5STKDuXmIMu763+ujPkKyGyF/zaBX0692IrqnV349j07FAQhh7wkPdV2Wf54Ucla5TgulhZynVvPr6onFAygrPeW1pVbjGokNLEHEo1TPGUwX+y/znH4Gp4dCK0/qrz/DUoULAv37GYsdVFoxDJYzM/kmt9T4I68q4hZxBt/JaFWjwd8qntm22twwM+dWTBu3MRps0y4LjLZNrCvnrxkE7dxXi+ypyQQpKz+554t3f1ZXvvWUhlEQl0v3MwjUVI8ClKG6e5hVKjiSF5aqN1Tvy9LLlogzGiblnb4aJHYYK/yn0882P1Y/VX2N90vyqS2I1iFptE40pFPynOp5RwHedfdJ9DwwGZZCtNTlM30XoptEcXkr2oZhkSmplCS0dt1OosBoqEoGbMD9kSfitHk0+TGTJx+LHndnbK2+6BEFxGUYwtkCS/dAgdLIdALOpZ+cN4B++BG9GQQFjN6TZTQqQwBNy9imUY1E+aA5gz+GcTh5eQWM6fL0LSWztqAjFAFBqeOm8OdAEvpwuNsnXDTddPBJjia2JCECMEF2fW4kKpMDuN3Nd0vxvvom/0YAmuXr/nnpFtgwMAJHSBEROeCXvQQ2v0f3Lk45XX7B62BlpcTjNiBCx05rxgsKukeUNNlV+PgYaIaJPKnaW/5VoYuHGpY4tMrLt8Xd1js4nAIDZxpaWuqUgmHHS/e+n00EsGjOndwoCAo6KeJ6Oh0ZBYcQk0YSnqQXRAboZ4qY64UMdQBZJ53bRNHtTPihEF+8Y7gDuZ8ShmkyV4KFTXiw9v8Iucx59j9Jpql6IlkjfsTtRBEwTW7ET807fJr9cOao7av0V6EF9njXGGYDbVsrzGtM/DlxwmLOHh+jCrexLCSxtvGyHCYcctv56Kiv5PVhRj6tbyZbpVPeuaRujhZvRXdMFS+RuMu2D1v5DPmSUd8JHtjEt70qYqj+zEk7oIMcw/3DUMmcjLezgdlfVsfSU3UyhwuU7OnxCrrv3WG2KEITIoortMuDUYCGdKcZThsY9jzQ0TL3aYF8PtkParDiyMfhdtLcsZHIE1TOvaDPX+PjGTNVJX+l1PnRWEt5rJxs6e/q5kDxOJT0Pp0xAiz9pRCiVVy95cqdJT0FQsMfX7L+YTjzVXmoqrD2sI32dSw7NknxXVmTuZpcQXd4wxLXYkjboqzLVZvLKs5kggoyXr0ozTrSgHPRbNkX+us/aCH/aO5BeubTKabHf0IgEMpaS69+X2OarZ9td+SigJBHJDn1aCbJgL3LoVbgnoBIXsyAefTGOqwUFzU/fSFeZvKxYgZ+T8S2F2Iy1guh9vjMjnn6eZzEONE5PGDj370cZxAiL2hlqJH6zk4MJJklCyL6T/RExEsfylwQSFJo+44y6VP+0qVeNAn9Am9kzS0X3wr4GiSpdZAXOVjuZfq0I3rnIASpweQc4yPWShWeXmp296Gg//uejgKRNcgdNT4nez39pHZk57f2QMfU8wUB1MwvUwj+DcFjVYqgj7SNDCDcgR4fmICNZFtIi3Fvtn4TeMWzrksxFvrkltKqKzQiJbbGIQf4OFZCV9Dj22eBcszppA35SPexOM9uo98KTNV2AFhQBA0uzRX8Tol/ZPLc1RhWXu8qv/iluuGB3khgQeEZx6xzpm7E4ZFe+APB710nv63o3ZgEkIG+5Xf0dHpoiimC+6CEy6kZ5FvetG/hVpCPgmgfLyU6aDXqC/2ff5Q7Syg4ncBK4aueGJQ/EA/jsjpfuAjB6NRY2vJVILRj0DU1D9hZIMTW8VPWkmAOSCezlvwBKXMTRrtuv6dgjCX32Dfz8iIOun/3LZQA9REqMUeRsSTYmfmsoPbeFAN7RZc5QbzSGSKRJ7nPeuQ1ueVKudJLEcWp09+xseYzFa4kOqGyPOrSsEiUk+oez2UckirvGlSlx9WjthWebVrxVKvj/2olgvyUb2FGKgia1Lghc2yYgz8noPa23CZ0DuC5V8yV2dpP2XlrwsIf4SPnVGg67ZmyAw/17P/cxuD/EyfI4rwKLdIdpuoj0IC8PESd02vv9bmGd9luDvm8uqSrx+DAazTrGYA283ur0gI7KC3cynvVjMfsIIjMMNMCcVYUVprf+XSSHeLZwh9/982DzpMPwBtexvfjElfk6JRbY55FPoIh47qafWad7ob2OWaArdE8khUc64GKwtcKMIbr1BDeH+QW/x/UCq+MDMq3J9eyCq5of5B2f+nLCZpylSHMxkU8UH94xDh0VPXhJucEY2PfK5RKSFHWKkyd7zuSMtu1Y1kTY2ShtaaUpQRHXuyCQFtpvE4ueedAyWBoCVvArB4C/hy7K63oss80alhUifLghY4XixpX43+4RzwVM2XrchX52t/TAEQ0B3F3kwRgWrtAmky3jXuRID/qgmas/bKN7nfOuzy1tnJOPWPLP25xMmx5YPhjmAmrPxVCojdicvSKIk6fZ2zWET+l/4BffQx+LAN80o9EXNgt60ZwYtoxb2BNqfOeYDsUBYmvzAX9hn5Wzk165nkP/ngTq26EYuaPJ+/WPVNv9xBsa4gCAPFY44I37eZ0F29md2PA1f1Mpacr9IluuBoG9EZ0hzf4/ChHkLbNwm2SC43/5ZSCdp/SeH/71VEUNGKTso6bDmLTbPBUVeWLQVXNbVdKrOZHrthjcszLeGBuC/spQ11Z7Ysefe20LdN+GEiOREeAtifpifcEfMT0FlHmIZUwdRz/1k6fdVnmznkA8ZEDPHE7xK73LyT5Y3lDZR6zd3YTvVqBWRiWdk88ESmlQg4LdFy6DFGdUCz6r909Dt+RbF7CI7FtptLehJxcm2QOPIdBWx8tvcpvar1Qci3LIgc7x1ErAZ2W1mAe/7FMO0EZIejsck9Na502DQ+Yq3+lUuJ/fjREqTpokwJUeZa7w1kjzpJ8ma7qWGMuAjAnbkHaW+vjMACNPSCL0cFqppbcT0nVZuArhptVA2uIP46ykn3HYHsskwglhhwe/sQCAa4yiKiFGL2hXcCCMcw13rMpLtUSKfTIxadPZcPqcIEiybesyoJNZNpmFQ8oJkjQMdiIYeB/klSjv4Cye0bb7/SrD85S+kKYf93ys90IkcPHaNrYmN7IZ2+TRkTEdKCHFxxb3iN3WAOIJh8Ugr6HnJEepFmW4G/4UTcUWTWevvHZkh9wEFXqYZ8rRn4VCf5UYG4uYLBi8Zg4GYNSDUetWd8kmIJfdpbmDye6/ZOaYrlLsXdrlolge/n9qDAIdxXWfKxhCXF/8EzwyOZfwelXWrd1gETRHWJ+utftnyUbYflZgeUzjLc5mqQeJd3A3cJFcAsVZFbnrIHAE0USCilnZokM6pyeXym83JDIJluEreQY011I10ZKz9N1uybyVLgymEcNs5NxF/2Nk87wgKOIGyo8uYD/hfMCtLKVwusrFYinOFFAek7efuZIq0m2pe/lhOExplUFUaWOqOV6GCYKPqSHxp7D0fs0FXjJGBw4LVzbUfQ//dooec0LcRq9VvhnTAlGbTihFIVvlBOKJuF9anjCL5ACcbYC4qxGRExlfL2pCj92dP4Tq3s5mNNYs+DMNj1oWSV95BAkc0wB20qTtRjtyidjXAyTVkG0mItV+AMuE1uCpUkxoNY7aFlFdZSaf0BxzWRnWWmLS1YHU1Yg9uhHTkc/nO52NmNzrTUiNSfes+lkivecxihp2HfPQvMnUdFUJVR9RfgEHLHEIBXn0O2DGAOfv3fNI+ta/273ntzEsuWXbgIxT7QzM634uBwHlZhpV9BjXCvOWXUzg0RjImhaWYjpSEOWnrEy7BcRBS2T3nBGNzme8AXqczF0zRIIwXHrB/AsECA6IOxIKQ8aPklO0fIS41V/34wE32W3/H9kn54diqxtHEL8II9IgdU7vdGj+8p9aHx0oSzh9kbfnwnp7CJkWX0OUpMBapY9EJOwndFWCPiEHB9fuhX3gxqODAJ7FRbPZa+BfRqzM1p1OC+S5WqYwhnGd42q0IwajBsDGmPy/Qlmd4pB72SzI3o8LD66lMKj8ul+kEOAQRpboTFS6mEUG8qec+iUWrBWICq9m46TcAxq7Ua49AlkfxL4e9EzkA/WcHRJ6HLUuNcTDWb/rXrAFcEQOrc+14cRa+tJ3VnuXJyNOxsr6JjXAhupDuKfZYGCfp/vIbl7hp8Jz3qGc1hzJ5gp6gefKFZgZyWuxDIou02Bah/0ZI27zSM5AjUNrzEBQhmINt4pIGvIc/9ae2MDf5ogzpsRJbyFGB2LOdJZasshd/CAFFpMuMrtKwIYBgVzcp54JHRqU23N+VDk8rsDicI7drb+AaPf7/aA2IBnbqX5R7kQRFNZ1fBjfaCjKV6ol501ECJcrmVLJv/TQS7Q9U8LeJ+Fm7ngt61rL3OiQtxyoolK6CV+ffB/HuKptlA/0evHkERBuHXdGuFVn60vCCEdl/ZQhH9xEscgE0b7rMZdplxM441GHWJklg2EUh+QKiW0bQ4cWkigwjNsp5ZWs2z244he2/I6Cnyf4kc94fj2x2NkpY/Nt/uudP4dLPTjBUMs1VYMSKxtjUwsBbM4v6IVSPBUVrwIb0Zqcy/YEWX8ABInIE/YnhsJPoVd85zWzMdVOz6aNjy0pS7n+Bxh1u/uRLohccxmltLiN9Rn5DwkIcOkJYecK444enOHosLJHSSycgUnN+t4CEt7WUVdSMae1ZLw4gzJ0wabl6B6MhqJyR21aUUKJlvP7kDRwXENw0R5RCmvOAJWSMmYDd5xVEaaWSJU5B5LdohjytNsWu7necem2LsUNagv7ptWUZsWpyXkTKWFbrnbTyDUBLRCvph/EHSXE/+wbeVyZqa4Ng3RjSzx5VImvgS9/m96QYejJD+5G9YmWmVWs85/Eau23pBoI1SBebcXqkyZckGDC2gxolRoKjNuPpEO+bhQE9bGLCNXk2yXp4vMa7v4Cczc7AZA/z7c0wTa5seV64H2vQOB1nlBXolTtBnc2Wc6dJG7m5OqW2QR/CxOQPmiKB2JsXBVD6AMH87DbCjr7LLurzqECXgERh+giCTCiMmgsmICE4qxtswbEIaTir5SoXKMG5HVE7WegHn/89Pi8W/Jg7jrW/yv/07ur+MHhDqTtx113VkSWTqf3ViVxzOCWuwj3nAYQ9Uyf1dLfsxBCLAK8GNKLccRWWiGZe65lxt/kA0Le+XA4Va84lnU6ImddH4shdVg20oQZtOt0kT2QHpAJim2HW/W6SUTOR4kijuO5KpJM0J1UJ8XlatenI6Jh1JcdLunFtfYNt38RN8kci08JtNCltGsEPt6ygPq8i4CmdG7fmS2HNBRGS6ue6i4m1Ok+7Y9PZIiEtePhz1eef+xfH8d7U4gZNUZrlWlbr4gW5qI6mU4kLj9nJQwXbNNcPkKPNIJ4XKzxYW45yuTgZkN7ETpMvZ9nIWfZIogjwgRkzai6RrbD5FJ3/0YHIY2LbR59jRPlQ5d9CNsBD7aOJw6+O070M6XJ8MHBWEPhfJa36lILN0j25ivteYhFL/EbSLVtDVBwIpHcSaN0tORCHVnlYj0kMNYEaXk0X8HuYIX2UJ2xaBCfEJWl2iuiPawIkXVc1Nk3r3cXb1fkrQy0pgaHl1jqRgfZ1/NCT2gygymplGzuYOaQ+aQjhPYK0EFiUUxw3arMHhiSeli3J9VzvAUmHqhXBKX2H4aJpKoYNzbeqiOYCPdXfS36s+kGeqqkWkxpW6bfQt15zlKnXM8FuyOKXU5RY2hUnFDa1O5nAsd40hA1I6YT10PdpJ8j5t4DPbnrNhmFSgBkbE1MK/v3fSAl8bcw+NcanJwa0LZ5bLdVwtHWpQM9fh3J8ZjaOc5l8niKI658M7EpAQbre9Mp4KENn9i8Fl7nw8bRiq/YtUQSJDtIC41NtN0G/5Mok4RgLOtf2JhycmlFdXK9OCJEmGfcS20nlpCTlXWPrm6ky/aE2yeJsRrKdU5jOVh/zoV8Ffb4aK2sSCClInJE/YU5CVF/2u9R2qVP2+Rz7jrtQgUCmIYzCJUT/ll8fuSiOajtkN2NZtgGATNT0S3FkWxsGPqvIGJVN8Y4PrODfKNjIvIS2zwC4K87nzkAa28LikUqmDCkX19bER7LOiGOnJJFwguuAaYaEakE8uWab+JSC0hWhYliPI3tdgzNhoxxsIJNPU4jj/MUYm712vCfeeCo2/OtXKXhvlmRE0gXy3ehD0OOIygcFQ/56zITkFHjZ7GGf1nH6O95Sdl2au1M4xlcqcsuA2DJCfRRyQHRKwH7EQqwWvvIw4CL5cp9v0GKrTEqZJh2OQ6Y4NzsELhjHZEDU3B1XFa2fk6kceNGetzhQpalXH7D0Cen34HsuUVAUQDv/B6y6SavD7Zn4IiN3uMVHTTTayRwEZ3T6M+FpHNjIIJs25KsUyh68RMTtHhqpdHfG7UGIdlr/bP29CZeMZoIFDOpcyBeLVTZev2PcRB/ZnErmSjn5qhUGPWquGhJb6atDV8oGLTQWNfj9/CMrFqeAx8QrdSFFKQKGrZqjVLGmmGU/t2zdfwmCi0w7zLD1eGfu/V2OsFcJdM9f1TqiZQbPiDl8+DkZotw1EHxq9hVGc6rEPPhAjgJUjGOJsWF8Rw1zsI5m5NWMMRAtNuRdaqlpxBqLwBspSezmjjbwuBeW7h1D/JZgEi0q1n9RBmJ5pYuDkq+XQbGFUASMobGGPQt5Z1tQdaxgBf9t4QiO+MbwAI/DVDwb1XMGM9ypJ7FVfW3gzfZl2RmycgWIcvit6BkX/VRHYmVd0sMVLjbIBaG0Frdy+0+I/n3EHS3Oi5I4cymB4VkWkzNasHlnCVdTvskm0US488et0gVMvo9A7gFJorz0UX2GEfYyeYXwPNWp0lh0GSLOYRT3v4L5c1VsnR/A9RI2oAH59wD4Of7KIYj+tmXTmuKksenbVLJeSVoqBId4YhRdUWYf72knmgckVT19MSEEJgvrI0U5t644ill0jr/bmFrOBIdfTe72fpWkLDqypjuhZ6SnebgCbCZodj1CLTOEKKSxKdeh9GpNeGpvz4ByJNCqKM8jO16f7QkPAkUb6gFcIofjLRiIQd+EFds9UZQV7jQBU3e8MjiQSFkUACzQ3ByDrJOBvMSu1hHGz/pqJFl5VRxpXvEarA9bLExEupMo8AwdUNonpBxmqFsIRMWwt3whL/1VqANJ92SSAXVUxI+O+6qHbaWPDXpsw9ZfJh2gJ63TtAXI+xUQTAuRJ+U0W49IDLnfYilIr+V6BBGi/rX8gLZNc6xI75SQHJ7yVRUXUvMsJjzLu8hlCTg443sIosluRnZbfD7k9j7qbxWV/kXRwRGn98qbQ8rX125zqJVwolAZ5y0voz/RApWovUnDzq3s6iOedHCZpMwOQH8yIMnnLwWrI7EKCm/rUKXhFoOVOBOnOYGfXMJRpWXeIyXMczk5dIY4HoDOekpF2at5xKXypnX4C/fJox0iI1kI/RDttXEDeB6akAbkUNWH56TvGFt6Jfk+k9GZSNIyQaMd39DxsASz1crwgaNuaeIGQ5FaFq79rddpK6rJmK4Y/GPVsMpaoWfChqTYV1AtTgZttwwqKSSmyDskOXafPfC2jTstRdlZ+jTX7vaMV35kb0ppukmIwseD+ho+Aw3YO6pewike39Cig+qqZiDJDxGpDJPXVTUhB+6HOdBAlVdspvp+DEMafB7hvYRxO2icCPYolPBRWRDi2fkt14GRxtfDur7EuTYz9bp85yTQ9Brvjzj89bqUfpf9OpQOPPhgzUOdg1P4qLvNuUKcR1WkqFzpc5Au+8++fReP3yOR1uIUXcP+9MnGmiKEwMP6AkgvRemH7KCGYPcDPN1OPOhXgO4fULHduVoghyK8sj9Fb1pxGfGmjlfW2YUF0BiWv9eGVTvmvQD+fjOepNoEN5T5fMjSEjr1DTxP1QCJlfq7DFnpsbz9eFrvBTJoM9Cnw9CsiV9bev8TmR3sJp7tafCv3QfpdSUbrij4XGbmG8izrNTpgF0Jgquym+p0BHESzh90t3YsCD6v2lcTr3xuhaQPj8rjPEKoCW1ReNvE6gKUW05sGKcdY5w7rCmX9SlP06DpILko4rgLn20ktSvleYLYc5xzdsEbW+EvNHqOKBU9Z6KWdJ3C48t5gBnj5umf2N064fkxsx/R9i/7OyhlIXzXfmIn+LMx2RXgWSqylLeyanpbcB21vDK/06rwitWARKSEessV1LmEEuL5EeBqvwTSNpamITFkKoz4ggR2XFrG1lw5msmqbhw5Q1hE2dD3DfCz9utWfdoLjNSPq36J+HhL66sUIbjm3MhbRC/L8Yjyy8iQDYjyJeiq1Sm8ncsJr2U5TDvfIlpkCK2hHisX9mmGxzw/86J3Rwviavx+OKed3hHj1B/eIDPkc+WlIYmIiCOyd21wvqrHkUJLRMtSO8v/8T8faYR9fYagJR5yy9soXgu7dw5bAAJg3yM81CakN0XWYFNZ8YurE9Ous6siSTw9b/1u5ia++O+PAEPAsUlwOXDxjEFOV81WNcWSneLLr9RcCne5Lby8drbKbC0xPFSt+03KMw86AtkXAQcXT+q7hxw2Q8DAcW7994fWK6fFhegBLEXzpU868hnd2zVyrMN21JWonnrL8L5RkvrI12uVOt9QWVVZT+p4195gogzyDxBlu44mF/u/nMxCOOn7feHvW+7QuWG8wreTTeDIcHd6kzIOZ/inaefRnALHrfvvHPODX6Ua/ME/B3nSYxY7nwwX8tAkh7wECG6/K105JkCGDllkPZec+ARGltDQlyKT8wpbH1Rb/X900spOrrv0QHy0l42PTDs0Z9rVOlvhfvykxbLgP+KTbrK/dEY3UhZQ1gChY25gIooQAWQZ+grZrTZCLytL6UW25DA2WpjEooozTVlNMkJwY1/x6mTyiuAmnXWYs/HTA3QukM2oyKnFauNDGerYF/4gj4F94nXiuQyKGYB4tjrWJAXfwMsJ5x6lOPkgdlMPip3gjBys4ULaGg5/Yhdrhre4qvXWeY/eSAzVHIwEAxtGDkz8fCi0Sv8EB6sbrCmY8LsNR74Ow+mc7Z5IpZJgwZN0cGFAYgAlxivZhjklz4wL8vJLGe5FOgJyoOHfdH+jQYp2kGJ4gTm0Fy2Ybg6pmWd9vcCDtQi+6rAzpHv0RBZzYfeLAlW98SqevVu52+xiD7hc8qgx24CJ4EN8G5Rq7CBmpILVVS0W+EsRdL08IyhWZshmLv0ZVyA2EqH6VUlh4RswlaHt027ENzLb8Bwtk59jJs/GDKH1HxTa4sc9imBolPTuTzwIOFqN8X8RH8EzhEMdnJ59fBtNnkVlu4r91HC2cwdU/0Wihfl6t5AKqeI9zL4sc3UYDuGxANDIrD4EmBdTqjLQbYibO0C6dxRSVR14DvdhHX+FMOxzxQ9ObylYvx9XnujFt0YydE5QAhEiGdyeBfjKXL0KUHuazJ4N0rguUnvItXfZPez9GnepHPeqhYlIUbJWkOKGx7sQsfoHh86NMhxFHUfPKtYvCwojpkcGLtbL6iNkZodU8p/tMEHGl+7lrCHQ3CzvCWhBpWHoe/XbM4+dK0CMKQr/ql5XJmXkt3ZFA9sB4XKx8rKCD/i5FDwKFTv0TdjcqLFSFIbH42Ep7xdxwXhtVvCi3Em4b7oOiyFft6CUYbIzmCN8rxe4a4RTlpLr5mjERUGDQWIVy9AyaSryTSLMGtaRyOSuDm9WQiWly2iMnNoQN3qaY8EPsYhYeOFP5skCFCKmHu4K2f8zFZY7h9I/iDRAMur8/Llxyn6Sn8fJLctGXJDZX/9l2z1QISy2dF+n+mM9JHgaC2XMX6D1KrE6iWCcIB2hR3hlKLMtajzEKZPc68XKwlRta+HOfiafvZQg98+vpkc29jSx43AzlCYjVWEAuBk61NnEHXCFcQr6ZteD9E3/nNyA48YB4ccMwphoRsg+zcCUV2OPeUlHdRMZKlTil8esWEeK+L8Dtcr9xFjLQ9p7b9e9u3b90ZzQ9FZPvWBjvsRtxdreKGdNVX0qOiBijV+tfn1s0r4wwaMqw2Y+UXd5Ujt96eXLOdknrhof8DVs8XIC1Kon96H9xL02xln2vWuASEz5/C9pTspx2XLJhCnalUb24PWjizpz6tYm5bhzFCV8Hhfb52iYFSxdV0+fVSbE1Xzfpood7lsYPO9rlfNJuAEECKggMXxkb+Ua9zBcXTzwtywa2G11g7jBy7R8EdVXdFa17/kLLU8F24L2oR/yaWGgjTFqKBSdgWF75tnfflnTG/0u5QzNdsulsqMMVEzJU1wd7oZhWkv255BgHFHQwP7OH2CWaUCb5i06JvvAz7liuwuFpr+4KwjjFlZOn3NlsyBfFSGciz5iCLqHVv3HdYmyahEVUXM6RccLC1nXghb8p8F4d5bgnh10m5VGbXsIzV5bxdOJwQshVbVqNzlr4s/t8+ZvZ4x6CrDlMRKSz2IuwcsYQY2w9y9FVoSGzgJir1XtZVpmEqByuYEvrJ38zE8shize3Nb5sUf4D/5E485a4Fuh6OrQvnwh3d+AaIKfN1EaH9194j4loqEyskhbL63PHBBHeunLVypRAuEeCgM3CupzVBEJpJrfI1zZ1mxJN97VKGxTbb3GvM86yHLMFwsX2SO0twWh/zZYPuWZi81XsbevjHtvSp1TK6pSpei1CLaOXUiUoMXrUr25wumxniigueB2j7+ptqUdOnr0lecZAPRBukcH2WOijoyx3Vq/A3QN13hIuCnoxsj9aQ2wV0MXLTJ+n1OiPh30awMvNKk7Xf33ZxUO0Xud4j7db9yVRUnahKCxNHZB5NTLrbdh29f3f4Bp7ZuPGBZ/4H77D1X/lh3oQvbZeOP4sZDNE6AK6OTPJD5EjfMeCkxoeCOfkA0watVzFbPYsodxyQHIABveiNkvJqRGjEceczRQ3vWuKkxDX82kwcS0pHLndGleNcZQmJ10xtzzJp+4SXrujwqjeHaJHPcs0Gqyxh+hGzNZBuyvxUaCt9svuEbfWrMo1VRvyktr9ZxD2pMNFw+5OHwZEw3zeaUejDqFLj+u6GbI7zt+QqU8QjP4cafEjFa+hCdWoKCVKISW/X1CHJixGy+He3TAILutm05EMdEVuERVkwuxCcXYV1ziYIWiwjXWATBjrqdp+T92cYyQVDk7M/GzPqMR5BEsXQF+oRWWKqCStlJRFm/MnZbLZ99+Y44stiWYEbpbnhKILQcU6NldnzxbPaaP6ruxkdGa4a+wtJKCAJZIVNtS2XdqxyKZG+mFCyZcqx9jn4iNMZDk44kw1gU0i7ckm7NyRG4buWov9y2KIBUZGuAow1DOJeuUob27KcYg3VS6YesmKHune2Vz3+YMJ3kVOuxFmOS0rQmmpfSbqk8wH4w1ykMTvPb5M4ycn17zyUZkVlU73MAeMmcQ4ZitLILYC4Wax1uCqlYK6hg7ZlHCCtxLS+/dMsloBqLR0/riPsw0j/Ptl0LbuclK2LMEabVs8w6Kvxdvm4UQa2BqfIyu/H7tl+I35yXxBb9L0dH/Or3IqiQq2o+sKzRrIl91Eodd+jRGuSY9j7mXicIcgzq/viVbBdQfZw2vyIeMGIlwfiyPGsyv7FgIEKMucUKL8FFen4UE9ukPj0b5c3K4rP2D0PUKAmrIGRQONkNs1Ddw3sHkXzdDgbVEyc++qL7mUBYaIP8NLvNxhdbIZGTQ+EhTQYpH0iDY8WuN0nQIp+fcZJfwj13sw723PALZQLrwHeFDQTlS754eslFXVNLfhavjdlMvQ1ihgbg8eJhc5+ekkZfRxqy6po8S64wVglMbAMsAQtLlfHikUzWp4j+BNpSsov1S+Xsc6yzMGB+ICLHJoVHe/6O0zxDToJ5uo6z6JA6ESdWuyT4R5i3gpw/rN4hVZF/eh4sH4r8UWD7lj3ti2RPmU6+tBs/kTYX02mzNm+lu1BiztdILFj/LuQCj8tl9Hzj6oo5GnpTHq2d9vQ7w2+LNbNHgQOtWlfWt73Qb4dfMqoaioQKfx0YRE3p6vxxMKJxqX06qpi3UyPfUMEW9SGPtfazZRTpCmXey/lg3xKPWdaaciLuwANcIODcHdlFjIqeQN2cQ0KHcfpHHT7kXTknOtKoNEWsIjKTVb6FT+4XFWVHrnybpRbfXmSkPzPw90Zutnr6ScRBgS/6j1dy/oLcs3sQG9pNR4HXOoF39zkcOAXmg0ciKGPswfC2RAN8pmPUaZIg7IhqAsNdDap3+8hKjF6qQ0qB1ZtuFjjcgScolSWnm3T1sIkMgUXQa6P73CSY7OIRL55cxh/E9zo7Dda0DEiRecSI0WgudCJJKZuMXoXJgzCRQz0/JzZgEARyLeb1XGEfNb0OtLvir4aSpGGFzxfqx2f1wHO/wnq8pRPvHEc0+QhqIhaB1E5PKXthMkcyh2OzrvHrXx9n49jrk/jvZbJaVBk8ZMMvuESm+d9pb8rPV4yXwV/WTOQ7ONg3Om1C4fRuOzBzOt4ujrEvpvvLhRmQW5ezzeSfg9wBC8IMBHkRLZzxW2dAbg/v0RotthhY0E4tZ3BjD9QwgdLEn/1hcgJ2q9hEZsBPGST14jpBr49aXwd/NfTqlqdXOd7FA+Kum3khnbQVjiC0Pn93pd4zS3Oo942XxIG84c86noJRV+qF6Cke+eelZHCbHOW2jpv04MS1KtLnAQiwxCsNiRYnPWOOYw2lCX18r/TpnTdus1mev6J+ZPXuugrXjN8HpOecEwPyBJJxhHJwb7yXVsT2n+GAchQzHiPPY4letQ1t8Utgn9+4rCe0i9ovfgqdqUocwRIEKxhYmgDYhEbe3DVfGU58x8Day5RokW9xnLktDIGFKW3Mszn7iw63OjBZwjqGp1P77tH0i78HMsCyD98lc1L+uBvmp4+ovXGXr6AiuTsWT2nc929fqnH88a0uvQniT770MtcnCEo52SLT9xOCxnTK1jtrv5NybsiE/yayGv/wgKqACW/78M/eTm+0gVzOEpLggSdpH3hVT7alQJkqvc+Tse1A+WO12s1Xgs/odQZYckb+G5j2VjM6U7/FRCct9hVgJ/IKmPUMvU3KwGuaIZt3LYjErh3XELCP3XbNAAOW5kHXI9YilsNt/6Q98ldDsImj/GyywUju8XUoBKzQu0kMBXWEvGfYVwNI7Gs9ZkLZdTrk/VUqYAV/EamJuLYSsqoUQLnoDRiT2kaUoVmpcw3gG4oiaOuU58vEkHtEfFppa3gdkb/yl7lndGut2yfTd8Di7lkoUVQ+1F9fbof+z8MUQP4jx3XWtbFuMJhl6xt7AwBjLtd2byXH0w/R7pb3boRf4k7HgQx2zF6IIbHB+zpZpfHLyNeRGnwQBdTt9hsRmOYeJFeOrGsiSq6XT4aXdBtxj6gy5w5ovINruO7Zz6lpQkdzy22Vzjp4bSi1SQ0Yy1i1/7DcyEC3vdtZ7qBMAv9WBD+xx9CcReyy3T0JEfIhbAGWDaiy2dmqtGehexAUn5HePDCxElmGVMnsWNFRnFzGKX03GnQIhXKpS48B+yEN8xLib8hu+byqF9zqXPvtF2vig0A//laMFC/F+BTHwnay8SDikjah5yFaCndx6XCsNx34bM3nx76HFCCWyot08WIwlQWiIZqy4EVAK+rSIfp43B3aQiUNW7zM8DM05b1/XatUmQRvUvblLw+VLMTrw1xJMA/4G5BQDK4PCTokbsStbCQkTll1SdKPwvTXUot+iq20b4yaXBL9jjJzKEirINj6rCZivmd7nMHj6sHd9wBiFy690UvVdQSjn/NC2wQOoM7Pab4XJdooxK3u7VRaHv9Rnf+XWcNXBluBwMGqg/xVNn0li+VOtXdoftE5oFwZsfd2IEMk8ginBkoaat2tuiOwamfQOjrzsdPzRdt4cIHcYuM5FXOG86L/QnIwp71yCIqnCCYDo0RM8QOFbcVf+pp5N3GkmziJQqnjv4DIt7z9HB5aIvQSzDvPzyPsOn1ZujL9MoBGsvr03OeU4TMO2wJwGiESPiBO0hqEgv5hcmS3wPhlpuJxzv0UTf1BUmpg6WFrbabDAuPfHLTNo/w+qn7wCme8FTh6dMwjjiCk2iYneFKfjKLCo5EVk5CxFLrcAR6I5w3Vr05GhEusEl4z+eDxXGe4+tRb4H8OQqh7bdKtNWk67xWsfJpXvj62LabKiHyHbyCvxq3Wl/VCqNuR5mt/5RekCXgh7EAVhWDon/RBsfEvvd4a/4WvZQEVvIKePsuhZUSl/0dFnhafzHwjmrKEfqPcjm7Foy6XaWG03iB/t7+uQqgHQnspUtj1SADhiqKoR1t0dhcm7D+G4QXCrwi80EoA5HdPP0K5ryA/SP66qgZ2BivwaclGbiwdlUic0LibLaYStPTHg4szDcAXqDr6pc1PZ7kYjnFDEtFyCU+GqgjeFWx9ll34rG7jMZF1Jux0fQGtHCKHnHq8iAE9VC0xOOivvQW6gKgpFnB/rcFI+dIGrrkJivU/DUSNpgEH/SmkEWUJFk8oco29jansGedM2fetgIAGdHsXtv1wGR8EXlDZXw4Zt4P4Py7YVW6pf7vo3VVmhZMvKxIkmGHSItxI2TCLHjKestbE70jcwX6wAvcF3LD96xYQBrBHpbF75kqea9obht82/sAtCyX6gZ/H9feA+nvykQYAPnIVqzEBuujOfYj3x3chi3Q6HRgZvQMNPLBn3CHFKHNEntcb8FAAx9VJiLjvZUvXArfkXokN7nzqiLV4HULSyGKaghOIxpZx5JBymbSWoPUsDP74FbEmiNAAoZ8D8sEADjcFtqYzF8pJnsJ4MXlgr7wi7lscb6Gfzc0sluEqfGbS5JRbVxnvS4VmsnGZOhmbSvk6jVgiQ5VEyIC2xmbaS++UcGFFkfXm522okT5L5T0J9wZqlEP9JGMbxDLHj1Vs7IXARxUrz5iQK59TSqHkN6SwKhN+HCyXNjNE891Heb9wkZ+mDIgmElJQecpGsft6EUycoui5SFFvKqJyEY3FHIwPaml6lKGK4zSAbtDPnVDGhGwOvVI/kPzbGIbaML/awyndFUhqxYcfcVPm76XjFapYbnqX5WOWRz5PySnSvYqkb+2ST4yjfNfW2ZbK7ry2YqZpknxLsGOtzt6NKmp+FF7Nj7clqsUPiCyrOoHZS7qU8pC4gvlqLm1Zuj9DWH7giHJKSemi11U/NMR53QhKojjc+QzjoFVl2gCjj2/xT8OUX7/0I/AaAs/7bDnJ/iCSZ2CBtLNYeOsf7FDx6p/RcHMeBynnDKltaTiyQJR8Ud4DUzwvpUOWq8KPjGXDBLvCs/UiyaMURtiUe3ta3l48unkyta3xrC46huKzIAA9Eu8jEHTAgIPUkg1mdqswy3HcjWb5sZ3WjYXVS9uULec51X4He2mTcp7J1mq4HDtOk+O9fRx2yPR8PQuPHEo/Mrttx9OEwXPnNXlNUp34KpGXpvo6udvmfEt6h/put1ZFmTyFruogV6Pg27+yLVnE9nc81/JnMySLOj4HIJ+9tMv01VdP542KdGaE6m+txIeCzD30TI/GFZZF6WGA/Yk8TbpLyqroxzI5cbrrt05FR2uzhlUDwjsyHF/sgR4kxD3SLDVclDEgvxxCOvNF32ss1xMFqUMkrLTh9QkhpICso1E068fEB+XCLhDetEGY+Oz5wdI4k0L98UX/bEsWOkHZnxLNJqvOjEXQAIpKPVYXE7Ro9hbO4+M2dde8cbpGPqC8F41R2K9Uo0xp0rJqBh1DfZhYM8Skont3xxJbcS10SZYq8bAAfi+3egnYvc+nMUVVqZvYu1kEcMS8Lb5FaJEc53adQt/T3UihXLoYCau4+tYfJuaig1hbmPoenCOQOWJEG/GEbxH2XSWXYsfmu+k1ZjpQHWjppeM1vPha59kfXo8iEcqJnVoCgAVqYUgHqdzFbNJ0tCIaTsM+ChCmVgbWhbiHUkvq7pohpEyNUgJ5m10c1ob+f8v0CodR3rhJlWHtcOUojXQOCOIN8adQBT0ADiAIPTMUEAFGImM3M+hEC1k+lHcb3HGSnBsLjqOLnBAgNRaHsrWeedZsga23JIC9313ygrcSFh+159GWdyGN5rfeh90wa3TlUIKG3eWTihLGjYaqIid1JXwHiC6XaNoF9PIuh4Gc6zm0MWpCn0PXQLQ4gEnCPlPdZgzBt5SWOKJXgq/giS21+wzCgLGqaFAPRIJyY23o+GzLqDjoKf3rLgwoW0tRHciWIKgvDIsJ2jrhIysl9nm58H7gOTFYMyL4fBvzs/Xr387Clb5Y+mfiYq0Uj96IYCXvCz0NNzVnGm4K36eUl45Ek2NCsZi7/tSHZ+t1JpgOmqz6PdegdUIpUNG0QMZFb7xMTV6G8i9tTacK8ssf7PbsEZFmTKggIiUxxvRd3SjabIRxbcrcISrQ6sO0JdhsOOZbzqKJUPstyAXlNKKZD7o2F/cxQdNkgS8xg/HGSpuz3XjYPs/FJ7vTZ2eC+H2zsClG08gu6ky79VUBaTxIAk9b/mPLtPSako5P1mFZlULG+ccX6FMpoSKnam/+/Wr9t+UtoToLoRr4yfots/vvbbnnZjnMyiq7nPsYmrQhoDaeeXa48XfFAQJP6lHhuTKfAwLFs728xiN3HMpH9UJMAJJj08dtYrI3hJ1GKXGZx4Vh2Wt+oe5DywiBsKye5ZgDRAwTz01jmkNay21cBVTyVwUaycm4H6AJGtuvOMxxmWhxtXn6S1I7Zoq07LOefzKX8gAJZdu18ahPW8cy/94gfVyQNwMnbNZIC/32WzBoorhYwgwNPlvG6UHOiy/TDEM+2v9Gil0WKoq6UJNwS2GUK/mMRHY0sDFI5w5KetDiIbd5TEMkDHyKECPGVtJI5ZHTYZuIbNdSShagFihvY4rOJfkZqz+Nd+rWlh3umJjp6Asxt8NoM=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['MasterPageForm'];
+if (!theForm) {
+    theForm = document.MasterPageForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/WebForms.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.WebForm_PostBackOptions||document.write('<script type="text/javascript" src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZKrTEgnAJ6IBPdiINmN0V5qZyDfVq0Wrp10YlHgakruiDZtd4Q2&amp;t=637823185705833095"><\/script>');//]]>
+</script>
+
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MenuStandards.js" type="text/javascript"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yI126qQ3MvbDm3cE_zYEVmzoJ75OvveNdz8qLpL8n-ZwTQTtMnNj2Xi82coXUoUdd2VZYv7wlXep2xTYkxwnUvNmzQ-06-nXm5zF0koc2oEAU_KywcXONr7Vw42XotQ07fJ09481&t=ffffffffaa493ab8"><\/script>');//]]>
+</script>
+
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjaxWebForms.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys.WebForms)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadA3Y7gBZFmlYayNHZHyrg_532GoSDiUNT-H7Tt9F-w_iP3EuVWV-QarpAaHkdF6GowUqREtWboBJ4ZNQRaLx3VaVpKX7KL2Wb7h8WyPqfGuH3QJchahlDJWILnJDCB8LQvq5Buo1&t=ffffffffaa493ab8"><\/script>');function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="738F2F5A" />
+</div>
+			<input name="__HL-RequestVerificationToken" type="hidden" value="V1dFR22uvMjxKCpRIULhxr3f_FfTal-eI5zJ87E_wvfMLz5Co7738lwlWDM1754He9IoO_uPw94i3nAXHXlpVPuFUFI1" />
+			
+			
+			<div id="GlobalMain">
+				<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'MasterPageForm', ['tctl00$MainCopy$ctl11$ctl00','MainCopy_ctl11_ctl00','tctl00$MainCopy$ctl11$DiscussionList$ctl01$ratingStats$CommentPanel','MainCopy_ctl11_DiscussionList_ratingStats_0_CommentPanel_0','tctl00$MainCopy$ctl11$DiscussionList$ctl02$ratingStats$CommentPanel','MainCopy_ctl11_DiscussionList_ratingStats_1_CommentPanel_1'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+				
+			</div>
+
+
+			<!--mp_base--><div id="GlobalMessageContainer">
+												<div id="GlobalMessageContent" >
+													<img ID="GlobalMsg_Img" alt="Message Image" src=""/>&nbsp;&nbsp;
+													<span id="GlobalMsg_Text"></span><br /><br />
+												</div>
+										</div>
+			
+			
+			
+			
+			
+			
+			<div id="MPOuterHeader" class="row siteFrame">
+				<div class="col-md-12">
+					<div id="HEADER" class="row">
+						<div class="col-md-12">
+							
+							<div class="ContentUserControl">
+	
+<script charset="utf-8">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=u-9xkcygtJTmu9ln0bPP9g&gtm_preview=env-45&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KF7XWD');</script>
+</div><div class="ContentUserControl">
+	
+<script charset="utf-8"></script><script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="6a5fee8c-80be-4b9a-ab7e-b607e3f8ad3e"></script>
+<script type="text/javascript"> 
+function OptanonWrapper() { } 
+</script><script></script>
+</div><div class="ContentItemHtml hidden"><div class="HtmlContent"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF7XWD&gtm_auth=u-9xkcygtJTmu9ln0bPP9g&gtm_preview=env-45&gtm_cookies_win=x"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript></div><div class="HtmlFooter"></div></div><div class="ContentItemHtml"><div class="HtmlContent"><!-- updated 6/3/21 2:30 om CST ~jm -->
+<div class="bc-header">
+<div>
+<ul class="bc-header__nav">
+<li class="item item__img"><a href="https://www.broadcom.com" target="_blank" rel="noopener"> <img src="https://higherlogicdownload.s3.amazonaws.com/BROADCOM/d85cb088-3276-4a37-9f81-a7fb3f2ae78d/UploadedImages/Broadcom.png" alt="Broadcom" /> </a></li>
+</ul>
+<ul class="bc-header__nav navbar-ex1-collapse collapse">
+<li class="item"><a href="https://www.broadcom.com/products" target="_blank" rel="noopener">Products</a></li>
+<li class="item"><a href="https://www.broadcom.com/solutions" target="_blank" rel="noopener">Solutions</a></li>
+<li class="item"><a href="https://www.broadcom.com/support" target="_blank" rel="noopener">Support &amp; Services</a></li>
+<li class="item"><a href="https://www.broadcom.com/company/about-us" target="_blank" rel="noopener">Company</a></li>
+<li class="item"><a href="https://www.broadcom.com/how-to-buy/sales" target="_blank" rel="noopener">How To Buy</a></li>
+</ul>
+<div class="search-block">
+<div id="SearchControl_SearchInputs" class="SearchInputs">
+<div id="SearchControl_WholeSearch">
+<div class="input-group"><input name="SearchControlSearchTerm" type="text" id="SearchControl_SearchTerm" class="form-control" autocomplete="off" placeholder="" title="search" />
+<div class="input-group-btn"><a href="#" id="SearchControl_SearchButton" class="btn btn-default search-button" role="button"> <span class="glyphicon glyphicon-search"></span> </a></div>
+</div>
+</div>
+</div>
+<script>// <![CDATA[
+jQuery('#SearchControl_SearchButton').click(function() {
+            let inputVal = jQuery('#SearchControl_SearchTerm').val();
+            jQuery(this).attr('href', 'https://community.broadcom.com/search?executeSearch=true&SearchTerm=' + inputVal + '&l=1');
+        });
+        
+        jQuery('#SearchControl_SearchTerm').keypress(function (e) {
+            if (e.which == 13) {
+                let inputVal = jQuery('#SearchControl_SearchTerm').val();
+                let homeLink = window.location.origin;
+                window.location.href = "https://community.broadcom.com/search?executeSearch=true&SearchTerm=" + inputVal + "&l=1";
+                return false;
+            }
+        });
+// ]]></script>
+</div>
+</div>
+</div>
+<script>// <![CDATA[
+// fixed header
+    $(document).scroll(function() {
+        if ($("#NAV").hasClass("stickyNav")) {
+            $('.bc-header .search-block').addClass('js-fixedSearch');
+            $('#NAV').css('border-bottom', '2px solid #cc092f');
+        } else
+        if ($("#NAV").hasClass("stickyNav") == false) {
+            $('.bc-header .search-block').removeClass('js-fixedSearch');
+            $('#NAV').css('border-bottom', '0');
+        }
+    });
+// ]]></script></div><div class="HtmlFooter"></div></div>
+							<div id="MPimage" class="MPimage">
+								<div id="mainskiplinkholder" class="skiplinkholder"><a id="skiplink" href="#MPContentArea">Skip to main content (Press Enter).</a></div>
+								<div id="MPheader" class="MPheader">
+									<div class="row">
+										<div class="col-md-12">
+											
+											<div class="pull-right">
+												<div class="inline">
+													
+
+<div class='HLWelcome HLWelcomeHeader'>
+
+    <script type="text/javascript">
+        
+        $(document).ready(function () {
+            $('.Picture_Profile').tipTip({ delay: 200 }); });
+
+        function toggleHelp() {
+            
+            if ($("ul#CompleteBarHelpContainer").is(":visible")) {
+                $("ul#CompleteBarHelpContainer").hide();
+            } else {
+                $("ul#CompleteBarHelpContainer").show();
+            }
+        }
+
+        // Added as onClick for logoutLink on back end if opted in
+        // On logout, removes the CREST API cookie that was added on login, whose value is a token used to authenticate to the API
+        function removeApiToken(tenantKey, token) {
+            hl_webapi_remove_cookie(tenantKey, token, tenantKey, "HLApiPassThrough");
+
+            window.location = "";
+            return false;
+        }
+
+        $("span.CompleteBarClose").live('click', function (e) {
+
+            e.stopPropagation();
+            toggleHelp();
+            $(".btn-group").find('button#BtnShowProfile').dropdown('toggle');
+        });
+
+	</script>
+
+    
+
+    
+    <div class="EndDiv">
+    </div>
+    <div id="Welcome_NotLoggedIn" class="Login">
+	
+        <a id="Welcome_LoginLink" class="btn btn-primary" href="/HigherLogic/Security/SAML/localSAMLLoginService.aspx?ReturnUrl=https%3a%2f%2fcommunity.broadcom.com%2fhome">Sign in</a>
+    
+</div>
+</div>
+
+
+												</div>
+											</div>
+											
+											<div class="pull-right">
+												<div id="auxskiplinkholder" class="skiplinkholder">
+													<a id="auxskiplink" href="#Logo">Skip auxiliary navigation (Press Enter).</a>
+												</div>
+												<div id="MPAuxNav" class="inline vertical-align-middle">
+													<div CssSelectorClass="MPAuxNav" id="AuxMenu">
+	<ul class="level1">
+		<li><a class="level1 MPAuxNav" href="/register">Register</a></li>
+	</ul>
+</div>
+												</div>
+											</div>
+										</div>
+									</div>
+                                    
+									
+								</div>
+							</div>
+							<div style="clear: both"></div>
+							
+							<div class="ContentUserControl">
+	
+<script charset="utf-8">if(location.hostname === 'broadcom.connectedcommunity.org') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'communities.ca.com') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'community.ca.com') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'www.brocadekit.com') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'brocadekit.com') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'communities.broadcom.com') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'community.brocade.com') location = 'https://community.broadcom.com' + location.pathname;
+if(location.hostname === 'community.broadcom.com/connect') location = 'https://community.broadcom.com/maintenancepage' ;</script>
+</div>
+						</div>
+					</div>
+					<div id="NAV" class="row traditional-nav">
+						<div class="col-md-12">
+							
+								<div id="navskiplinkholder" class="skiplinkholder"><a id="navskiplink" href="#MPContentArea">Skip main navigation (Press Enter).</a></div>
+								<div id="MPButtonBar">
+									<nav class="navbar navbar-default">
+										<div class="navbar-header">
+
+											
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+										<div class="collapse navbar-collapse navbar-ex1-collapse">
+											<div class="row">
+												<div class="col-md-12 ">
+													<div id="searchColumn" class="pull-right">
+														<div id="MPSearchBlock" role="search">
+															
+<script type="text/javascript">
+
+	System.import('Common/SearchBox.js').then(function () {
+
+		if ('True' == 'True') {
+
+
+			$('#SearchControl_SearchButton').click(function () {
+				$('#SearchControl_hiddenSearchButton').click();
+			});
+
+			$('#SearchControl_SearchOptions').click(function (e) {
+				e.stopPropagation();
+			});
+
+			if ('False' == 'True') {
+
+				$('#SearchControl_SearchTerm').click(function (e) {
+					$('#SearchControl_SearchBoxToggle').addClass('open');
+					e.stopPropagation();
+				});
+
+				$('#SearchControl_SearchTerm').focus(function (e) {
+					$('#SearchControl_SearchBoxToggle').addClass('open');
+					e.stopPropagation();
+				});
+
+				$('#SearchControl_EndDate').hide();
+				$('#SearchControl_StartDate').hide();
+
+				$('#SearchControl_SearchTerm').focus(function () {
+					$('#SearchControl_SearchOptions').show();
+				});
+
+				$('#SearchControl_DateRangeDDL').change(function () {
+					if ($('#SearchControl_DateRangeDDL').find(":selected").text() == 'on this day') {
+						$('#SearchControl_StartDate').show();
+						$('#SearchControl_EndDate').hide();
+						$('#SearchControl_EndDate').val("");
+					} else if ($('#SearchControl_DateRangeDDL').find(":selected").text() == 'All') {
+						$('#SearchControl_EndDate').hide();
+						$('#SearchControl_StartDate').hide();
+					} else {
+						$('#SearchControl_StartDate').show();
+						$('#SearchControl_EndDate').show();
+					}
+				});
+			}
+
+			$('#SearchControl_SearchInputs')
+				.hl_ui_common_searchBox({
+					controlId: 'SearchControl_SearchInputs',
+					inputId: 'SearchControl_SearchTerm',
+					buttonId: 'SearchControl_hiddenSearchButton'
+				});
+
+			let expandSearch = () => {
+				// show search
+				$('#SearchControl_newSearchBox').show();
+				$('#SearchControl_SearchTerm').focus();
+				$('#SearchToggleIcon').hide();
+			};
+
+			let compressSearch = (e) => {
+
+
+				// if you blur away to anywhere except clicking the search icon
+				if (e.relatedTarget && (e.relatedTarget.id == 'SearchControl_SearchButton' || e.relatedTarget.id == 'SearchControl_SearchTerm')) {
+
+				}
+				else {
+					//hide search;
+					console.log('hide');
+					$('#SearchControl_newSearchBox').hide();
+					$('#SearchToggleIcon').show();
+				}
+			};
+
+			//For if we can the search to expand out horizontally
+
+
+
+		} else {
+			$('#SearchControl_SearchOptionsOld').click(function (e) {
+				e.stopPropagation();
+			});
+
+			$('#SearchControl_SearchButtonOld').click(function (e) {
+				$('#SearchControl_hiddenSearchButtonOld').click();
+			});
+
+			if ('True' == 'True') {
+
+				if ($('#SearchControl_DateRangeDDLOld').find(":selected").text() == 'on this day') {
+					$('#SearchControl_EndDateOld').hide();
+				} else {
+					$('#SearchControl_EndDateOld').show();
+				}
+
+				$('#SearchControl_SearchTermOld').focus(function () {
+					$('#SearchControl_SearchOptionsOld').show();
+				});
+
+				$('#SearchControl_DateRangeDDLOld').change(function () {
+					if ($('#SearchControl_DateRangeDDLOld').find(":selected").text() == 'on this day') {
+						$('#SearchControl_EndDateOld').hide();
+						$('#SearchControl_EndDateOld').val("");
+					} else {
+						$('#SearchControl_EndDateOld').show();
+					}
+				});
+			}
+
+			$('#SearchControl_SearchInputsOld')
+				.hl_ui_common_searchBox({
+					controlId: 'SearchControl_SearchInputsOld',
+					inputId: 'SearchControl_SearchTermOld',
+					buttonId: 'SearchControl_hiddenSearchButtonOld'
+				});
+
+
+		}
+	});
+
+</script>
+
+<button id="SearchToggleIcon" type="button" class="btn btn-default" style="display: none;" role="button" aria-label="searchToggle">
+	<span class="glyphicon glyphicon-search" style="vertical-align: middle"></span>
+</button>
+
+<div id="SearchControl_newSearchBox" class="">
+	<div id="SearchControl_SearchInputs" class="SearchInputs">
+	
+		<div id="SearchControl_WholeSearch" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;SearchControl_hiddenSearchButton&#39;)">
+		
+			<div class="input-group" style="vertical-align: middle">
+				<input name="ctl00$SearchControl$SearchTerm" type="text" id="SearchControl_SearchTerm" class="form-control" autocomplete="off" aria-label="search box" placeholder="search" Title="search" />
+				<div id="SearchControl_SearchBoxToggle" class="input-group-btn search-box-toggle">
+					<button id="SearchControl_OptionsButton" type="button" style="display: none;" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-label="search options">
+						<span class="caret"></span>
+						<span class="sr-only">Search Options</span>
+					</button>
+					<button id="SearchControl_SearchButton" type="button" class="btn btn-default  " role="button" aria-label="search">
+						<span class="glyphicon glyphicon-search" style="vertical-align: middle"></span>
+						
+					</button>
+					<ul class="dropdown-menu pull-right" role="menu">
+						<li>
+							
+						</li>
+					</ul>
+				</div>
+				<input type="submit" name="ctl00$SearchControl$hiddenSearchButton" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$SearchControl$hiddenSearchButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="SearchControl_hiddenSearchButton" style="display: none;" />
+			</div>
+		
+	</div>
+	
+</div>
+</div>
+
+
+
+
+
+
+														</div>
+														
+
+														
+													</div>
+													<ul class="nav navbar-nav">
+														<li ><a href='/home' ><span>Home</span></a></li><li class='dropdown'><a href='/communities' class='dropdown-toggle' data-toggle='dropdown'><span>Communities</span> <strong class='caret'></strong></a><ul class='dropdown-menu'><li ><a href='/communities/allcommunities' >All Communities</a></li><li ><a href='/communities/enterprisesoftwarerd' >Enterprise Software</a></li><li ><a href='/communities/mainframerd' >Mainframe Software</a></li><li ><a href='/communities/symantecredirect' >Symantec Enterprise</a></li></ul></li><li class='dropdown'><a href='/blog' class='dropdown-toggle' data-toggle='dropdown'><span>Blogs</span> <strong class='caret'></strong></a><ul class='dropdown-menu'><li ><a href='/blog/allblogs' >All Blogs</a></li><li ><a href='/blog/enterprisesoftwareblogs' >Enterprise Software</a></li><li ><a href='/blog/mainframesoftwareblogs' >Mainframe Software</a></li><li ><a href='/blog/new-item' target='_blank'>Symantec Enterprise</a></li></ul></li><li class='dropdown'><a href='/event' class='dropdown-toggle' data-toggle='dropdown'><span>Events</span> <strong class='caret'></strong></a><ul class='dropdown-menu'><li ><a href='/event/enterprisesoftwareevent' >Enterprise Software</a></li><li ><a href='/event/mainframeevent' >Mainframe Software</a></li><li ><a href='/event/new-item' target='_blank'>Symantec Enterprise</a></li></ul></li><li ><a href='/faq' ><span>Water Cooler</span></a></li><li class='dropdown'><a href='/allgroups' class='dropdown-toggle' data-toggle='dropdown'><span>Groups</span> <strong class='caret'></strong></a><ul class='dropdown-menu'><li ><a href='/allgroups/esdgroupsrd' >Enterprise Software</a></li><li ><a href='/allgroups/mfdgroupsrd' >Mainframe Software</a></li><li ><a href='/allgroups/sedgroupsrd' >Symantec Enterprise</a></li></ul></li>
+													</ul>
+												</div>
+
+											</div>
+                                            
+										</div>
+									</nav>
+								</div>
+								<div class="MenuBarUnderline">
+								</div>
+							
+						</div>
+                    </div>
+				</div>
+			</div>
+			<div id="MPOuter" class="row siteFrame ">
+				
+				
+				<div id="ContentColumn" class="col-md-12">
+					<!--content-->
+					
+					
+					
+					<div id="MPContentArea" class="MPContentArea" role="main">
+	
+						
+						
+
+						
+
+						<h1 id="PageTitleH1" qa-attribute="PageTitleH1" style="display: none;" aria-hidden="true">
+							Home
+						</h1>
+
+						<div id="FlashMessageContainer">
+
+</div>
+						<div class="feature-preview-row row-wide">
+							
+						</div>
+                        <div>
+                <div id="page-react-root"></div>
+                
+                <script>window.hl_webpackPublicPath = 'https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/'</script>
+                <script defer src="https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/runtime~main.bundle.8c01700808be9a3e9cbf.hash.js"></script> 
+                <script defer src="https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_cache_wicg-inert-npm-3_0_3-05486da2fa-fc8cc73865_zip_node_modules_wicg-inert_src-45ad74.bundle.403d9b996bb845818a4c.hash.js"></script><script defer src="https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_es_array_find-index_-66cd58.bundle.8072ae9d8821ba7a29f5.hash.js"></script><script defer src="https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_modules_es_array_con-716c4f.bundle.9710971baca5f5a363bf.hash.js"></script><script defer src="https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/vendor-_yarn_unplugged_core-js-npm-3_6_5-5941340066_node_modules_core-js_modules_esnext_aggre-b014eb.bundle.b259cd8cef20a3e99510.hash.js"></script><script defer src="https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/ReactGenerated/main.bundle.4c15b4f6ed759c053cc9.hash.js"></script>  
+                <script>
+                    window.getTinyMceCssIncludes = function() {
+                        return 'https://higherlogiccloudfront.s3.amazonaws.com/HigherLogic/Font-Awesome/5.3.1-pro/css/fontawesome.all.min.css|https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css|https://d2x5ku95bkycr3.cloudfront.net/jquery/bootstrap-3.0.1/css/bootstrap.min.css|https://d3uf7shreuzboy.cloudfront.net/WebRoot/stable/Bundles/Desktop_bundle.min.efbaef34fc72f9b95b2016e0f5bfa8d8fb2a2594.hash.css|https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css|https://d132x6oi8ychic.cloudfront.net/higherlogic/microsite/generatecss/dbba4001-7652-4d97-aa23-877edb145191/3a409080-2324-4ef1-9b63-a18ce43b75f7/637902996316100000/28';
+                    }
+                </script>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function (){
+                        window.renderReactRoot(
+                            [], 
+                            'page-react-root', 
+                            {"tenant":{"name":"Broadcom","logoPath":"","contactSummary":"<address>email: <a href=\"mailto:community-broadcom-saas.pdl@broadcom.com?subject=\">community-broadcom-saas.pdl@broadcom.com</a><br></address>"},"communityKey":"00000000-0000-0000-0000-000000000000","micrositeKey":"6232077c-a199-4b7e-96f8-fbb5043a9ab4","isUserAuthenticated":false,"isUserSuperAdmin":false,"isUserCommunityAdmin":false,"isUserSiteAdmin":false,"isUserCommunityModerator":false,"currentUserContactKey":"00000000-0000-0000-0000-000000000000","isTopicCommunity":false,"isSelfModerationCommunity":false,"loginUrl":"/HigherLogic/Security/SAML/localSAMLLoginService.aspx?ReturnUrl=","colorPickerDefaults":{"primaryColor":"#FF00FF","textOnPrimary":"#FFFF99","secondaryColor":"#66FFFF","textOnSecondary":null}}
+                        )
+                    });
+                </script>
+            </div>
+                        
+						
+						
+    <div id="MainCopy_ContentWrapper" class="HLHomePage">       
+        <div class="row row-full "><div class="col-md-12 section1"><div class="ContentItemHtml broadcom__slider"><div class="HtmlContent"><!-- Home Page Swiper -- May 2021 -->
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="swiper__img" style="background-image: url('https://higherlogicdownload.s3.amazonaws.com/BROADCOM/ce7fef6b-31a8-4bcb-8417-50528c1443e8/UploadedImages/Header_NetOps-2022-Summit_LP_BC-AIOps_CE-1708_v3b.png');"></div>
+<div class="swiper__text-wrp">
+<div class="swiper__text-block">
+<div>
+<h2>NetOps Virtual Summit</h2>
+<p>Discover how leading organizations are using DX NetOps and AppNeta to assure the delivery of superior digital experiences.</p>
+<a href="https://enterprise-software.broadcom.com/netops-virtual-summit-2022">View On-Demand today!</a></div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper__img" style="background-image: url('https://higherlogicdownload.s3.amazonaws.com/BROADCOM/d85cb088-3276-4a37-9f81-a7fb3f2ae78d/UploadedImages/mf-comm-social-dk-banner.jpeg');"></div>
+<div class="swiper__text-wrp">
+<div class="swiper__text-block">
+<div>
+<h2>Mainframe Software</h2>
+<p>Did you know that Web-based training is now available at no cost for mainframe software customers that have active maintenance?</p>
+<a href="https://www.ca.com/us/education-training/specialized-training/mainframe-training.html" target="_blank" rel="noopener">Learn More</a></div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="swiper__img" style="background-image: url('https://higherlogicdownload.s3.amazonaws.com/BROADCOM/0ab583b8-4019-4fb7-ab1f-34702ae2c0e7/UploadedImages/123723375_lc.jpg');"></div>
+<div class="swiper__text-wrp">
+<div class="swiper__text-block">
+<div>
+<h2>Symantec Enterprise Software</h2>
+<p>Welcome to the community for Symantec software questions, best practices and information sharing.</p>
+<a href="/symantecenterprise/home">Learn More</a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Add Pagination -->
+<div class="swiper-pagination-con">
+<div class="swiper-pagination"></div>
+</div>
+</div>
+<!-- Swiper JS -->
+<script src="//higherlogicdownload.s3.amazonaws.com/BROADCOM/ce7fef6b-31a8-4bcb-8417-50528c1443e8/UploadedImages/broadcom_slider.js"></script>
+<!-- Initialize Swiper -->
+<script>// <![CDATA[
+var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 0,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 7000,
+        },
+    });
+if ($(".swiper-container .swiper-slide").length == 1) {
+        $('.swiper-wrapper').addClass("disabled");
+        $('.swiper-pagination').addClass("disabled");
+    }
+// ]]></script></div><div class="HtmlFooter"></div></div><div class="ContentUserControl">
+		
+<script charset="utf-8">$('.rotate-me .item').wrapInner('<div class="container"></div>');
+$('.carousel-inner').css('visibility','visible');</script>
+	</div><div class="ContentItemHtml bc-announcement"><div class="HtmlContent"><span>Check out the <a href="https://support-gcpprd.broadcom.com/documents/36634/37147/Broadcom+Support+Portal+-+Getting+Started+Guide.pdf/bfd4c9c7-4b39-e76b-4f1f-c14db660460d?t=1644105186042" target="_blank" rel="noopener"> Learn how to navigate the new Broadcom Support Portal PDF</a> </span></div><div class="HtmlFooter"></div></div></div></div><div class="row row-full "><div class="col-md-12 section2"><div class="ContentItemHtml bc-whatsnew"><div class="HtmlContent"><div style="max-width: 1200px; margin-left: auto; margin-right: auto;"><span style="font-size: 24pt; color: #dc3545;"><strong>Welcome to the Broadcom Community</strong></span>
+<p><b><span><strong><br /></strong></span></b><b>Find Your Communities</b></p>
+<p>Our communities are designed by division, which you can see below. Visit each division homepage for a list of product communities under each. From there, click on the communities you're interested in and then choose "Join Community" and choose your notification settings. It's that simple. Join as many as you'd like. <br /><br /><a href="https://community.broadcom.com/register">Register Here</a><br /><br /><strong>Please note: </strong>your first post to any of our communities will be placed in a moderation queue for review to help us prevent spammers from posting unwanted content in our communities. Our community managers closely monitor this moderation queue and once your first post is approved, your posts will no longer go through moderation. Please do not submit the same post multiple times. <br /><br /><strong>Check Out Our Events</strong></p>
+<p>Looking for product roadmap webcasts, technical sessions, user group meetings, conferences, and workshops? Check out our events calendars:<br /><br /></p>
+<ul>
+<li><a href="https://community.broadcom.com/enterprisesoftware/events/calendar" target="_blank" rel="noopener">Enterprise Software Events</a></li>
+<li><a href="https://community.broadcom.com/mainframesoftware/events/calendar" target="_blank" rel="noopener">Mainframe Software Events</a></li>
+<li><a href="https://learn.broadcom.com/events-by-date#" target="_blank" rel="noopener">Symantec Enterprise Events</a></li>
+</ul>
+</div></div><div class="HtmlFooter"></div></div></div></div><div class="row row-wide clearfix "><div class="col-md-12 section3"><div class="ContentItemHtml bc-columns bc-columns-slider"><div class="HtmlContent"><!-- edited 12/29/21 by ~jm 11:35 am CST --> <!-- Swiper -->
+<div class="swiper-container bc-columns-widget">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="bc-whats-column"><span class="bc-whats-column__logo"> <i class="fas fa-network-wired"></i> </span>
+<h3 class="bc-whats-column__title"><a href="/enterprisesoftware/home">Enterprise Software</a></h3>
+<p>Infrastructure software includes unique solutions that help with application development, testing and deployment operations processes, and securing users and access to IT infrastructure and applications.</p>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="bc-whats-column"><span class="bc-whats-column__logo"> <i class="fas fa-tools"></i> </span>
+<h3 class="bc-whats-column__title"><a href="/mainframesoftware/home">Mainframe Solutions</a></h3>
+<p>Every business is in pursuit of growth. At Broadcom, we are helping customers embrace open tools and technologies, integrate their Mainframe as part of their cloud, and create new innovation opportunities that drive their businesses forward.</p>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="bc-whats-column"><span class="bc-whats-column__logo"> <i class="fas fa-ethernet"></i> </span>
+<h3 class="bc-whats-column__title"><a href="/symantecenterprise/home">Symantec Enterprise</a></h3>
+<p>Bringing cyber security to the world of infrastructure software that is dedicated to building best-in-class enterprise security solutions that strengthen protection, detection, and response for our customers against today’s increasingly powerful adversaries.</p>
+</div>
+</div>
+<!--HIDDEN
+<div class="swiper-slide">
+<div class="bc-whats-column"><span class="bc-whats-column__logo"> <i class="fas fa-network-wired"></i> </span>
+<h3 class="bc-whats-column__title"><a href="/enterprisesoftware/home">Enterprise Software</a></h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+</div>
+</div>
+--></div>
+<!-- Add Arrows -->
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>// <![CDATA[
+var swiperColumns = new Swiper('.swiper-container.bc-columns-widget', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      breakpoints: {
+          320: {
+              slidesPerView: 1
+          },
+          576: {       
+              slidesPerView: 2
+          },
+          993: {       
+              slidesPerView: 4
+          }
+      },
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
+  });
+// ]]></script></div><div class="HtmlFooter"></div></div></div></div><div class="row row-wide clearfix bc-latest-recent-con "><div class="col-md-6 section4"><div class="ContentUserControl bc-latest-widget bc-mt-25">
+		<div id="MainCopy_ctl11_ctl00">
+			
+        <div id="ajaxContainer" class="HLLandingControl HLDiscussions">
+            <div class="row heading">
+                <div class="col-md-12 no-pad">
+                    <h2 id="MainCopy_ctl11_TitleText">
+                        Latest Discussions
+                        
+                    </h2>
+                </div>
+            </div>
+            <div class='Content'>
+                
+                <div id="MainCopy_ctl11_ContentPanel" class="row">
+				
+                    <div class="col-md-12 no-pad">
+                        
+                                <ul>
+                            
+                                <li>
+                                    <div class="row title-row">
+                                        <div id="MainCopy_ctl11_DiscussionList_Picture_0" class="col-sm-2 col-md-2 no-pad" biobubblekey="a78e0927-371a-47e3-a0ed-d5e33af44a99">
+                                            <a id="MainCopy_ctl11_DiscussionList_ProfileLink_0" href="https://community.broadcom.com/network/members/profile?UserKey=a78e0927-371a-47e3-a0ed-d5e33af44a99"><a id="MainCopy_ctl11_DiscussionList_ProfileImage_0_lnkDisplay_0" biobubblekey="a78e0927-371a-47e3-a0ed-d5e33af44a99" href="https://community.broadcom.com/network/members/profile?UserKey=a78e0927-371a-47e3-a0ed-d5e33af44a99"><img id="MainCopy_ctl11_DiscussionList_ProfileImage_0_imgNoImage_0" title="Marcos Prado" class="Image" height="50" width="50" biobubblekey="a78e0927-371a-47e3-a0ed-d5e33af44a99" src="https://d2x5ku95bkycr3.cloudfront.net/App_Themes/Common/images/profile/0_200.png" alt="Profile Picture" /></a>
+
+
+
+</a>
+                                        </div>
+                                        <div class='col-sm-10 col-md-10'>
+                                            <h3>
+                                                <a id="MainCopy_ctl11_DiscussionList_Subject_0" title="RE: How to remove SMSESSION Cookies in Authentication flow" class="LinkDocumentTitle" href="https://community.broadcom.com/enterprisesoftware/discussion/how-to-remove-smsession-cookies-in-authentication-flow#bm3c279f3c-d922-4007-839e-ae0e2de635d8">RE: How to remove SMSESSION Cookies in Authentication ...</a>
+                                                
+                                            </h3>
+                                            <div class="ByLine">
+                                                By:
+                                                <a id="MainCopy_ctl11_DiscussionList_Name_0" biobubblekey="a78e0927-371a-47e3-a0ed-d5e33af44a99" href="https://community.broadcom.com/network/members/profile?UserKey=a78e0927-371a-47e3-a0ed-d5e33af44a99">Marcos Prado</a>
+                                                
+                                                
+                                                , 4 minutes ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row content-row">
+                                        <div class="col-md-12 no-pad">
+                                            <h5 id="MainCopy_ctl11_DiscussionList_EgroupNamePanel_0">Posted in:
+                                                <a id="MainCopy_ctl11_DiscussionList_EgroupName_0" title="Symantec Access Management" class="LinkPostedIn" href="https://community.broadcom.com/enterprisesoftware/communities/community-home/digestviewer?CommunityKey=f9d65308-ca9b-48b7-915c-7e9cb8fc3295">Symantec Access Management</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 no-pad break-word">
+                                            <p id="MainCopy_ctl11_DiscussionList_ContentPanel_0">
+                                                Hi Suabsh,  Have you tried to use the LogoffUri parameter at the ACO configuration?
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div id="MainCopy_ctl11_DiscussionList_discussionRatings_0" class="col-md-12 no-pad">
+                                            <div id="MainCopy_ctl11_DiscussionList_ratingStats_0_CommentPanel_0" class="CommentPanel ItemRatingCommentPanel">
+					
+        <script type="text/javascript">
+            function showLikesModal(itemkey) {
+                var req = {};
+                req.ItemKey = itemkey;
+
+                hl_common_ui_blockUI();
+                $.ajax({
+                    contentType: 'application/json; charset=utf-8',
+                    type: 'POST',
+                    data: JSON.stringify(req),
+                    dataType: 'html',
+                    url: '/HigherLogic/UI/MVC/common/itemrating/GetRecommendedByModalPartial',
+                    success: function (data) {
+                        var $nom = $('#recommended-by-modal');
+                        if ($nom.length > 0) {
+                            $nom.remove();
+                        }
+                        $('body').append(data);
+                        $('#recommended-by-modal').modal('show');
+                        hl_common_ui_unBlockUI();
+                    },
+                });               
+            }
+        </script>
+        
+        <div id="MainCopy_ctl11_DiscussionList_ratingStats_0_likeRatingContainer_0" class="" style="margin-top:5px;">
+                
+            
+                        
+        </div>
+        <!-- Recommend button -->
+        
+        
+        <!-- End of Recommend Button -->
+        <!-- tooltip element -->    
+        
+    
+				</div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <div class="row title-row">
+                                        <div id="MainCopy_ctl11_DiscussionList_Picture_1" class="col-sm-2 col-md-2 no-pad" biobubblekey="9e51dff1-683d-4092-8f12-b9d9869db63d">
+                                            <a id="MainCopy_ctl11_DiscussionList_ProfileLink_1" href="https://community.broadcom.com/network/members/profile?UserKey=9e51dff1-683d-4092-8f12-b9d9869db63d"><a id="MainCopy_ctl11_DiscussionList_ProfileImage_1_lnkDisplay_1" biobubblekey="9e51dff1-683d-4092-8f12-b9d9869db63d" href="https://community.broadcom.com/network/members/profile?UserKey=9e51dff1-683d-4092-8f12-b9d9869db63d"><img id="MainCopy_ctl11_DiscussionList_ProfileImage_1_imgNoImage_1" title="Akshit koul" class="Image" height="50" width="50" biobubblekey="9e51dff1-683d-4092-8f12-b9d9869db63d" src="https://d2x5ku95bkycr3.cloudfront.net/App_Themes/Common/images/profile/0_200.png" alt="Profile Picture" /></a>
+
+
+
+</a>
+                                        </div>
+                                        <div class='col-sm-10 col-md-10'>
+                                            <h3>
+                                                <a id="MainCopy_ctl11_DiscussionList_Subject_1" title="RE: VSE crashing because of AMQ" class="LinkDocumentTitle" href="https://community.broadcom.com/enterprisesoftware/discussion/vse-crashing-because-of-amq#bm931566e5-0f51-4c18-8bf4-d511cf104367">RE: VSE crashing because of AMQ</a>
+                                                
+                                            </h3>
+                                            <div class="ByLine">
+                                                By:
+                                                <a id="MainCopy_ctl11_DiscussionList_Name_1" biobubblekey="9e51dff1-683d-4092-8f12-b9d9869db63d" href="https://community.broadcom.com/network/members/profile?UserKey=9e51dff1-683d-4092-8f12-b9d9869db63d">Akshit koul</a>
+                                                
+                                                
+                                                , 25 minutes ago
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row content-row">
+                                        <div class="col-md-12 no-pad">
+                                            <h5 id="MainCopy_ctl11_DiscussionList_EgroupNamePanel_1">Posted in:
+                                                <a id="MainCopy_ctl11_DiscussionList_EgroupName_1" title="Service Virtualization" class="LinkPostedIn" href="https://community.broadcom.com/enterprisesoftware/communities/community-home/digestviewer?CommunityKey=94bda077-625b-4914-8ac3-c88a06c2cc23">Service Virtualization</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 no-pad break-word">
+                                            <p id="MainCopy_ctl11_DiscussionList_ContentPanel_1">
+                                                Hi&nbsp;  @Karl Miller   There are the 2 active amq services&#8203; which seem to be causing the issue.The jars which gets redeployed everytime after our server refresh are the below ones however they are placed in lib folder.Also we have around max 16gb memory&nbsp; ...
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div id="MainCopy_ctl11_DiscussionList_discussionRatings_1" class="col-md-12 no-pad">
+                                            <div id="MainCopy_ctl11_DiscussionList_ratingStats_1_CommentPanel_1" class="CommentPanel ItemRatingCommentPanel">
+					
+        <script type="text/javascript">
+            function showLikesModal(itemkey) {
+                var req = {};
+                req.ItemKey = itemkey;
+
+                hl_common_ui_blockUI();
+                $.ajax({
+                    contentType: 'application/json; charset=utf-8',
+                    type: 'POST',
+                    data: JSON.stringify(req),
+                    dataType: 'html',
+                    url: '/HigherLogic/UI/MVC/common/itemrating/GetRecommendedByModalPartial',
+                    success: function (data) {
+                        var $nom = $('#recommended-by-modal');
+                        if ($nom.length > 0) {
+                            $nom.remove();
+                        }
+                        $('body').append(data);
+                        $('#recommended-by-modal').modal('show');
+                        hl_common_ui_unBlockUI();
+                    },
+                });               
+            }
+        </script>
+        
+        <div id="MainCopy_ctl11_DiscussionList_ratingStats_1_likeRatingContainer_1" class="" style="margin-top:5px;">
+                
+            
+                        
+        </div>
+        <!-- Recommend button -->
+        
+        
+        <!-- End of Recommend Button -->
+        <!-- tooltip element -->    
+        
+    
+				</div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                </ul>
+                            
+                    </div>
+                
+			</div>
+                
+                <div id="MainCopy_ctl11_BottomLink" class="row">
+                    <div class="col-md-12">
+                        <a id="MainCopy_ctl11_MoreLink" title="More" class="btn btn-default" href="https://community.broadcom.com/browse/allrecentposts">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+		</div>
+	</div></div><div class="col-md-6 section5"><div class="ContentUserControl bc-latest-widget bc-mt-25">
+		<div id="ajaxContainer2e68c6c9-b754-4add-afe9-9c467dcc0dea" class="HLLandingControl HLRecentBlogs">
+    <div class="row heading">
+        <div class="col-md-12 no-pad">
+            <h2 id="MainCopy_ctl14_TitleTexta60f33f1">
+                Recent Blogs
+                
+            </h2>
+        </div>
+    </div>
+    <div class='Content'>
+        
+        <div id="MainCopy_ctl14_ContentPanel" class="row">
+            <div class="col-md-12 no-pad">
+                
+                        <ul>
+                    
+                        <li>
+                            <div class="row title-row">
+                                <div id="MainCopy_ctl14_BlogList_Picture_0" class="col-sm-2 col-md-2 no-pad" biobubblekey="15923025-d170-44e5-8e5d-2bc1d908ebd8">
+                                    <a id="MainCopy_ctl14_BlogList_ProfileLink_0" href="https://community.broadcom.com/people/alf-abuhajleh"><a id="MainCopy_ctl14_BlogList_ProfileImage_0_lnkDisplay_0" biobubblekey="15923025-d170-44e5-8e5d-2bc1d908ebd8" href="https://community.broadcom.com/people/alf-abuhajleh"><img id="MainCopy_ctl14_BlogList_ProfileImage_0_imgDisplay_0" title="Alf Abuhajleh" class="Image" height="50" width="50" biobubblekey="15923025-d170-44e5-8e5d-2bc1d908ebd8" src="https://d132x6oi8ychic.cloudfront.net/higherlogic/directory/imagedisplay/dbba4001-7652-4d97-aa23-877edb145191/66a96f8a-590a-4433-8bcf-b53386b73fb1/200/200/637469639629470000" alt="Profile Picture" /></a>
+
+
+
+</a>
+                                </div>
+                                <div class='col-sm-10 col-md-10'>
+                                    <h3>
+                                        <a id="MainCopy_ctl14_BlogList_BlogTitle_0" title="Q&amp;A: Telcos Automate Work with Clarity" class="LinkDocumentTitle" href="https://community.broadcom.com/enterprisesoftware/blogs/alf-abuhajleh/2022/06/09/telcos-automate-work-with-clarity/">Q&A: Telcos Automate Work with Clarity</a>
+                                    </h3>
+                                    <div class="ByLine">
+                                        <span id="MainCopy_ctl14_BlogList_By_0">By:</span>
+                                        <a id="MainCopy_ctl14_BlogList_Author_0" biobubblekey="15923025-d170-44e5-8e5d-2bc1d908ebd8" href="https://community.broadcom.com/people/alf-abuhajleh">Alf Abuhajleh</a>
+                                        19 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row content-row">
+                                <div class="col-md-12 no-pad">
+                                    <h5 id="MainCopy_ctl14_BlogList_CommunitySection_0">
+                                        Posted in:
+                                        <a id="MainCopy_ctl14_BlogList_CommunityLink_0" href="https://community.broadcom.com/enterprisesoftware/communities/community-home?CommunityKey=7f0cbca3-5f93-4d44-a369-1a8ce98f5578">Clarity</a>
+                                    </h5>
+                                    <p class="break-word">
+                                        Continuing our panel discussion with leading telecommunications ...
+                                        
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="row title-row">
+                                <div id="MainCopy_ctl14_BlogList_Picture_1" class="col-sm-2 col-md-2 no-pad" biobubblekey="3747c0d7-d136-47e2-a763-b5dde898e5a2">
+                                    <a id="MainCopy_ctl14_BlogList_ProfileLink_1" href="https://community.broadcom.com/people/michael-lentini1"><a id="MainCopy_ctl14_BlogList_ProfileImage_1_lnkDisplay_1" biobubblekey="3747c0d7-d136-47e2-a763-b5dde898e5a2" href="https://community.broadcom.com/people/michael-lentini1"><img id="MainCopy_ctl14_BlogList_ProfileImage_1_imgNoImage_1" title="Michael Lentini" class="Image" height="50" width="50" biobubblekey="3747c0d7-d136-47e2-a763-b5dde898e5a2" src="https://d2x5ku95bkycr3.cloudfront.net/App_Themes/Common/images/profile/0_200.png" alt="Profile Picture" /></a>
+
+
+
+</a>
+                                </div>
+                                <div class='col-sm-10 col-md-10'>
+                                    <h3>
+                                        <a id="MainCopy_ctl14_BlogList_BlogTitle_1" title="Rally Office Hours Recap - June 2, 2022" class="LinkDocumentTitle" href="https://community.broadcom.com/enterprisesoftware/blogs/michael-lentini1/2022/06/09/rally-office-hours-recap-june-2-2022/">Rally Office Hours Recap - June 2, 2022</a>
+                                    </h3>
+                                    <div class="ByLine">
+                                        <span id="MainCopy_ctl14_BlogList_By_1">By:</span>
+                                        <a id="MainCopy_ctl14_BlogList_Author_1" biobubblekey="3747c0d7-d136-47e2-a763-b5dde898e5a2" href="https://community.broadcom.com/people/michael-lentini1">Michael Lentini</a>
+                                        yesterday
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row content-row">
+                                <div class="col-md-12 no-pad">
+                                    <h5 id="MainCopy_ctl14_BlogList_CommunitySection_1">
+                                        Posted in:
+                                        <a id="MainCopy_ctl14_BlogList_CommunityLink_1" href="https://community.broadcom.com/enterprisesoftware/communities/community-home?CommunityKey=f303f769-8d4c-44d9-924c-3845bba6444e">Rally Software</a>
+                                    </h5>
+                                    <p class="break-word">
+                                        Rally Office Hours June 2, 2022 Recap  
+ 
+  As a follow-up ...
+                                        
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    
+                        </ul>
+                    
+            </div>
+        </div>
+        
+        <div id="MainCopy_ctl14_BottomLink" class="row">
+            <div class="col-md-12">
+                <a id="MainCopy_ctl14_MoreLink" title="View All Blog Posts" class="btn btn-default" href="/browse/blogs">More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+	</div></div></div><div class="row row-wide clearfix "><div class="col-md-8 section6"></div><div class="col-md-4 section7"></div></div><div class="row row-full "><div class="col-md-12 section8"></div></div><div class="row row-wide clearfix bc-upcoming-recent-latest-con "><div class="col-md-4 section9"><div class="ContentUserControl bc-upcoming bc-event bc-mt-25 title-no-underline upcoming-events">
+		
+
+<div class='HLLandingControl HLEventList'>
+
+    <div class="row heading">
+        <div class="col-md-12 no-pad">
+             <h2 id="MainCopy_ctl20_TitleText">
+                Upcoming Events
+             </h2>
+        </div>
+    </div>
+
+    <div class='Content'>
+        <div id="MainCopy_ctl20_ContentPanel" class="row">
+            <div class="col-md-12 no-pad">
+                <div class="pull-right">
+                    
+                </div><br />
+                
+                        <ul>
+                    
+                        <li>
+                            <div id="MainCopy_ctl20_rptEventList_itemRow_0" class="row">
+                                
+                                <div id="MainCopy_ctl20_rptEventList_pnlCalendarThumbnail_0" class="col-md-2 no-pad">
+			
+                                    <div class="row margin-bottom-medium">
+                                        <div class="text-center date-block col-md-12 no-pad">
+                                            <div class="calendar-day">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarDay_0">Sunday</span>
+                                            </div>
+                                            <div class="calendary-number">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarNumber_0">12</span>
+                                            </div>
+                                            <div class="calendar-month">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarMonth_0">June</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+		</div>
+
+                                <div id="MainCopy_ctl20_rptEventList_pnlCalendarMain_0" class="col-md-10 no-pad">
+			
+                                    
+                                    <div class="row title-row">
+                                        
+                                        <div class='col-md-12 no-pad'>
+                                            
+                                            <h3>
+                                                <a id="MainCopy_ctl20_rptEventList_EventTitle_0" title="2022 Marist ECC Conference" href="https://community.broadcom.com/mainframesoftware/events/event-description?CalendarEventKey=49f8b12c-4ae4-4361-98f7-585d33dd5223&amp;CommunityKey=165ba5d3-9374-442a-965a-574424a46daf&amp;Home=%2fhome">2022 Marist ECC Conference</a>
+                                                
+                                            </h3>
+
+                                            <p class="break-word">
+                                                
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                <div id="MainCopy_ctl20_rptEventList_LinkToRegisterPanel_0">
+				
+                                                    
+                                                    <br/>
+                                                    <div id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_0_RegisterContainer_0" class="row">
+    <div class="col-md-12">
+        <div id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_0_RegistrationContainer_0" class="RegistrationButtonContainer">
+            
+
+            
+
+            <span id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_0_RegisterLinkPanel_0">
+                <a id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_0_RegisterLink_0" class="btn btn-primary margin-bottom-small" href="https://ecc.marist.edu/web/conference2022" target="_blank">Register</a>
+            </span>
+
+            
+
+            
+        </div>
+
+        
+    </div>
+</div>
+
+
+                                                        
+                                                
+			</div>
+                                            </p>
+                                        </div>
+
+                                        
+
+                                    </div>
+                                
+		</div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div id="MainCopy_ctl20_rptEventList_itemRow_1" class="row">
+                                
+                                <div id="MainCopy_ctl20_rptEventList_pnlCalendarThumbnail_1" class="col-md-2 no-pad">
+			
+                                    <div class="row margin-bottom-medium">
+                                        <div class="text-center date-block col-md-12 no-pad">
+                                            <div class="calendar-day">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarDay_1">Monday</span>
+                                            </div>
+                                            <div class="calendary-number">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarNumber_1">13</span>
+                                            </div>
+                                            <div class="calendar-month">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarMonth_1">June</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+		</div>
+
+                                <div id="MainCopy_ctl20_rptEventList_pnlCalendarMain_1" class="col-md-10 no-pad">
+			
+                                    
+                                    <div class="row title-row">
+                                        
+                                        <div class='col-md-12 no-pad'>
+                                            
+                                            <h3>
+                                                <a id="MainCopy_ctl20_rptEventList_EventTitle_1" title="Db2 Tools Community Monthly Update" href="https://community.broadcom.com/mainframesoftware/events/event-description?CalendarEventKey=f88b13a5-a8d2-41bf-9869-1cafa1276b25&amp;CommunityKey=45ba021d-aa18-4825-ace0-21b4c0d451ee&amp;Home=%2fhome">Db2 Tools Community Monthly Update</a>
+                                                
+                                            </h3>
+
+                                            <p class="break-word">
+                                                
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                <div id="MainCopy_ctl20_rptEventList_LinkToRegisterPanel_1">
+				
+                                                    
+                                                    <br/>
+                                                    <div id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_1_RegisterContainer_1" class="row">
+    <div class="col-md-12">
+        <div id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_1_RegistrationContainer_1" class="RegistrationButtonContainer">
+            
+
+            
+
+            <span id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_1_RegisterLinkPanel_1">
+                <a id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_1_RegisterLink_1" class="btn btn-primary margin-bottom-small" href="https://attendee.gotowebinar.com/register/1507502329695997967" target="_blank">Register</a>
+            </span>
+
+            
+
+            
+        </div>
+
+        
+    </div>
+</div>
+
+
+                                                        
+                                                
+			</div>
+                                            </p>
+                                        </div>
+
+                                        
+
+                                    </div>
+                                
+		</div>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div id="MainCopy_ctl20_rptEventList_itemRow_2" class="row">
+                                
+                                <div id="MainCopy_ctl20_rptEventList_pnlCalendarThumbnail_2" class="col-md-2 no-pad">
+			
+                                    <div class="row margin-bottom-medium">
+                                        <div class="text-center date-block col-md-12 no-pad">
+                                            <div class="calendar-day">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarDay_2">Tuesday</span>
+                                            </div>
+                                            <div class="calendary-number">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarNumber_2">14</span>
+                                            </div>
+                                            <div class="calendar-month">
+                                                <span id="MainCopy_ctl20_rptEventList_lblCalendarMonth_2">June</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+		</div>
+
+                                <div id="MainCopy_ctl20_rptEventList_pnlCalendarMain_2" class="col-md-10 no-pad">
+			
+                                    
+                                    <div class="row title-row">
+                                        
+                                        <div class='col-md-12 no-pad'>
+                                            
+                                            <h3>
+                                                <a id="MainCopy_ctl20_rptEventList_EventTitle_2" title="AIOps Office Hours for Infrastructure Management:  MCS Is a Key Strength to Enable Fast Time-to-Valu" href="https://community.broadcom.com/enterprisesoftware/events/event-description?CalendarEventKey=8cd7a936-7a24-48aa-a68a-febeb7ad87b7&amp;CommunityKey=170eb4e5-a593-4af2-ad1d-f7655e31513b&amp;Home=%2fhome">AIOps Office Hours for Infrastructure Management:  MCS Is a Key Strength to Enable Fast Time-to-Valu</a>
+                                                
+                                            </h3>
+
+                                            <p class="break-word">
+                                                
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                
+
+                                                <div id="MainCopy_ctl20_rptEventList_LinkToRegisterPanel_2">
+				
+                                                    
+                                                    <br/>
+                                                    <div id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_2_RegisterContainer_2" class="row">
+    <div class="col-md-12">
+        <div id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_2_RegistrationContainer_2" class="RegistrationButtonContainer">
+            
+
+            
+
+            <span id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_2_RegisterLinkPanel_2">
+                <a id="MainCopy_ctl20_rptEventList_UpcomingEventsRegisterLink_2_RegisterLink_2" class="btn btn-primary margin-bottom-small" href="https://enterprise-software.broadcom.com/aiops-office-hours" target="_blank">Register</a>
+            </span>
+
+            
+
+            
+        </div>
+
+        
+    </div>
+</div>
+
+
+                                                        
+                                                
+			</div>
+                                            </p>
+                                        </div>
+
+                                        
+
+                                    </div>
+                                
+		</div>
+                            </div>
+                        </li>
+                    
+                        </ul>
+                    
+            
+            </div>
+        </div>
+
+        
+
+        <div id="MainCopy_ctl20_BottomLink" class="row">
+            <div id="MainCopy_ctl20_More" class="col-md-12">
+                <a id="MainCopy_ctl20_LinkToCalendar" title="More" class="btn btn-default" href="https://community.broadcom.com/events/calendar">More</a>
+
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+
+	</div></div><div class="col-md-4 section10"></div><div class="col-md-4 section11"><div class="ContentItemHtml leaderboard-tabs-header"><div class="HtmlContent"><h2>Engagement Leaderboard</h2></div><div class="HtmlFooter"></div></div><div class="ContentItemHtml leaderboard-tabs-container"><div class="HtmlContent"><script>
+    var pageCodeToSyndicateFrom = 'engagement-leaderboard-tabs-home';
+    var tempDivId = 'temp-div-'+ pageCodeToSyndicateFrom;
+    	document.write('<div id="'+ tempDivId +'" style="display: none"></div>');  
+</script>
+<script>
+        $(document).ready(function () {
+    	var pageCodeToSyndicateFrom = 'engagement-leaderboard-tabs-home';
+        var tempDivId = 'temp-div-'+ pageCodeToSyndicateFrom;
+        var currentUrl = window.location.href;
+        var communityKey = '?'+ currentUrl.split('?').pop();
+    
+        $('#'+ tempDivId).closest('.HtmlContent').load('/engagement-leaderboard-tabs-home'+ communityKey +' #MainCopy_ContentWrapper', function (data) {
+              
+
+                $('#' + tempDivId).remove();
+                handleEngagementLeaderBoard();
+           
+
+           
+    
+
+         function handleEngagementLeaderBoard() {
+                $('.leaderboard-tabs .HLEngagement ul.display-vertical .points-label').each(function () {
+
+                    //$(this).closest('.row.content-row').siblings('.row.title-row').find('.col-md-9 .ByLine').before($(this));
+                    $(this).closest('.row.content-row').siblings('.row.title-row').find('.col-md-9').children().wrapAll('<div class="leaderboard-user-info" />');
+                    $(this).closest('.row.content-row').siblings('.row.title-row').find('.col-md-9').append($(this));
+                    $(this).wrap('<div class="leaderboard-points-label" />');
+
+                });
+            }
+        });
+    });
+</script></div><div class="HtmlFooter"></div></div><div class="ContentItemHtml"><div class="HtmlContent"><style>.leaderboard-tabs.HLLandingControl .nav.nav-tabs li {
+    border-left: 1px solid #f1f1f1;
+}
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs {
+    border: 1px solid #f1f1f1;
+}
+
+
+/****START - Leaderboard MAM Tabs ****/
+#MPOuterMost .HLEngagement .Content {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05), 0px 2px 5px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 4px;
+}
+
+#MPOuterMost .HLEngagement .Content .bg-warning {
+    margin: 0;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical li {
+    border-bottom: none;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical li:last-of-type {
+    margin: 0;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical .Picture {
+    /* width:50px;*/
+    /* margin-right:10px;*/
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical .Picture a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #d8d9db;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical .row.title-row .col-md-9 {
+    display: flex;
+    align-items: center;
+        float: left;
+    width: calc(100% - 75px);
+    padding: 0;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical .row.title-row .col-md-9 a[id*=_EngagementList_NameLink_] {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    float: left;
+}
+
+#MPOuterMost .HLLandingControl.HLEngagement ul.display-vertical .ByLine {
+    color: #484848;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+#MPOuterMost .HLEngagement ul.display-vertical .points-label {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: [SecondaryColor];
+    float: right;
+    color: #fff;
+    display: block;
+    position: inherit !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.leaderboard-tabs.ContentUserControl.HLLandingControl {
+    padding: 0;
+}
+
+.leaderboard-tabs .nav-tabs {
+    border-bottom: none;
+}
+
+.leaderboard-tabs .HLLandingControl.HLEngagement {
+    margin-top: 0;
+    padding: 0 !important;
+    border: none;
+    margin-bottom: 0;
+    border-top: 1px solid #F5F5F5;
+}
+
+.leaderboard-tabs.HLLandingControl ul.nav-tabs li {   
+    display: flex;
+    flex: 1;
+    /* border-bottom: 1px solid #F5F5F5; */
+    margin-left: -1px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom:none;
+    border-left: 1px solid #f1f1f1;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 5%), 0px 0px 1px rgb(0 0 0 / 5%), 0 0 0 0px white, 0 0 0 0px white;
+}
+
+.leaderboard-tabs.HLLandingControl ul.nav-tabs li.active{
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 5%), 0px 0px 1px rgb(0 0 0 / 5%), 0 0 0 0px white, 0 0 0 0px white;
+    border-left: 1px solid #f1f1f1;
+    margin-left: 0;
+}
+
+.leaderboard-tabs .nav-tabs > li.active > a, .leaderboard-tabs .nav-tabs > li.active > a:hover, .leaderboard-tabs .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    /* border-bottom-color:transparent;*/
+    background-color: #eee;
+    border-radius: 0;
+    border: none;
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs {
+    padding: 0;
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #f1f1f1;
+    border-bottom: none;
+    /* margin:0 -1px; */
+    display: flex;
+}
+
+.leaderboard-tabs .nav.nav-tabs li > a {
+    margin-right: 0;
+    border-radius: 0;
+    border: none;
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs li {
+    border-left: 1px solid #f1f1f1;
+    line-height: 1.428571429;
+    margin-left: -1px;
+}
+
+.leaderboard-tabs.HLLandingControl .tab-content {
+    border: 1px solid #f1f1f1;
+    border-top: none;
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs li:first-child {
+    box-shadow: -20px 0px 20px -13px rgb(0 0 0 / 5%), -3px 0px 4px -2px rgb(0 0 0 / 5%);
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs li:last-child {
+    box-shadow: 20px 0px 20px -13px rgb(0 0 0 / 5%), 3px 0px 4px -2px rgb(0 0 0 / 5%);
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs li:first-child, .leaderboard-tabs.HLLandingControl .nav.nav-tabs li:first-child > a {
+    border-radius: 4px 0px 0 0;
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs li:last-child, .leaderboard-tabs.HLLandingControl .nav.nav-tabs li:last-child > a {
+    border-radius: 0 4px 0 0;
+}
+
+#MPOuterMost .leaderboard-tabs .HLEngagement .Content {
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 5%), 0px 2px 5px rgb(0 0 0 / 5%);
+    background: #fff;
+    padding: 30px 25px;
+    /*border-top:1px solid #ddd;*/
+    border-radius: 0 0 4px 4px;
+}
+
+#MPOuterMost .leaderboard-tabs .HLEngagement > .row.heading {
+    display: none;
+}
+
+.leaderboard-user-info {
+    margin-right: auto;
+    padding-right: 5px;
+}
+
+.leaderboard-points-label {
+}
+
+/****END - Leaderboard MAM Tabs ****/
+
+.leaderboard-tabs.HLLandingControl a[id*="ProfileLink"] img{
+    border-radius: 2px;
+}
+
+.HLEngagement .title-row a {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.HLEngagement .points-label {
+	position: absolute;
+	display: inline-block;
+	top: -25px;
+	font-family: "Gotham";
+	font-weight: 700;
+	background-color: #53565a;
+	font-size: 16px;
+	padding: .3em .6em .3em;
+	left: 23px;
+	margin-top: 10px;
+}
+
+.HLEngagement ol.display-horizontal li,
+.HLLandingControl ul.display-horizontal li {
+	border: none;
+	background-color: transparent;
+}
+
+
+.leaderboard-tabs-container #MainCopy_ContentWrapper > .row > .col-md-12{
+    padding: 0;
+}
+
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs, .leaderboard-tabs.HLLandingControl .tab-content {
+    border: none;
+}
+
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs{
+    border: 1px solid #EBEBEB;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    margin: 0 0px;
+}
+.leaderboard-tabs.HLLandingControl .nav.nav-tabs li {
+    border-left: 1px solid #EBEBEB;
+   
+    margin-left: 0px;
+    
+    border-right: none;
+}
+
+.leaderboard-tabs.HLLandingControl ul.nav-tabs li.active{
+    margin-left: 0px;
+   
+    border-left: 1px solid #eee;
+
+}
+#MPOuterMost .leaderboard-tabs .HLEngagement .Content {
+    /* box-shadow: 0px 4px 20px rgb(0 0 0 / 5%), 0px 2px 5px rgb(0 0 0 / 5%); */
+    background: #fff;
+    padding: 30px 25px;
+    border-top: 1px solid #EBEBEB;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+    
+    border-top: none;
+    
+}
+.leaderboard-tabs-header h2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+    padding-bottom: 0px;
+    padding-top: 5px;
+    border: solid 1px transparent;
+    border-bottom: none;
+    
+}
+.leaderboard-tabs.ContentUserControl.HLLandingControl {
+    padding-top: 0 !important;
+    border: solid 1x transparent;
+   
+}
+</style></div><div class="HtmlFooter"></div></div></div></div><div class="row row-wide clearfix "><div class="col-md-6 section12"></div><div class="col-md-6 section13"></div></div><div class="row row-full "><div class="col-md-12 section14"></div></div>
+        <div id="MainCopy_extraPanel">
+		
+        
+	</div>
+        
+    </div>
+
+						
+						
+
+						
+					
+</div>
+					
+					
+					<!--end content-->
+				</div>
+
+			</div>
+
+			<div id="MPOuterFooter" class="row siteFrame">
+				<div id="FOOTER" class="col-md-12">
+					
+					<div class="row row-wide clearfix "><div class="col-md-12 section1"><div class="ContentItemHtml"><div class="HtmlContent"><div class="footer">
+<div class="footer__left col-sm-12 col-md-8"><nav class="footer__nav">
+<ul>
+<li class="nav-item"><a href="https://www.broadcom.com/products/" target="_blank" rel="noopener">Products</a></li>
+<li class="nav-item"><a href="https://www.broadcom.com/applications" target="_blank" rel="noopener">Applications</a></li>
+<li class="nav-item"><a href="https://www.broadcom.com/support" target="_blank" rel="noopener">Support</a></li>
+<li class="nav-item"><a href="https://www.broadcom.com/company/about-us" target="_blank" rel="noopener">Company</a></li>
+<li class="nav-item"><a href="https://www.broadcom.com/how-to-buy/sales" target="_blank" rel="noopener">How To Buy</a></li>
+</ul>
+</nav>
+<div class="copyright-text">Copyright © 2005-2022 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries. <br />Hosted by Higher Logic, LLC on the behalf of Broadcom - <a href="https://www.broadcom.com/company/legal/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a> | <a href="https://www.higherlogic.com/legal/privacy" target="_blank" rel="noopener">Cookie Policy</a> | <a href="https://www.broadcom.com/company/citizenship/governance-and-ethics#supply" target="_blank" rel="noopener">Supply Chain Transparency</a></div>
+<div>
+<ul class="sub-nav">
+<li><a href="/termsandconditions">Terms of Use</a></li>
+<!---<li><a href="#">Sitemap </a> <!--<a href="contactus">Contact Us</a>--></ul>
+</div>
+</div>
+<div class="footer__right col-sm-12 col-md-4">
+<ul class="social-nav">
+<li><a href="https://www.facebook.com/Broadcom" target="_blank" rel="noopener"> <span class="fab fa-facebook"></span> </a></li>
+<li><a href="https://twitter.com/Broadcom" target="_blank" rel="noopener"> <span class="fab fa-twitter"></span> </a></li>
+<li><a href="https://www.linkedin.com/company/broadcom" target="_blank" rel="noopener"> <span class="fab fa-linkedin"></span> </a></li>
+<li><a href="https://www.youtube.com/user/BroadcomCorporation" target="_blank" rel="noopener"> <span class="fab fa-youtube"></span> </a></li>
+</ul>
+</div>
+</div></div><div class="HtmlFooter"></div></div></div></div><div class="row row-wide clearfix "><div class="col-md-12 section2"><div class="ContentUserControl">
+	
+<script charset="utf-8">$('.volunteer-opportunities-filter #toggle-button').click(function(e) {        
+        $(this).next().slideToggle().toggleClass('js-showFilter');
+});</script>
+</div></div></div>
+					<div id="MPFooter" class="row">
+						<div class="Footer col-md-12">
+							<div id="FooterContent">
+	
+							
+</div>
+							<div id="MPBottomMenu" class="MPBottomMenu" align="center">
+								
+								<a href="#BottomMenu_SkipLink" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip Navigation Links</a><div CssSelectorClass="MPBottomNav" id="BottomMenu">
+	<ul class="level1">
+		<li><a class="level1" href="/footer">Footer</a></li>
+	</ul>
+</div><a id="BottomMenu_SkipLink"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div id="MPCopyright" class="col-md-12">
+							Copyright 2022. All rights reserved.
+						</div>
+					</div>
+					
+					
+					
+					<div class="row">
+						<div class="col-md-12"></div>
+					</div>
+					
+
+				</div>
+			</div>
+
+			<div id="MPFooterLink" class="row siteFrame">
+				<div class="col-md-12">
+					<div id="MPFooterLinkContent">
+						<a href="http://www.higherlogic.com" target="_blank">Powered by Higher Logic</a>
+					</div>
+				</div>
+			</div>
+			<!--mp_base--><div id="GlobalPopupContainer">
+												<div id="GlobalPopupContent" >
+													<img ID="imgGlobalProcessing" alt="" src="https://d2x5ku95bkycr3.cloudfront.net/img/loading.gif" />
+												</div>
+											 </div>
+			
+			
+		
+
+<script type="text/javascript">
+//<![CDATA[
+var _suppressGlobalPopupContainer = false;
+			  
+									Sys.Application.add_load(GlobalApplicationLoadHandler);
+
+									function GlobalApplicationLoadHandler(sender, args) {
+										var prm = Sys.WebForms.PageRequestManager.getInstance();
+										if (!prm.get_isInAsyncPostBack()) {
+											prm.add_initializeRequest(initRequest);
+											prm.add_endRequest(endRequest);
+										}
+									}
+									function initRequest(sender, args) {
+										if (!_suppressGlobalPopupContainer) {
+											hl_common_ui_blockUI();
+										}
+									}
+
+									function endRequest(sender, args) {
+										 hl_common_ui_unBlockUI();
+									}
+WebForm_InitCallback();$("div[id*='_UpcomingEventsRegisterLink_']").parent().removeAttr('class');//]]>
+</script>
+<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'AuxMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script><script type='text/javascript'>new Sys.WebForms.Menu({ element: 'BottomMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script></form>
+	</div>
+	<script>
+
+        
+
+		$(document).ready(function () {
+
+			var path = window.location.pathname;
+			var lastChar = path.substr(-1); // Selects the last character
+			if (lastChar != '?' && lastChar != '/' && lastChar != ';') { // If the last character is not a slash
+				path = path + '/'; // Append a slash to it.
+			}
+
+			$('ul.navbar-nav a').each(function () {
+				var myHref = $(this).attr('href').split("?")[0];
+				var lastChar2 = myHref.substr(-1); // Selects the last character
+				if (lastChar2 != '?' && lastChar2 != '/' && lastChar2 != ';') { // If the last character is not a slash
+					myHref = myHref + '/'; // Append a slash to it.
+				}
+				if (path == myHref) {
+					$(this).parents('li').last().addClass('active current-page');
+					$(this).parent('li').addClass('active current-page');
+				}
+			});
+
+
+
+			$('#modalTags').on('tagAdded',
+				function () {
+					var oldCount = parseInt($('#litCommunityTagsCount').text());
+					$('#litCommunityTagsCount').text(oldCount + 1);
+				}).on('tagRemoved',
+					function () {
+						var oldCount = parseInt($('#litCommunityTagsCount').text());
+						$('#litCommunityTagsCount').text(oldCount - 1);
+					});
+
+			var isImpersonating = false;
+
+            
+
+			$(window).bind('scroll',
+				function () {
+
+					var navHeight = $("#HEADER").height();
+					// Creating a stickyNav-filler to fill in the position of the stickyNav when it pops out of its position in the DOM to avoid the flicker experience
+					if ($(document).scrollTop() > navHeight) {
+
+						if (isImpersonating)
+							$('#pnlImpersonation').addClass('sticky');
+
+						if ($('.stickyNav-filler').length === 0) {
+							$('#NAV').parent()
+								.append($('<div class="stickyNav-filler"></div>').height($('#NAV').height()));
+							$('#NAV').addClass(
+                                'stickyNav stickyNav-wide ');
+						}
+					} else {
+
+						if (isImpersonating)
+							$('#pnlImpersonation').removeClass('sticky');
+
+						if ($('.stickyNav-filler').length > 0) {
+							$('.stickyNav-filler').remove();
+							$('#NAV').removeClass(
+                                'stickyNav stickyNav-wide ');
+						}
+					}
+				});
+
+            
+		});
+
+        //var btn = $.fn.button.noConflict(); // reverts $.fn.button to jqueryui btn
+        //$.fn.btn = btn; // assigns bootstrap button functionality to $.fn.btn
+    </script>
+</body>
+
+</html>

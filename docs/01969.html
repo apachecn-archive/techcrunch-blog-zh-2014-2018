@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Hacker Emails Testing Service BrowserStack's Customers, Says Company Lied About Security | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">黑客向测试服务BrowserStack的客户发送电子邮件，称该公司在安全性问题上撒了谎</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/http://techcrunch.com/2014/11/10/hacker-emails-testing-service-browserstacks-customers-says-company-lied-about-security/?ncid=rss">https://web.archive.org/web/http://techcrunch.com/2014/11/10/hacker-emails-testing-service-browserstacks-customers-says-company-lied-about-security/?ncid=rss</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">还有比被黑更惨的事吗？如果一个黑客设法获取了你的客户的联系信息，并通过电子邮件告诉他们服务正在关闭，而且该公司一直在向所有人隐瞒其安全性，那该怎么办？这就是发生在BrowserStack的事情，它是一个流行的浏览器测试服务的制造商，允许客户在虚拟机环境中在真实的桌面和移动浏览器上测试网站。</p>
+<p class="translated">根据其网站，这家总部位于孟买的公司拥有超过25，000名客户，包括微软、jQuery、施乐、思杰、Github、易贝、巴克莱、Adobe、Visa、洛克希德·马丁、Bose、麻省理工学院、强生和维基百科。</p>
+<p class="translated">上周末，一些数量不明的BrowserStack客户收到了来自该公司的一封奇怪的电子邮件。</p>
+<p class="translated">上面写着:</p>
+<blockquote><p class="translated">亲爱的BrowserStack用户:</p>
+<p class="translated">我们很遗憾地宣布BrowserStack将关闭。经过我们的深思熟虑，我们意识到我们疏忽了我们声称提供的服务。在我们的服务条款中，我们声明如下:</p>
+<p class="translated">[…]恢复过程完成后，虚拟机保证不会被篡改。</p>
+<p class="translated">[……]机器本身位于一个安全的网络中，并且位于强大的防火墙之后，以提供尽可能安全的环境。</p>
+<p class="translated">[……]在任何给定时间，您都拥有对虚拟机的单独访问权。其他用户(包括BrowserStack管理员)无法看到或访问您的测试会话。释放虚拟机后，它将脱离网格，并恢复到其初始设置。你所有的数据都会在这个过程中被销毁。</p>
+<p class="translated">不幸的是，我们公然撒谎。不仅我们所有的管理员都可以访问，普通公众也可以访问。我们没有防火墙，我们的密码政策也很糟糕。所有启动的虚拟机都是向公众开放的，任何人都可以通过端口5901上的字母密码“nakula”进行访问，该密码以明文形式存储在每个虚拟机上。同样，我们的基础设施在所有机器上使用相同的根密码，它也以明文形式存储在每个启动的虚拟机上(“c0stac0ff33”)。</p>
+<p class="translated">鉴于网络犯罪分子倾向于将我们这样的基础设施服务作为目标，几乎可以肯定的是，您的所有数据都已被窃取。这些密码至少要花15分钟才能被任何正在寻找的人找到。</p>
+<p class="translated">我们希望我们没有给你带来太多的麻烦，对于我们的企业客户签署了基于捏造的交易合同，我们同样感到抱歉。</p>
+<p class="translated">真诚的，<br/>浏览器堆栈团队</p></blockquote>
+<p class="translated">显然，邮件的语气和内容发出了危险信号。即使公司忽视了他们的安全性，他们在向客户承认时也不会这么透明。</p>
+<p class="translated">毫不奇怪，这封邮件是不合法的。至少，不是公司自己出的。至于其主张？我们仍在等待BrowserStack高管对这些问题做出更详细的回应。</p>
+<p class="translated">https://twitter.com/Chevex/status/531703412304257025</p>
+
+
+
+<p class="translated">黑客本身似乎并不太复杂。一名公司代表告诉TechCrunch，黑客“在获得访问权限后立即”发现了攻击，损害“仅限于一系列电子邮件地址。”然而，BrowserStack建议用户更改密码以防万一。</p>
+<p class="translated">“我们仍在消毒过程中，并加倍确保这种情况不再发生。我们正在处理此事，一旦有新的消息，我们会及时发布。我们将在接下来的几天内分享一份完整的验尸报告，”一名公司代表告诉我们。</p>
+<p class="translated">BrowserStack也一直在更新其Twitter账户,更新有关漏洞的消息以及它正在采取的解决问题的措施。最初，<a target="_blank" href="https://web.archive.org/web/20230325203622/https://twitter.com/browserstack/status/531631012493524992">关闭了整个服务</a>。随后的推文称，该服务将重新上线，首先是“自动化”和“截图”服务，随后是“直播”服务。在Twitter上，该公司还承诺在服务恢复后将整个分析通过电子邮件发送给所有用户。</p>
+<p class="translated">“目前的努力集中在让服务回到正轨上，并保护用户利益，”一条推文写道，这加剧了人们对黑客的说法有一点真实性的担忧。</p>
+<p class="translated">事实上，黑客的声明让一些BrowserStack用户感到担忧，他们现在想知道测试服务是否存在安全漏洞——特别是因为这些声明看起来像是不满的前员工可能知道的。</p>
+<p class="translated">此外，在专注于开发者的门户网站<a target="_blank" href="https://web.archive.org/web/20230325203622/https://news.ycombinator.com/item?id=8581477">黑客新闻</a>的一个帖子上，许多评论者提到他们在使用BrowserStack时遇到了奇怪的事情，指出他们开始的会话似乎能够看到另一个用户正在进行的会话，包括他们的内部URL、打字和其他用户的鼠标在屏幕上移动。</p>
+<p class="translated">更糟糕的是，尽管用户在Twitter上提出要求，但该公司主要是就其服务的状态进行沟通，而不是黑客电子邮件中的说法是真是假。当TechCrunch直截了当地问该公司是否会对这些说法做出回应时，一名代表回应道:“我可以向你保证，黑客电子邮件中的说法是假的。这封邮件不是由BrowserStack或任何与我们合作的人发送的。”</p>
+<p class="translated">也就是说，我们的回复来自一个支持电子邮件地址，而不是直接来自公司高管。此时，我们不会将这一回应定性为“官方”公司声明。我们通过电子邮件和LinkedIn联系了BrowserStack的创始人，要求进一步澄清，目前仍在等待回音。如果出现这种情况，我们会及时更新。</p>
+<p class="translated"><em> <strong>更新</strong>，周一。美国东部时间下午2点45分:</em></p>
+<p class="translated">联合创始人Ritesh Arora回应了我们的询问。“我们将回答所有问题，并与所有用户进行详细沟通，”他表示。“我们当前的首要任务是让BrowserStack正常运行。简而言之，我们确实被黑了。BrowserStack在技术上是巨大的，我们正在严格检查每个组件，增加额外的预防措施，以防止任何进一步的黑客攻击。我们正在一个接一个地开放服务。”</p>
+<p class="translated">我们已经问过阿罗拉，他是否会提供逐点分析。</p>
+<p class="translated"><em> <strong>更新</strong>，周一。美国东部时间下午3:20:</em></p>
+<p class="translated">Arora:“所有BrowserStack服务都已启动并运行。我们继续扩大流量峰值。我们也在进行严格的检查。”</p>
+<p class="translated"><em>11月12日更新:</em></p>
+<p class="translated">以下是发送给客户的完整电子邮件:</p>
+<blockquote><p class="translated">您可能已经知道，BrowserStack在2014年11月9日23:30   <span class="boomerang-time-zone"> GMT </span>遭遇了一次攻击，在此期间，一个人能够未经授权访问我们一些用户的注册电子邮件地址。然后，他试图向我们所有的注册用户发送一封电子邮件，但他只能联系到不到1%的用户(我们估计有5000名用户)。该电子邮件包含不准确的信息，甚至声称BrowserStack将被关闭。</p>
+<p class="translated">当我们意识到这一点时，我们唯一关心的是保护我们的用户。这包括暂时关闭服务，因为我们仔细检查了每个组件。这给我们的用户带来了几个小时的不便，对此我们深表歉意。</p>
+<p class="translated">发生了什么事？</p>
+<p class="translated">BrowserStack应用服务器使用Amazon Web Services运行。该配置非常庞大，由数千台服务器组成。其中一个是旧的原型机，这是入侵的目标。</p>
+<p class="translated">该机器自2012年前开始运行，并未投入使用。它是利用shellshock漏洞被渗透的，由于它不再被积极使用，所以它没有安装合适的补丁。</p>
+<p class="translated">旧的原型机器有我们的AWS API访问密钥和秘密密钥。一旦黑客获得了密钥，他就创建了一个IAM用户，并生成了一个密钥对。然后，他能够使用这些凭证在我们的AWS帐户中运行一个实例，并挂载我们的一个备份磁盘。这个备份是我们的一个组件服务，用于生产环境，包含一个带有数据库密码的配置文件。他还把他的IP加入了我们的数据库安全组，也就是AWS防火墙。</p>
+<p class="translated">他开始复制我们的一个表，其中包含部分用户信息，包括电子邮件id、散列密码和上次测试的URL。他的复制操作锁定了数据库表，这在我们的监控系统上引发了警报。收到警报后，我们检查了日志，发现了一个无法识别的IP，并立即阻止了它。在此期间，黑客只能检索到部分数据。最后，使用这些数据和SES凭证，他能够向我们的一些用户发送电子邮件。</p>
+<p class="translated">损坏的程度如何？</p>
+<p class="translated">我们的数据库日志确认用户数据被部分复制，但是没有用户测试历史被破坏。因此，所有用户数据保持完整无损。最重要的是，<b> <span>信用卡的详细信息没有泄露</span> </b>，因为我们只存储信用卡号的最后4位数字，所有的支付处理都通过我们的支付处理合作伙伴进行。所有用户密码都加盐，并使用强大的bcrypt算法加密，这将创建一个无法破解的不可逆哈希。但是，作为额外的预防措施，我们建议用户更改他们的BrowserStack帐户密码。</p>
+<p class="translated">我们能够使用AWS Cloud Trail来验证黑客的行为，这证实了没有其他服务受到损害，没有其他机器被启动，我们的ami和其他数据存储没有被复制。</p>
+<p class="translated">此外，我们的生产web服务器日志表明我们遇到了shellshock尝试，但它们失败了，因为生产web服务器有必要的补丁来阻止所有此类尝试。</p>
+<p class="translated"><b>分邮件</b></p>
+<p class="translated">我们现在想解决邮件中提出的问题。黑客引用了我们安全文档中的三个段落，如下所示:</p>
+
+<ul>
+<li class="translated"><i>恢复过程完成后，虚拟机保证不会被篡改。</i> →我们的恢复过程确实是防篡改的。当我们从头开始创建一个测试机器时，我们拍一个快照。在每个用户会话之后，使用该快照将测试机器恢复到其原始状态。即使先前的用户设法安装了恶意软件，由于恢复过程，它总是被擦除。</li>
+</ul>
+
+<ul>
+<li class="translated">机器本身在一个安全的网络中，并且在强大的防火墙后面，以提供可能的最安全的环境。 →除了我们使用的硬件网络防火墙之外，每台机器都有一个操作系统防火墙。在EC2上，我们使用安全组作为等效的安全措施。我们还使用行业标准的强力节流措施。</li>
+</ul>
+<ul>
+<li class="translated"><i>在任何给定的时间，你都有单独访问虚拟机的权限。其他用户(包括BrowserStack管理员)无法看到或访问您的测试会话。释放虚拟机后，它将脱离网格，并恢复到其初始设置。在这个过程中你所有的数据都会被销毁</i>。→应用程序确保一台机器一次只能分配给一个人，并且每次会话都会随机生成VNC密码。因此，即使我们的管理员也看不到您的测试会话。</li>
+</ul>
+<p class="translated">至于虚拟机上的明文密码，情况当然不是这样，因为我们几年前就转向了基于密钥的身份认证。此外，在我们的SSH配置中，root登录是禁用的。</p>
+<p class="translated">提到的两个密码“nakula”和“c0stac0ff33”确实在几年前我们的原型阶段使用过，因此存在于被黑客攻击的旧原型机器中。“nakula”以前是我们在VNC的密码，已经过哈希处理。但是，与用于用户密码的哈希不同，这个哈希要弱得多。这是由于VNC协议的限制，我们通过为每个会话重新生成一个新密码来克服这一缺陷，因此“nakula”已经多年没有使用了。在我们转向基于密钥的身份验证之前，c0stac0ff33是我们在原型机上的系统用户密码之一。</p>
+<p class="translated">确实，我们仍然在端口5901上运行我们的VNC服务器，但是我们不认为这是一个安全漏洞，因为访问仍然需要当前的密码。如前所述，每次测试都会更改密码。</p>
+<p class="translated"><b>我们哪里出错了？</b></p>
+<p class="translated">我们所有的服务器，无论运行与否，无论是否在使用，都应该已经安装了最新的安全升级和更新，包括shellshock。此外，不在使用中的服务器应该被停止，并且服务器不应该有AWS密钥。</p>
+<p class="translated">此外，我们的沟通本来可以更好。一旦我们的分析完成，我们宁愿向我们的用户呈现完整、诚实的攻击画面，而不是断断续续的更新。</p>
+<p class="translated"><b>为缓解和防止进一步事故而采取的安全措施</b></p>
+<ul>
+<li class="translated">关闭服务后，我们撤销了所有现有的AWS密钥和密码，并立即生成了新的密钥和密码，作为额外的安全措施。</li>
+<li class="translated">随后，我们检查了所有的SSH日志、web服务器日志以及AWS Cloud Trail日志，以确保不会造成更多的损害。</li>
+<li class="translated">我们正在将所有备份迁移到加密备份，并删除所有未加密的备份。</li>
+<li class="translated">我们还添加了几个额外的检查和警报，它们在指定的AWS操作时触发。作为预防措施，我们还创建了新的虚拟机快照，并替换了所有现有的快照。</li>
+<li class="translated">为了防止进一步的事故，我们正在评估某些VPC/VPN选项，以增强我们的安全措施。</li>
+<li class="translated">我们将由外部独立机构进行安全审计。</li>
+</ul>
+<p class="translated">我们再次为给您带来的不便表示歉意。BrowserStack致力于为我们的用户提供最好、最安全的测试基础设施。我们将在接下来的几周内发布令人兴奋的新版本，并期待继续为您服务。</p>
+<p class="translated">我们追踪到了黑客的IP地址。我们将很快与当局联系，提出正式投诉。感谢您在过去几天里对我们的支持和理解。</p>
+<p class="translated">真诚地，<br/> Ritesh和Nakul <br/>创始人，BrowserStack</p></blockquote>
+			</div>
+
+			</div>    
+</body>
+</html>

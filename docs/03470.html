@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Google Wants To Speed Up The Web With Its QUIC Protocol | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">谷歌想用它的QUIC协议| TechCrunch加速网络</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2015/04/18/google-wants-to-speed-up-the-web-with-its-quic-protocol/">https://web.archive.org/web/https://techcrunch.com/2015/04/18/google-wants-to-speed-up-the-web-with-its-quic-protocol/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">你可能从未听说过它，但如果你是Chrome用户，你可能已经使用过谷歌的QUIC协议了。正如谷歌本周披露的，Chrome向谷歌服务器发出的所有请求中，约有一半是通过QUIC服务的。</p>
+<p class="translated">这有什么大不了的？QUIC是谷歌在UDP上的实验性低延迟互联网传输协议，这是一种经常被游戏、流媒体和VoIP服务使用的协议。名称“QUIC”代表快速UDP互联网连接。</p>
+<p class="translated">UDP(和QUIC)在协议世界中的对应物基本上是TCP(它与互联网协议(IP)一起构成了互联网的核心通信语言)。UDP明显比TCP更轻量级，但反过来，它的纠错服务比TCP少得多。例如，这意味着发送服务器不会经常与接收服务器通信来检查包是否到达以及它们是否以正确的顺序到达。这就是为什么UDP非常适合游戏服务的原因。对于这些服务，您希望低开销以减少延迟，如果服务器没有接收到您最近的鼠标移动，没有必要花一两秒钟来修复它，因为动作已经继续了。不过，你不会想用它来请求一个网站，因为你不能保证所有的数据都会成功。</p>
+<p class="translated">通过QUIC，Google旨在将UDP和TCP的一些最佳特性与现代安全工具相结合。</p>
+<p class="translated"><img decoding="async" class="aligncenter size-full wp-image-1146443" src="../Images/cd26f5d011f8c74c75ef715bf0847380.png" alt="0rtt-graphic" srcset="https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png 997w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png?resize=150,81 150w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png?resize=300,161 300w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png?resize=768,413 768w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png?resize=680,366 680w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png?resize=50,27 50w" sizes="(max-width: 997px) 100vw, 997px" data-original-src="https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/0rtt-graphic.png"/></p>
+<p class="translated">在典型的安全TCP连接中，浏览器通常需要两到三次往返才能真正开始接收数据。使用QUIC，一个浏览器可以立即开始与一个它以前对话过的服务器对话。QUIC还引入了一些新功能，如拥塞控制和自动重传，使它比纯UDP更可靠。</p>
+<p class="translated">通过后来成为HTTP/2标准基础的SPDY，Google已经开发了另一种替代协议，它与QUIC有许多相同的目标，但是HTTP/2仍然运行在TCP之上，并且仍然会遇到一些相同的延迟成本。</p>
+<p class="translated">有理由问为什么Google不仅仅致力于改进TCP。该公司<a target="_blank" href="https://web.archive.org/web/20230330130256/https://docs.google.com/document/d/1lmL9EF6qKrk7gbazY8bIdvq3Pno2Xj_l_YShP40GLQE/edit">指出</a>这里的问题是，TCP支持通常直接内置在操作系统内核中——这不是谷歌可以控制的。该团队在解释其决定时写道:“QUIC允许我们测试和试验新的想法，并更快地获得结果。”。“我们希望，如果证明有效，QUIC特性将移植到TCP和TLS中。”鉴于目前仍有多少Windows XP安装，这显然不是一朝一夕的事情。</p>
+<p class="translated">如果谷歌设计了一个全新的协议，那么构成互联网主干的所有机器也必须理解它——但它们已经理解了UDP。</p>
+<p class="translated"><img decoding="async" loading="lazy" class="alignright size-full wp-image-1146458" src="../Images/7d738be0651d106a754c4810e6ea0c60.png" alt="2015-04-18_1036" srcset="https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/2015-04-18_1036.png 300w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/2015-04-18_1036.png?resize=150,91 150w, https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/2015-04-18_1036.png?resize=50,30 50w" sizes="(max-width: 300px) 100vw, 300px" data-original-src="https://web.archive.org/web/20230330130256im_/https://techcrunch.com/wp-content/uploads/2015/04/2015-04-18_1036.png"/>谷歌表示，在谷歌搜索上使用QUIC后，平均页面加载时间提高了约3%。这听起来不是很多，但你必须记住，谷歌搜索已经尽可能优化。其他网站——尤其是延迟严重的网络应用——可能会有更好的改进。通过QUIC连接到YouTube的用户报告说，观看视频时的重新缓冲减少了大约30 %,由于QUIC通过UDP改进了拥塞控制和丢失恢复，一些最慢连接的用户也可以通过QUIC缩短页面加载时间。</p>
+<p class="translated">谷歌表示，它计划向IETF提出HTTP2-over-QUIC作为未来新的互联网标准。</p>
+<p class="translated">在某些方面，这反映了谷歌与<a target="_blank" href="https://web.archive.org/web/20230330130256/https://en.wikipedia.org/wiki/SPDY"> SPDY </a>的合作。在那里，该公司首先使用Chrome和自己的服务器制作了协议原型，后来又提出将其作为新版HTTP的基础。</p>
+<p class="translated">如果你想看看你与Chrome的连接是否使用QUIC，顺便说一下，<a target="_blank" href="https://web.archive.org/web/20230330130256/https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin?hl=en">这里有一个浏览器扩展</a>可以告诉你，你可以在<em> net-internals标志</em>(Chrome://net-internals/# QUIC)下找到关于Chrome使用QUIC的所有细节。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

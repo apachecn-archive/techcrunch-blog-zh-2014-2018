@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Online Labs Designed Its Own ARM Servers To Take On AWS, DigitalOcean | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">在线实验室设计了自己的ARM服务器来对抗AWS、DigitalOcean | TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2014/11/13/online-labs-designed-its-own-arm-servers-to-take-on-aws-digitalocean/">https://web.archive.org/web/https://techcrunch.com/2014/11/13/online-labs-designed-its-own-arm-servers-to-take-on-aws-digitalocean/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">几年前，<a target="_blank" href="https://web.archive.org/web/20230314190407/http://labs.online.net/">在线实验室</a>背后的团队开始了一个长期的雄心勃勃的项目——它没有建立一个虚拟云托管基础设施，与亚马逊网络服务、<a href="https://web.archive.org/web/20230314190407/https://techcrunch.com/2014/03/06/digitalocean-raises-37-million-from-andreessen-horowitz/">数字海洋</a>和其他VPS提供商直接竞争，而是为其云解决方案设计了自己的硬件。在线实验室设法将912台独立的计算机挤在一个服务器机架中。但最棒的是，该公司还保留了两个世界的优点—专用服务器和虚拟化的灵活性。</p>
+<p class="translated">产品副总裁Yann Léger在电话采访中告诉我:“我们两年半前就开始了这个项目，我们从零开始设计自己的硬件，因为我们当时在市场上找不到我们想要的东西。”“我们使用ARM架构，因为我们想要一个可扩展的物理云。”</p>
+<p class="translated">当您在在线实验室启动服务器时，大约需要30秒。然而，该公司不仅仅是在已经运行的服务器上启动虚拟机，它实际上是为你启动一个ARM服务器。</p>
+<p class="translated">使用专用硬件有很多好处。例如，您不会与其他用户共享您的CPU，并最终导致令人失望的性能。在幕后，在线实验室使用与智能手机相同的ARM v7系统。在一个芯片上，你会发现四个不同的核心，非常热的效率。它没有专用的至强服务器强大，但对许多开发人员来说也很有吸引力。</p>
+<p class="translated">每台服务器都配有2GB内存、20 GB固态硬盘和1 Gbit/s网络接口。你可以添加更多的存储空间，并与亚马逊S3整合。当然，如果需要更多资源，您可以在几分钟内启动多个服务器。</p>
+<p class="translated">[gallery ids="1082685，1082683，1082682，1082684，1082686，1082679"]</p>
+<p class="translated">现在，有一些限制。首先，由于这些服务器使用ARM架构，您不能使用x86二进制文件和操作系统。就目前而言，该公司提供了发行版、Ubuntu、Debian、Gentoo等常见的可疑产品。你也可以运行Docker。流行的运行时已经有了ARM变体，但是更晦涩的二进制文件可能需要一些工作。一些在线实验室的工程师正在自己移植这些二进制文件。</p>
+<p class="translated">目前，只有一种类型的服务器。如果你想要更多的计算能力，唯一的解决办法就是启动一个新的服务器，平衡负载。这并不理想，该团队已经在开发具有更多内存的更强大的硬件。所有的服务器都托管在Iliad位于巴黎的数据中心，但位于美国的第二个数据中心正在建设中。</p>
+<p class="translated">在线实验室背后的真正创新在于它的灵活性。就像使用VPS一样，您可以制作快照、加载图像等等。你甚至可以将你的公共IP地址从一台机器转移到另一台机器。</p>
+<p class="translated">另一个有趣的部分是，在线实验室不是基于OpenStack的，一切都是内部开发的。该团队还开发了一个API来管理您的服务器。</p>
+<p class="translated">有无数的小细节显示了在线实验室已经是多么的完美。这是对云托管的一种新的看法，而且非常不同。该团队最近推出了一个公共预览，以尝试基础设施。超过100，000台服务器已经在运行。</p>
+<p class="translated">“谈到定价，我们应该与提供相同性能的其他云托管解决方案竞争，”Léger说。</p>
+<p class="translated">照顾到每一个开发者的需求，还有很长的路要走。比如DigitalOcean现在在全球有很多数据中心，配置也很丰富。但是在线实验室绝对是一个有前途的选择。</p>
+<p class="embed breakout embed-oembed embed--video embed--youtube"/>
+			</div>
+
+			</div>    
+</body>
+</html>

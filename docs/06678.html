@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Can you take the Internet out of the Internet of Things? • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">能不能把互联网从物联网里拿出来？TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/03/05/can-you-take-the-internet-out-of-the-internet-of-things/?ncid=rss">https://web.archive.org/web/https://techcrunch.com/2016/03/05/can-you-take-the-internet-out-of-the-internet-of-things/?ncid=rss</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary">
+</p><div class="article__contributor-byline">
+	
+
+		<div class="contributor-byline__bio"><p class="translated">丹·迈尔斯是</p><a href="https://web.archive.org/web/20221206233901/https://flair.co/">Flair</a><p>. 	</p></div>
+	
+	</div>
+
+<p class="translated">物联网和互联网似乎有着千丝万缕的联系，但是，越来越多的问题围绕着物联网设备应该如何相互协作——以及当互联网连接中断时会发生什么？</p>
+<p class="translated">用户还担心将他们的数据存储在公司的服务器上的隐私问题，他们不喜欢将互联网连接作为潜在的故障点。这些反应是理性的，但让人想起2000年左右的网上购物，讽刺的是，现在网上购物可能比在实体零售店购物更安全。</p>
+<p class="translated">为了理解设备制造商为什么依赖互联网连接和云服务，我们需要看看我们的物联网设备是如何工作的。我们需要了解数据源、处理、设备到设备的通信，以及最终一个设备如何利用另一个设备。</p>
+<h2 class="translated">数据源</h2>
+<p class="translated">作为气候控制设备的制造商，只有几个关键的数据来源:人类、他们的环境(室内和室外)和能源设施。</p>
+<p class="translated">有些人渴望舒适，这归结为拥有特定的空气温度、辐射温度和湿度等。人类生活在不同的地理环境中，这意味着他们喜欢的室内环境和实际的室外环境之间往往有很大的差异。给一个室内/室外差异大的空间带来舒适需要能量，因为能量受供求力量的影响，明智地使用它意味着了解它在任何给定时间的价格。</p>
+<p class="translated">让我们将这些提炼为一些具体的数据源。手机，可以说是今天的终极可穿戴设备，是数据的来源，包括位置，宏观层面(在家或不在家)和微观层面(在像我们这样更先进的系统的特定房间里)。它们还提供来自人类输入、加速度计运动以及某些情况下麦克风的信息。</p>
+<p>	</p><div class="article-block block--pullout block--right">
+		<blockquote class="translated">电灯开关的每一次轻弹都需要传到云端，然后再降下来打开你的灯泡吗？</blockquote>
+	</div>
+	
+<p class="translated">传感器提供关于原始物理条件的环境数据(室内和室外),并且由于成本和功率限制，通常很少或没有机载处理。在我们的例子中，温度、湿度、环境光等等都给出了空间中正在发生的事情的数字视图。也有外部数据源，如公用事业的电费和煤气费，或第三方观察到的天气状况。</p>
+<p class="translated">你已经可以看到这样的情况，家中的系统可以最理想地使用非现场数据源:例如，当你出去买杂货时，手机会报告他们的位置，雅虎的天气和PG&amp;E的公用事业费率。这些原始数据引出了下一个问题，即数据应该发送到哪里，应该如何使用。</p>
+<p class="translated">所有这些数据都需要一个去处。虽然你可以在家里托管一个服务器场，但你可能不想投资一个——规模经济决定了亚马逊在这方面会做得更好，而且配置你的路由器来单独接受数据推送是消费技术噩梦的东西。一个永远在线、可扩展的云，在亚马逊上冗余备份，比你家里几乎所有的东西都好得多。</p>
+<h2 class="translated">处理</h2>
+<p class="translated">但是加工呢？有些东西需要获取你的物理GPS位置，了解它与你家位置的关系，并将其转化为如果你现在离开需要多长时间才能回来。它需要将这一点与在不同天气条件下使你的公寓舒适需要多长时间的信息结合起来，然后相应地调整设定点。</p>
+<p class="translated">这种逻辑很复杂，当您添加更多来自传感器和环境(一天中的时间、阳光等)的数据源时，只会变得更加复杂。).同样，您可以在家中托管一台服务器来处理这些，但每台物联网设备都必须有一台服务器，或者需要为家中的每台设备托管“应用”。有人可能会说这正是智能中枢所做的(或应该做的)，但随着众多中枢的涌现，每个设备制造商都为每个中枢开发一个应用程序，以便它可以使用外部数据源的数据，这可行吗？</p>
+<p>	</p><div class="article-block block--pullout block--left">
+		<blockquote class="translated">互联网公司比以往任何时候都更需要达到“5个9”的支持水平。</blockquote>
+	</div>
+	
+<p class="translated">实际上，与云服务上无限可扩展的数据库相比，智能中心上的存储空间为0，并且您通常希望在数据附近进行处理，以避免浪费的数据传输。当然，您不需要每一秒钟都有温度数据，但想想来自Dropcam的数据量，以及需要多少处理才能将视频流转化为可操作的通知和自动化触发器。</p>
+<h2 class="translated">沟通</h2>
+<p class="translated">设备之间如何交流呢？每个设备本身或网关中都有一个Wi-Fi芯片真的有意义吗，或者所有设备都应该通过某个始终连接的网关进行路由？基于越来越多的“标准”，不同的功率、范围和数据速率要求，很明显，可能不会有任何类型的物联网拓扑融合。这是因为，在某些情况下，设备只需报告其与电话的接近度(想想<a target="_blank" href="https://web.archive.org/web/20221206233901/https://en.wikipedia.org/wiki/IBeacon">信标</a>)，或者因为在具有挑战性的RF环境中运行的设备与Thread或Zigbee使用的更高频率无线电相冲突，不是理想的技术选择。</p>
+<p/>
+<p class="translated">在许多情况下，网关和各种传感器是完全有意义的。但是，除非该网关具有压倒性的市场渗透率和对各种协议的支持，否则当设备制造商现在可以购买1美元的Wi-Fi芯片并以5至10美元的价格生产自己的网关时，他们很难下注或选择立场。</p>
+<p class="translated">那么这意味着什么呢？电灯开关的每一次轻弹都需要传到云端，然后再降下来打开你的灯泡吗？当然不是。这意味着制造商将继续偏好HTTP集成，而不是提供物联网解决方案，这意味着当您的互联网连接中断时，需要明智的后退和行为。</p>
+<p class="translated">互联网公司比以往任何时候都更需要达到“5个9”的支持水平，这意味着也许有理由在家里建立第二个互联网连接(就像许多企业已经做的那样)。这意味着没有互联网，物联网将不复存在。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

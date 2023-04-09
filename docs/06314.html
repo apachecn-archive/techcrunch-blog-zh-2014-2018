@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Google Open Sources Its Seesaw Load Balancer • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">谷歌开源其跷跷板负载平衡器TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/01/29/google-open-sources-its-seesaw-load-balancer/">https://web.archive.org/web/https://techcrunch.com/2016/01/29/google-open-sources-its-seesaw-load-balancer/</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">谷歌开源了它的跷跷板负载平衡器</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">Google <a target="_blank" href="https://web.archive.org/web/20221205160254/http://google-opensource.blogspot.com/2016/01/seesaw-scalable-and-robust-load.html">今天宣布</a>它是开源的跷跷板——一个基于Linux的负载平衡系统。这个项目的代码是用谷歌的Go语言编写的，现在可以在<a target="_blank" href="https://web.archive.org/web/20221205160254/https://github.com/google/seesaw/blob/master/LICENSE"> Apache许可</a>下在<a target="_blank" href="https://web.archive.org/web/20221205160254/https://github.com/google/seesaw">的GitHub </a>上获得。</p>
+<p class="translated">谷歌网站可靠性工程师Joel Sing在今天的公告中写道，谷歌在2012年曾使用两种不同的负载平衡系统。然而，两者都“提出了不同的管理和稳定性挑战。”因此，为了解决这个问题，他和他的团队开始寻找新的解决方案，因为当时可用的解决方案不能满足谷歌的需求，他们开始编写自己的解决方案。</p>
+<p class="translated">Sing写道:“这些要求并不复杂——我们需要能够处理单播和任播<a target="_blank" href="https://web.archive.org/web/20221205160254/https://en.wikipedia.org/wiki/Virtual_IP_address">VIP</a>的流量，利用<a target="_blank" href="https://web.archive.org/web/20221205160254/http://www.linuxvirtualserver.org/VS-NAT.html"> NAT </a>和<a target="_blank" href="https://web.archive.org/web/20221205160254/http://www.linuxvirtualserver.org/VS-DRouting.html"> DSR(也称为DR) </a>执行负载平衡，并对后端执行充分的健康检查。”。“最重要的是，我们需要一个易于管理的平台，包括配置更改的自动部署。”</p>
+<p class="translated">因为其中一个平台已经使用了<a target="_blank" href="https://web.archive.org/web/20221205160254/http://www.linuxvirtualserver.org/whatis.html"> Linux虚拟服务器</a> (LVS)进行网络级负载平衡，所以团队坚持使用这个平台。除此之外，Google还实现了一个模块化的多进程架构和一些故障转移和恢复服务。</p>
+<p class="translated">“经过一段时间的集中开发工作，我们完成并成功部署了Seesaw v2，作为现有两个平台的替代品，”Sing写道。“总的来说，它让我们提高了服务可用性，降低了管理开销。”</p>
+<p class="translated">值得注意的是，虽然这个项目出自谷歌，但开源版本并不是谷歌的官方产品。所以不要指望公司会提供任何官方支持。</p>
+			</div>
+
+			</div>    
+</body>
+</html>
