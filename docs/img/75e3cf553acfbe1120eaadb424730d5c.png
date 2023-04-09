@@ -1,0 +1,754 @@
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+
+        
+
+
+
+
+    
+    
+    
+        
+    
+
+<script>var sageContextRoot = "/"</script>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+        
+    
+
+<script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-vanilla_utils-ede60fa06714e9ec113c5c1242fab99c.js"></script>
+<!-- Google Tag Manager -->
+<script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-gtm-ea010618d157d3bab9644ec64016aace.js" onload='idcGtm.init( {
+id : "GTM-MLHV83",
+environmentData: "",
+userId:         "N/A",
+region:         "N/A",
+topic:          "N/A",
+verticalMarket: "N/A",
+} );'></script>
+<!-- End Google Tag Manager -->
+
+
+        
+
+        
+            
+            
+                
+                <title>IDC - Not found (404)</title>
+                
+
+
+
+
+
+
+
+
+<meta name="description" content="IDC examines consumer markets by devices, applications, networks, and services to provide complete solutions for succeeding in these expanding markets.">
+
+<meta property="og:site_name" content="IDC: The premier global market intelligence company" />
+
+
+    <meta property="og:type" content="website" />
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.idc.com",
+        "logo": "https://cdn.idc.com/COMMONS/IMAGES/IDC_LOGO_Google_Search.svg?guid=adca5a4f-ad60-49dd-aa3e-001ad0ce5783"
+    }
+</script>
+
+
+<meta property="og:title" content="IDC - Not found (404)" />
+<meta property="og:description" content="IDC examines consumer markets by devices, applications, networks, and services to provide complete solutions for succeeding in these expanding markets." />
+<meta property="og:image" content="https://cdn.idc.com/COMMONS/IMAGES/og-image-2021-1200x630.jpg?guid=64bf436d-9a35-4b37-b393-70f6af665a20" />
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="IDC - Not found (404)">
+<meta name="twitter:description" content="IDC examines consumer markets by devices, applications, networks, and services to provide complete solutions for succeeding in these expanding markets.">
+<meta property="twitter:image" content="https://cdn.idc.com/COMMONS/IMAGES/og-image-2021-1200x630.jpg?guid=64bf436d-9a35-4b37-b393-70f6af665a20" />
+
+            
+        
+        <meta name="_csrf" content=""/>
+        <meta name="_csrf_header" content=""/>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+
+
+
+
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="https://use.typekit.net/hkm5jha.css">
+
+
+<link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/105419/IDC/style-cf.css?boqnvh">
+
+
+    
+    
+        <link rel="stylesheet" href="https://cdn.idc.com/RESOURCES/GUIDELINE/design-foundation6.min-79433bed1aba410d53d2cc6046ea464d.css">
+        <link rel="stylesheet" href="https://cdn.idc.com/RESOURCES/GUIDELINE/design-foundation6.custom-821862a2f74f6988042f510ebc9c6126.css">
+        <link rel="stylesheet" href="https://cdn.idc.com/RESOURCES/GUIDELINE/design-idc-components-7df9046a9e78dd77f8cd613121fedd51.css">
+    
+
+
+
+<link rel="stylesheet" href="https://cdn.idc.com/RESOURCES/GUIDELINE/design-guide.corporate-components-293b4d03f672114272c073425c889469.css">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.idc.com/RESOURCES/STYLES/thickbox-4dc6f609f2bacf4d5e7ea0814f1bfb04.css"/>
+
+
+<link rel="stylesheet" href="https://cdn.idc.com/RESOURCES/STYLES/idc-components.custom-ef83ff53c01f0acbc0bc3ae658b58673.css">
+
+
+
+    
+    
+    
+        <link rel="stylesheet" href="https://cdn.idc.com/RESOURCES/GUIDELINE/design-guide.corporate-components.nav-corporate-e33c621caef4a2ae1f6f97eca47dff9c.css">
+    
+
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.idc.com/RESOURCES/GUIDELINE/design-select2-v2-5e87f559eb3ab2ce29a963915c2cd15b.css">
+
+        
+
+<script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-jquery.min-311b5d4fe3c2bcf991beb6ada9baa9a2.js"></script>
+
+
+        
+
+<script type="text/javascript" src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-slick.min-f00b1556d2cb0d75362f1dc64562852a.js"></script>
+
+
+        <script type="text/javascript" src="https://cdn.idc.com/RESOURCES/EXTENSIONS/jquery.idc.extensions-7faf89bfce0d3eb34a0ab6543ae0d8d9.js"></script>
+        <script type="text/javascript" src="https://cdn.idc.com/RESOURCES/EXTENSIONS/jquery.timers-1.2-c3613c18613b7d9252de5332c1d4b68c.js"></script>
+        <script type="text/javascript" src="https://cdn.idc.com/RESOURCES/JS/idc-886c30d07029245633c49a561a9eb8bb.js"></script>
+        <script type="text/javascript" src="https://cdn.idc.com/RESOURCES/EXTENSIONS/ICanHaz.min-dfe1d7d8a2e183b270e506afd25f9bca.js"></script>
+
+        
+        <script type="text/javascript" src="https://cdn.idc.com/RESOURCES/EXTENSIONS/slideshow-885b9f478a2648a801c029f196471477.js"></script>
+
+        
+
+
+        </head>
+        <body class="normalscreen global-anim-off">
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLHV83"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="idc-main-header" data-gtm-root="Header">
+
+    
+
+
+
+
+
+<ul class="toolbar" data-gtm-root="Toolbar">
+    
+    
+        
+        
+            
+
+<li class=" has-menu">
+    <button class="toolbar-button" data-gtm-btn="Location Menu Toggle" aria-label="_SET_DYNAMICALY_WITH_JS_"><span data-idc-main-location-label>Location</span> <i class="icom icom-location"></i></button>
+    <ul class="bg-blue toolbar-menu width-full has-heading menu-location " data-gtm-root="Location Menu">
+        <div class="toolbar-menu-col">
+            <p class="h4 toolbar-menu-heading">Headquarters</p>
+            <div>
+                <div class="toolbar-menu-col-group">
+                    <div>
+                        <div>
+                            <div class="toolbar-menu-col-group-list">
+                                <li><a href="/">IDC Corporate</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar-menu-col">
+            <p class="h4 toolbar-menu-heading">Local Websites</p>
+            <div>
+                <div class="toolbar-menu-col-group">
+                    <div>
+                        <div>
+                            <div class="toolbar-menu-col-group-list">
+                                <li><a href="/asean">ASEAN</a></li>
+                                <li><a href="/ap">Asia/Pacific</a></li>
+                                <li><a href="/anz">Australia and New Zealand</a></li>
+                                <li><a href="https://idcbenelux.com">Benelux</a></li>
+                                <li><a href="/ca">Canada</a></li>
+                                <li><a href="/cis">Central Asia</a></li>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="toolbar-menu-col-group-list">
+                                <li><a href="/cn">China</a></li>
+                                <li><a href="http://www.idccolombia.com.co">Colombia</a></li>
+                                <li><a href="https://idc.fr">France</a></li>
+                                <li><a href="/de">Germany</a></li>
+                                <li><a href="/eu">Europe</a></li>
+                                <li><a href="/in">India</a></li>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="toolbar-menu-col-group-list">
+                                <li><a href="/it">Italy</a></li>
+                                <li><a href="/jp">Japan</a></li>
+                                <li><a href="/latam">Latin America</a></li>
+                                <li><a href="/mea">Middle East, Africa & T&#252;rkiye</a></li>
+                                <li><a href="http://www.idc.com/nordic">Nordic</a></li>
+                                <li><a href="http://www.idc.pt">Portugal</a></li>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="toolbar-menu-col-group-list">
+                                <li><a href="/cis">CIS</a></li>
+                                <li><a href="/kr">South Korea</a></li>
+                                <li><a href="https://idcspain.com">Spain</a></li>
+                                <li><a href="/tw">Taiwan</a></li>
+                                <li><a href="/uk">United Kingdom</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ul>
+</li>
+<li class="show-for-medium"><a href="/idcstore/cart.jsp" class="toolbar-button icom icom-cart" data-gtm-link="Cart" title="Shopping Cart"><span class="show-for-sr">Shopping Cart</span></a></li>
+<li class="show-for-medium"><a href="/help" class="toolbar-button icom icom-help" data-gtm-link="Help" title="Need Help?"><span class="show-for-sr">Need Help?</span></a></li>
+
+
+        
+    
+
+    
+    
+        
+        
+            
+            
+            <li><a class="toolbar-button" href="/action/login.do?successUrl=https%3A%2F%2Fwww.idc.com%2Fprodserv%2Fsmartphone-ms-img%2Fchart-ww-smartphone-os-market-share.png" data-qa="login">Login</a></li>
+            <span class="sign-in-divider" aria-hidden="true">/</span>
+            <li><a class="toolbar-button" href="/action/register.do" data-qa="register">Register</a></li>
+        
+    
+</ul>
+
+
+    <nav data-gtm-root="Nav">
+            
+
+
+
+
+
+
+<a href="/" data-gtm-link="IDC Logo" tabindex="-1" aria-hidden="true">
+    <img src="https://cdn.idc.com/COMMONS/IMAGES/IDC_LOGO_Header_White_Color.svg?guid=1db66617-fa99-4dd2-999b-b463dfa0c984"/>
+</a>
+
+
+        <ul>
+
+            
+            
+                
+                
+                
+                    <li class="has-menu">
+    <p>Solutions</p>
+    <ul class="sub-nav" data-gtm-root="SOLUTIONS">
+        <div class="main-column">
+            <li>
+                <p>Tech Suppliers</p>
+                <ul class="sub-row">
+                    <div class="sub-column">
+                        <li><a href="/prodserv/subservices.jsp">Subscription Research</a></li>
+                        <li><a href="/solutions/data">Data & Analytics Solutions</a></li>
+                        <li><a href="/prodserv/custom_solutions/index.jsp">Custom Solutions</a></li>
+                        <li><a href="/solutions/emergingvendor">Emerging Vendor Solutions</a></li>
+                    </div>
+                </ul>
+            </li>
+        </div>
+        <div class="main-column">
+            <li>
+                <p>Tech Buyers</p>
+                <ul class="sub-row">
+                    <div class="sub-column">
+                        <li><a href="/itexecutive">IT Executive Program</a></li>
+                        <li><a href="/prodserv/insights">Industry Insights</a></li>
+                        <li><a href="https://cioexecutivecouncil.com/">CIO Executive Council</a></li>
+                        <li><a href="/promo/sourcing-advisory-services">Sourcing Advisory Services</a></li>
+                    </div>
+                </ul>
+            </li>
+        </div>
+        <div class="main-column">
+            <li>
+                <p>Tech Watchers</p>
+                <ul class="sub-row">
+                    <div class="sub-column">
+                        <li><a href="/promo/investment-research">Investment Research Service</a></li>
+                    </div>
+                </ul>
+            </li>
+        </div>
+    </ul>
+</li>
+<li>
+    <a href="/analysts" name="&lid=ANALYSTS_Header">Analysts</a>
+</li>
+<li>
+    <a href="/events/upcomingevents" name="&lid=EVENTS_Header">Events</a>
+</li>
+<li>
+    <a href="https://blogs.idc.com">Blog</a>
+</li>
+<li class="has-menu">
+    <a href="/about" name="&lid=About_IDC_Header">About IDC</a>
+    <ul class="sub-nav" data-gtm-root="ABOUT IDC">
+        <div class="main-column">
+            <li><a href="/about/management">Management</a></li>
+            <li><a href="/about/methodology">Methodology</a></li>
+            <li><a href="/about/press">IDC Media Center</a></li>
+            <li><a href="/about/worldwideoffices">Worldwide Offices</a></li>
+            <li><a href="/about/careers">Careers at IDC</a></li>
+        </div>
+    </ul>
+</li>
+<li>
+    <a onclick="openModal('contact_custserv')" name="&lid=CONTACT_Header">Contact Us</a>
+</li>
+<li>
+    <a href="/myidc" name="&lid=MyIDC_Header">myIDC</a>
+</li>
+
+                
+            
+
+                
+                <li class="search" data-gtm-root="Search">
+                    <form id="header-search" action="/search/simple/perform.do" method="get" role="search">
+                        <div class="query-wrap">
+                            <input id="query" name="query" type="text" placeholder="Search" autocomplete="off" maxlength="300" class="ui-autocomplete-input" />
+                            <input type="hidden" name="lang" value="English" />
+                            <button type="submit" class="icom icom-magnifier" data-gtm-link="Submit" data-qa="searchSubmit" aria-label="Submit Search"></button>
+                            <div class="query-menu">
+                                <div class="language">
+                                    <p class="icom-after icom-arrow-head" data-gtm-btn="Language Menu Toggle">English</p>
+                                    <ul data-gtm-root="Language Menu">
+                                        <li><a>Any language</a></li>
+                                        <li><a>Chinese</a></li>
+                                        <li><a>English</a></li>
+                                        <li><a>Italian</a></li>
+                                        <li><a>Japanese</a></li>
+                                        <li><a>Korean</a></li>
+                                    </ul>
+                                </div>
+                                
+                                    
+                                    
+                                        <a href="/search/advanced/form.do">Advanced Search</a>
+                                    
+                                
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                
+
+                <li class="menu">
+                    <a class="icom-before icom-menu" onclick="openModal('idc-mobile-menu')">
+                        <span>Menu</span>
+                    </a>
+                </li>
+        </ul>
+    </nav>
+</header>
+
+<div id="modal-idc-mobile-menu" class="idc-mobile-menu modal menu" data-gtm-root="Mobile Nav">
+    <div class="actions">
+    
+        
+        
+            
+
+<a href="/idcstore/cart.jsp" class="icom icom-cart" data-gtm-link="Cart"><span class="show-for-sr">Shopping Cart</span></a>
+<a href="/help" class="icom icom-help" data-gtm-link="Help"><span class="show-for-sr">Need Help?</span></a>
+
+    <a href="/settings/" class="icom icom-gear" data-gtm-link="Settings"><span class="show-for-sr">Settings</span></a>
+
+
+        
+    
+    </div>
+    <ul class="modal-menu">
+        
+    </ul>
+</div>
+
+
+        
+        <div class="idc-main-content ">
+        
+
+
+<div class="row">
+    <div class="column large-8">
+        <div class="idc-error-message">
+            <h1>Not found (404)</h1>
+            <p>
+                Requested resource <strong>/prodserv/smartphone-ms-img/chart-ww-smartphone-os-market-share.png</strong> is not available.
+            </p>
+            <p>
+                The file that you requested could not be found on this server. If you provided the URL, please check to
+                ensure that it is correct. If you followed a hypermedia link, please notify the administrator of that
+                server of this error.
+            </p>
+            <p><a href="/" class="link-inline-arrow"><i>Go to home page</i></a></p>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+<footer class="idc-main-footer" data-gtm-root="Footer">
+    <div class="row">
+        <div class="column">
+            <div class="main">
+                <div>
+                    
+
+
+
+
+
+
+<a href="/" data-gtm-link="IDC Logo" tabindex="-1" aria-hidden="true">
+    <img src="https://cdn.idc.com/COMMONS/IMAGES/IDC_LOGO_Header_White_Color.svg?guid=1db66617-fa99-4dd2-999b-b463dfa0c984"/>
+</a>
+
+                    
+                        
+                        
+                    <address>
+                            <strong>IDC Corporate</strong>
+                            <br>140 Kendrick Street, Building B
+                            <br>Needham, MA 02494
+                            <br><br>+1.508.872.8200
+                    </address>
+                        
+                    
+                    <div class="hide-for-large idc-main-share">
+                        <a data-gtm-link="SHARE - Facebook" data-qa="facebook" class="icom icom-facebook"></a>
+<a data-gtm-link="SHARE - Twitter" data-qa="twitter" class="icom icom-twitter"></a>
+<a data-gtm-link="SHARE - LinkedIn" data-qa="linkedin" class="icom icom-linkedin"></a>
+                        
+<a data-gtm-link="SHARE - WeChat" class="icom icom-wechat" onclick="event.stopPropagation();openModal('page-qr')" title="Share on WeChat"></a>
+                    </div>
+                </div>
+
+                
+                    
+                    
+                    
+                        <div>
+    <p class="heading">Site Links</p>
+    <ul class="custom triangle">
+        <li><a href="/" name="&amp;lid=Home_Footer">Home</a></li>
+        <li><a href="/myidc" name="&amp;lid=MyIDC_Footer">myIDC</a></li>
+        <li><a href="/analysts" name="&amp;lid=Analysts_Footer">Analysts</a></li>
+        <li><a href="/events" name="&amp;lid=Events_Footer">Events</a></li>
+        <li><a href="https://blogs.idc.com/">IDC Blog</a></li>
+        <li><a href="/promo/future-of-x">&ldquo;Future Of&rdquo; Research</a></li>
+        <li><a href="/ukraine-conflict">Resources Center</a></li>
+    </ul>
+</div>
+<div>
+    <p class="heading">Company</p>
+    <ul class="custom triangle">
+        <li><a href="/about" name="&amp;lid=About_IDC_Footer">About IDC</a></li>
+        <li><a href="/about/careers" id="&amp;lid=Testing_Careers_Footer">Careers</a></li>
+        <li><a href="/about/worldwideoffices">Worldwide Offices</a></li>
+        <li><a href="https://www.twitter.com/IDC">IDC on Twitter</a></li>
+        <li><a href="https://www.linkedin.com/company/idc/">IDC on LinkedIn</a></li>
+        <li><a onclick="openModal('contact_custserv')">Contact IDC</a></li>
+        <li><a href="/about/rss">RSS/Feeds</a></li>
+    </ul>
+</div>
+<div>
+    <p class="heading">Solutions</p>
+    <ul class="custom triangle">
+        <li><a href="/prodserv/subservices.jsp">Subscription Research</a></li>
+        <li><a href="/solutions/data">Data & Analytics Solutions</a></li>
+        <li><a href="/prodserv/custom_solutions/index.jsp">Custom Solutions</a></li>
+        <li><a href="/solutions/emergingvendor">Emerging Vendor Solutions</a></li>
+        <li><a href="/itexecutive">IT Executive Program</a></li>
+        <li><a href="/prodserv/insights">Industry Insights</a></li>
+        <li><a href="https://cioexecutivecouncil.com/">CIO Executive Council</a></li>
+        <li><a href="/promo/investment-research">Investment Research Service</a></li>
+    </ul>
+</div>
+
+                    
+                
+            </div>
+            <div class="sub">
+                <div class="copyright">
+                    Copyright 2022 IDC. <br>All rights reserved.
+                </div>
+                <div>
+                    <ul class="custom triangle">
+                        
+                            
+                            
+                            
+                                <li><a href="/about/privacy">Privacy Policy</a></li>
+<li><a href="/about/ccpa">CCPA</a></li>
+<li><a href="https://info.idc.com/email-subscription.html" target="_blank">Subscribe</a></li>
+<li><a href="/unsubscribe">Unsubscribe</a></li>
+<li><a href="/about/termsofuse">Terms of Use</a></li>
+<li><a href="/about/reprints">Web Rights &amp; Licensing</a></li>
+
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <div id="modal-contact_custserv" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contact_custserv" data-sharable=""></div>
+    <div id="modal-contactidcform" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contactidcform" data-sharable=""></div>
+    <div id="modal-contact_repsales" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contact_repsales" data-sharable=""></div>
+    <div id="modal-contact_consulting" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contact_consulting" data-sharable=""></div>
+    <div id="modal-requestmoreinfo" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/requestmoreinfo" data-sharable=""></div>
+    <div id="modal-contact_techinq" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contact_techinq" data-sharable=""></div>
+    <div id="modal-contact_permquote" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contact_permquote" data-sharable=""></div>
+    <div id="modal-contact_pressrel" class="modal iframe" data-width="1600" data-height="1120" data-iframe-url="/contact/iframe/contact_pressrel" data-sharable=""></div>
+
+    <div id="modal-page-qr" class="modal iframe" data-width="960" data-height="520" data-iframe-url="/ajax/wechat_share"></div>
+
+        
+            
+                <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-jquery.ui.idc-cut.min-0fc788528b87261ee0665e33e92ea767.js"></script><!-- used by autocomplete -->
+            
+            
+            
+        
+
+        
+        <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-autocomplete-26774d5a374f568bb3a1c6a74099c437.js"></script> <!-- used for search in header -->
+        <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-jquery.cookie-84396de840a19676cd9c9b218d7a7f88.js"></script> <!-- used for privacy notice -->
+
+        
+
+
+
+
+
+    
+    
+        <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-foundation6.min-02c13cd35e36a183392d4893f3f8f4b5.js"></script>
+        <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-idc-components-4bb61c21c2ddbe4c628fc19d3bbe4c1c.js"></script>
+    
+
+
+
+
+
+
+<script>
+    var tb_pathToImage = "https://cdn.idc.com/RESOURCES/IMAGES/loadingAnimation-e7476fddd806e1ad72356ec86ae2a35a.gif";
+</script>
+<script type="text/javascript" src="https://cdn.idc.com/RESOURCES/EXTENSIONS/thickbox-2348bc1d26964049d9c27345614d4292.js"></script>
+
+        <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-guide.corporate-components-6da3e5fefc544319313c990e71f1e1a0.js"></script>
+
+        <script>
+        //---------------------
+        //Legacy GTM tracking (this can be reviewed also through All Page Clicks)
+        //---------------------
+        $(document).ready(function(){
+        $idcHeaderNav.find( '> ul > li:not(.search):not(.menu) a' ).on( 'click', function(){
+        gtmNavClick( 'Main menu', this );
+        } );
+        function gtmNavClick( level, el ){
+        dataLayer.push( {
+        'NavLinkClickMenu': level,
+        'NavLinkClickParent': 1,
+        'NavLinkClickItem': $( el ).text(),
+        'event': 'Nav_Link_Click'
+        } );
+        };
+        })
+        </script>
+        <script src="https://cdn.idc.com/RESOURCES/GUIDELINE/design-select2.min-fc0cee6c9fff25ba823049d3b7227afe.js"></script>
+
+
+        
+
+        
+</body>
+</html>
