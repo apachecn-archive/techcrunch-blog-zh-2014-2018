@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Should WhatsApp let you disable URL previews? • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">WhatsApp应该让你禁用网址预览吗？TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/06/15/should-whatsapp-let-you-disable-url-previews/?guccounter=1">https://web.archive.org/web/https://techcrunch.com/2017/06/15/should-whatsapp-let-you-disable-url-previews/?guccounter=1</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">另一个提醒是，如果你想要完美的在线安全或隐私，你不应该指望每一个技术支持的便利的铃声和哨声都是随手可得的。</p>
+<p class="translated">端到端加密消息应用WhatsApp被证明会在用户在聊天中键入URL时泄露元数据，至少在理论上，这种方式可以为老练的对手提供获取用户IP地址的途径。</p>
+<p class="translated">几乎可以肯定，这种行为是这款即时通讯应用为其主流用户群提供的一项便利功能的结果，该功能可以在用户键入聊天内容时提供URL预览。需要澄清的是，这里没有实际的消息数据泄漏。聊天仍然是e2e加密的。对于主流用户来说，WhatsApp仍然是一个安全的消息选项。</p>
+<p class="translated">但在某些情况下，该应用程序也可能通过这种途径泄露用户代理和Android版本以及IP地址元数据。根据第三方开发者@ <a target="_blank" href="https://web.archive.org/web/20230123003718/https://twitter.com/mulander" rel="noopener"> mulander </a>的说法，他通过Twitter发现并标记了这个问题。他还在<a target="_blank" href="https://web.archive.org/web/20230123003718/https://news.ycombinator.com/item?id=14556576" rel="noopener">黑客新闻</a>上发布了一份简短的调查结果摘要。</p>
+<p class="translated">穆兰德说，他遇到这种行为是因为他自己管理他的电子邮件和博客，并注意到WhatsApp的GET请求一个字符一个字符地进来，而他正在查看他的网络服务软件日志。</p>
+
+<p class="translated">其他在推特上参与讨论的人说，他们能够<a target="_blank" href="https://web.archive.org/web/20230123003718/https://twitter.com/azuidhof/status/874544736228569089" rel="noopener">复制</a> <a target="_blank" href="https://web.archive.org/web/20230123003718/https://twitter.com/hossow/status/875025006622801921" rel="noopener">行为</a>。</p>
+<p class="translated">“该应用程序目前泄露的信息是:输入URL的人使用的IP地址、Android版本和WhatsApp版本的手机、输入的确切URL以及每次按键发生的确切时间，”穆兰德告诉我们。</p>
+<p class="translated">“(WhatsApp)不可能在获得预览的同时不泄露请求者的IP地址(他们不代表用户提出请求是件好事，因为这意味着他们会知道消息的内容，但事实并非如此)。”</p>
+<p class="translated">但他建议WhatsApp可以暂停这些GET请求，以掩盖(如果稍微)用户键入URL的时刻。而不是实时地一个字符一个字符地获取它，这确实会泄露输入节奏，并可能泄露其他非预期的信息——比如，第二个URL或在第一个URL后面错误地输入了一些单词，而没有用空格分隔。</p>
+<p class="translated">他还认为，WhatsApp可以默认禁用网站预览——尽管主流应用实际上无法通过向用户屏蔽注重便利的功能来发挥作用，因为一般来说，这些用户不太可能自己发现这些功能；因此，他们需要(并期待)为他们提供的便利。</p>
+<p class="translated">毕竟，正是WhatsApp的便利性让众多主流应用用户能够使用<a target="_blank" href="https://web.archive.org/web/20230123003718/https://techcrunch.com/2016/04/05/whatsapp-completes-end-to-end-encryption-rollout/" rel="noopener"> e2e加密信息</a>。这是件好事。然而，脸书旗下的消息应用目前没有提供任何方法来禁用WhatsApp内的网站预览功能——这似乎是一个遗憾。</p>
+<p class="translated">如果它确实提供了一个选项，有特定顾虑的用户(或者威胁级别非常高的用户)至少可以选择通过键入URL路由来消除元数据泄漏的风险。</p>
+<p class="translated">在没有这样一个选项的情况下，我猜一个手动的解决方法是不要在你的WhatsApp聊天中键入URL。或者，当您想要向联系人发送URL时，使用不提供网站预览的替代(e2e)消息应用程序。</p>
+<p class="translated">例如，Signal messaging应用程序不会泄露元数据，因为它不会获取URL预览，WhatsApp也使用该应用程序的端到端加密协议。</p>
+
+<p class="translated">鉴于Signal更关注安全性而非主流便利性，这也是另一款消息应用的预期行为。(Signal的用户基础也远不及WhatsApp。)</p>
+<p class="translated">重点是:安全选择就像赛马一样。</p>
+<p class="translated">“请注意，我不认为这是一个高度安全的缺陷，”穆兰德强调WhatsApp的GET请求。“是的，他们在泄露信息，但他们软件中的加密没有被破解。</p>
+<p class="translated">“信息泄露是一个旁门左道，<em>非常老练的</em>对手可以利用它来连接元数据并获得对话的额外信息，但明文消息不会通过互联网传输。”</p>
+<p class="translated">我们联系WhatsApp寻求对此事的评论，但在撰写本文时，该公司尚未回应。</p>
+<p class="translated">软件工程师亚历克·穆菲特(Alec Muffett)通过Twitter表示，他在WhatsApp的母公司工作时为脸书的私人聊天功能实现了e2e加密，他对此基本上不以为然</p>
+
+<p class="translated">尽管信息安全领域的其他人同意“无预览”选项至少是WhatsApp的一个好选项…</p>
+
+<p class="translated">TL；可以说，WhatsApp多一点隐私意识模糊和用户选择会更好——如果实施得好，应该不会使其可用性过于复杂。</p>
+<p class="translated">但是最主要的问题是安全性和便利性之间的长期拉锯战。底线:人们需要为他们的威胁级别选择合适的安全工具。</p>
+<p class="translated">而那些对数字隐私有具体担忧的人(比如，关注用于跟踪/广告定位的IP地址)可能需要准备好放弃比其他人更多的科技便利。</p>
+<p class="translated">这里强调的另一个问题是，需要整个行业更好地阐述复杂的技术，以帮助用户了解他们的相对风险。为了避免<a target="_blank" href="https://web.archive.org/web/20230123003718/https://techcrunch.com/2017/01/13/encrypted-messaging-platform-whatsapp-denies-backdoor-claim/" rel="noopener">预期的权衡/设计决策</a>被误解为更邪恶的东西。或者安全与隐私混为一谈。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

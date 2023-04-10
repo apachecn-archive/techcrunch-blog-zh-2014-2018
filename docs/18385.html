@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Machines learn language better by using a deep understanding of words | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">机器通过使用对单词的深刻理解来更好地学习语言</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2018/06/15/machines-learn-language-better-by-using-a-deep-understanding-of-words/">https://web.archive.org/web/https://techcrunch.com/2018/06/15/machines-learn-language-better-by-using-a-deep-understanding-of-words/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">计算机系统越来越善于理解人们所说的话，但它们也有一些主要的弱点。其中一个事实是他们对有多重或复杂意思的单词有困难。一个名为ELMo 的新系统将这种重要的上下文添加到单词中，从而全面提高理解能力。</p>
+<p class="translated">为了说明这个问题，想想“女王”这个词。当你和我说话的时候，我说这个词，你可以根据上下文知道我是在说伊丽莎白女王，还是棋子，还是一个蜂巢的女家长，或者鲁保罗的变装比赛。</p>
+<p class="translated">单词具有多重含义的这种能力被称为<em>多义性</em>。实际上，这是惯例而不是例外。这是什么意思通常可以通过“天佑女王”这句话来确定相对于“我救了我的女王！”—当然，所有这些都决定了主题、句子结构、是否期望你做出回应等等。</p>
+<p class="translated">然而，机器学习系统并没有真正的灵活性。他们倾向于表示单词的方式要简单得多:它查看单词的所有不同定义，并得出一种平均值——当然是一种复杂的表示，但不能反映其真正的复杂性。当一个词的正确含义被理解至关重要时，它们是不可靠的。</p>
+<p class="translated"><a href="https://web.archive.org/web/20230315095320/https://arxiv.org/abs/1802.05365"> ELMo </a>(来自语言模型的嵌入)，然而，让系统轻松处理多义性；作为其实用性的证据，它上周在NAACL被授予最佳论文奖。其核心是使用其训练数据(一个巨大的文本集合)来确定一个单词是否有多重含义，以及这些不同的含义在语言中是如何表达的。</p>
+<p class="translated">例如，你可能会在我上面的例子“女王”句子中看出，尽管它们非常相似，但一个是关于皇室的，另一个是关于游戏的。这是因为它们的书写方式包含了你自己的上下文检测引擎的线索，它会告诉你哪个是哪个。</p>
+<p class="translated">向系统告知这些差异可以通过手动注释它从中学习的文本语料库来完成——但是谁愿意在数百万个单词中记录哪个女王是哪个女王呢？</p>
+<p class="translated">该论文的主要作者Mathew Peters解释说:“我们正在寻找一种能够显著减少人工注释需求的方法。"我们的目标是尽可能多地从未标记的数据中学习."</p>
+<p class="translated">此外，他说，传统的语言学习系统“将一个单词的所有意思压缩到一个向量中。所以我们从质疑基本假设开始:让我们不要学习单一的向量，让我们有无穷多个向量。因为意义高度依赖于上下文。”</p>
+<p class="translated">ELMo通过摄取单词出现的完整句子来学习这些信息；它会知道，当一个国王和一个王后一起被提及时，很可能是皇室或游戏，而不是蜂窝。当它看到棋子时，它知道它是国际象棋；杰克暗示牌；诸如此类。</p>
+<p class="translated">一个配有ELMo的语言引擎远不如一个有多年语言解析经验的人，但即使是多义词的工作知识对理解语言也有很大帮助。</p>
+<p class="translated">不仅如此，在单词的含义中考虑整个句子还可以更容易地映射句子的结构，自动标记从句和词性。</p>
+<p class="translated">使用ELMo方法的系统有立竿见影的效果，即使在最新的自然语言算法上也提高了25%——这是该领域的巨大进步。因为这是一种更好的、更有情境意识的学习方式，但不是一种根本不同的学习方式，它甚至可以很容易地集成到现有的商业系统中。</p>
+<p class="translated">事实上，据报道微软已经在Bing上使用它了。毕竟，在搜索中确定意图是至关重要的，这当然需要准确阅读查询。ELMo也是开源的，就像艾伦人工智能研究所的所有工作一样，所以任何有自然语言处理需求的公司都应该看看这个。</p>
+<p class="translated">这篇文章为在英语语言系统中使用ELMo打下了基础，但是因为它的能力本质上是通过仔细阅读它所提供的数据而获得的，所以没有理论上的理由为什么它不应该不仅适用于其他语言，而且适用于其他领域。换句话说，如果你给它输入一堆神经科学文本，它应该能够区分与时间相关的<em>和与大脑该区域相关的</em>。</p>
+<p class="translated">这只是机器学习和语言如何围绕彼此快速发展的一个例子；虽然对于基本的翻译、语音转文本等来说，它已经足够好了，但是计算机还可以通过自然语言界面做更多的事情——如果它们知道如何做的话。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

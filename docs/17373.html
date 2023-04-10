@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Some data science on the newly released Trump and China tariffs • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">关于新发布的特朗普和中国关税的一些数据科学TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2018/04/04/some-data-science-on-the-newly-released-trump-and-china-tariffs/">https://web.archive.org/web/https://techcrunch.com/2018/04/04/some-data-science-on-the-newly-released-trump-and-china-tariffs/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">战争！特朗普政府昨晚深夜宣布了对中国不公平贸易行为的下一次大胆攻击，并且直击要害，宣布将对约1330种商品加征关税，包括“空调机器零件”和“面包房烤箱，包括饼干烤箱”。</p>
+<p class="translated">包括饼干烤箱！没有我们珍贵的饼干炉散发的热量，当所有的空调部件都用完时，我们将能够避免使用空调。太棒了。</p>
+<p class="translated">然而，由于中国制造的喷火器被列入清单，这些关税中包含了更多的热量。目前还没有消息表明埃隆·马斯克的<a href="https://web.archive.org/web/20230205145558/https://techcrunch.com/2018/01/27/elon-musks-boring-co-flamethrower-is-real-500-and-up-for-pre-order/">无聊公司【不是喷火器】是否会被算作喷火器(或中国制造)。</a></p>
+<p class="translated">当然，<a href="https://web.archive.org/web/20230205145558/https://www.cnbc.com/2018/04/04/china-new-us-tariffs-including-soy-cars-and-chemicals.html">中国已经用他们自己的新关税清单</a>做出了回应(该清单<a href="https://web.archive.org/web/20230205145558/https://techcrunch.com/2018/04/02/markets-drop-sharply-as-china-implements-new-tariffs-against-u-s/">不同于该国周一宣布的新关税</a>)。新的关税包括大豆、汽车和其他来自美国的商品。</p>
+<p class="translated">好吧，我承认:关税真的很无聊。针锋相对的攻击就像一场真正无聊的战舰游戏。实际上，这是多余的——这只是一个战舰游戏，所以我将尝试用一些数据科学来增加趣味性。</p>
+<p class="translated">现代经济是复杂的。“饼干烤箱”到底是什么？政府如何知道什么时候对商品征收关税，什么时候不征收关税？为了解决这些难题，美国政府发明了一种叫做<a href="https://web.archive.org/web/20230205145558/https://hts.usitc.gov/current">协调关税表</a>的机制，该机制将世界上每种产品的类别组织到编号为1到99的章节中。</p>
+<p class="translated">某些章节，如第86章(“铁路或电车轨道机车、车辆及其零件；只有几十个类别，而第84章(“核反应堆、锅炉、机械和机械设备；其中的一部分，“也就是很酷的东西”，据我统计有2000多种。</p>
+<p class="translated">我想看看特朗普政府挑选的1333个类别，以了解哪些商品似乎最吸引贸易团队的注意力。不幸的是，分类列表被以PDF格式发布(感谢政府！)，所以我不得不执行几次转换来获得原始数据。整个协调关税表通过Data.gov以机器可读格式<a href="https://web.archive.org/web/20230205145558/https://hts.usitc.gov/export">提供。</a></p>
+<p class="translated">我使用Python对各种HTS编号进行了计数，以比较该计划下可用的类别数量与特朗普政府提议征收关税的类别数量。这是一个非常粗略的分析，因为这些类别是行政性的，而不是经济性的(换句话说，一些类别可能价值数十亿美元，而其他类别则价值低得多)。尽管如此，这一分析仍能让我们了解政府的工作重点。</p>
+<p class="translated">两个类别受到关税的沉重打击——第30章药品和第86章机车零件。这两个国家都将超过三分之一的商品加到了对中国的关税清单上，远远高于其他商品的比例。从那里开始，精密设备和机械(分别是第90章和第84章)受到冲击，分别覆盖了大约四分之一的产品。我的完整分析列表如下。</p>
+<p class="translated">我从这些关税中得出的一个假设是，它们实际上可能比初看起来更具惩罚性。虽然关税适用于价值约500亿美元的商品，但这些商品似乎是经过特别挑选的，涵盖了制造业所需的一系列零件和机器。</p>
+<p class="translated">例如，想象一下你的“仪表板时钟”突然变得更贵了，所以你必须从另一个国家的新供应商那里购买时钟。如果你必须为足够多的零件寻找新的来源，你可能会考虑在这个过程中调整你的整个供应链，甚至是新关税制度下没有的零件。我认为应该关注的是这种二阶经济效应。</p>
+<p class="translated">没有人应该阅读协调关税表，但这些类别对经济确实很重要，公司将竞相理解政府做出的决定以及这对他们意味着什么。作为拟议规则的典型，有一个公众意见征询期，因此预计公司将进行大量游说，以将某些项目从列表中删除(甚至可能在列表中，以赶走更便宜的竞争对手)。</p>
+<h2 class="translated">特朗普关税的数据</h2>
+<p class="translated"><i>按百分比排序:</i></p>
+<ul>
+<li class="translated">第30章:129个类别中的47个(36.43%)(“医药产品”)</li>
+<li class="translated">第八十六章:47类中的17类(36.17%)(“铁路或电车轨道机车、车辆及其零件；铁路或电车轨道固定装置和配件及其零件；各种机械(包括机电)交通信号设备”)</li>
+<li class="translated">第90章:569类中的164类(28.82%)(“光学、摄影、电影摄影、测量、检验、精密、医疗或外科仪器和器械；及其零件和附件”)</li>
+<li class="translated">第八十四章:2173类中的537类(24.71%)(“核反应堆、锅炉、机械及机械器具；其中的部分”)</li>
+<li class="translated">第88章:72类中的16类(22.22%)(“航空器、航天器及其零部件”)</li>
+<li class="translated">第89章:54类中的11类(20.37%)(“船舶、船只和浮动结构”)</li>
+<li class="translated">第八十五章:1222类中的241类(19.72%)(“电动机械及设备及其零件；录音机和复制机，电视图像和声音录音机和复制机，以及这些物品的零件和附件”)</li>
+<li class="translated">第93章:93类中的15类(16.13%)(“武器弹药；及其零件和附件”)</li>
+<li class="translated">第七十六章:176类中的27类(15.34%)(“武器弹药；及其零件和附件”)</li>
+<li class="translated">第72章:731类中的108类(14.77%)(“钢铁”)</li>
+<li class="translated">第87章:470类中的48类(10.21%)(“除铁路或电车轨道车辆以外的车辆及其零部件和附件”)</li>
+<li class="translated">第73章:746类中的44类(5.90%)(“除铁路或电车轨道车辆以外的车辆及其零部件和附件”)</li>
+<li class="translated">第40章:272类中的8类(2.94%)(“除铁路或电车轨道车辆以外的车辆及其零部件和附件”)</li>
+<li class="translated">第29章:1409类中的38类(2.70%)(“除铁路或电车轨道车辆以外的车辆及其零部件和附件”)</li>
+<li class="translated">第94章:310类中的5类(1.61%)(“家具；床上用品、床垫、床垫支撑物、垫子及类似填充家具；其他品目未列名的灯具和照明配件；照明标志、照明铭牌等；预制建筑”)</li>
+<li class="translated">第28章:430类中的4类(0.93%)(“无机化学品；贵金属、稀土金属、放射性元素或同位素的有机或无机化合物”)</li>
+<li class="translated">第83章:117类中的1类(0.85%)(“贱金属杂项物品”)</li>
+<li class="translated">第91章:230类中的1类(0.43%)(“钟表及其零件”)</li>
+<li class="translated">第38章:250类中的1类(0.40%)(“杂项化学产品”)</li>
+</ul>
+			</div>
+
+			</div>    
+</body>
+</html>

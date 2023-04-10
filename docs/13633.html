@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Google Cloud gets a new networking algorithm that boosts internet throughput • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">谷歌云获得新的网络算法，提高互联网吞吐量TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/07/20/google-cloud-gets-a-new-networking-algorithm-that-improves-internet-throughput/">https://web.archive.org/web/https://techcrunch.com/2017/07/20/google-cloud-gets-a-new-networking-algorithm-that-improves-internet-throughput/</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">谷歌云获得一种新的网络算法，提高互联网吞吐量</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">谷歌今天<a target="_blank" href="https://web.archive.org/web/20221017154737/https://cloudplatform.googleblog.com/2017/07/TCP-BBR-congestion-control-comes-to-GCP-your-Internet-just-got-faster.html" rel="noopener">宣布</a>TCP BBR，一种新的拥塞控制算法，它已经被用来在全球范围内将来自google.com和YouTube的网络吞吐量提高了大约4 %(在一些国家超过14 %),现在也可用于其云平台用户。</p>
+<p class="translated">这里的总体想法是改进现有的互联网流量拥塞控制算法，这种算法自20世纪80年代<a target="_blank" href="https://web.archive.org/web/20221017154737/http://dl.acm.org/citation.cfm?id=52356" rel="noopener"/>以来就已经存在，并且通常只考虑分组丢失(当网络缓冲区填满时，路由器将丢弃任何新的分组)。这些算法决定了给定设备向网络发送数据的速度，以避免网络过载。当这些系统意识到一些数据包没有到达最终目的地时，它们开始以更慢的速度发送数据，这在理想情况下可以减少拥塞。有各种各样的算法来解决具体如何做到这一点(以及如何随着时间的推移再次加速)，但在核心上，它们都倾向于遵循相同的模式。</p>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20221017154737/https://beta.techcrunch.com/wp-content/uploads/2017/07/bbr-1.png" rel="noopener"> <img loading="lazy" class="aligncenter size-full wp-image-1517010" src="../Images/2f0bddb95224012395be41348c2162b4.png" alt="" srcset="https://web.archive.org/web/20221017154737im_/https://techcrunch.com/wp-content/uploads/2017/07/bbr-1.png 774w, https://web.archive.org/web/20221017154737im_/https://techcrunch.com/wp-content/uploads/2017/07/bbr-1.png?resize=150,90 150w, https://web.archive.org/web/20221017154737im_/https://techcrunch.com/wp-content/uploads/2017/07/bbr-1.png?resize=300,179 300w, https://web.archive.org/web/20221017154737im_/https://techcrunch.com/wp-content/uploads/2017/07/bbr-1.png?resize=768,458 768w, https://web.archive.org/web/20221017154737im_/https://techcrunch.com/wp-content/uploads/2017/07/bbr-1.png?resize=680,406 680w, https://web.archive.org/web/20221017154737im_/https://techcrunch.com/wp-content/uploads/2017/07/bbr-1.png?resize=50,30 50w" sizes="(max-width: 774px) 100vw, 774px" data-original-src="https://web.archive.org/web/20221017154737im_/https://beta.techcrunch.com/wp-content/uploads/2017/07/bbr-1.png"/> </a></p>
+<p class="translated">代表“<strong> B </strong> ottleneck <strong> B </strong>和宽度和<strong> R </strong>往返传播时间”的BBR采取了不同的方法。它不仅关注数据包丢失，还关注网络实际传输数据的速度。“对于给定的网络连接，它使用网络传输速率和往返时间的最新测量结果来建立一个显式模型，其中包括该连接最近可用的最大带宽和最近的最小往返延迟，”谷歌解释道。利用这些数据，BBR可以决定发送数据的速度。</p>
+<p class="translated">其结果是一种算法，可以在任何给定的时间发送更多的数据(而不会导致损失)，特别是在长途链路上。谷歌表示，它的一个基准测试显示吞吐率提高了2700倍，但这显然是一个边缘案例，是一个合成基准测试。</p>
+<p class="translated">该公司去年在一篇论文中首次公开谈论了BBR <a target="_blank" href="https://web.archive.org/web/20221017154737/http://delivery.acm.org/10.1145/3010000/3009824/p58-cardwell.pdf?ip=50.39.97.90&amp;id=3009824&amp;acc=OA&amp;key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E5945DC2EABF3343C&amp;CFID=787455573&amp;CFTOKEN=69693722&amp;__acm__=1500502475_7b652819aa9cf1ead8e44bc4b4ae9e24" rel="noopener">，并自那以后开源了该协议。Google也将其贡献给了Linux内核TCP栈。</a></p>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20221017154737/https://beta.techcrunch.com/wp-content/uploads/2017/07/gcp-tcp-bbr-animate-r1_4.gif" rel="noopener"> <img loading="lazy" class="aligncenter size-full wp-image-1516667" src="../Images/362aa857f0285cc59cab51a95bfe8b0e.png" alt="" data-original-src="https://web.archive.org/web/20221017154737im_/https://beta.techcrunch.com/wp-content/uploads/2017/07/gcp-tcp-bbr-animate-r1_4.gif"/> </a></p>
+			</div>
+
+			</div>    
+</body>
+</html>

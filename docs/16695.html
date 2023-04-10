@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>People are trolling iPhone users with the 'killer symbol' that crashes their apps | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">人们用“杀手符号”吸引iPhone用户，使他们的应用崩溃</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2018/02/16/iphone-bug-telugu-unicode-ios-mac-text-bomb/">https://web.archive.org/web/https://techcrunch.com/2018/02/16/iphone-bug-telugu-unicode-ios-mac-text-bomb/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">惊喜！互联网上各种各样的怪人已经将我们昨天报道的基于Unicode的漏洞武器化，使运行在iPhone或Mac上的应用程序崩溃。结果介于旧的Alt + F4技巧和脚本小子特技之间，从令人讨厌到使设备无法使用，取决于巨魔的坚韧程度。</p>
+<p class="translated">该漏洞导致许多iOS和Mac应用程序在南印度语泰卢固语中渲染两个字符时崩溃。虽然任何人都可以避免看到这些符号，但当有人恶意发送这些符号或将它们直接发送到接收通知的设备时，问题就出现了。</p>
+<p class="translated">在过去的一天里，许多Twitter用户已经开始在Twitter上发布这些符号，比如“阅读这篇文章立即注销”和“转发这篇文章让任何使用苹果设备的人崩溃”，不过幸运的是，他们中的大多数人没有多少粉丝。不过，如果这个符号出现在你的@回复中，或者出现在某个喜欢你的推文的人的手柄中，那么你打开的任何应用程序的游戏都结束了(主板作家约瑟夫·考克斯<a target="_blank" href="https://web.archive.org/web/20230324125434/https://motherboard.vice.com/en_us/article/bj573w/iphone-twitter-text-bomb-crash-ios" rel="noopener">吃了苦头才知道这一点</a>)。根据我们的观察，让一个应用程序重新工作的唯一方法是从头开始重新安装——这是一个耗时的过程，尤其是如果一个巨魔再次让它崩溃的话。</p>
+<p class="translated">正如在推特上捕捉到的，一名安全研究员<a target="_blank" href="https://web.archive.org/web/20230324125434/https://twitter.com/_MG_/status/964261495423954944/photo/1?ref_src=twsrc%5Etfw&amp;ref_url=https%3A%2F%2Fbeta.techcrunch.com%2Fwp-admin%2Fpost.php%3Fpost%3D1599542%26action%3Dedit%26recrawl%3Dtrue%26code%3D200%26response_body%3DQueued" rel="noopener">在他的优步手柄</a>上添加了一个符号作为实验。“我怀疑一个死机的手机意味着你被转到下一个司机那里……那个司机也死机了。就像优步路由蠕虫，”他写道。我们联系了优步，看看他们是否意识到了这个问题，并会在我们得到回复时更新。</p>
+<p class="translated"><img decoding="async" class="aligncenter wp-image-1599583 size-large" src="../Images/6450194f310aa895ab202ed746a2926e.png" alt="" srcset="https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png 858w, https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png?resize=150,102 150w, https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png?resize=300,204 300w, https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png?resize=768,523 768w, https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png?resize=680,463 680w, https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png?resize=50,34 50w" sizes="(max-width: 680px) 100vw, 680px" data-original-src="https://web.archive.org/web/20230324125434im_/https://techcrunch.com/wp-content/uploads/2018/02/screen-shot-2018-02-16-at-4-08-38-pm.png?w=680"/></p>
+<p class="translated">目前，大部分的钓鱼似乎是在Twitter上。在脸书和Reddit上的搜索都没有发现太多泰卢固语的痕迹，因此这些平台似乎已经采取措施来限制扼杀iPhone的Unicode符号的影响。</p>
+<p class="translated">与此同时，Mozilla工程师马尼什·戈雷戈卡尔(Manish Goregaokar)的博客文章指出，Unicode错误的范围可能比我们所知的两种符号更广。“……根据一些实验，这种错误似乎发生在任何一对带元音的泰卢固语辅音上，只要元音不是ై (ai)，”他写道。他目前的发现是:</p>
+<blockquote><p class="translated">所以，最终，导致崩溃的所有情况是:</p>
+<p class="translated">梵文、孟加拉文和泰卢固文中的任何序列<consonant1 virama="" consonant2="" zwnj="" vowel="">，其中:</consonant1></p>
+<p class="translated">辅音2是后缀连接，即र、র、য和所有泰卢固语辅音<br/>如果辅音2是र或র，辅音1不是同一个字母(或变体，如ৰ) <br/>元音不是ై或ৌ</p></blockquote>
+<p class="translated">TechCrunch已经联系了Twitter、脸书和Reddit，看看这些平台是如何处理这个漏洞的，当这个漏洞在一个开放的社交网络上爆发时，破坏性尤其大。我们也与苹果公司取得了联系，他们已经确认即将推出“点更新”修复，但拒绝确认是否会是iOS 11.2.6。苹果指出，该漏洞已在iOS、tvOS、macOS和watchOS的当前测试版中得到修复。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

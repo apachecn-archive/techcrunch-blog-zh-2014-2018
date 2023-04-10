@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>1Password bolts on a 'pwned password' check | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">1“pwned密码”检查上的密码螺栓| TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2018/02/23/1password-bolts-on-a-pwned-password-check/?ncid=rss">https://web.archive.org/web/https://techcrunch.com/2018/02/23/1password-bolts-on-a-pwned-password-check/?ncid=rss</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">密码管理服务1Password有一个全新的功能，让用户可以检查他们想要使用的密码是否已经被破解。在这一点上，它会建议他们选择另一个。</p>
+<p class="translated">这是对更常见的密码强度指示条的补充，它试图鼓励web用户改进他们的安全实践。pwnage检查在此基础上进一步降低了密码重复使用的风险，因为它会验证特定密码是否出现在许多已知的数据泄露中。</p>
+<p class="translated">以下是新功能的视频:</p>
+<p class="embed breakout embed-oembed embed--video embed--youtube"/>
+<p class="translated">为了增强该功能，1Password依赖于Troy Hunt去年夏天推出的<a href="https://web.archive.org/web/20230319165928/https://haveibeenpwned.com/Passwords"> Pnwed密码</a>，以及本月更新了大量密码数据的<a href="https://web.archive.org/web/20230319165928/https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/">。它现在包含了大约5亿个<em>可下载的密码，这些密码是亨特从各种不同的数据泄露导致的各种在线转储中收集的。亨特和SHA-1已经对数据库中的密码进行了散列处理。</em></a></p>
+<p class="translated">亨特最出名的是创造了<a href="https://web.archive.org/web/20230319165928/https://haveibeenpwned.com/">我被pwn了吗？</a>违规通知服务。事实上，正是通过运行免费的在线检查，让人们注册在他们的电子邮件地址出现数据泄露时得到通知，Pwned密码的想法应运而生——正如他所说，当人们被告知他们的电子邮件被发现泄露时，最常见的反应之一是询问他们是否也可以检查他们的密码是否被泄露。</p>
+<p class="translated">事情是这样的，知道你的数据在数百万被破坏的凭证中被发现，你被告知包括电子邮件和密码，但不知道你的情况下到底是什么被破坏了，会感到沮丧。尽管在这种情况下更改密码总是明智的做法。</p>
+<p class="translated">尽管亨特一直拒绝让被攻破的纯文本密码可以被搜索到(出于明显的安全和隐私原因)，但现代数据泄露的规模——如今几乎经常涉及数百万用户——显然加大了人们对我被破解了吗？也为pwned密码提供某种检查。</p>
+<p class="translated">尽管，需要澄清的是，Hunt的Pwned密码服务并不是为了让人们检查他们的<em>实际</em>密码。因为没有人应该在另一个第三方服务中输入真实的密码，即使是由一个如此优秀的人运行的服务。</p>
+<p class="translated">(亨特自己也指出了这一点，他写道:“(D)不要把你目前使用的密码输入到任何第三方服务中，就像这样！我没有明确地记录它们，我是一个值得信赖的人，但是是的，不要。这项基于网络的服务的目的是让那些因使用草率密码而有罪的人有一种独立的验证手段，证明他们不应该再使用这种密码。”)</p>
+<p class="translated">但他做了一些更有用和有趣的事情，而不仅仅是提供一种有趣的方法来发现“密码”在这个数据库中被用作密码超过330万次。或者“123456”已经被使用了超过2070万次。(如果你需要帮助，例如，一个不太懂技术的亲戚了解密码风险，这本身就可以提供一个方便的“安全101”课程。)</p>
+<p class="translated">因为Hunt已经使pwned密码可以通过API下载和查询——以一种不需要与第三方共享完整密码的方式。</p>
+<p class="translated">这是1Password用来支持其新的pwnage检查的。</p>
+<p class="translated">Cloudflare在这方面也有一些功劳。在Hunt创建了密码数据库之后，他说Cloudflare开发人员Junade Ali联系了他，他希望利用该数据库来提高密码安全性，但也希望加入一个匿名模型来验证泄露的密码，而不会有密码在此过程中被泄露的风险。</p>
+<p class="translated">阿里<a href="https://web.archive.org/web/20230319165928/https://blog.cloudflare.com/validating-leaked-passwords-with-k-anonymity/">在这里</a>发表了关于他采用的方法的博客，使用了一种叫做k-匿名的数学属性Hunt和1Password都在使用这种方法对Pwned密码进行密码检查，这些密码不共享被检查密码的完整哈希(这将是一个坏主意，因为它可能会产生违规风险)。</p>
+<p class="translated">“我们的方法通过利用一种被称为<em> k </em>匿名的数学属性，并以<em>范围查询、</em>的形式将其应用于密码哈希，增加了一层额外的安全性，”Ali写道。因此，<em> Pwned Passwords </em> API服务永远不会获得足够的关于未被破坏的密码散列的信息，以便以后能够破坏它</p>
+<p class="translated">只有要验证的40个字符的密码散列的前五个字符被发送到托管密码数据库的服务器，该服务器然后返回包含相同的五个初始字符的泄漏密码散列的列表。之后，只需在散列密码和列表之间进行简单的本地比较，看看是否匹配。</p>
+<p class="translated">当然，即使在pwnage检查中没有发现匹配，也不能绝对保证您想要使用的密码没有被破坏或以某种方式泄露。但这至少是一种清除绝对被攻破的密码的方法——并促使用户不再重复使用不安全的凭证。这是一种可怕的做法，呃，有时甚至会让一些非常专业的人陷入困境。</p>
+<p class="translated">1Password表示，拥有1Password会员资格的所有人现在都可以使用密码检查服务。要检查他们的密码，用户需要在1Password.com上登录他们的帐户，然后单击“打开保险箱”以查看他们的项目，然后单击某个项目以查看其详细信息。</p>
+<p class="translated">之后，它说他们需要输入键盘序列Shift-Control-Option-C(或Windows上的Shift+Ctrl+Alt+C)来解锁概念证明，然后他们可以单击出现在密码旁边的新“检查密码”按钮。</p>
+<p class="translated">亨特在<a href="https://web.archive.org/web/20230319165928/https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/">的博客</a>上标记了其他一些也采用了“第一代Pwned密码”的服务，包括一些将完全阻止密码重用的服务，并补充道:“我希望它们能激励其他人建立在这个数据集之上，并最终为每个人的网络安全带来积极的变化。”</p>
+<p class="translated">明确地说，他已经让<a href="https://web.archive.org/web/20230319165928/https://haveibeenpwned.com/Passwords"> Pwned密码数据库和API </a>免费可用。进一步提高他的好人资历。</p>
+<p class="translated">“所有这些模式都是免费的、不受限制的，如果你不想提供，甚至不需要归属，只要拿着那里的东西去做好事，”他补充道。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Reddit breach exposes non-critical user data | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">Reddit漏洞暴露非关键用户数据| TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2018/08/01/reddit-breach-exposes-user-data-but-not-much/">https://web.archive.org/web/https://techcrunch.com/2018/08/01/reddit-breach-exposes-user-data-but-not-much/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">Reddit今天宣布，它在6月份遭遇了一次安全漏洞，将一些内部系统暴露给了攻击者，尽管访问的内容不是特别敏感。值得注意的是，黑客是通过短信拦截绕过Reddit的双因素身份验证完成的——这对任何尚未放弃这种方法的人来说都是一个警钟。</p>
+<p class="translated">Reddit首席技术官克里斯·斯洛维在一篇帖子中解释说，他们在6月19日发现了这次黑客攻击，估计发生在6月14日至18日之间。他写道，这次攻击“损害了我们的云和源代码托管提供商的一些员工账户”，获得了“一些包含备份数据、源代码和其他日志的系统的只读访问权限”。"</p>
+<p class="translated">所述访问在双因素认证系统之后被门控，但不幸的是，它们属于偶尔或可选地允许使用SMS来代替认证器应用或令牌的类型。短信有一些主要的内在安全缺陷，这种方法早在2016年就被NIST 宣布为<a href="https://web.archive.org/web/20230331183543/https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/">不可接受。但它远未被淘汰，许多服务仍将其作为主用或备用2FA方法。</a></p>
+
+<p class="translated">Reddit本身，值得注意的是，只提供2FA via token。但事实证明，至少他们的一个提供商没有这么做，攻击者利用了这一点。(斯洛维表示，他们知道没有手机遭到黑客攻击，这表明短信验证码被拦截，可能是通过假冒电话或欺骗提供商。)</p>
+<p class="translated">虽然黑客访问的完整清单还没有公布，但斯洛维说，就用户而言，有两个主要问题:</p>
+<ul>
+<li class="translated">2007年Reddit数据的完整副本，包括网站运营的前两年。这包括用户名、加盐/哈希密码、电子邮件、公开帖子和私人消息。</li>
+<li class="translated">六月的电子邮件摘要，包括用户名和相关的电子邮件。</li>
+</ul>
+<p class="translated">与2007年相比，如今的Reddit是一个不同的、大得多的地方；任何记得当年Digg大迁移的人都会记得它是多么的小和有限。</p>
+<p class="translated">尽管如此，这些数据仍然可能对试图欺骗名单上的人的恶意行为者有用——如果我是他们，我会发送虚假的电子邮件摘要，要求他们登录，或者建立一个用户名-电子邮件对列表，并将其与其他网站进行匹配。当然，你可能想，正如斯洛维所说，“想想你的Reddit账户上有没有你不想关联到那个地址的东西。”</p>
+<p class="translated">如果你是受影响的人之一，你应该会收到一封电子邮件或PM，通知你的风险——例如，如果你的密码自2007年以来没有被更改，这将是其自身的安全风险。我是2007年7月加入的，也没有收到，作为一个数据点。</p>
+<p class="translated">斯洛维还指出，该公司已按要求向有关当局报警，并在事件发生后提高了安全性。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

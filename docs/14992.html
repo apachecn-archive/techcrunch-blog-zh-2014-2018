@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Here’s what you can do to protect yourself from the KRACK WiFi vulnerability | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">以下是保护自己免受KRACK WiFi漏洞攻击的方法| TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/10/16/heres-what-you-can-do-to-protect-yourself-from-the-krack-wifi-vulnerability/">https://web.archive.org/web/https://techcrunch.com/2017/10/16/heres-what-you-can-do-to-protect-yourself-from-the-krack-wifi-vulnerability/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated"><span class="featured__span-first-words">安全研究员<a target="_blank" href="https://web.archive.org/web/20230316161016/http://www.mathyvanhoef.com/" rel="noopener">Mathy</a>T3】Vanhoef今天公开披露了WPA2加密协议中的一个<a target="_blank" href="https://web.archive.org/web/20230316161016/https://techcrunch.com/2017/10/16/wpa2-shown-to-be-vulnerable-to-key-reinstallation-attacks/" rel="noopener">严重漏洞</a>。大多数设备和路由器目前都依赖WPA2来加密你的WiFi流量，所以你很可能会受到影响。</span></p>
+<p class="translated">但是首先，让我们澄清一下攻击者利用<a target="_blank" href="https://web.archive.org/web/20230316161016/https://www.krackattacks.com/" rel="noopener"> KRACK </a>漏洞可以做什么，不可以做什么。攻击者可以拦截您的设备和路由器之间的部分流量。如果使用HTTPS对流量进行了适当的加密，攻击者就无法查看该流量。攻击者无法利用此漏洞获取您的Wi-Fi密码。如果他们知道自己在做什么，他们可以只查看你的未加密流量。通过一些设备，攻击者还可以执行<a target="_blank" href="https://web.archive.org/web/20230316161016/https://en.wikipedia.org/wiki/Packet_injection">数据包注入</a>并做一些讨厌的事情。这种漏洞就像在咖啡店或机场共享同一个WiFi网络。</p>
+<p class="translated">攻击者需要在您的WiFi网络范围内。他们不能在很远的地方攻击你。攻击者还可以控制你附近的一台<a target="_blank" href="https://web.archive.org/web/20230316161016/https://en.wikipedia.org/wiki/Zombie_(computer_science)" rel="noopener">僵尸电脑</a>，但这已经是一种更加复杂的攻击了。这就是为什么公司应该尽快发布补丁的原因，因为大多数攻击者可能今天才知道这个漏洞。</p>
+<p class="translated">至少在理论上，黑客有可能利用这一漏洞，使其在未来成为更具可扩展性的攻击载体——例如，想想蠕虫是如何被开发和释放的，它们从一个不安全的物联网设备传播到另一个设备，以构建僵尸僵尸网络。但目前情况并非如此。</p>
+<p class="translated">因此，现在《WPA2议定书》易受攻击，我们应该做些什么…</p>
+<h2 class="translated">更新你所有的无线设备</h2>
+<p class="translated">好消息！您的设备可以更新，以防止KRACK漏洞。更新的设备和未更新的设备可以在同一网络上共存，因为修复是向后兼容的。</p>
+<p class="translated">所以你应该用最新的安全补丁更新你所有的路由器和Wi-Fi设备(笔记本电脑、手机、平板电脑……)。你也可以考虑为将来的漏洞打开自动更新，因为这不会是最后一个。现代操作系统已经变得非常擅长自动更新。一些设备(咳咳，Android)没有收到很多更新，可能会继续带来风险。</p>
+<p class="translated">关键点是客户端和路由器都需要针对KRACK进行修复，因此需要考虑许多潜在的攻击媒介。</p>
+<h2 class="translated">看看你的路由器</h2>
+<p class="translated">你的路由器固件绝对需要更新。如果路由器是由您的ISP提供的，请询问该公司何时修补他们的品牌套件。如果他们没有答案，继续问。您可以通过浏览管理面板来确保您的路由器是最新的。找到您的ISP品牌路由器的用户指南，并按照说明连接到管理页面。</p>
+<p class="translated">如果您的ISP没有快速更新固件来修复KRACK，可能是时候考虑更换ISP了。一个不那么极端的选择是从一家已经发布补丁的负责任的公司购买WiFi接入点。在你的ISP路由器上插一个WiFi接入点，在你的ISP垃圾上禁用WiFi是一个很好的替代方案。</p>
+<p class="translated">这里有一份已经解决问题的路由器制造商名单(Ubiquiti、Microtik、Meraki、Aruba、FortiNet……)。</p>
+<h2 class="translated">使用以太网</h2>
+<p class="translated">如果您的路由器尚未修复，并且您没有可用于无线的补丁WiFi接入点，您可以将以太网接入您的路由器，并关闭其无线功能，直到它被修补(假设您的路由器上可以禁用WiFi)。关闭你的设备上的WiFi，这样你就可以确保所有的流量都通过那根可爱的以太网电缆。</p>
+<p class="translated">如果您仍然希望为一些设备保留WiFi，请考虑为您的基本设备切换到以太网。例如，如果你每天花几个小时在电脑上，并使用这台电脑的大量互联网流量，买一根以太网电缆。</p>
+<h2 class="translated">考虑在手机上使用蜂窝数据</h2>
+<p class="translated">您的手机和平板电脑没有以太网端口。如果您想确保没有人在监视您的流量，请禁用您设备上的WiFi，改用蜂窝数据。如果你住在网络不稳定的地方，为移动数据支付额外费用，或者如果你<a target="_blank" href="https://web.archive.org/web/20230316161016/https://techcrunch.com/2017/03/29/everything-you-need-to-know-about-congress-decision-to-expose-your-data-to-internet-providers/" rel="noopener">不信任你的电信提供商</a>，这就不理想了。</p>
+<p class="translated">运行Android 6.0及更高版本的设备比其他设备更容易受到攻击。由于WiFi堆栈中握手机制的糟糕实现，很容易执行密钥重新安装攻击。所以安卓用户确实需要更加小心。</p>
+<h2 class="translated">物联网设备呢？</h2>
+<p class="translated">如果您拥有许多物联网设备，请考虑如果未加密的流量被拦截，这些设备中的哪一个会带来最严重的风险。比方说，你有一个联网的安全摄像头，当你在同一个WiFi网络上时，它不会加密流量——嗯，这可能会让攻击者窥探你家里的原始视频片段。Erk！</p>
+<p class="translated">采取相应的行动——例如，将最危险的设备从您的网络中撤出，直到它们的制造商发布补丁。请务必留意您的孩子可能连接到您的家庭网络的设备类型。</p>
+<p class="translated">与此同时，如果攻击者可以拦截你的智能灯泡和路由器之间的流量，这可能没什么问题。他们会用这些信息做什么呢？公平地说，爱德华·斯诺登甚至不希望关于他的灯泡如何开关的信息落入黑客之手，而且有充分的理由。但大多数人不会面临如此极端的国家支持的监控。所以你应该确定自己的风险水平，并采取相应的行动。</p>
+<p class="translated">也就是说，当涉及到安全问题时，物联网确实有一个可怕的名声。因此，这可能是一个审核您的联网设备收集的好时机，并考虑丢弃制造商不会迅速发布补丁的任何WiFi设备——它们可能会对您的网络构成某种形式的长期风险。</p>
+<h2 class="translated">安装HTTPS随处扩展</h2>
+<p class="translated">如上所述，您可以通过使加密的互联网流量优先于未加密的流量来降低风险。EFF发布了一个简洁的浏览器扩展，叫做<a target="_blank" href="https://web.archive.org/web/20230316161016/https://www.eff.org/https-everywhere" rel="noopener"> HTTPS Everywhere </a>。如果你使用的是谷歌浏览器、火狐浏览器或Opera浏览器，你应该考虑安装这个扩展。没有必要配置它，所以任何人都可以这样做。</p>
+<p class="translated">如果一个网站提供未加密访问(HTTP)和加密访问(HTTPS)，该扩展会自动告诉您的浏览器使用HTTPS版本来加密您的流量。如果一个网站仍然完全依赖HTTP，扩展也无能为力。如果一家公司的HTTPS执行得不好，并且你的流量没有真正加密，那么这个扩展就没有用。但是到处都有HTTPS总比没有好。</p>
+<h2 class="translated">不要依赖VPN作为解决方案</h2>
+<p class="translated">理论上，使用<a target="_blank" href="https://web.archive.org/web/20230316161016/https://techcrunch.com/2017/01/01/wtf-is-a-vpn/" rel="noopener">VPN服务器</a>听起来很聪明。但是我们已经去过那里了——小心那里的VPN服务。你不能相信他们中的任何一个。</p>
+<p class="translated">当您使用VPN服务时，您会将所有互联网流量重新路由到某个数据中心的VPN服务器。攻击者看不到你在WiFi网络上做什么，但VPN公司可以记录你所有的互联网流量，并用它来对付你。</p>
+<p class="translated">例如，Register <a target="_blank" href="https://web.archive.org/web/20230316161016/https://thenextweb.com/insider/2017/10/10/purevpns-non-existent-logs-used-to-track-arrest-alleged-internet-stalker/" rel="noopener">上周在一份法律文件中发现</a>pure VPN与当局共享关键信息，以追踪并逮捕一名男子。然而，该公司的网站声称PureVPN不保留任何日志。还是那句话，不要相信任何VPN公司。除非你愿意<a target="_blank" href="https://web.archive.org/web/20230316161016/https://techcrunch.com/2017/04/09/how-i-made-my-own-vpn-server-in-15-minutes/" rel="noopener">建立自己的VPN服务器</a>，否则VPN服务不是解决方案。</p>
+<h2 class="translated">特别偏执？搬到树林里去…</h2>
+<p class="translated">对于那些最偏执的人来说，他们不想/不能完全停止使用WiFi，可能是时候搬到远离任何邻居/司机的偏远森林小屋了。</p>
+<p class="translated">科技公司首席执行官们对这种隐私保护策略的版本是<a target="_blank" href="https://web.archive.org/web/20230316161016/http://time.com/money/4346766/mark-zuckerberg-houses/" rel="noopener">买下附近的房产</a>并推倒它们，以最大限度地降低他们的任何个人数据被窥探的风险。显然这种策略非常昂贵。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

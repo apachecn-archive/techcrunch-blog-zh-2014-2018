@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>IBM touts improved distributed training time for visual recognition models • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">IBM宣称改进了视觉识别模型的分布式训练时间TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/08/07/ibm-touts-improved-distributed-training-time-for-visual-recognition-models/">https://web.archive.org/web/https://techcrunch.com/2017/08/07/ibm-touts-improved-distributed-training-time-for-visual-recognition-models/</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">IBM吹嘘改进了视觉识别模型的分布式训练时间</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">两个月前，脸书的人工智能研究实验室(FAIR)公布了一些令人印象深刻的大规模分布式视觉识别模型的训练时间。今天，IBM用自己的一些数据进行了反击。IBM的研究小组表示，它能够在50分钟内在256个GPU上训练ResNet-50的1k课程——这实际上只是“我的模型比你的模型训练得更快”的礼貌说法脸书指出，使用Caffe2，<a target="_blank" href="https://web.archive.org/web/20221206153044/https://beta.techcrunch.com/2017/06/08/facebook-is-speeding-up-training-for-visual-recognition-models/" rel="noopener">能够使用8k小批量方法在256个GPU上在一小时内训练一个类似的ResNet-50模型。</a></p>
+<p class="translated">这将是一个自然的时刻来质疑为什么这些事情会摆在首位。分布式处理是人工智能研究的一个很大的子领域，但它也很神秘。对于深度学习问题来说，计算任务通常非常大，以至于在大量GPU上处理它们比在单个GPU上处理效率更高。</p>
+<p class="translated">但是当你添加更多的GPU时，训练时间不会自然减少。例如，您可能会假设，如果用一个GPU训练需要两分钟，那么用两个GPU训练只需要一分钟。在现实世界中，情况并非如此，因为拆分和重组复杂的定量运算需要一些成本。</p>
+<p class="translated">IBM承诺的是最有效的分布式深度学习库，用于将一个巨大的深度学习问题分解成数百个更小的深度学习问题。在单个计算工作的环境中，这一切看起来似乎微不足道，但请记住，像IBM和脸书这样的公司整天都在为数百万客户训练模型。每一家主要的科技公司都与此有利害关系，但通常很难比较公司承诺的结果，因为任何研究工作都有大量的变量。</p>
+<p class="translated">现在，你有理由质疑专注于分布式扩展效率增量的未来意义——你是对的。IBM Research的系统加速和内存主管Hillery Hunter告诉我，每个人都非常接近最佳状态。</p>
+<p class="translated">“你已经尽你所能从这个系统中获得了很多，所以我们相信我们已经接近最佳状态。真正的问题是我们不断看到改进的速度，以及我们是否仍将看到整体学习时间的改进。”</p>
+<p class="translated">IBM并没有止步于ResNet-50的结果。该公司继续在ResNet-101上测试分布式培训，这是一个更大更复杂的视觉识别模型。该团队表示，他们能够在7个小时内使用256个GPU在ImageNet-22k数据集上训练ResNet-101，这对于挑战来说是一个相当令人印象深刻的时间。</p>
+<p class="translated">“这也有利于在较小系统上运行的人，”亨特补充道。“您不需要256个GPU和64个系统来获得优势。”</p>
+<p class="translated">深度学习库与主要的开源深度学习框架配合良好，包括TensorFlow、Caffe和Torch。如果你想亲自尝试，一切都可以通过PowerAI获得。</p>
+			</div>
+
+			</div>    
+</body>
+</html>
