@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Hearing is like seeing for our brains and for machines • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">对于我们的大脑和机器来说，听觉就像是视觉</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/08/13/hearing-is-like-seeing-for-our-brains-and-for-machines/">https://web.archive.org/web/https://techcrunch.com/2016/08/13/hearing-is-like-seeing-for-our-brains-and-for-machines/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary">
+</p>
+
+<p class="translated">有一系列神经网络机器学习方法不仅仅是“深度的”在神经网络越来越受欢迎以推进语音技术和人工智能的时代，有趣的是，许多当前的方法最初是为图像或视频处理而开发的。</p>
+<p class="translated">其中一种方法，卷积神经网络(CNN)，可以很容易地看出为什么图像处理神经网络与我们大脑处理音频刺激的方式惊人地相似。因此，CNN很好地阐明了我们的听觉和视觉过程以多种方式联系在一起。</p>
+<h2 class="translated">关于CNN你需要知道什么</h2>
+<p class="translated">作为人类，我们识别一张脸或一个物体，不管它出现在我们的视野(或一张图片)的什么地方。当你试图在机器中模拟这种能力时，通过教它如何搜索视觉特征(像在较低水平的神经网络中的边缘或曲线，或者在较高水平的眼睛和耳朵，在人脸识别的例子中)，你通常在本地这样做，因为所有相关的像素彼此接近。在人类的视觉感知中，这反映在一簇神经元集中在一个小的感受野上，这个感受野是更大的整个视野的一部分。</p>
+<p class="translated">因为你不知道相关特征会出现在哪里，所以你必须扫描整个视野，要么顺序地，将你的小感受野作为一个窗口滑过它(从上到下和从左到右)，要么有多个更小的感受野(神经元簇)，每个感受野专注于(重叠)输入的小部分。</p>
+<p class="translated">后者是CNN所做的。这些感受野一起覆盖了整个输入，被称为“回旋”然后，较高级别的CNN压缩来自各个较低级别的卷积的信息，并从特定位置提取，如下面的所示的<a target="_blank" href="https://web.archive.org/web/20230122153302/https://en.wikipedia.org/wiki/Convolutional_neural_network">。</a></p>
+<p/>
+<p class="translated">因此，如果你使用谷歌照片或苹果<a target="_blank" href="https://web.archive.org/web/20230122153302/http://petapixel.com/2016/06/13/photos-ios-10-can-identify-faces-objects-shots/"> iOS 10 </a>中的等效新功能搜索照片中的人脸或物体，你可以假设CNN正在用于识别照片中可能显示所请求的人脸或物体的相关候选位置。</p>
+<p/>
+<p class="translated">但是我们也发现了CNN在演讲和语言方面的一些应用。</p>
+<p class="translated">CNN可以以端到端的方式应用于原始语音信号(即，无需手动定义特征)。CNN通过将输入场以时间为一维，以各种频率上的能量分布为第二维展开到它们的“卷积”中来观察语音信号，从而自动学习哪些频带与语音最相关。网络的较高层用于语音识别的核心任务:在语音信号中寻找音素和单词。</p>
+<p>	</p><div class="article-block block--pullout block--right">
+		<blockquote class="translated">已经表明，为处理音频信号和语音而设计的大脑区域可以用于视觉任务。</blockquote>
+	</div>
+	
+<p class="translated">一旦你有了这些词，下一个例子是自然语言理解(NLU)中的“意图分类”，或者从用户请求中理解用户想要完成什么类型的任务(我在最近的一篇博客文章的<a target="_blank" href="https://web.archive.org/web/20230122153302/http://whatsnext.nuance.com/in-the-labs/deep-neural-nets-research-machines-understand-human-language/">中提到了NLU的另一个方面，命名实体识别，是如何工作的)。例如，在命令“将钱从我的支票账户转移到约翰·史密斯”中，意图是“money_transfer”这种意图通常由一个单词或一组单词(通常是本地的)来表示，它们可以出现在查询中的任何位置。</a></p>
+<p class="translated">因此，类似于图像识别，我们需要通过在时间现象(话语；一次查看一个单词及其上下文)而不是空间场。这非常有效:当我们为这项任务引入CNN时，他们的表现比以前的技术精确了10%以上。</p>
+<h2 class="translated">大脑中的邻居——以及现场的邻居</h2>
+<p class="translated">为什么CNN能成功完成这些任务？一个相当直截了当的解释可能是，它们只是与图像处理有共同的特征；他们都是“在更大的东西中找到小的东西，我们不知道它可能在哪里”的类型。但可能还有另一个稍微有趣的解释，即为视觉任务设计的CNN也适用于语音相关任务，这反映了大脑使用非常相似的方法来处理视觉和音频/语音刺激的事实。</p>
+<p class="translated">考虑像<a target="_blank" href="https://web.archive.org/web/20230122153302/https://en.wikipedia.org/wiki/Synesthesia">联觉</a>这样的现象，或者“一个感官或认知路径的刺激导致在第二个感官或认知路径中的自动、无意识的体验。”例如，音频或语音刺激可以导致视觉反应。(我采用了温和的版本；对我来说，一周中的每一天，或者更确切地说，描述这一天的单词，都有一种独特的颜色。星期一是深红色，星期二是灰色，星期三是深灰色，星期四是浅红色，以此类推。)它被解释为音频和语音信号的处理和光学处理在某种程度上必须是大脑中所谓的“邻居”。</p>
+<p class="translated">同样，已经表明，为处理音频信号和语音而设计的大脑区域可以用于视觉任务，例如天生有听力障碍的人可以重新利用他们大脑的音频/语音区域来处理手语。这可能意味着处理视觉或音频信号的脑细胞(神经元)的组织必须非常相似。</p>
+<p class="translated">所以，回到所有这些的实际应用。不难想象，几年后，你坐在一辆自动驾驶汽车上，与一名自动助手聊天，要求它播放你最喜欢的音乐或在餐馆预订一张桌子。可能会有几个CNN活跃在“幕后”来完成这项工作:</p>
+<ul>
+<li class="translated">一个或几个<a target="_blank" href="https://web.archive.org/web/20230122153302/http://www.dimatura.net/extra/voxnet_maturana_scherer_iros15.pdf">将由汽车使用的激光雷达系统</a>(“光探测和测距”，一种基于激光的雷达)使用，以创建其周围环境的模型，包括障碍物和其他汽车。</li>
+<li class="translated">很可能这辆车<a target="_blank" href="https://web.archive.org/web/20230122153302/http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf">也将使用摄像头</a>来探测和解读交通标志；CNN也很有可能被用于此。</li>
+<li class="translated">自动助手将在其语音识别和自然语言理解组件中使用CNN，以分别找到语音信号中的音素和单词，并找到单词流中的概念。</li>
+</ul>
+<p class="translated">可能还会有其他的。当然，所有这些任务都是由不同的CNN执行的，甚至可能是在不同的控制单元中。每一个CNN只能准确地执行它被训练的任务，而不能执行其他的任务(为此它必须被重新训练)。</p>
+<p>	</p><div class="article-block block--pullout block--left">
+		<blockquote class="translated">你可以说电脑游戏的新发展有助于使深度神经网络的训练变得可行。</blockquote>
+	</div>
+	
+<p class="translated">然而——这里又变得有趣了——已经证明，当CNN被训练时，它们似乎获得了(尤其是在较低层)一些通用的特征(或者你可以说的概念),这些特征可以用于其他任务。很容易理解为什么这适用于相关领域；例如，在语音识别中，你可以使用一种语言(比如英语)训练的CNN，只对另一种语言(比如德语)的顶层进行重新训练，它将在新的语言上很好地工作。显然，较低层捕捉到了多种语言之间的共同点。</p>
+<p class="translated">然而——我发现更令人惊讶的是——也有人尝试过跨模态训练CNN，比如一个场景的图像和该场景的文本表示。由此产生的网络<a target="_blank" href="https://web.archive.org/web/20230122153302/http://web.mit.edu/vondrick/adaptation.pdf">可以用来检索基于文本的图像</a>，反之亦然。作者得出结论，在某种程度上，在没有被告知如何做的情况下，CNN学习了这些模式的共同特征。同样，一个有趣的结果表明，看到和处理语言(文本)必须有很多共同点。</p>
+<p/>
+<p class="translated">视觉和听觉/言语和语言处理的相似性还有另一个非常实际的衍生。我们发现，为计算机图形(视觉通道)开发的图形处理单元(GPU)也可以用来加速语音和语言的机器学习任务。原因是，需要再次处理的任务在本质上是相似的:将相对简单的数学运算并行应用于大量数据点。所以你可以说电脑游戏的新发展有助于深度神经网络的训练变得可行。</p>
+<p class="translated">神经网络研究和创新具有广泛的影响，正如我们所见，一个应用领域(如图像识别)的进展也有助于推动其他领域(如语音识别和NLU)的发展。正如我们已经看到的，这可能是由人脑中听觉和视觉受体之间的许多相似之处引起的，或者一般来说是由大脑的组织方式引起的。</p>
+<p class="translated">因此，我们将继续看到机器学习和人工智能在许多领域的快速发展，所有这些都受益于许多领域的研究成果，这些研究成果可以共享。更具体地说，不再令人惊讶的是，最初为视觉设计的CNN最终将帮助机器倾听并更好地理解我们——这是我们不断推进这个人机交互新时代的关键。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

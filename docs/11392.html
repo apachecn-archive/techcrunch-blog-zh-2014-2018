@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Conversational AI and the road ahead | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">对话式人工智能和未来之路</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/02/25/conversational-ai-and-the-road-ahead/">https://web.archive.org/web/https://techcrunch.com/2017/02/25/conversational-ai-and-the-road-ahead/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary">
+</p><div class="article__contributor-byline">
+	<div class="contributor-byline__contributor">
+		<p class="byline__author translated"><span class="byline__author-name">凯瑟琳·贝利</span><span class="byline__author-title">撰稿人</span></p>
+
+			</div>
+
+		
+	
+		<div class="contributor-byline__more-articles">
+		<span class="more-articles-title">More posts by this contributor</span>
+		
+	</div>
+	</div>
+
+<p class="translated">近年来，我们已经看到越来越多的所谓“智能”数字助理被引入各种设备。在最近的CES上，<a target="_blank" href="https://web.archive.org/web/20230314143930/https://techcrunch.com/2017/01/03/hyundai-links-up-with-google-assistant-for-car-voice-commands/">现代</a>和<a target="_blank" href="https://web.archive.org/web/20230314143930/https://techcrunch.com/2017/01/06/heres-what-its-like-to-drive-with-toyotas-yui-ai-in-car-assistant/">丰田</a>都宣布了新的车载助手。尽管这些应用背后的技术在不断进步，但人们仍然倾向于对他们的能力感到失望——对“智能”的期望没有得到满足。</p>
+<div><p class="translated">尽管通过数据驱动的方法在自然语言处理(NLP)方面取得了长足的进步，但是自然语言</p><i>understanding</i><p class="translated">仍然难以捉摸。这</p><a target="_blank" href="https://web.archive.org/web/20230314143930/https://en.wikipedia.org/wiki/Winograd_Schema_Challenge">Winograd Schema Challenge</a><p class="translated">是最近提出的对图灵测试的改进，用于评估一台机器是否可以被判断为“智能的”它以Terry Winograd的名字命名，Terry wino grad是第一个在挑战赛中使用代词歧义消除问题的例子:</p></div>
+<p/>
+<p class="translated">市议会议员拒绝给示威者发放许可证，因为他们害怕暴力。”</p>
+<p/>
+<p class="translated">这里的“他们”指的是什么——议员还是示威者？如果我们不写“害怕”而写“提倡”会怎么样？这改变了我们对“他们”这个词的理解为什么？对我们来说很清楚，议员更可能害怕暴力，而示威者更可能支持暴力。这一信息对于消除代词“他们”的歧义至关重要，但它不在文本本身中，这使得这些问题对人工智能程序来说极其困难。</p>
+<p/>
+<p class="translated">第一次Winograd模式挑战于去年7月举行，获胜的算法在挑战中获得了“比随机稍好”的分数。</p>
+<h2 class="translated">表达与理解</h2>
+<p class="translated">有一种表示语言单词的技术在许多NLP任务中被证明非常有用，比如情感分析和机器翻译。这种表示被称为单词嵌入，它们是从数百万个单词用法示例中训练出来的单词的数学表示，以便捕捉意思。这是通过捕捉单词之间的关系来完成的。举一个经典的例子，一组好的表示法可以通过确保各个向量之间存在特定的数学关系(具体来说，国王-男人+女人=王后)来捕捉“国王对男人就像王后对女人”的关系。</p>
+<p/>
+<p class="translated">这种矢量化表示是谷歌新翻译系统的核心，尽管它们是整个句子的表示，而不仅仅是单词。新系统“将几个主要语言对的翻译错误减少了55-85%以上”，并且可以执行零镜头翻译:在没有训练数据存在的语言对之间进行翻译。</p>
+<p/>
+<p class="translated">考虑到所有这些，听到专注于自然语言处理的领先人工智能研究人员柳文欢·埃齐奥尼讽刺道:“当人工智能不能确定句子中的“它”指的是什么时，很难相信它会接管世界。”</p>
+<p/>
+<p class="translated">那么，AI可以在它从未被训练过的语言对之间进行充分的翻译，但它不能确定“它”指的是什么？怎么会这样呢？</p>
+<h2 class="translated">意义只能被间接捕捉到</h2>
+<p class="translated">当听到单词和句子的矢量化表示如何工作时，人们可能会很容易认为它们确实在捕捉意义，因为有一些理解正在发生。但这将是一个错误。这些表述来源于语言使用的例子。我们对语言的使用是由意义驱动的。因此，派生的表示自然反映了那个意思。但是学习这种表达的人工智能系统并不能直接理解实际意义。</p>
+<p/>
+
+<p dir="ltr"/>
+<p class="translated">对于许多NLP任务来说，缺乏对实际意义的理解并不是一个严重的问题。</p>
+<p/>
+<p class="translated">不理解“它”在句子中指的是什么不会对翻译准确性产生巨大影响——它可能意味着在翻译成法语时使用“il”而不是“elle ”,但这可能不是什么大问题。</p>
+<p/>
+<p class="translated">然而，当试图创建一个对话式人工智能时，问题出现了:</p>
+<p/>
+<div dir="ltr">
+<p/><div id="attachment_1455905" class="wp-caption alignnone"><img aria-describedby="caption-attachment-1455905" decoding="async" loading="lazy" class="wp-image-1455905 size-full" src="../Images/4620451c75f6dbf6a138850bf6373768.png" alt="pasted-image-0-5" srcset="https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-5.png 316w, https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-5.png?resize=150,84 150w, https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-5.png?resize=300,168 300w, https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-5.png?resize=50,28 50w" sizes="(max-width: 316px) 100vw, 316px" data-original-src="https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-5.png"/><p id="caption-attachment-1455905" class="wp-caption-text translated">根据本<a target="_blank" href="https://web.archive.org/web/20230314143930/https://www.ibm.com/watson/developercloud/doc/conversation/tutorial.html">教程</a>，您可以使用IBM的对话服务创建示例机器人的屏幕截图。</p></div>
+</div>
+<p class="translated">理解代词的所指是进行对话的一项非常重要的技能。如上所述，用于训练执行NLP任务的ai的训练数据不包括用于消除这些单词歧义的必要信息。这些信息来自于对世界的了解。是否有必要在这个世界上实际充当一个具体化的实体，或者只是简单地将大量的“常识知识”编入程序，以收集必要的信息，这仍然是一个悬而未决的问题。也许是介于两者之间的东西。</p>
+<h2 class="translated">在限制条件下工作</h2>
+<div><p class="translated">一些非常聪明的人正在研究人工智能中的自然语言理解问题。在今年最大的人工智能会议NIPS 2016上，OpenAI的研究人员展示了</p><a target="_blank" href="https://web.archive.org/web/20230314143930/https://arxiv.org/pdf/1610.03585v1.pdf">A Paradigm for Situated and Goal-Driven Language Learning</a><p class="translated">。斯坦福大学的研究人员正在研究交互式语言学习，这种方法认识到为了学习意义而与世界互动的重要性。有趣的是，他们的示例系统向Terry Winograd的SHRDLU系统致敬，这是一个早期的会话系统，它限制自己对由块组成的世界进行陈述和提问。</p></div>
+<div dir="ltr">
+<p/><div id="attachment_1455904" class="wp-caption alignnone"><img aria-describedby="caption-attachment-1455904" decoding="async" loading="lazy" class="wp-image-1455904 size-full" src="../Images/5300032bdd7cf26f8e726b4d87c6498e.png" alt="pasted-image-0-6" srcset="https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-6.png 300w, https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-6.png?resize=150,121 150w, https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-6.png?resize=50,40 50w" sizes="(max-width: 300px) 100vw, 300px" data-original-src="https://web.archive.org/web/20230314143930im_/https://techcrunch.com/wp-content/uploads/2017/02/pasted-image-0-6.png"/><p id="caption-attachment-1455904" class="wp-caption-text translated">Terry Winograd的早期自然语言理解程序SHRDLU只限于陈述由积木组成的世界。由Ksloniewski(自己的作品)<a target="_blank" href="https://web.archive.org/web/20230314143930/https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0 </a>，通过维基共享</p></div>
+</div>
+<p class="translated">对于今天任何想要构建对话式人工智能的人来说，这样的限制仍然是绝对必要的。亚马逊的Lex和IBM的conversation服务都允许开发者指定他们的应用程序应该工作的约束条件。它们定义了应用程序可以执行的一组意图，并将用户可能请求它们的一组可能方式映射到这些意图。</p>
+<p/>
+<p class="translated">但是，即使没有解决自然语言理解(这可能需要几十年或更长时间)，也有办法增强这种对话式人工智能体验。上图显示，当之前的请求是“关闭挡风玻璃雨刷”时，一个机器人不理解“现在把它们打开”，这表明当一个完全明确的代词不能被理解时是多么令人失望。这绝对可以用今天的技术解决。</p>
+<p/>
+<div><p class="translated">对于任何希望使用这种技术来构建或增强应用程序的人来说，理解今天的人工智能和机器学习能力有哪些可能，哪些不可能是关键。如果你对当前能力的说法没有足够的怀疑，你可能会浪费大量的时间和金钱去做一些(还)做不到的事情。另一方面，如果你过于怀疑，你可能会错过部署当今人工智能技术的机会</p><a target="_blank" href="https://web.archive.org/web/20230314143930/https://research.googleblog.com/2016/11/zero-shot-translation-with-googles.html">incredibly</a> <a target="_blank" href="https://web.archive.org/web/20230314143930/https://www.ncbi.nlm.nih.gov/pubmed/15360876">useful</a><p class="translated">和</p><a target="_blank" href="https://web.archive.org/web/20230314143930/http://www.forbes.com/forbes/welcome/?toURL=http://www.forbes.com/sites/laurashin/2015/12/09/kensho-the-financial-answer-machine/2/&amp;refURL=&amp;referrer=#197f179160d3">profitable</a> <a target="_blank" href="https://web.archive.org/web/20230314143930/https://medium.com/talla-inc/talla-for-q-a-is-available-on-slack-today-333b11be375e#.h6z45ghqm">ways</a><p>.</p><img decoding="async" loading="lazy" class="CToWUd" src="../Images/8070d0d965b8701e71a46558e2b101c3.png" alt="" align="left" data-original-src="https://web.archive.org/web/20230314143930im_/https://ci5.googleusercontent.com/proxy/wS3TpLZK0Yv_Q9_OIw4mqvy_-ss-FJJdH90SY9oBIdvExjgBkdV_Amkf29hoE2q42-bgSmiB1t0QThObcw6HqiXioIVDedbhAng4spy4jR4vQ4_Q-gEIPRXbUEXFIWpDuLAK-GtB1LojZ79LHQl4K845uGdgSBPV-26FSPDfYn-XTykYMDK4E7Yieb2YrVJwrXMmPBLvnDKE=s0-d-e1-ft#https://track.mixmax.com/api/track/v2/DB1TY37m7WnEuOFEU/ISbvNmLkFWdxNHaj5WdhxGQk5WYyxmI/i02bj5Caj5WdyNGajVGdAJXZiVWaoNnI/?sc=false"/></div>
+
+			</div>
+
+			</div>    
+</body>
+</html>

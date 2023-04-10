@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>TSA key cracker Johnny Xmas tells us how to stay safe while traveling | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">TSA密匙破解者Johnny Xmas告诉我们如何在旅行中保持安全</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/07/29/tsa-key-cracker-johnny-xmas-tells-us-how-to-stay-safe-while-traveling/amp/">https://web.archive.org/web/https://techcrunch.com/2016/07/29/tsa-key-cracker-johnny-xmas-tells-us-how-to-stay-safe-while-traveling/amp/</a></blockquote><div><div class="content">
+
+			
+	
+		
+		
+
+		
+<p class="translated">【YouTube = https://www . YouTube . com/watch？v=GekBT0a3STQ]</p>
+<p class="translated">几天前我们<a target="_blank" href="https://web.archive.org/web/20230314080108/https://techcrunch.com/2016/07/27/security-experts-have-cloned-all-seven-tsa-master-keys/">报道了一群黑客在纽约的希望会议</a>上告诉全世界他们已经克隆了最后一把TSA主密钥。《华盛顿邮报》的一篇文章泄露了这些密钥，这些密钥有点像安全剧场，再加上大量拙劣的工程设计。然而，Johnny Xmas认为个人安全很重要，他想告诉我们他们是如何破解密钥的，以及你在未来如何保护自己。</p>
+<p class="translated"><b> TC:你破解这些密钥的目标是什么？</b> <br/> Johnny:我们试图提供一种切实可行的方法来理解委托第三方使用我们无法撤销的主密钥所带来的问题，就像最近发生的苹果/联邦调查局的惨败一样。</p>
+<p class="translated"><b> TC:跟我说说这个项目？为什么这最后一把钥匙花了这么长时间？</b></p>
+<p class="translated">j:我们(在其他几个人的帮助下)在2015年年中发布了前7个按键的CAD设计。Jenna在The Intercept上的文章有一些很好的一般细节，特别是这7张照片是通过TravelSentry文档获得的照片重建的。有趣的事实——TSA 006钥匙的CAD不完整，因此不起作用，因为这种钥匙需要比2D照片所能提供的更多的信息。相关人员经常公开讨论这一点，但被记者掩盖了。</p>
+<p class="translated">第8个键花了更长的时间来计算，因为它不是基于旅行哨兵标准。它是由另一家与美国运输安全管理局合作设计锁/钥匙标准的公司设计的:安全天空。你可以在文章封面照片的锁上看到这个符号。迄今为止，我们没有发现任何证据表明安全天空万能钥匙的照片在任何地方被发现，或被拿走和泄露。因此，我们不得不对这个系统的主密钥进行逆向工程。</p>
+<p class="translated"><b> TC:你是怎么破解的？</b></p>
+<p class="translated">简而言之，Nite 0wl无意中发现了安全天空系统的罗塞塔石碑，它是一把经美国运输安全管理局批准的密码锁。这种密码锁也有一个钥匙槽，但是没有为用户提供钥匙。你可能会想起高中时的类似锁，那时你会从书店买一把组合锁，它的后面有一个键槽，学校管理员可以绕过这个组合。</p>
+<p class="translated">拆除和拆卸这个锁不倒翁揭示了一些可怕的事情:钥匙槽不是双销支持一个主钥匙和一个“用户”的钥匙；它只支持一个键。由于所有经美国运输安全管理局批准的锁都需要一把万能钥匙，而这把锁只能用一把钥匙，安全天空真的违反了钥匙托管的基本规则，实际上将万能钥匙作为锁的唯一钥匙吗？</p>
+<p class="translated"><b> TC:你是怎么搞清楚关键配置的？J:锉平一把钥匙来配一把锁的过程相当简单明了(在你可以拆开锁之前，我们已经这样做了)。一旦这把锁的钥匙被设计出来，它就在其他各种各样的安全天空锁上被试用，并且被确认:这实际上是丢失的安全天空万能钥匙。随后开始了CAD设计工作，现在可以直接从物理钥匙进行精确的测量，这就简单多了。</b></p>
+<p class="translated">当我说行李锁毫无意义时，你们生气了。为什么？J:虽然我理解你提到行李锁毫无意义是想表达的讽刺，但这有点放错了地方。虽然是的，使用美国运输安全管理局批准的挂锁锁你的行李现在是毫无意义的，它实际上一直是毫无意义的。我们还没有遇到一把经美国运输安全管理局批准的挂锁，就强度和一般“可摘性”而言，这种挂锁不是毫无价值的垃圾。注意006型的锁实际上是非常安全的，虽然我只在<a target="_blank" href="https://web.archive.org/web/20230314080108/http://www.rimowa.com/en-us/"> Rimowa行李箱</a>上看到过这种内置锁。最重要的是，似乎很少有人知道<strong>你不需要在行李上使用TSA锁</strong>。你可以使用任何你想要的锁，你只需要知道，如果运输安全管理局认为你的行李需要“加强检查”，他们会切断它。我们的好朋友和locksport的长期先驱离经叛道的Ollam喜欢在他的行李上使用著名的难以切割的Abloy PL330挂锁。美国运输安全管理局经常认为这不值得争论，尽管至少有一次他的锁被锁在卡车后面而被折断。</p>
+<p class="translated">这带来了另一个重要问题:就安全而言，大多数行李本身都是毫无价值的垃圾。给垃圾行李上锁就像给纸袋上锁一样。所以，是的，如果你的行李是垃圾，就不要锁了。如果你不想麻烦锁上它，停止把你的贵重物品放在里面。把它们放在你的随身行李中，每个航空公司都允许你免费携带。如果一开始就没有什么有价值的东西，那么整个谈话就没有意义了。</p>
+<p class="translated">【YouTube = https://www . YouTube . com/watch？v=wpIJVWXsBBI]</p>
+
+
+		
+
+			
+	
+		
+
+			<amp-pixel src="https://web.archive.org/web/20230314080108im_/https://ampmetrics.techcrunch.com/pixel.gif" placeholder="" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/>
+		<amp-analytics data-credentials="include" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed">
+		
+	</amp-analytics>
+	<amp-pixel src="https://web.archive.org/web/20230314080108im_/https://pixel.wp.com/g.gif?v=ext&amp;blog=136296444&amp;post=1361134&amp;tz=-7&amp;srv=techcrunch.com&amp;host=techcrunch.com&amp;rand=RANDOM&amp;ref=DOCUMENT_REFERRER" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/><amp-analytics id="tc_googleanalytics" type="googleanalytics" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/><amp-analytics id="tc_comscore" type="comscore" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/><amp-analytics id="tc_parsely" type="parsely" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/>	</div>
+
+</div>    
+</body>
+</html>

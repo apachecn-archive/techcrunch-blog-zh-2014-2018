@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>New AWS load balancing tool puts developers in complete control • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">新的AWS负载平衡工具让开发人员完全掌控一切TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/08/11/new-aws-load-balancing-tool-puts-developers-in-complete-control/amp/">https://web.archive.org/web/https://techcrunch.com/2016/08/11/new-aws-load-balancing-tool-puts-developers-in-complete-control/amp/</a></blockquote><div><div class="content">
+
+			
+	
+		
+		
+
+		
+<p class="amp-featured-image translated"><amp-img src="https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?w=1024" class="attachment-post-thumbnail size-post-thumbnail wp-post-image amp-wp-enforced-sizes i-amphtml-layout-intrinsic i-amphtml-layout-size-defined" alt="AWS Application Load Balancer" srcset="https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg 1065w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=150,72 150w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=300,145 300w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=768,370 768w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=680,328 680w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=50,24 50w" layout="intrinsic" i-amphtml-layout="intrinsic"> <i-amphtml-sizer class="i-amphtml-sizer"> <img alt="" aria-hidden="true" class="i-amphtml-intrinsic-sizer" role="presentation" src=""/> </i-amphtml-sizer> <noscript> <img src="../Images/30bb8f7fc0d2a55fad518907236779f2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="AWS Application Load Balancer" decoding="async" loading="lazy" srcset="https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg 1065w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=150,72 150w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=300,145 300w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=768,370 768w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=680,328 680w, https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?resize=50,24 50w" sizes="(max-width: 1024px) 100vw, 1024px" data-original-src="https://web.archive.org/web/20230123202555im_/https://techcrunch.com/wp-content/uploads/2016/08/aws-alb.jpg?w=1024"/> </noscript> </amp-img></p><p class="translated"><strong>图片来源:</strong></p><p class="translated">今天上午<a target="_blank" href="https://web.archive.org/web/20230123202555/https://aws.amazon.com/summits/new-york/live-stream/confirmation/">在纽约市的一次客户活动</a>上，AWS首席技术官沃纳·威格尔宣布了一款新的负载平衡工具，该工具让开发者能够更加精细地控制内容如何在服务器之间分发。</p>
+<p class="translated">AWS应用程序负载平衡器如其名，提供了一种将特定内容定向到特定位置的方法，而不是像自2009年以来一直存在的弹性负载平衡工具那样让负载平衡器决定。</p>
+<p class="translated">新的功能级别可能对运行传统应用程序的人来说无关紧要，但它会给那些在容器内运行更现代的应用程序的人更多的进程控制权。容器化的应用程序通常被分解成一组微服务。开发者能够控制这些微服务的流量是很有用的。</p>
+<p class="translated">“这使你可以完全控制如何向系统中的各个组件发送流量，”沃格尔斯说。</p>
+<p class="translated">实际上，这意味着您可以将所有API内容定向到一台服务器，而将所有移动内容定向到另一台服务器。“以这种方式路由请求允许你构建由多个可以独立运行和扩展的微服务组成的应用，”<a target="_blank" href="https://web.archive.org/web/20230123202555/https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/">在一篇宣布新工具的博客文章</a>中说道。</p>
+<p class="translated">开发者可以直接从<a target="_blank" href="https://web.archive.org/web/20230123202555/https://console.aws.amazon.com/ec2/v2/home#LoadBalancers:">弹性负载均衡控制台</a>中选择传统的负载均衡工具或新的负载均衡工具，这取决于他们的需求。</p>
+<p class="translated">在技术层面上，这两者有很大的不同。旧的工具是一个“第4层”负载平衡器，这意味着它在网络协议层运行，不能访问关于网络数据包内部发生的事情的更详细的信息。从现在开始，这个工具将被称为经典负载平衡器。</p>
+<p class="translated">相比之下，较新的应用程序负载平衡器工具是一个“第7层”负载平衡器，这意味着它可以窥视这些数据包的内部，并且通过访问这些附加信息可以执行更复杂的任务，例如允许您根据您对数据包的了解将数据包定向到何处。</p>
+<p class="translated">所有这些额外的信息也意味着更详细的指标，包括新的CloudWatch指标，它允许您测量总流量(以GB为单位)、活动连接数和每小时的连接速率</p>
+<p class="translated">新的负载平衡工具还支持WebSocket和HTTP/2。这些都为那些希望利用网络的人提供了更现代的处理网络流量的方法。</p>
+<p class="translated">应用程序负载平衡器立即可用，据AWS称，尽管增加了功能，但成本比传统产品低10%。基于每小时使用量和负载平衡器容量单位(lcu)的计费有些复杂，这是一个复杂的公式，结合了每秒新连接的数量、活动连接的数量和您传输的数据量。</p>
+
+
+		
+
+			
+	
+		
+
+			<amp-pixel src="https://web.archive.org/web/20230123202555im_/https://ampmetrics.techcrunch.com/pixel.gif" placeholder="" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/>
+		<amp-analytics data-credentials="include" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed">
+		
+	</amp-analytics>
+	<amp-pixel src="https://web.archive.org/web/20230123202555im_/https://pixel.wp.com/g.gif?v=ext&amp;blog=136296444&amp;post=1367578&amp;tz=-8&amp;srv=techcrunch.com&amp;host=techcrunch.com&amp;rand=RANDOM&amp;ref=DOCUMENT_REFERRER" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/><amp-analytics id="tc_googleanalytics" type="googleanalytics" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/><amp-analytics id="tc_comscore" type="comscore" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/><amp-analytics id="tc_parsely" type="parsely" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined" i-amphtml-layout="fixed"/>	</div>
+
+</div>    
+</body>
+</html>

@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>Names and definitions of leaked CIA hacking tools • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">泄露的中情局黑客工具的名称和定义TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/03/09/names-and-definitions-of-leaked-cia-hacking-tools/">https://web.archive.org/web/https://techcrunch.com/2017/03/09/names-and-definitions-of-leaked-cia-hacking-tools/</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">维基解密托管的“vault 7”据称从中央情报局计算机操作小组内部泄露的文件是行话、不完整信息和断开(或编辑)链接的混乱组合。这些信息很有趣，但是即使使用搜索功能，也很难找到许多术语的基本描述。所以为了方便大家，我浏览了一大堆文档，列出了尽可能多的spook IT提到的工具和技术。</p>
+<p class="translated">如果有任何关于这个东西做什么的指示，我已经把它包括进来了，尽管其中一些只是基于被测试设备的有根据的猜测，来自他们开发者的评论等等。所有数据(如受影响的操作系统版本)都是我在泄露文件中找到的最新文件。图片也全部来自泄密。</p>
+<p class="translated">我在每个列表的底部都加入了一些看起来很重要，但是没有实际信息的工具。我没有包括链接，因为项目和它们的描述通常分布在多个页面或pdf中。我也没有包括商业工具(比如Lockheed Martin的DART软件测试套件)或操作名称(比如JQJHAIRPIECE ),它们似乎仅仅是其他工具的特定部署。</p>
+<p class="translated"><strong>这份名单绝不是全面或权威的</strong>，泄露的文件也不应该被认为是中情局创造和使用的黑客工具的全面。我会更新它，因为我发现更多或东西是未编辑的。</p>
+<h4 class="translated">嵌入式开发部(EDB)</h4>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20221128021444/https://beta.techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png"> <img decoding="async" loading="lazy" class="alignright size-medium wp-image-1462600" src="../Images/04762fe7b9294ffd0555017b62aafac8.png" alt="" srcset="https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png 586w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=150,150 150w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=298,300 298w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=32,32 32w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=50,50 50w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=64,64 64w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=96,96 96w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?resize=128,128 128w" sizes="(max-width: 298px) 100vw, 298px" data-original-src="https://web.archive.org/web/20221128021444im_/https://beta.techcrunch.com/wp-content/uploads/2017/03/edg_logo_original.png?w=298"/> </a>这一分支致力于在VoIP电话、工作站等专用设备和电视等智能设备中植入植入物。他们做硬件和软件设计。</p>
+<ul>
+<li class="translated"><strong>翼龙</strong>—“支持媒体复制的定制硬件解决方案”；它使用像Raspberry Pi这样的小型单板计算机从资产计算机中复制数据</li>
+<li class="translated"><strong>sparrow hawk</strong>–键盘记录程序，适用于多种架构和基于Unix的平台</li>
+<li class="translated"><strong>DerStarke</strong>–苹果电脑的引导级rootkit植入</li>
+<li class="translated"><strong>gyr falcon</strong>–跟踪OpenSSH连接的客户端并收集密码、用户名和连接数据</li>
+<li class="translated"><strong>SnowyOwl</strong>–使用OpenSSH会话向目标资产注入代码</li>
+<li class="translated"><strong>harpy eagle</strong>–获得苹果Airport Extreme和Time Capsule访问权限的硬件专用工具</li>
+<li class="translated"><strong>bald eagle</strong>——Unix系统硬件抽象层的漏洞</li>
+<li class="translated"><strong>令人抓狂的耳语</strong>——远程访问被先锋利用的设备</li>
+<li class="translated"><strong>CRUCIBLE</strong>—“自动漏洞识别”工具</li>
+<li class="translated"><strong>yarn ball</strong>——用于部署有效载荷和存储泄漏数据的隐蔽USB存储</li>
+<li class="translated"><strong>green packet</strong>–路由器植入套件</li>
+<li class="translated">quark matter——苹果电脑的另一个引导级rootkit植入</li>
+<li class="translated"><strong>哭泣的天使</strong>–智能电视植入套件(<a target="_blank" href="https://web.archive.org/web/20221128021444/https://beta.techcrunch.com/2017/03/07/recent-cia-leak-demonstrates-again-the-dangers-of-smart-tvs/">我们单独写过</a></li>
+<li class="translated"><strong>Hive</strong>–用于Windows和Unix设置的基本植入套件，旨在“为其他全功能工具的部署提供初始立足点”</li>
+<li class="translated"><strong>Honeycomb</strong>–用于来自诈骗或欺诈代理服务器的数据的服务器</li>
+<li class="translated"><strong>残酷竞争</strong>–虚拟机系统显然是为了托管代理服务器以向其发送资产数据</li>
+<li class="translated"><strong>蜂刺</strong>–用于HTTP连接的iFrame注入技术</li>
+<li class="translated"><strong>sont aran</strong>–企图入侵西门子OpenStage VoIP电话</li>
+<li class="translated"><strong>秘密松鼠(SQRL)</strong>–？？？</li>
+</ul>
+<h4 class="translated">远程开发处</h4>
+<p class="translated">没有太多关于RDB的数据；列出的唯一工具是用来访问安全数据库的，所以这是一个提示。</p>
+<ul>
+<li class="translated"><strong>um brage</strong>——这个团队似乎已经收集了网络上正在使用的黑客工具和技术，并且还整理了黑客团队泄露的有用代码和文档——有助于黑客的开发或归属</li>
+<li class="translated"><strong>shoulder surfer</strong>–用于从Microsoft Exchange数据库中提取数据的工具</li>
+</ul>
+<h4 class="translated">行动支助处</h4>
+<p class="translated">除了维护一些有用的通用实用程序之外，OSB还为单个操作或资产创建定制解决方案，重点是折衷Windows机器和应用程序。</p>
+<ul>
+<li class="translated"><strong>时间践踏器</strong>–用于修改文件上的时间戳，以使它们符合操作或资产的要求</li>
+</ul>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20221128021444/https://beta.techcrunch.com/wp-content/uploads/2017/03/time_stomper.png"> <img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1462599" src="../Images/428641a0da423e3e6f78642ba979aae8.png" alt="" srcset="https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/time_stomper.png 577w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/time_stomper.png?resize=150,48 150w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/time_stomper.png?resize=300,95 300w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/time_stomper.png?resize=50,16 50w" sizes="(max-width: 577px) 100vw, 577px" data-original-src="https://web.archive.org/web/20221128021444im_/https://beta.techcrunch.com/wp-content/uploads/2017/03/time_stomper.png"/> </a></p>
+<ul>
+<li class="translated"><strong>Munge Payload</strong>–加密有效载荷和/或修改有效载荷以避免检测的工具</li>
+<li class="translated">magic Mutt–看起来是一个恶意软件风格的DLL注入器和进程监视器</li>
+<li class="translated"><strong>Flash Bang</strong>–突破Internet Explorer沙盒进程的劫持，然后提升目标机器上的权限</li>
+<li class="translated"><strong>Ricky bobby</strong>–由dll和脚本组成的基本Windows植入程序，它将其信息发送到listening post服务器应用程序Cal——是的，它们是Talladega Nights参考</li>
+<li class="translated"><strong>搏击俱乐部</strong>–一组受感染的VLC、WinRAR、TrueCrypt、Shamela和Microsoft Office独立安装程序，它们部署了RickyBobby实例，用于放置在操作中使用的拇指驱动器上</li>
+<li class="translated"><strong>Melomy drive in</strong>——劫持一个启动RickyBobby实例的VLC DLL——不清楚是不是搏击俱乐部里的那个</li>
+<li class="translated"><strong>造雨者</strong>——被入侵的便携式VLC播放器，当从用户的USB驱动器启动时，它秘密地从一台有空隙的计算机上收集文件</li>
+<li class="translated"><strong>随机应变</strong>——一套可互操作的工具，用于从Windows、Mac或Linux机器上收集和过滤数据——具有与操作系统相对应的酒吧主题名称(Margarita、Dancefloor、Jukebox)</li>
+<li class="translated"><strong>基本位</strong>–用于Windows机器的键盘记录器</li>
+<li class="translated"><strong>美食</strong>——不完全是软件，但很明显是一个菜单，操作人员可以从中订购一个定制的操作工具——例如，一个在Mac上启动并搜索所有音频文件的假PDF</li>
+<li class="translated"><strong>hammer drill</strong>–CD/DVD监控工具，当文件被写入光盘时，它也允许文件被破坏</li>
+<li class="translated"><strong>收税员</strong>–？？？</li>
+<li class="translated"><strong>鬣狗跨栏</strong>–？？？</li>
+</ul>
+<h4 class="translated">自动植入分支</h4>
+<p class="translated">AIB似乎关心自动运行的植入物。其中许多都没有文档或描述，但有文件列表，揭示了一点他们的目的。</p>
+<ul>
+<li class="translated"><strong>青蛙王子</strong>–完全集成的植入系统，包括命令和控制、监听站和植入软件</li>
+<li class="translated"><strong>Grasshopper</strong>–高度可配置的工具，用于在Windows机器上放置各种植入物(<strong> Cricket </strong>是相对的)</li>
+<li class="translated"><strong>卡特彼勒</strong>–用于准备从安全运输系统获取的文件的工具</li>
+<li class="translated">AntHill似乎是一个用于已安装植入物的文件管理组件</li>
+<li class="translated">吉布森似乎是指挥控制服务器和监听站的组成部分。</li>
+<li class="translated"><strong>Galleon</strong>–一套导航主题脚本和工具，用于安全地将文件复制到目标计算机</li>
+<li class="translated"><strong>刺客</strong>—?？？</li>
+<li class="translated"><strong>铁甲</strong>—?？？</li>
+<li class="translated"><strong>坎迪芒廷</strong>–？？？</li>
+<li class="translated"><strong>大黄蜂</strong>–？？？</li>
+<li class="translated"><strong>瀑布</strong>—?？？</li>
+<li class="translated"><strong>魔术表演</strong>–？？？</li>
+</ul>
+<h4 class="translated">网络设备分支</h4>
+<p class="translated">这个分支完全是关于路由器和交换机的，从工业级设备到家用设备，所有这些都需要设备或类特定的利用和套件。泄露的内容主要包括高度技术性的测试结果和开发者说明，这些内容仅仅暗示了软件的功能。</p>
+<ul>
+<li class="translated"><strong>奶油煎饼卷</strong>–用于Linksys设备的植入物</li>
+<li class="translated"><strong>wag 200g</strong>–Linksys路由器的植入安装程序，与煎饼卷一起工作</li>
+<li class="translated"><strong>Slasher</strong>–似乎是一个端口监视器</li>
+<li class="translated"><strong>肉桂</strong>–植入思科路由器</li>
+<li class="translated"><strong>伯爵茶</strong>——另一个可能用于思科路由器的植入物</li>
+<li class="translated"><strong>aqua man</strong>–植入基于Linux的系统，尤其可能是路由器(HGs或家庭网关)</li>
+<li class="translated"><strong>Bumble</strong>–植入惠普路由器</li>
+<li class="translated">英仙座似乎是一个使用PowerPC架构的路由器的植入物</li>
+<li class="translated"><strong>Panda Poke</strong>–针对华为路由器设备的“无凭证”利用(即不需要登录凭证)</li>
+<li class="translated"><strong>熊猫飞行</strong>—华为设备的秘密隧道工具</li>
+<li class="translated"><strong>熊猫喷嚏</strong>——用途不明，但与PandaMitt、PandaScore和其他产品一样属于熊猫套件</li>
+<li class="translated"><strong>ChimayRed</strong>–用于攻击运行RouterOS的MikroTik路由器的漏洞，该漏洞允许在设备上安装有效负载</li>
+<li class="translated">Felix似乎是MikroTik路由器的监听站</li>
+<li class="translated"><strong>HG</strong>–可能是HunGrrr，用于访问远程网络设备的通用工具；在许多测试和项目中用作组件或步骤</li>
+<li class="translated">布兹弗兹–？？？</li>
+<li class="translated"><strong>细胞溶解</strong>-?？？</li>
+<li class="translated"><strong>Powerman</strong>–？？？</li>
+</ul>
+<h4 class="translated">非分行特定项目</h4>
+<p class="translated">这些没有被列在任何特定的分支下，尽管有些提到在一个或另一个的管辖下，或者基于EDB、NDB等地的一个项目。</p>
+<ul>
+<li class="translated"><strong>after midnight</strong>——似乎是一种Windows权限提升方案，使用一个DLL来获取另一个DLL的访问权限(一个“小妖精”)</li>
+<li class="translated"><strong>pack rat</strong>–使用开源和商业软件创建和自动化监听站的工具</li>
+<li class="translated"><strong>roid rage</strong>–适用于高达5的Android设备的植入/利用。X</li>
+<li class="translated"><strong>The.Net</strong>–网络配置工具，在一组虚构的公司(保护伞公司、洗涤公司等)中模拟真实世界的互联网和内部网条件。)</li>
+<li class="translated"><strong>Philosoraptor</strong>–不清楚，但“明确的目标”是展示新工具套件的商业价值，以及使用合法的操作软件产品进行自动化测试</li>
+<li class="translated"><strong>Marble Framework</strong>–修改源文件的混淆工具，这样就无法追踪到开发人员或团队</li>
+<li class="translated">北海巨妖似乎是任务管理和项目跟踪的组织工具</li>
+<li class="translated"><strong>flux wire</strong>–承包商提供的分布式/网状网络工具(带有<a target="_blank" href="https://web.archive.org/web/20221128021444/https://wikileaks.org/ciav7p1/cms/files/Fluxwire_manual-3.5.0.pdf">丰富的文档</a>)，用于组织连接的资产，支持9个操作系统和6个架构</li>
+</ul>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20221128021444/https://beta.techcrunch.com/wp-content/uploads/2017/03/fluxwire.png"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1462597" src="../Images/09b9eb4609e6ee046259b0bb8869c810.png" alt="" srcset="https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/fluxwire.png 541w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/fluxwire.png?resize=150,95 150w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/fluxwire.png?resize=300,190 300w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/fluxwire.png?resize=50,32 50w" sizes="(max-width: 541px) 100vw, 541px" data-original-src="https://web.archive.org/web/20221128021444im_/https://beta.techcrunch.com/wp-content/uploads/2017/03/fluxwire.png"/>T2】</a></p>
+<ul>
+<li class="translated"><strong>茧</strong>—?？？</li>
+<li class="translated"><strong>震颤</strong>–？？？</li>
+</ul>
+<h4 class="translated">iOS特定的</h4>
+<p class="translated"><a target="_blank" href="https://web.archive.org/web/20221128021444/https://beta.techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg"> <img decoding="async" loading="lazy" class="vertical alignright size-medium wp-image-1462598" src="../Images/6c91be7fbc9a645fcd2324101c1bf5e9.png" alt="" srcset="https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg 2808w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=105,150 105w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=209,300 209w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=768,1101 768w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=474,680 474w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=1071,1536 1071w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=1428,2048 1428w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=837,1200 837w, https://web.archive.org/web/20221128021444im_/https://techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?resize=35,50 35w" sizes="(max-width: 209px) 100vw, 209px" data-original-src="https://web.archive.org/web/20221128021444im_/https://beta.techcrunch.com/wp-content/uploads/2017/03/dr-boom.jpg?w=209"/> </a>有些工具看似只针对移动端，但这些很大程度上是针对iOS设备的。</p>
+<ul>
+<li class="translated"><strong>Adderall</strong>–从iOS设备中提取文件和内核缓存的工具</li>
+<li class="translated"><strong>elder piggy</strong>–权限提升工具</li>
+<li class="translated"><strong>夜视</strong>–读取并记录设备的内核内存</li>
+<li class="translated"><strong>night skies</strong>–iOS植入，通过CrunchyLimeSkies安装</li>
+<li class="translated"><strong>麦乐鸡</strong>——iOS植入物的任务控制实用程序</li>
+<li class="translated"><strong>HAMR</strong>—“投掷”浏览器漏洞的框架</li>
+<li class="translated"><strong>dr boom</strong>–用于iOS 8.2以上版本的单步植入安装程序</li>
+</ul>
+<h4 class="translated">Android专用</h4>
+<p class="translated">一些漏洞被提及，但被编辑，所以他们不在这里列出。</p>
+<ul>
+<li class="translated"><strong> AngerQuake </strong>(更名为anger management)——用于远程利用Android设备的HAMR相关插件的集合</li>
+<li class="translated"><strong>Orion</strong>–Android设备的远程利用</li>
+<li class="translated"><strong>free droid</strong>–权限提升工具</li>
+</ul>
+<p class="translated">本文将持续更新。您是否找到了这些工具的更多信息？在下面评论或者联系作者。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

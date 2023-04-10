@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Spammers expose over a billion email addresses after failed backup | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">备份失败后，垃圾邮件发送者暴露了超过10亿个电子邮件地址| TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/03/06/spammers-expose-billions-of-emails-after-failed-backup/?ncid=rss">https://web.archive.org/web/https://techcrunch.com/2017/03/06/spammers-expose-billions-of-emails-after-failed-backup/?ncid=rss</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">在巅峰时期，由阿尔文·斯诺马库斯和马特·费里斯运营的河城媒体公司(River City Media)每天发出10亿封电子邮件，用碎片化的流量冲击Gmail服务器，以确保所有的电子邮件按时发出。然而，在未能对远程备份进行密码保护后，该公司暴露了其近14亿封电子邮件记录，其中一些记录包含真实姓名和地址。该公司，无论从哪方面来看，都是沉没的，但是这些数据的隐私含义是惊人的。</p>
+<p class="translated">MacKeeper的安全研究员<a target="_blank" href="https://web.archive.org/web/20230315212755/https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire" rel="noopener noreferrer"> Chris Vickery </a>发现，泄露的数据似乎是rsync备份失败的结果——本质上是远程备份出错。这些数据在一个暴露的服务器上存放了几个月，允许维克里和其他任何人访问聊天记录、电子邮件，最重要的是，该公司的大规模电子邮件列表。</p>
+<p class="translated">维克里觉得自己胜利了。</p>
+<p class="translated">“我在873端口发现了一个rsync服务器，他们没有设置任何密码或任何形式的安全措施，这导致了一个犯罪集团的垮台，”他说。“我希望他们会很快停业，但这在很大程度上取决于执法部门的行动。如果你坐在监狱里，就很难发垃圾邮件。”</p>
+<p class="translated">他还发现这个列表很难控制。</p>
+<p class="translated">维克里告诉<a target="_blank" href="https://web.archive.org/web/20230315212755/http://www.csoonline.com/article/3176433/security/spammers-expose-their-entire-operation-through-bad-backups.html" rel="noopener noreferrer"> CSO Online </a>“我仍然在努力寻找最好的软件解决方案来处理如此庞大的收藏，但我已经查了几个我认识的人，条目是准确的。“唯一值得庆幸的是，有些照片已经过时几年了，拍摄对象也不再住在同一个地方了。”</p>
+<h2 class="translated">慢洛里斯</h2>
+<p class="translated">多重RCM垃圾邮件技术是非凡的。该公司将首先向他们在Gmail和其他服务器上的电子邮件地址发送数万封“预热邮件”。因为这些邮件永远不会被退回或发出抱怨——它们毕竟是RCM所有的——安全系统不会注意到其余的邮件从服务器中爆炸出来。</p>
+<p class="translated">此外，垃圾邮件发送者会缓慢发送碎片数据(技术上称为“slowloris”攻击),同时以纠错为幌子请求多个连接。然后，当所有的服务器都在接受数据时，它们会在断开连接之前“尽可能多地将包数据塞进”服务器。</p>
+<p class="translated"><img decoding="async" class="alignright size-full wp-image-1460776" src="../Images/9f6c31757dd13d47cf59c22adf06dcc9.png" alt="9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd" srcset="https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png 955w, https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png?resize=150,31 150w, https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png?resize=300,62 300w, https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png?resize=768,158 768w, https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png?resize=680,140 680w, https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png?resize=50,10 50w" sizes="(max-width: 955px) 100vw, 955px" data-original-src="https://web.archive.org/web/20230315212755im_/https://techcrunch.com/wp-content/uploads/2017/03/9179614ac47a3f6accce56a0277ccc2d58b99f0fa0ddd.png"/></p>
+<p class="translated">Vickery花了几天时间浏览大量数据，发现了垃圾邮件发送者用来攻击邮件服务器的武器。</p>
+<p class="translated">“这里有针对各种邪恶事物的脚本，这些脚本可能已被修补，也可能未被修补。他说:“在我与Gmail、微软和雅虎谈过之后，我会详细说明。”他估计，该公司只有20个实际的硬件服务器，而是使用与朋友和分支机构的“幕后交易”来发送大部分垃圾邮件，这些合作伙伴现在拒绝与RCM合作。例如，广告合作伙伴阿莫比已经与该公司脱离关系。</p>
+<p class="translated">维克里说:“他们有大量开发的软件来隐藏自己的邮件服务器，让自己看起来像其他人，并伪造电子邮件地址。”他们称这些为“项目”,有数百个。</p>
+<h2 class="translated">死</h2>
+<p class="translated">RCM一直在已知垃圾邮件操作(ROKSO)的登记册上，并使用超过2，199个IP地址发送电子邮件，使其难以阻止。它为耐克、吉列、维多利亚的秘密、封面女郎和美国电话电报公司等品牌做过广告，尽管这些大牌没有直接使用RCM，而是由其他可能是合法的营销公司转给垃圾邮件发送者。</p>
+<p class="translated">维克里认为，这一泄漏和相关数据将使RCM无限期停业。</p>
+<p class="translated">“就RCM垃圾邮件帝国而言，他们在不久的将来将很难运营，”他说。但这不会永远阻止所有的垃圾邮件。最终，这是一场正在进行的战争中的重大胜利。</p>
+<p class="translated">“我确信会有其他人来填补他们留下的空缺，”维克里说。</p>
+<p class="translated"><strong>更新</strong>:在我们最初报道此事几周后，River City Media通过法律代理向TechCrunch提交了以下声明:</p>
+<blockquote><p class="translated">River City Media不同意对该公司从事非法或违法活动的任何指控或暗示。第三方所做的与此相反的陈述是错误的。在美国，代表数字品牌和代理商发送电子邮件广告是合法的，River City Media一直遵守所有管理电子邮件营销的法律法规，包括2003年CAN-SPAM法案。需要明确的是，River City Media没有劫持IPs，没有暴露其备份服务器，没有在一天内发送10亿封电子邮件，也没有使用第三方提供的任何发送脚本来发送电子邮件。River City Media在联盟营销行业中一直享有盛誉，并能够通过坚持最高的商业标准来获得这一声誉。River City Media的业务遭受了灾难性的损失，原因是一次不必要的恶意安全违规，对公司的员工、供应商、业务伙伴和家庭造成了负面影响。我们非常感谢电子邮件和联盟营销社区对我们的大力支持。</p></blockquote>
+			</div>
+
+			</div>    
+</body>
+</html>

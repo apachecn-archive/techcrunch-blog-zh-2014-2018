@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Facebook partners with Google, others to launch a new JavaScript package manager | TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">脸书与谷歌等合作推出新的JavaScript包管理器| TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/10/11/facebook-partners-with-google-others-to-launch-a-new-javascript-package-manager/?ncid=rss&amp;sr_share=twitter">https://web.archive.org/web/https://techcrunch.com/2016/10/11/facebook-partners-with-google-others-to-launch-a-new-javascript-package-manager/?ncid=rss&amp;sr_share=twitter</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">脸书今天<a target="_blank" href="https://web.archive.org/web/20230326082039/http://code.facebook.com/posts/1840075619545360">发布了</a> Yarn，<a target="_blank" href="https://web.archive.org/web/20230326082039/https://github.com/yarnpkg/yarn">一个新的JavaScript包管理器</a>。如果您曾经使用过JavaScript和Node.js，那么您很有可能使用过<a target="_blank" href="https://web.archive.org/web/20230326082039/https://www.npmjs.com/"> npm包管理器</a>来查找和重用现有的代码(或者发布您自己的库)。然而，在脸书的规模下，npm并不完全适合公司，它开始为内部使用开发一种固执己见的替代方案。随着时间的推移，该团队得到了Google、Exponent和Tilde开发人员的帮助。</p>
+<p class="translated">值得强调的是，Yarn仍然使用npm注册表，本质上是npm客户端的替代产品，它甚至承诺为不在脸书规模下工作的开发人员提供重大的性能提升。</p>
+<p class="translated">正如脸书软件工程师Sebastian McKenzie和工程经理Tom Occhino告诉我的那样，该公司围绕npm开发了许多内部基础设施。“但随着时间的推移，当我们将新的部分固定在上面时，我们意识到它并不那么有效，”麦肯齐说。因此，脸书没有破解npm的局限性，而是决定从头开始重写。</p>
+<p class="translated">既然npm对数百万开发人员都有效，为什么它对脸书无效呢？团队告诉我，对于公司的工作流程，npm有几个基本问题。性能是其中之一，所以Yarn在本地缓存文件方面做得更好，这确保了它不必像以前那样频繁地访问网络。Yarn还能够并行化它的一些操作，这反过来也加快了新模块的安装过程。</p>
+<p class="translated">在脸书，npm减缓了公司的持续集成工作流程。早期，工程师不得不手动运行无处不在的“npm install”命令，但这在公司出于安全和可靠性原因使用的沙盒和隔离的持续集成环境中不起作用。将所有模块签入存储库也是低效的，因为即使是很小的更改也很容易触发大规模提交。比如React Native，目前有68个依赖项(它们本身也有自己的依赖项)。一旦你解开所有这些，你最终有121，358个文件。那显然效率不是很高。</p>
+<p class="translated">脸书遇到的另一个问题是，从设计上来说，npm是不确定的——然而脸书的工程师需要为他们的DevOps工作流提供一个一致且可靠的系统。取决于您已经安装的模块，每个项目的一部分的<em> node_modules </em>目录可能看起来非常不同，这取决于您正在查看哪个开发人员的机器。Yarn使用锁文件和确定性安装算法来创建跨机器的一致文件结构。</p>
+<p class="translated">默认情况下，npm还允许编写这些包的开发人员执行安装过程中需要的其他代码。但是，这产生了安全问题，所以Yarn没有这个特性。</p>
+<p class="translated">正如McKenzie告诉我的，该团队试图“修复”npm以实现其目的，但最终，现有npm客户端的许多不适合脸书的功能不是错误，而是功能。Occhino补充说，团队想要构建的许多功能不是npm社区可能会接受的那种变化。</p>
+<p class="translated">支持Npm项目的商业实体npm显然知道这个新项目，但鉴于其商业模式更多地围绕注册管理机构而不是客户端，这里的冲突远没有人们最初想象的那么多。</p>
+<p class="translated">Yarn现已在GitHub上发布。考虑到许多其他公司也参与了这个项目，团队决定将它托管在脸书自己的存储库之外。不过，还不清楚Yarn的治理模式会是什么样子。“我们的希望是，到目前为止，所有为它做出贡献的人都可以帮助我们解决这个问题，”Occhino说。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Google's AI creates its own inhuman encryption • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">谷歌的人工智能创造了自己的非人加密技术TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/10/28/googles-ai-creates-its-own-inhuman-encryption/">https://web.archive.org/web/https://techcrunch.com/2016/10/28/googles-ai-creates-its-own-inhuman-encryption/</a></blockquote><div><header class="article__header ">
+	<p class="article__title-wrapper">
+						</p><h1 class="article__title translated">谷歌的人工智能创造了自己不人道的加密技术</h1>
+		
+
+			
+	
+			
+	</header>
+
+			<div class="article-content">
+				<p id="speakable-summary" class="translated">当你让两台智能计算机秘密地相互对话，并让另一台人工智能去打破这种对话时，会发生什么？你得到了我所见过的最酷的密码学实验之一。</p>
+<p class="translated">简而言之，谷歌大脑的研究人员已经发现，人工智能在适当的任务下，会创造出奇怪的非人类密码方案，而且它们更擅长加密而不是解密。这篇名为“学习用对抗性神经加密技术保护通信”的论文<a target="_blank" href="https://web.archive.org/web/20221209033526/https://arxiv.org/pdf/1610.06918v1.pdf">可以在这里</a>找到。</p>
+<p class="translated">这项任务的规则很简单。Bob和Alice这两个神经网络共享一个密钥。另一个神经网络Eve的任务是读取两个机器人之间的通信。每一方都有一个条件，一个“损失函数”。Eve和接收者Bob的明文必须尽可能接近原始明文，而Alice的损失函数取决于Eve的猜测与随机猜测的差距。这在机器人之间创造了一个生殖对抗网络。</p>
+<p class="translated">研究人员马丁·阿巴迪和大卫·g·安德森写道:</p>
+<p class="translated">￼Informally，与会者的目标如下。Eve的目标很简单:精确重构P(换句话说，最小化P和PEve之间的误差)。Alice和Bob想要清楚地通信(以最小化P和PBob之间的误差)，但是也对Eve隐藏他们的通信。注意，根据现代密码定义(例如，(Goldwasser &amp; Micali，1984))，我们不要求密文C对Eve“看起来是随机的”。密文甚至可能包含明显的元数据来标识它。因此，Eve的目标不是将C与从某个分布中抽取的随机值区分开来。在这方面，Eve的目标与GANs的对手的目标形成了鲜明的对比。另一方面，我们可以尝试重新表述Eve的目标，区分由两个不同的明文构造的密文。</p>
+<p class="translated">这些方法随着时间的推移不断发展，最终Bob和Alice能够使用共享密钥进行清晰的通信。另一方面，伊芙在解密系统时运气不错，直到鲍勃和爱丽丝变得熟练了，她破解密码的能力才失效。另一方面，Bob和Alice非常擅长共享加密信息，他们的许多技术非常奇怪和出人意料，依赖于在“人类生成的”加密中不常见的计算。</p>
+<p class="translated"><img decoding="async" loading="lazy" class="alignright size-tcarticlefeaturedimagewide wp-image-1408726" src="../Images/11fdd35a937f7a3003e3ccfc4aa61e13.png" alt="screen-shot-2016-10-28-at-1-20-32-pm" srcset="https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png 1668w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=150,85 150w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=300,169 300w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=768,434 768w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=680,384 680w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=1536,867 1536w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=1200,678 1200w, https://web.archive.org/web/20221209033526im_/https://techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?resize=50,28 50w" sizes="(max-width: 1024px) 100vw, 1024px" data-original-src="https://web.archive.org/web/20221209033526im_/https://beta.techcrunch.com/wp-content/uploads/2016/10/screen-shot-2016-10-28-at-1-20-32-pm.png?w=1024"/></p>
+<p class="translated">最终，研究人员发现，只要重视安全性，Bob和Alice擅长自己设计一个可靠的加密协议。另一方面，伊芙花了很多时间解密他们的通讯。这意味着机器人将能够以我们或其他机器人无法破解的方式相互交流。就我而言，欢迎我们的机器人密码霸主。</p>
+			</div>
+
+			</div>    
+</body>
+</html>

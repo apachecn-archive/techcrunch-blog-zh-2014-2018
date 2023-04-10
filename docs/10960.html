@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>GitLab suffers major backup failure after data deletion incident • TechCrunch</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">GitLab在数据删除事件后遭遇重大备份故障TechCrunch</h1>
+<blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/02/01/gitlab-suffers-major-backup-failure-after-data-deletion-incident/?guccounter=1">https://web.archive.org/web/https://techcrunch.com/2017/02/01/gitlab-suffers-major-backup-failure-after-data-deletion-incident/?guccounter=1</a></blockquote><div><div class="article-content">
+				<p id="speakable-summary" class="translated">Khosla Ventures和Y Combinator支持的开源Git repository <a target="_blank" href="https://web.archive.org/web/20230124075206/https://gitlab.com/"> GitLab </a>在意外删除生产数据后出现重大备份恢复故障，目前处于离线状态。</p>
+<p class="translated">【T2<img decoding="async" loading="lazy" class="size-large wp-image-1446327 aligncenter" src="../Images/e2ee3804527e0cef89799c918219fbde.png" alt="GitLab is down" srcset="https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png 1004w, https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png?resize=150,64 150w, https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png?resize=300,127 300w, https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png?resize=768,326 768w, https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png?resize=680,289 680w, https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png?resize=50,21 50w" sizes="(max-width: 680px) 100vw, 680px" data-original-src="https://web.archive.org/web/20230124075206im_/https://techcrunch.com/wp-content/uploads/2017/02/screen-shot-2017-02-01-at-9-19-12-am.png?w=680"/></p>
+<p class="translated">最初，这项服务看起来遇到了加载时间和稳定性问题，这导致了昨天的中断。</p>
+<p class="translated">但是在数据被意外删除后，问题升级为紧急数据库维护——根据<a target="_blank" href="https://web.archive.org/web/20230124075206/https://twitter.com/gitlabstatus"> @GitLabStatus </a>账户的一系列推文，随后显然无法从备份中恢复数据。</p>
+<p class="translated">根据这些更新，受影响的数据库包括问题和合并请求，但不包括存储库和维基。</p>
+
+
+
+
+<p class="translated">该公司还更新了一份谷歌文档，提供了正在发生的事故的信息。</p>
+<p class="translated">谷歌文档中详述“遇到的问题”的一节指出，GitLab部署的五种备份/复制技术中没有一种“工作可靠或一开始就没有设置”。</p>
+<p class="translated">客气地说，这听起来不太理想。《纽约时报》有一个更直截了当的评估，称这项服务正处于“崩溃”之中。“这个世界没有足够多的面孔和手掌来对这句话做出反应，”它写道。</p>
+
+<p class="translated">我们已经联系了GitLab征求意见，并将根据任何回应更新这个故事。</p>
+<p class="translated">可以说的一件积极的事情是，该公司至少提供了关于该事件的高水平细节——无论如果你面临大量数据丢失，这是多么冰冷的安慰。</p>
+<p class="translated">根据登记簿，一个包含300GB实时生产数据的文件夹被GitLab系统管理员错误地删除了——当删除命令被取消时，只剩下4.5GB。</p>
+<p class="translated">GitLab最近的推文说数据库的恢复可以在这里追踪<a target="_blank" href="https://web.archive.org/web/20230124075206/http://monitor.gitlab.net/dashboard/db/postgres-stats?panelId=10&amp;fullscreen&amp;from=1485871271986&amp;to=now">。</a></p>
+<p class="translated">代码协作平台成立于2014年，总部位于旧金山，据<a target="_blank" href="https://web.archive.org/web/20230124075206/https://www.crunchbase.com/organization/gitlab-com#/entity"> CrunchBase </a>称，迄今已筹集约2560万美元——包括去年9月由August Capital牵头的<a target="_blank" href="https://web.archive.org/web/20230124075206/https://techcrunch.com/2016/09/13/gitlab-secures-20-million-series-b/">2000万美元B轮融资</a>，当时创始人兼首席执行官Sid Sijbrandij表示，它希望“继续加速，而不是必须停下来”。该公司目前有大约100名员工，其中许多人都是远程工作。</p>
+<p class="translated">GitLab与其他各种平台(如GitHub和Atlassian)竞争管理开发团队的代码，但由于其对代码库和协作工具模型的开源扭曲而吸引了投资者，这允许用户通过在平台上构建来调整平台以更好地满足他们的需求。</p>
+<p class="translated">除了免费的社区和SaaS产品，GitLab还允许企业用户通过其付费企业版在自己的服务器上运行其平台。付费产品的客户包括IBM、Macy's、ING、NASA和VMWare。</p>
+<p class="translated">该公司已经证实，停电仅影响GitLab.com，这意味着使用其平台的客户不会受到影响。</p>
+<p class="translated"><em>本文更新了关于哪些GitLab用户受到影响的更多细节</em></p>
+			</div>
+
+			</div>    
+</body>
+</html>
