@@ -7,44 +7,44 @@
 <h1 class="translated">高通称一年前发布了安卓加密漏洞的补丁</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/07/07/android-full-disk-encryption/">https://web.archive.org/web/https://techcrunch.com/2016/07/07/android-full-disk-encryption/</a></blockquote><div><div class="article-content">
 				<p id="speakable-summary" class="translated">破解加密是一个永远令人着迷的话题。</p>
-<p class="translated">国会已经为立法做了很多努力。FBI试图迫使苹果这么做。新的消息应用程序不断推出，声称具有强大的加密功能，当他们忽视这一点时，就会引发争议。</p>
-<p class="translated">因此，当一名研究人员上周发现Android的全磁盘加密方案中存在一个缺陷，允许对设备进行解密时，乍一看，这似乎是一项革命性的安全发现。</p>
-<p class="translated">但芯片制造商高通现在声称，它在2014年11月和2015年2月告诉了谷歌这些漏洞。谷歌在今年1月和5月发布了补丁——这意味着该公司在推出补丁之前可能已经知道这个问题一年多了。</p>
+<p class="translated">国会已经为立法做了很多努力。FBI 试图迫使苹果这么做。新的消息应用程序不断推出，声称具有强大的加密功能，当他们忽视这一点时，就会引发争议。</p>
+<p class="translated">因此，当一名研究人员上周发现 Android 的全磁盘加密方案中存在一个缺陷，允许对设备进行解密时，乍一看，这似乎是一项革命性的安全发现。</p>
+<p class="translated">但芯片制造商高通现在声称，它在 2014 年 11 月和 2015 年 2 月告诉了谷歌这些漏洞。谷歌在今年 1 月和 5 月发布了补丁——这意味着该公司在推出补丁之前可能已经知道这个问题一年多了。</p>
 <p>	</p><div class="article-block block--pullout block--left">
-		<blockquote class="translated">这种多样化的供应链导致了用来破解Android全磁盘加密的漏洞。</blockquote>
+		<blockquote class="translated">这种多样化的供应链导致了用来破解 Android 全磁盘加密的漏洞。</blockquote>
 	</div>
 	
 <p class="translated">这些补丁发布之际，美国联邦贸易委员会和联邦通信委员会宣布对谷歌和其他智能手机制造商推出安全更新的速度进行平行调查。联邦通信委员会<a target="_blank" href="https://web.archive.org/web/20221007031946/http://transition.fcc.gov/Daily_Releases/Daily_Business/2016/db0509/DOC-339256A1.pdf">称安卓系统中的</a><a target="_blank" href="https://web.archive.org/web/20221007031946/https://beta.techcrunch.com/2015/07/27/nasty-bug-lets-hackers-into-nearly-any-android-phone-using-nothing-but-a-message/"> Stagefright bug </a>为引发调查的安全漏洞之一。</p>
-<p class="translated">随着如此多的国家关注强加密，长达一年的延迟似乎是一个突出的问题。但要理解为什么用户直到5月份才得到修复，你必须了解一点关于进入Android设备的复杂供应链以及Android保护其庞大生态系统的方法。</p>
+<p class="translated">随着如此多的国家关注强加密，长达一年的延迟似乎是一个突出的问题。但要理解为什么用户直到 5 月份才得到修复，你必须了解一点关于进入 Android 设备的复杂供应链以及 Android 保护其庞大生态系统的方法。</p>
 <h2 class="translated">供应链复合体</h2>
-<p class="translated">Android是一个开源平台，因此许多智能手机制造商正在开发运行Android的设备。这些设备又由芯片、相机和其他硬件制造商生产的许多不同组件组成。</p>
-<p class="translated">Android经常被拿来与其最大的竞争对手iPhone进行比较，但这种比较有点棘手。iPhone本质上只是一个设备(好吧，如果你想把每一个5s、6和6 Plus都算作独一无二的话，也许是一打设备)。虽然苹果公司严格控制其制造业，但谷歌几乎无法控制数千台设备上的安卓系统。</p>
-<p class="translated">这种多样化的供应链导致了用来破解Android全磁盘加密的漏洞。</p>
-<p class="translated">安全研究人员Gal Beniamini在Android的<a target="_blank" href="https://web.archive.org/web/20221007031946/https://source.android.com/security/encryption/index.html">全磁盘加密</a>的实现中发现了几个问题，这将允许攻击者用高通芯片解密Android设备。解密利用涉及一个复杂的过程，但问题的核心是由高通芯片驱动的Android设备将加密密钥存储在软件中，而不是硬件中。</p>
-<p class="translated">硬件和软件的区别成为<a target="_blank" href="https://web.archive.org/web/20221007031946/https://beta.techcrunch.com/tag/apple-vs-fbi/">苹果公司与联邦调查局</a>争夺解锁圣贝纳迪诺枪击案凶手使用的iPhone的关键部分。由于苹果将加密密钥存储在硬件中，调查人员无法绕过该公司用来保护其设备的一些功能，如密码尝试之间的时间延迟以及在10次不正确的密码尝试后清除设备。</p>
+<p class="translated">Android 是一个开源平台，因此许多智能手机制造商正在开发运行 Android 的设备。这些设备又由芯片、相机和其他硬件制造商生产的许多不同组件组成。</p>
+<p class="translated">Android 经常被拿来与其最大的竞争对手 iPhone 进行比较，但这种比较有点棘手。iPhone 本质上只是一个设备(好吧，如果你想把每一个 5s、6 和 6 Plus 都算作独一无二的话，也许是一打设备)。虽然苹果公司严格控制其制造业，但谷歌几乎无法控制数千台设备上的安卓系统。</p>
+<p class="translated">这种多样化的供应链导致了用来破解 Android 全磁盘加密的漏洞。</p>
+<p class="translated">安全研究人员 Gal Beniamini 在 Android 的<a target="_blank" href="https://web.archive.org/web/20221007031946/https://source.android.com/security/encryption/index.html">全磁盘加密</a>的实现中发现了几个问题，这将允许攻击者用高通芯片解密 Android 设备。解密利用涉及一个复杂的过程，但问题的核心是由高通芯片驱动的 Android 设备将加密密钥存储在软件中，而不是硬件中。</p>
+<p class="translated">硬件和软件的区别成为<a target="_blank" href="https://web.archive.org/web/20221007031946/https://beta.techcrunch.com/tag/apple-vs-fbi/">苹果公司与联邦调查局</a>争夺解锁圣贝纳迪诺枪击案凶手使用的 iPhone 的关键部分。由于苹果将加密密钥存储在硬件中，调查人员无法绕过该公司用来保护其设备的一些功能，如密码尝试之间的时间延迟以及在 10 次不正确的密码尝试后清除设备。</p>
 <p class="translated">如果苹果将密钥存储在软件中，调查人员可能已经能够从设备上取下密钥，更快地运行密码猜测，而没有丢失手机上所有数据的风险。(尽管有可能联邦调查局确实找到了这样做的方法，但它用来侵入电话的方法尚未公开。)</p>
 <h2 class="translated">新发现，老臭虫</h2>
-<p class="translated">在上周发表的一篇<a target="_blank" href="https://web.archive.org/web/20221007031946/https://bits-please.blogspot.co.uk/2016/06/extracting-qualcomms-keymaster-keys.html">博文</a>中，Beniamini概述了破解Android全磁盘加密的过程；他利用了高通安全系统中的几个弱点，从安卓设备上获取了加密密钥。</p>
-<p class="translated">贝尼亚米尼向安卓和高通披露了这些问题，并通过谷歌的bug赏金计划获得报酬。</p>
-<p class="translated">“我们感谢研究人员的发现，并通过我们的漏洞奖励计划为他的工作支付报酬。我们在今年早些时候推出了针对这些问题的补丁，”谷歌发言人说。今年早些时候，谷歌发布了两个补丁来修复Beniamini发现的问题。</p>
-<p class="translated">但据高通称，谷歌应该在2014年就知道这个漏洞。高通发言人表示，该公司早在2014年8月就发现了Beniamini利用的相同漏洞，并在2014年11月和2015年2月向谷歌提供了补丁。</p>
-<p class="translated">尽管如此，这个漏洞在Android中逗留了足够长的时间，让Beniamini发现了他的漏洞。(谷歌没有对补丁发布的确切时间表发表评论。)</p>
-<p class="translated">Beniamini在一条消息中告诉TechCrunch:“显然，尽管他们在内部解决了这个问题，OEM(原始设备制造商)并没有应用这个修复程序(也许他们忘记了或者只是错过了这个修复程序)。”</p>
-<p class="translated">目前还不完全清楚Android的修复为何如此延迟。可能直到Beniamini指出，Android团队才意识到高通的缺陷是如何在Android中被利用的。缓慢的修复也有可能是Android安全方法的结果。随着Android在如此庞大的设备生态系统上运行，其安全团队从未采取非黑即白的方法。</p>
-<p class="translated">“安全社区规定的好与坏的模式——白与黑？”Android的安全主管Adrian Ludwig上个月告诉Wired。“除非我们接受将会有灰色阴影，否则它将会是全黑的。”</p>
-<h2 class="translated">OEM断开连接</h2>
-<p class="translated">Android的态度与谷歌作为人工智能领导者的声誉相符，而不是采取苹果以硬件为中心的安全方法:Android希望利用机器学习来推进安全。市场上有这么多不同的Android设备，安全漏洞肯定会被遗漏——所以Android希望提高对这些漏洞的检测，而不是完全消除它们。</p>
-<p class="translated">但Beniamini指出，在某些情况下，他的利用可能仍然有效:如果设备没有更新；如果芯片制造商被迫与执法部门合作；或者设备是否可以降级。导致这种漏洞的情况都不简单，而且大多数情况下需要长时间接触设备，这意味着普通用户不太可能面临风险。尽管如此，Duo Security <a target="_blank" href="https://web.archive.org/web/20221007031946/http://arstechnica.com/security/2016/07/androids-full-disk-encryption-just-got-much-weaker-heres-why/">估计</a>大量设备可能仍然容易受到攻击，因为他们还没有获得补丁。</p>
-<p class="translated">“这些问题本身表明，原始设备制造商可以被胁迫创建签名的固件映像，从而在不需要漏洞的情况下实现我概述的攻击，”Beniamini解释说。在更复杂的情况下，已修补的设备仍可能受到攻击(如果它们可以降级到以前易受攻击的固件版本)</p>
-<p class="translated">因为谷歌没有严格控制Android设备中每个组件的制造，所以在OEM层面可能会无意中引入漏洞。正如Beniamini指出的，这可能导致一种情况，即执法机构可以迫使制造商不通过谷歌破解设备。</p>
-<p class="translated">“我认为，与制造商进行更紧密的整合，可能有助于防止未来出现此类问题。这并不理想，但我认为相关各方都做得很好，这只是一个协调预期的问题，”Beniamini说。</p>
+<p class="translated">在上周发表的一篇<a target="_blank" href="https://web.archive.org/web/20221007031946/https://bits-please.blogspot.co.uk/2016/06/extracting-qualcomms-keymaster-keys.html">博文</a>中，Beniamini 概述了破解 Android 全磁盘加密的过程；他利用了高通安全系统中的几个弱点，从安卓设备上获取了加密密钥。</p>
+<p class="translated">贝尼亚米尼向安卓和高通披露了这些问题，并通过谷歌的 bug 赏金计划获得报酬。</p>
+<p class="translated">“我们感谢研究人员的发现，并通过我们的漏洞奖励计划为他的工作支付报酬。我们在今年早些时候推出了针对这些问题的补丁，”谷歌发言人说。今年早些时候，谷歌发布了两个补丁来修复 Beniamini 发现的问题。</p>
+<p class="translated">但据高通称，谷歌应该在 2014 年就知道这个漏洞。高通发言人表示，该公司早在 2014 年 8 月就发现了 Beniamini 利用的相同漏洞，并在 2014 年 11 月和 2015 年 2 月向谷歌提供了补丁。</p>
+<p class="translated">尽管如此，这个漏洞在 Android 中逗留了足够长的时间，让 Beniamini 发现了他的漏洞。(谷歌没有对补丁发布的确切时间表发表评论。)</p>
+<p class="translated">Beniamini 在一条消息中告诉 TechCrunch:“显然，尽管他们在内部解决了这个问题，OEM(原始设备制造商)并没有应用这个修复程序(也许他们忘记了或者只是错过了这个修复程序)。”</p>
+<p class="translated">目前还不完全清楚 Android 的修复为何如此延迟。可能直到 Beniamini 指出，Android 团队才意识到高通的缺陷是如何在 Android 中被利用的。缓慢的修复也有可能是 Android 安全方法的结果。随着 Android 在如此庞大的设备生态系统上运行，其安全团队从未采取非黑即白的方法。</p>
+<p class="translated">“安全社区规定的好与坏的模式——白与黑？”Android 的安全主管 Adrian Ludwig 上个月告诉 Wired。“除非我们接受将会有灰色阴影，否则它将会是全黑的。”</p>
+<h2 class="translated">OEM 断开连接</h2>
+<p class="translated">Android 的态度与谷歌作为人工智能领导者的声誉相符，而不是采取苹果以硬件为中心的安全方法:Android 希望利用机器学习来推进安全。市场上有这么多不同的 Android 设备，安全漏洞肯定会被遗漏——所以 Android 希望提高对这些漏洞的检测，而不是完全消除它们。</p>
+<p class="translated">但 Beniamini 指出，在某些情况下，他的利用可能仍然有效:如果设备没有更新；如果芯片制造商被迫与执法部门合作；或者设备是否可以降级。导致这种漏洞的情况都不简单，而且大多数情况下需要长时间接触设备，这意味着普通用户不太可能面临风险。尽管如此，Duo Security <a target="_blank" href="https://web.archive.org/web/20221007031946/http://arstechnica.com/security/2016/07/androids-full-disk-encryption-just-got-much-weaker-heres-why/">估计</a>大量设备可能仍然容易受到攻击，因为他们还没有获得补丁。</p>
+<p class="translated">“这些问题本身表明，原始设备制造商可以被胁迫创建签名的固件映像，从而在不需要漏洞的情况下实现我概述的攻击，”Beniamini 解释说。在更复杂的情况下，已修补的设备仍可能受到攻击(如果它们可以降级到以前易受攻击的固件版本)</p>
+<p class="translated">因为谷歌没有严格控制 Android 设备中每个组件的制造，所以在 OEM 层面可能会无意中引入漏洞。正如 Beniamini 指出的，这可能导致一种情况，即执法机构可以迫使制造商不通过谷歌破解设备。</p>
+<p class="translated">“我认为，与制造商进行更紧密的整合，可能有助于防止未来出现此类问题。这并不理想，但我认为相关各方都做得很好，这只是一个协调预期的问题，”Beniamini 说。</p>
 <p>	</p><div class="article-block block--pullout block--right">
-		<blockquote class="translated">因为谷歌没有严格控制Android设备中每个组件的制造，所以在OEM层面可能会无意中引入漏洞。</blockquote>
+		<blockquote class="translated">因为谷歌没有严格控制 Android 设备中每个组件的制造，所以在 OEM 层面可能会无意中引入漏洞。</blockquote>
 	</div>
 	
-<p class="translated">Android的开放性使其独一无二，在某些情况下，也是可取的。“当然，如果谷歌生产自己的硬件，事情会简单得多，但我认为这种解决方案无法扩展。我的观点是，Android是操作系统，部分原因是设备和原始设备制造商的广泛选择，”他补充说。</p>
-<p class="translated">Android正在努力提高其原始设备制造商的安全性。昨天，Android <a target="_blank" href="https://web.archive.org/web/20221007031946/https://source.android.com/security/bulletin/2016-07-01.html">宣布了针对Nexus设备的一系列更新，解决了几家原始设备制造商的关键安全问题。研究人员在高通、英伟达和联发科提供的硬件中发现了一些特权漏洞，Android正在修补这些漏洞。但是，除非Android找到一种方法更快地将补丁转移到它的各种设备上，否则它将在安全性方面落后。</a></p>
-<p class="translated"><em>编者按:我们已经更新了标题，澄清高通只是在一年前报告了Android漏洞，并没有明确表示谷歌留下了一个未打补丁的漏洞。我们对造成的混乱表示歉意。</em></p>
+<p class="translated">Android 的开放性使其独一无二，在某些情况下，也是可取的。“当然，如果谷歌生产自己的硬件，事情会简单得多，但我认为这种解决方案无法扩展。我的观点是，Android 是操作系统，部分原因是设备和原始设备制造商的广泛选择，”他补充说。</p>
+<p class="translated">Android 正在努力提高其原始设备制造商的安全性。昨天，Android <a target="_blank" href="https://web.archive.org/web/20221007031946/https://source.android.com/security/bulletin/2016-07-01.html">宣布了针对 Nexus 设备的一系列更新，解决了几家原始设备制造商的关键安全问题。研究人员在高通、英伟达和联发科提供的硬件中发现了一些特权漏洞，Android 正在修补这些漏洞。但是，除非 Android 找到一种方法更快地将补丁转移到它的各种设备上，否则它将在安全性方面落后。</a></p>
+<p class="translated"><em>编者按:我们已经更新了标题，澄清高通只是在一年前报告了 Android 漏洞，并没有明确表示谷歌留下了一个未打补丁的漏洞。我们对造成的混乱表示歉意。</em></p>
 			</div>
 
 			</div>    

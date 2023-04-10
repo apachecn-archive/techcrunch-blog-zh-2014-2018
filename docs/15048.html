@@ -8,25 +8,25 @@
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/10/19/apple-makes-the-case-that-even-its-most-banal-features-require-a-proficiency-in-machine-learning/?utm_source=shootr&amp;utm_medium=referral">https://web.archive.org/web/https://techcrunch.com/2017/10/19/apple-makes-the-case-that-even-its-most-banal-features-require-a-proficiency-in-machine-learning/?utm_source=shootr&amp;utm_medium=referral</a></blockquote><div><div class="article-content">
 				<p id="speakable-summary" class="translated">在机器学习自满的叙述中，苹果开始接受这样一个事实:<a target="_blank" href="https://web.archive.org/web/20230129082311/http://www.barrons.com/articles/is-apple-falling-behind-in-the-artificial-intelligence-race-1504625700?mod=wsjde_finanzen_wsj_barron_tickers&amp;mg=prod/accounts-barrons" rel="noopener">不谈论创新意味着创新从未发生。</a></p>
 <p class="translated"><a target="_blank" href="https://web.archive.org/web/20230129082311/https://machinelearning.apple.com/2017/10/01/hey-siri.html" rel="noopener">在该公司的机器学习杂志</a>上发表了一篇详细的博客文章，公开了为其“嘿，Siri”功能所做的技术努力——这项功能如此平庸，以至于我几乎认为苹果试图用高雅的嘲讽来表达观点。</p>
-<p class="translated">尽管如此，还是有必要抓住这个机会，去探究到底有多少精力投入到了那些因为这样或那样的原因而被忽视的特性上。以下是让“嘿Siri”功能(以及其他公司的竞争产品)比你想象的更难实现的五件事，以及苹果如何克服这些障碍的评论。</p>
+<p class="translated">尽管如此，还是有必要抓住这个机会，去探究到底有多少精力投入到了那些因为这样或那样的原因而被忽视的特性上。以下是让“嘿 Siri”功能(以及其他公司的竞争产品)比你想象的更难实现的五件事，以及苹果如何克服这些障碍的评论。</p>
 <h2 class="translated">它不能整天消耗你的电池和处理器</h2>
-<p class="translated">在其核心，“嘿Siri”功能实际上只是一个检测器。检测器正在监听短语，理想情况下使用的资源少于整个基于服务器的Siri。尽管如此，这种探测器即使只是整天吮吸设备的主处理器也没有多大意义。</p>
-<p class="translated">幸运的是，iPhone有一个更小的“永远在线处理器”，可以用来运行检测器。在这个时候，将整个深度神经网络(DNN)整合到这么小的处理器上是不可行的。因此，苹果运行了一个小版本的DNN来识别“嘿，Siri”</p>
+<p class="translated">在其核心，“嘿 Siri”功能实际上只是一个检测器。检测器正在监听短语，理想情况下使用的资源少于整个基于服务器的 Siri。尽管如此，这种探测器即使只是整天吮吸设备的主处理器也没有多大意义。</p>
+<p class="translated">幸运的是，iPhone 有一个更小的“永远在线处理器”，可以用来运行检测器。在这个时候，将整个深度神经网络(DNN)整合到这么小的处理器上是不可行的。因此，苹果运行了一个小版本的 DNN 来识别“嘿，Siri”</p>
 <p class="translated">当该模型确信它听到了类似于该短语的内容时，它会呼叫后援，并让全尺寸神经网络分析捕捉到的信号。所有这一切都发生在一瞬间，以至于你甚至不会注意到它。</p>
 <h2 class="translated">必须适应所有的语言和发音方式</h2>
-<p class="translated">深度学习模型饥肠辘辘，并遭受所谓的冷启动问题——一段时间内，模型没有在足够多的边缘情况下进行训练，以使其有效。为了克服这一点，苹果公司变得狡猾起来，在Siri唤醒功能出现之前，它在没有提示的情况下自然地播放了用户说“嘿Siri”的音频。是的，我同意你的说法，人们试图与Siri进行真正的对话，这很奇怪，但仍然很狡猾。</p>
-<p class="translated">这些话语被转录，由苹果员工抽查，并与一般的语音数据相结合。目的是创建一个足够强大的模型，它可以处理世界各地人们说“嘿Siri”的各种方式。</p>
+<p class="translated">深度学习模型饥肠辘辘，并遭受所谓的冷启动问题——一段时间内，模型没有在足够多的边缘情况下进行训练，以使其有效。为了克服这一点，苹果公司变得狡猾起来，在 Siri 唤醒功能出现之前，它在没有提示的情况下自然地播放了用户说“嘿 Siri”的音频。是的，我同意你的说法，人们试图与 Siri 进行真正的对话，这很奇怪，但仍然很狡猾。</p>
+<p class="translated">这些话语被转录，由苹果员工抽查，并与一般的语音数据相结合。目的是创建一个足够强大的模型，它可以处理世界各地人们说“嘿 Siri”的各种方式。</p>
 <p class="translated">苹果必须解决人们在“嘿”和“Siri”之间的停顿，以确保模型仍然能够识别这个短语。在这一点上，有必要将其他语言融入进来——添加例子以适应从法语的“Dis Siri”到韩语的“Siri 야.”的一切</p>
 <h2 class="translated">它不会被“嘿，说真的”和其他类似但不相关的词语触发</h2>
-<p class="translated">当你使用苹果设备时，Siri在没有故意提示的情况下激活，暂停其他一切——包括音乐——这是令人讨厌的。恐怖啊！为了解决这个问题，苹果不得不倾听个人用户的声音。</p>
-<p class="translated">当用户启动Siri时，他们会说五个短语，每个短语都以“嘿，Siri”开头。这些例子被存储起来，并通过另一个专门的神经网络扔进一个向量空间。这个空间允许比较不同说话者所说的短语。同一个用户说的所有短语都倾向于聚集在一起，这可以用来最小化一个人在你的办公室说“嘿Siri”会触发每个人的iPhone的可能性。</p>
-<p class="translated">最糟糕的情况是，这个短语在本地符合要求，但仍然不是“嘿，Siri它得到了苹果自己的服务器上的主语音模型的最后一次审查。如果发现这个短语不是“嘿，Siri”，所有的东西都会立即被取消。</p>
-<h2 class="translated">在苹果手表上激活Siri必须和在iPhone上一样简单</h2>
-<p class="translated">与苹果的内部服务器相比，iPhone的马力似乎有限，但与Apple Watch相比，iPhone是一个庞然大物。手表运行一个独特的检测模型，它没有iPhone上运行的完整神经网络那么大，也没有最初的检测器那么小。</p>
-<p class="translated">这款中型机型不会一直运行，而是只在用户抬起手腕打开屏幕时才会听到“嘿Siri”这句话。由于这一点以及随之而来的一切启动和运行的潜在延迟，Apple Watch上的模型是专门设计来适应缺少初始“H”音的目标短语的变化。</p>
+<p class="translated">当你使用苹果设备时，Siri 在没有故意提示的情况下激活，暂停其他一切——包括音乐——这是令人讨厌的。恐怖啊！为了解决这个问题，苹果不得不倾听个人用户的声音。</p>
+<p class="translated">当用户启动 Siri 时，他们会说五个短语，每个短语都以“嘿，Siri”开头。这些例子被存储起来，并通过另一个专门的神经网络扔进一个向量空间。这个空间允许比较不同说话者所说的短语。同一个用户说的所有短语都倾向于聚集在一起，这可以用来最小化一个人在你的办公室说“嘿 Siri”会触发每个人的 iPhone 的可能性。</p>
+<p class="translated">最糟糕的情况是，这个短语在本地符合要求，但仍然不是“嘿，Siri 它得到了苹果自己的服务器上的主语音模型的最后一次审查。如果发现这个短语不是“嘿，Siri”，所有的东西都会立即被取消。</p>
+<h2 class="translated">在苹果手表上激活 Siri 必须和在 iPhone 上一样简单</h2>
+<p class="translated">与苹果的内部服务器相比，iPhone 的马力似乎有限，但与 Apple Watch 相比，iPhone 是一个庞然大物。手表运行一个独特的检测模型，它没有 iPhone 上运行的完整神经网络那么大，也没有最初的检测器那么小。</p>
+<p class="translated">这款中型机型不会一直运行，而是只在用户抬起手腕打开屏幕时才会听到“嘿 Siri”这句话。由于这一点以及随之而来的一切启动和运行的潜在延迟，Apple Watch 上的模型是专门设计来适应缺少初始“H”音的目标短语的变化。</p>
 <h2 class="translated">它必须在嘈杂的房间里工作</h2>
-<p class="translated">在评估其探测器时，苹果使用了人们在各种情况下说“嘿Siri”的录音——在厨房、汽车、卧室、嘈杂的餐厅、近距离和远距离。然后，收集的数据将用于确定准确性基准，并进一步调整激活模型的阈值。</p>
-<p class="translated">不幸的是，我的iPhone仍然不理解上下文，Siri在我大声校对这篇文章时被触发了很多次，以至于我把手机扔到了房间的另一边。</p>
+<p class="translated">在评估其探测器时，苹果使用了人们在各种情况下说“嘿 Siri”的录音——在厨房、汽车、卧室、嘈杂的餐厅、近距离和远距离。然后，收集的数据将用于确定准确性基准，并进一步调整激活模型的阈值。</p>
+<p class="translated">不幸的是，我的 iPhone 仍然不理解上下文，Siri 在我大声校对这篇文章时被触发了很多次，以至于我把手机扔到了房间的另一边。</p>
 			</div>
 
 			</div>    

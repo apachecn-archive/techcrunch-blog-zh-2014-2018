@@ -4,10 +4,10 @@
 <link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1 class="translated">脸书的fastText图书馆现已针对移动技术进行了优化</h1>
+<h1 class="translated">脸书的 fastText 图书馆现已针对移动技术进行了优化</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/05/02/facebooks-fasttext-library-is-now-optimized-for-mobile/">https://web.archive.org/web/https://techcrunch.com/2017/05/02/facebooks-fasttext-library-is-now-optimized-for-mobile/</a></blockquote><div><header class="article__header ">
 	<p class="article__title-wrapper">
-						</p><h1 class="article__title translated">脸书的fastText图书馆现已针对移动设备进行了优化</h1>
+						</p><h1 class="article__title translated">脸书的 fastText 图书馆现已针对移动设备进行了优化</h1>
 		
 
 			
@@ -16,13 +16,13 @@
 	</header>
 
 			<div class="article-content">
-				<p id="speakable-summary" class="translated">今天早上，脸书人工智能研究(FAIR)实验室<a target="_blank" href="https://web.archive.org/web/20230210113918/https://code.facebook.com/posts/162370720961195" rel="noopener noreferrer">发布了其超高速开源文本分类库fastText </a>的更新。当它最初发布时，fastText附带了针对90种语言的预训练单词向量，但今天它已经发展到294种语言。该版本还带来了减少模型大小并最终减少内存需求的增强功能。</p>
-<p class="translated">像fastText这样的文本分类器使得开发人员可以轻松地发布依赖于底层语言分析的工具。标记点击诱饵标题或过滤垃圾邮件都需要一个能够解释和分类语言的底层模型。</p>
-<p class="translated">从一开始，fastText就被设计为可以在多种硬件上实现。不幸的是，在其原始状态下，它仍然需要几千兆字节的内存来运行。如果你在最先进的实验室工作，这不是问题，但如果你想在移动设备上工作，这就成了大问题。</p>
-<p class="translated">通过与脸书另一个开源项目<a target="_blank" href="https://web.archive.org/web/20230210113918/https://techcrunch.com/2017/03/29/similarity-search/" rel="noopener noreferrer">的团队合作，相似性搜索(FAISS) </a>，该公司能够将内存需求减少到仅仅几百千字节。FAISS解决了开发人员在处理大量数据时面临的一些固有瓶颈。</p>
-<p class="translated">大量的信息通常最好用多维向量空间来表示。对于脸书和许多其他公司来说，优化这些向量的比较对于将内容与用户偏好进行比较以及将内容与其他内容进行比较至关重要。FAISS团队的方法最终在减少fastText的内存需求方面发挥了重要作用。</p>
-<p class="translated">“一些关键因素，即特征修剪、量化、哈希和重新训练，使我们能够产生微小的文本分类模型，当在几个流行的数据集上训练时，通常不到100kB，而不会明显牺牲准确性或速度，”脸书的作者在2016年12月发表了一篇题为“fastText.zip:压缩文本分类模型”的论文</p>
-<p class="translated">作者继续假设未来可能会进一步缩小模型尺寸。挑战与其说是缩小模型，不如说是保持准确性。但在那之前，工程师们可以<a target="_blank" href="https://web.archive.org/web/20230210113918/https://github.com/facebookresearch/fastText" rel="noopener noreferrer">访问GitHub </a>上更新的库，并从今天开始修补。</p>
+				<p id="speakable-summary" class="translated">今天早上，脸书人工智能研究(FAIR)实验室<a target="_blank" href="https://web.archive.org/web/20230210113918/https://code.facebook.com/posts/162370720961195" rel="noopener noreferrer">发布了其超高速开源文本分类库 fastText </a>的更新。当它最初发布时，fastText 附带了针对 90 种语言的预训练单词向量，但今天它已经发展到 294 种语言。该版本还带来了减少模型大小并最终减少内存需求的增强功能。</p>
+<p class="translated">像 fastText 这样的文本分类器使得开发人员可以轻松地发布依赖于底层语言分析的工具。标记点击诱饵标题或过滤垃圾邮件都需要一个能够解释和分类语言的底层模型。</p>
+<p class="translated">从一开始，fastText 就被设计为可以在多种硬件上实现。不幸的是，在其原始状态下，它仍然需要几千兆字节的内存来运行。如果你在最先进的实验室工作，这不是问题，但如果你想在移动设备上工作，这就成了大问题。</p>
+<p class="translated">通过与脸书另一个开源项目<a target="_blank" href="https://web.archive.org/web/20230210113918/https://techcrunch.com/2017/03/29/similarity-search/" rel="noopener noreferrer">的团队合作，相似性搜索(FAISS) </a>，该公司能够将内存需求减少到仅仅几百千字节。FAISS 解决了开发人员在处理大量数据时面临的一些固有瓶颈。</p>
+<p class="translated">大量的信息通常最好用多维向量空间来表示。对于脸书和许多其他公司来说，优化这些向量的比较对于将内容与用户偏好进行比较以及将内容与其他内容进行比较至关重要。FAISS 团队的方法最终在减少 fastText 的内存需求方面发挥了重要作用。</p>
+<p class="translated">“一些关键因素，即特征修剪、量化、哈希和重新训练，使我们能够产生微小的文本分类模型，当在几个流行的数据集上训练时，通常不到 100kB，而不会明显牺牲准确性或速度，”脸书的作者在 2016 年 12 月发表了一篇题为“fastText.zip:压缩文本分类模型”的论文</p>
+<p class="translated">作者继续假设未来可能会进一步缩小模型尺寸。挑战与其说是缩小模型，不如说是保持准确性。但在那之前，工程师们可以<a target="_blank" href="https://web.archive.org/web/20230210113918/https://github.com/facebookresearch/fastText" rel="noopener noreferrer">访问 GitHub </a>上更新的库，并从今天开始修补。</p>
 			</div>
 
 			</div>    

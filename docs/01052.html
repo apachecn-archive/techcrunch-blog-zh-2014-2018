@@ -4,19 +4,19 @@
 <link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1 class="translated">开源它的WordPress异步任务库</h1>
+<h1 class="translated">开源它的 WordPress 异步任务库</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/http://techcrunch.com/2014/07/31/wp-async-task-our-new-open-source-library/?ncid=fb">https://web.archive.org/web/http://techcrunch.com/2014/07/31/wp-async-task-our-new-open-source-library/?ncid=fb</a></blockquote><div><div class="article-content">
-				<p id="speakable-summary" class="translated">早在2012年初，当TechCrunch开发团队(Nicolas Vincent、Alex Khadiwala、Eric Mann和John Bloch)开始着手<a> TechCrunch重新设计</a>时，其中一个主要目标就是提高网站性能。在开发过程中，我们实现了几个工具来帮助实现这个目标。</p>
-<p class="translated">我们采用的方法之一是将耗时的任务卸载到后台任务中。我们构建了一个名为<a target="_blank" href="https://web.archive.org/web/20230131030520/https://github.com/techcrunch/wp-async-task/"> WP异步任务</a>的库来构建这些后台任务。</p>
-<p class="translated">六月，我们做了一个名为“<a target="_blank" href="https://web.archive.org/web/20230131030520/http://vip.wordpress.com/2014/07/01/non-blocking-wordpress/">非阻塞WordPress </a>”的报告，在报告中我们谈到了我们的一些性能方法。观众对我们的异步任务很感兴趣，人们想知道他们是否可以在任何地方获得代码并使用它。</p>
-<p class="translated">我们很高兴地宣布，从今天起，WP异步任务库是开源的，可以在GitHub 上获得<a target="_blank" href="https://web.archive.org/web/20230131030520/https://github.com/techcrunch/wp-async-task/">。我们非常相信开源软件的力量，并希望回报为我们提供发布平台的社区。检查代码并查看关于如何在自己的代码中使用库</a><a target="_blank" href="https://web.archive.org/web/20230131030520/https://github.com/techcrunch/wp-async-task#quick-start">的文档。</a></p>
+				<p id="speakable-summary" class="translated">早在 2012 年初，当 TechCrunch 开发团队(Nicolas Vincent、Alex Khadiwala、Eric Mann 和 John Bloch)开始着手<a> TechCrunch 重新设计</a>时，其中一个主要目标就是提高网站性能。在开发过程中，我们实现了几个工具来帮助实现这个目标。</p>
+<p class="translated">我们采用的方法之一是将耗时的任务卸载到后台任务中。我们构建了一个名为<a target="_blank" href="https://web.archive.org/web/20230131030520/https://github.com/techcrunch/wp-async-task/"> WP 异步任务</a>的库来构建这些后台任务。</p>
+<p class="translated">六月，我们做了一个名为“<a target="_blank" href="https://web.archive.org/web/20230131030520/http://vip.wordpress.com/2014/07/01/non-blocking-wordpress/">非阻塞 WordPress </a>”的报告，在报告中我们谈到了我们的一些性能方法。观众对我们的异步任务很感兴趣，人们想知道他们是否可以在任何地方获得代码并使用它。</p>
+<p class="translated">我们很高兴地宣布，从今天起，WP 异步任务库是开源的，可以在 GitHub 上获得<a target="_blank" href="https://web.archive.org/web/20230131030520/https://github.com/techcrunch/wp-async-task/">。我们非常相信开源软件的力量，并希望回报为我们提供发布平台的社区。检查代码并查看关于如何在自己的代码中使用库</a><a target="_blank" href="https://web.archive.org/web/20230131030520/https://github.com/techcrunch/wp-async-task#quick-start">的文档。</a></p>
 <h3 class="translated">为什么要让任务异步？</h3>
 <p class="translated">我们试图减少可能导致阻塞和每页加载时间增加的进程数量。这通常发生在“一个被阻塞的进程正在等待某个事件，比如一个资源变得可用或者一个操作的完成。”</p>
-<p class="translated">在TechCrunch网站上，在文章页面上加载CrunchBase卡就是一个可能会降低网站速度的例子，因为每个卡所需的信息都可以通过CrunchBase API获得。为了提高性能，我们将他们数据的副本缓存大约12小时。但是当我们最初检索或刷新数据时，我们不希望API调用影响页面加载时间。</p>
-<p class="translated">在这两种情况下，我们都使用检索和缓存这些数据的指令来启动对我们站点的异步调用，以便在下次需要时可用，而不是等待API的响应。同时，如果我们有数据的缓存版本，我们就在卡上使用它。这样，CrunchBase卡就不会为该页面负载呈现。</p>
+<p class="translated">在 TechCrunch 网站上，在文章页面上加载 CrunchBase 卡就是一个可能会降低网站速度的例子，因为每个卡所需的信息都可以通过 CrunchBase API 获得。为了提高性能，我们将他们数据的副本缓存大约 12 小时。但是当我们最初检索或刷新数据时，我们不希望 API 调用影响页面加载时间。</p>
+<p class="translated">在这两种情况下，我们都使用检索和缓存这些数据的指令来启动对我们站点的异步调用，以便在下次需要时可用，而不是等待 API 的响应。同时，如果我们有数据的缓存版本，我们就在卡上使用它。这样，CrunchBase 卡就不会为该页面负载呈现。</p>
 <p class="translated"><img decoding="async" class="aligncenter size-large wp-image-1038138" src="../Images/e06845473e0439191d1e37e566263244.png" alt="TC redesign wp async improvements" srcset="https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png 834w, https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png?resize=150,20 150w, https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png?resize=300,40 300w, https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png?resize=768,102 768w, https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png?resize=680,91 680w, https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png?resize=50,7 50w" sizes="(max-width: 680px) 100vw, 680px" data-original-src="https://web.archive.org/web/20230131030520im_/https://techcrunch.com/wp-content/uploads/2014/07/screen-shot-2014-07-31-at-12-08-56.png?w=680"/></p>
-<p class="translated">在以前的TechCrunch设计中，页面加载时间可能会超过17秒。自从重新设计以来，除了其他重要的后端和前端改进之外，我们通过实现WP异步任务库将整体性能提高了5到8倍。</p>
-<p class="translated">下面你可以观看Nicolas和Alex在2014年6月大媒体&amp;企业见面会上介绍的视频。我们还要特别感谢<a target="_blank" href="https://web.archive.org/web/20230131030520/http://10up.com/"> 10up </a>的开发者John Bloch和Eric Mann。</p>
+<p class="translated">在以前的 TechCrunch 设计中，页面加载时间可能会超过 17 秒。自从重新设计以来，除了其他重要的后端和前端改进之外，我们通过实现 WP 异步任务库将整体性能提高了 5 到 8 倍。</p>
+<p class="translated">下面你可以观看 Nicolas 和 Alex 在 2014 年 6 月大媒体&amp;企业见面会上介绍的视频。我们还要特别感谢<a target="_blank" href="https://web.archive.org/web/20230131030520/http://10up.com/"> 10up </a>的开发者 John Bloch 和 Eric Mann。</p>
 <p class="translated">[wpvideo AiE7LfPM]</p>
 			</div>
 

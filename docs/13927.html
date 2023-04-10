@@ -4,7 +4,7 @@
 <link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1 class="translated">机器学习的演变TechCrunch</h1>
+<h1 class="translated">机器学习的演变 TechCrunch</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/08/08/the-evolution-of-machine-learning/">https://web.archive.org/web/https://techcrunch.com/2017/08/08/the-evolution-of-machine-learning/</a></blockquote><div><div class="article-content">
 				<p id="speakable-summary">
 </p><div class="article__contributor-byline">
@@ -31,24 +31,24 @@
 <p class="translated">第一阶段涉及清理和格式化大量数据，以输入模型。最后一个阶段涉及模型的仔细部署和监控。我们发现，人工智能的大部分工程时间实际上并没有花在建立机器学习模型上——而是花在准备和监控这些模型上。</p>
 <h3 class="translated">机器学习的精髓——避免异国风味</h3>
 <p class="translated">尽管大科技公司人工智能研究院(AI research labs)专注于深度学习，但这些公司的大多数机器学习应用都不依赖于神经网络，而是使用传统的机器学习模型。最常见的模型包括线性/逻辑回归、随机森林和增强决策树。这些是技术公司使用的其他服务背后的模型，包括朋友建议、广告定位、用户兴趣预测、供需模拟和搜索结果排名。</p>
-<p class="translated">工程师用来训练这些模型的一些工具也同样破旧。最常用的机器学习库之一是scikit-learn，它是十年前发布的(尽管Google的TensorFlow正在兴起)。</p>
-<p class="translated">有很好的理由使用更简单的模型而不是深度学习。深度神经网络很难训练。它们需要更多的时间和计算能力(它们通常需要不同的硬件，特别是GPU)。<em> <b>让深度学习发挥作用很难</b></em>——它仍然需要大量的手工操作，涉及直觉和试错的结合。</p>
+<p class="translated">工程师用来训练这些模型的一些工具也同样破旧。最常用的机器学习库之一是 scikit-learn，它是十年前发布的(尽管 Google 的 TensorFlow 正在兴起)。</p>
+<p class="translated">有很好的理由使用更简单的模型而不是深度学习。深度神经网络很难训练。它们需要更多的时间和计算能力(它们通常需要不同的硬件，特别是 GPU)。<em> <b>让深度学习发挥作用很难</b></em>——它仍然需要大量的手工操作，涉及直觉和试错的结合。</p>
 <p class="translated">对于传统的机器学习模型，工程师花在模型训练和调整上的时间相对较短——通常只有几个小时。最终，如果深度学习可以实现的准确性改进是适度的，那么对可扩展性和开发速度的需求超过了它们的价值。</p>
 <h3 class="translated">尝试将所有这些整合在一起—从数据到部署的工具</h3>
 <p class="translated">所以当涉及到<i>训练</i>一个机器学习模型的时候，传统的方法效果很好。但这并不适用于将机器学习管道结合在一起的基础设施。使用相同的旧软件工程工具进行机器学习工程会产生更大的出错可能性。</p>
 <p class="translated">机器学习管道的第一阶段——数据收集和处理——就说明了这一点。虽然大公司肯定拥有大数据，但数据科学家或工程师必须清理数据以使其有用-验证和整合不同来源的重复数据，规范指标，设计和证明功能。</p>
-<p class="translated">在大多数公司，工程师使用SQL或Hive查询和Python脚本的组合来聚合和格式化来自一个或多个数据源的数百万个数据点。这通常需要几天令人沮丧的手工劳动。其中一些可能是重复性工作，因为许多公司的流程是分散的——数据科学家或工程师通常使用本地脚本或Jupyter笔记本来处理数据。</p>
-<p class="translated">此外，大型科技公司的庞大规模加剧了错误，使得在生产中谨慎部署和监控模型变得势在必行。正如一位工程师所描述的，<strong><em>在大公司，机器学习80%是基础设施</em></strong></p>
+<p class="translated">在大多数公司，工程师使用 SQL 或 Hive 查询和 Python 脚本的组合来聚合和格式化来自一个或多个数据源的数百万个数据点。这通常需要几天令人沮丧的手工劳动。其中一些可能是重复性工作，因为许多公司的流程是分散的——数据科学家或工程师通常使用本地脚本或 Jupyter 笔记本来处理数据。</p>
+<p class="translated">此外，大型科技公司的庞大规模加剧了错误，使得在生产中谨慎部署和监控模型变得势在必行。正如一位工程师所描述的，<strong><em>在大公司，机器学习 80%是基础设施</em></strong></p>
 <p class="translated">然而，传统的单元测试——传统软件测试的支柱——并不真正与机器学习模型一起工作，因为机器学习模型的正确输出事先并不知道。毕竟，机器学习的目的是让模型学会从数据中做出预测，而不需要工程师专门编写任何规则。因此，工程师们没有进行单元测试，而是采用了一种不太结构化的方法:他们手动监控仪表板，并为新模型编写警报程序。</p>
 <p class="translated">现实世界数据的变化可能会使训练过的模型不太准确，因此工程师根据应用程序，每天或每月根据新数据重新训练生产模型。但是，在现有的工程基础设施中缺乏对机器学习的特定支持会造成开发中的模型和生产中的模型之间的脱节——正常代码更新的频率要低得多。</p>
 <p class="translated">许多工程师仍然依赖于将模型部署到生产中的基本方法，例如将训练模型或模型权重的序列化版本保存到文件中。工程师有时需要用不同的语言或框架重建模型原型和部分数据管道，因此他们在生产基础设施上工作。机器学习开发过程的任何阶段——从数据处理到培训到部署到生产基础设施——的任何不兼容性都可能引入错误。</p>
 <h3 class="translated">让它看起来像样——前进的道路</h3>
 <p class="translated">为了解决这些问题，<strong> <em>一些拥有构建定制工具资源的大公司已经投入时间和工程努力来创建他们自己的机器学习专用工具</em>。</strong>他们的目标是拥有一个无缝、端到端的机器学习平台，与公司的工程基础设施完全兼容。</p>
 <p class="translated">脸书的<a target="_blank" href="https://web.archive.org/web/20230117233843/https://code.facebook.com/posts/1072626246134461/introducing-fblearner-flow-facebook-s-ai-backbone/" rel="noopener"> FBLearner Flow </a>和优步的<a target="_blank" href="https://web.archive.org/web/20230117233843/https://careers-uber.icims.com/jobs/32523/sr-software-engineer---machine-learning-platform-%28seattle%29/job?mobile=true&amp;needsRedirect=false" rel="noopener">米开朗基罗</a>就是这样做的内部机器学习平台。它们允许工程师用直观的用户界面构建训练和验证数据集，将花费在这一阶段的时间从几天减少到几小时。然后，工程师可以通过(或多或少)点击一个按钮来训练模型。最后，他们可以轻松地监控和直接更新生产模型。</p>
-<p class="translated">像<a target="_blank" href="https://web.archive.org/web/20230117233843/https://azure.microsoft.com/en-us/services/machine-learning/?&amp;WT.srch=1&amp;WT.mc_id=AID623261_SEM_0PXh3grx&amp;gclid=EAIaIQobChMI08rfsNuz1QIVmksNCh1GTA8yEAAYASAAEgIbkPD_BwE" rel="noopener"> Azure Machine Learning </a>和<a target="_blank" href="https://web.archive.org/web/20230117233843/https://aws.amazon.com/machine-learning/" rel="noopener"> Amazon Machine Learning </a>这样的服务是公开可用的替代品，它们提供类似的端到端平台功能，但只与其他Amazon或Microsoft服务集成，用于管道的数据存储和部署组件。</p>
+<p class="translated">像<a target="_blank" href="https://web.archive.org/web/20230117233843/https://azure.microsoft.com/en-us/services/machine-learning/?&amp;WT.srch=1&amp;WT.mc_id=AID623261_SEM_0PXh3grx&amp;gclid=EAIaIQobChMI08rfsNuz1QIVmksNCh1GTA8yEAAYASAAEgIbkPD_BwE" rel="noopener"> Azure Machine Learning </a>和<a target="_blank" href="https://web.archive.org/web/20230117233843/https://aws.amazon.com/machine-learning/" rel="noopener"> Amazon Machine Learning </a>这样的服务是公开可用的替代品，它们提供类似的端到端平台功能，但只与其他 Amazon 或 Microsoft 服务集成，用于管道的数据存储和部署组件。</p>
 <p class="translated">尽管大型科技公司一直强调用机器学习来增强他们的产品，但大多数公司在这个过程中仍然存在重大挑战和低效率。他们仍然使用传统的机器学习模型，而不是更先进的深度学习，并且仍然依赖于不太适合机器学习的传统工具基础设施。</p>
 <p class="translated">幸运的是，随着这些公司目前对人工智能的关注，他们正在投资专门的工具，以使机器学习更好地工作。借助这些内部工具，或者可能借助能够紧密集成到现有基础设施中的第三方机器学习平台，组织可以实现人工智能的潜力。</p>
-<p class="translated"><em>特别感谢Irving Hsu、David Eng、Gideon Mann和彭博Beta团队的真知灼见。</em></p>
+<p class="translated"><em>特别感谢 Irving Hsu、David Eng、Gideon Mann 和彭博 Beta 团队的真知灼见。</em></p>
 			</div>
 
 			</div>    

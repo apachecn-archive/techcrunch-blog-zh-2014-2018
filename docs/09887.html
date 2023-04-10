@@ -4,16 +4,16 @@
 <link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1 class="translated">WTF是计算机视觉？TechCrunch</h1>
+<h1 class="translated">WTF 是计算机视觉？TechCrunch</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2016/11/13/wtf-is-computer-vision/">https://web.archive.org/web/https://techcrunch.com/2016/11/13/wtf-is-computer-vision/</a></blockquote><div><div class="article-content">
 				<p id="speakable-summary" class="translated">房间对面的某人扔给你一个球，你接住了。简单吧？</p><p class="translated">事实上，这是我们试图理解的最复杂的过程之一——更不用说重现了。发明一台看起来像我们一样的机器是一项看似困难的任务，不仅因为很难让计算机做到这一点，还因为我们不完全确定我们首先是如何做到这一点的。</p><p class="translated">实际发生的事情大致是这样的:球的图像穿过你的眼睛，到达你的视网膜，视网膜进行一些初步的分析，并将它发送到大脑，在那里视觉皮层更彻底地分析图像。然后它将它发送到大脑皮层的其余部分，大脑皮层将它与它已经知道的一切进行比较，对对象和维度进行分类，并最终决定做些什么:举手接球(已经预测了它的路径)。这发生在几分之一秒内，几乎没有意识到的努力，几乎从未失败。所以重建人类的视觉不仅仅是一个困难的问题，而是一系列的问题，每一个都依赖于另一个。</p>
-<p class="translated">没人说过这很容易。也许人工智能的先驱马文·明斯基除外，他在1966年指导一名研究生“将一台相机连接到一台计算机，并让它描述它看到的东西”可怜的孩子:50年后，我们仍在努力。</p>
-<p class="translated">严肃的研究开始于50年代，沿着三条截然不同的路线展开:复制眼睛(困难)；复制视觉皮层(非常困难)；以及复制大脑的其余部分(可以说是有史以来尝试过的最困难的问题)。</p>
+<p class="translated">没人说过这很容易。也许人工智能的先驱马文·明斯基除外，他在 1966 年指导一名研究生“将一台相机连接到一台计算机，并让它描述它看到的东西”可怜的孩子:50 年后，我们仍在努力。</p>
+<p class="translated">严肃的研究开始于 50 年代，沿着三条截然不同的路线展开:复制眼睛(困难)；复制视觉皮层(非常困难)；以及复制大脑的其余部分(可以说是有史以来尝试过的最困难的问题)。</p>
 <h2 class="translated">看</h2>
 <p class="translated">重塑眼睛是我们最成功的领域。在过去的几十年里，我们已经创造了传感器和图像处理器，在某些方面可以达到甚至超过人眼的能力。随着更大、更完美的光学镜头和纳米尺度的半导体子像素的制造，现代相机的精度和灵敏度简直令人难以置信。相机还可以每秒记录数千张图像，并以极高的精度探测距离。</p>
 <p/><div id="attachment_1414873" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-1414873" decoding="async" class="size-full wp-image-1414873 img-full" src="../Images/c778c8f1770a3557fbfcefc54b72c0a0.png" alt="An image sensor one might find in a digital camera." srcset="https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg 2092w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=150,103 150w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=300,205 300w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=768,526 768w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=680,466 680w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=1536,1052 1536w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=2048,1403 2048w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=1200,822 1200w, https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg?resize=50,34 50w" sizes="(max-width: 1024px) 100vw, 1024px" data-original-src="https://web.archive.org/web/20230212131432im_/https://techcrunch.com/wp-content/uploads/2016/11/gettyimages-155858842_image-sensor.jpg"/><p id="caption-attachment-1414873" class="wp-caption-text translated">数码相机中常见的图像传感器。</p></div>
 <p> </p>
-<p class="translated">然而，尽管它们的输出保真度很高，但这些设备在许多方面并不比19世纪的针孔相机好多少:它们仅仅记录了来自给定方向的光子的分布。有史以来最好的相机传感器都不能识别球，更不用说抓住球了。</p>
+<p class="translated">然而，尽管它们的输出保真度很高，但这些设备在许多方面并不比 19 世纪的针孔相机好多少:它们仅仅记录了来自给定方向的光子的分布。有史以来最好的相机传感器都不能识别球，更不用说抓住球了。</p>
 <p class="translated">换句话说，硬件在没有软件的情况下受到了严重的限制——事实证明，这是一个更大的问题。但是现代摄影技术确实提供了一个丰富灵活的工作平台。</p>
 <h2 class="translated">来描述</h2>
 <p class="translated">这不是一个完整的视觉神经解剖学课程的地方，但可以说，我们的大脑是从一开始就建立在头脑中的。大脑中用于视觉的部分比其他任何任务都多，这种专业化一直延伸到细胞本身。数十亿个细胞一起工作，从视网膜嘈杂杂乱的信号中提取模式。</p>

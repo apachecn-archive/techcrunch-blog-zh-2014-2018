@@ -16,30 +16,30 @@
 	</header>
 
 			<div class="article-content">
-				<p id="speakable-summary" class="translated">根据安全公司Kryptowire的分析，在美国销售的一些Android智能手机型号上预装的商业固件被发现秘密地向中国的第三方公司发送高度敏感的数据。</p>
+				<p id="speakable-summary" class="translated">根据安全公司 Kryptowire 的分析，在美国销售的一些 Android 智能手机型号上预装的商业固件被发现秘密地向中国的第三方公司发送高度敏感的数据。</p>
 <p class="translated">在用户不知情或未同意的情况下传输的个人数据包括短信、通话记录、联系人、应用程序使用数据，甚至用户的位置。</p>
-<p class="translated">而带有问题固件的智能手机包括上图所示的BLU·R1 HD，在Amazon.com等主要零售商那里售价约为50美元。</p>
+<p class="translated">而带有问题固件的智能手机包括上图所示的 BLU·R1 HD，在 Amazon.com 等主要零售商那里售价约为 50 美元。</p>
 <p class="translated">目前还没有受影响设备的完整列表。</p>
-<p class="translated">控制该固件的公司声称，它被错误地安装在美国销售的手机上，而该版本是为一家在国内销售设备的中国OEM厂商创建的。</p>
-<p class="translated">在<a target="_blank" href="https://web.archive.org/web/20230316161203/http://www.prnewswire.com/news-releases/kryptowire-discovered-mobile-phone-firmware-that-transmitted-personally-identifiable-information-pii-without-user-consent-or-disclosure-300362844.html">的新闻稿</a>中，Kryptowire详细介绍了数据采集固件的代码和网络分析，并写道:</p>
+<p class="translated">控制该固件的公司声称，它被错误地安装在美国销售的手机上，而该版本是为一家在国内销售设备的中国 OEM 厂商创建的。</p>
+<p class="translated">在<a target="_blank" href="https://web.archive.org/web/20230316161203/http://www.prnewswire.com/news-releases/kryptowire-discovered-mobile-phone-firmware-that-transmitted-personally-identifiable-information-pii-without-user-consent-or-disclosure-300362844.html">的新闻稿</a>中，Kryptowire 详细介绍了数据采集固件的代码和网络分析，并写道:</p>
 <section class="release-body container no-margin-bottom ">
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1">
-<blockquote><p class="translated">这些设备主动传输用户和设备信息，包括文本消息全文、联系人列表、具有完整电话号码的通话记录、包括国际移动用户识别码(IMSI)和国际移动设备识别码(IMEI)在内的唯一设备标识符。移动设备附带的固件和后续更新允许在未经用户同意的情况下远程安装应用程序，并且在某些版本的软件中，允许传输细粒度的设备位置信息。固件可以识别与远程定义的关键字匹配的特定用户和文本消息。固件还收集和传输有关安装在被监控设备上的应用程序的使用信息，绕过Android权限模型，以升级的(系统)权限执行远程命令，并能够远程重新编程设备。</p></blockquote>
+<blockquote><p class="translated">这些设备主动传输用户和设备信息，包括文本消息全文、联系人列表、具有完整电话号码的通话记录、包括国际移动用户识别码(IMSI)和国际移动设备识别码(IMEI)在内的唯一设备标识符。移动设备附带的固件和后续更新允许在未经用户同意的情况下远程安装应用程序，并且在某些版本的软件中，允许传输细粒度的设备位置信息。固件可以识别与远程定义的关键字匹配的特定用户和文本消息。固件还收集和传输有关安装在被监控设备上的应用程序的使用信息，绕过 Android 权限模型，以升级的(系统)权限执行远程命令，并能够远程重新编程设备。</p></blockquote>
 </div>
 </div>
 </section>
 <section class="release-body container no-margin-bottom ">
 <div class="row">
 <div class="col-sm-10 col-sm-offset-1">
-<p class="translated">Kryptowire追踪到个人数据传输到了FOTA固件空中下载更新软件系统的制造商上海东普科技有限公司。</p>
-<p class="translated">在其<a target="_blank" href="https://web.archive.org/web/20230316161203/http://www.adups.com/index.php">网站</a>上，Adups表示，其在200多个国家和地区拥有超过7亿活跃用户和超过70%的市场份额，其FOTA系统集成到400多家移动运营商、半导体供应商和设备制造商，涵盖移动设备、可穿戴设备、汽车和电视。</p>
-<p class="translated">在接受NYT采访时，一名代表Adups的律师表示，该固件功能是应一名身份不明的中国客户的要求开发的，该客户打算将其用于打击垃圾短信和客户支持。尽管该报指出，美国当局不排除中国政府收集美国手机用户情报的可能性。</p>
-<p class="translated">Adups声称，自从Kryptowire接触它以来，已经删除了所有意外收集的数据。而BLU的首席执行官也告诉该报，其手机不再收集数据。大约120，000部智能手机显然已经受到影响，然后它推出了一个更新，以取消固件的监控。</p>
-<p class="translated">Kryptowire指出，固件的软件和行为绕过了移动反病毒工具的检测，因为它们认为设备附带的软件不是恶意软件，因此将其列入白名单。</p>
-<p class="translated">采集的数据在传输过程中被Adups加密，但Kryptoware能够在分析过程中识别加密密钥，并解密短信内容——提供一条短信样本，内容为:“5分钟后到”。</p>
-<p class="translated">其分析还发现，数据传输因数据类型而异，短信和通话记录数据每72小时传输一次，其他个人身份信息每24小时传输一次。它还确定了Adups服务器如何响应的附加功能，使监控系统能够支持搜索消息中使用的特定电话号码或关键字。</p>
-<p class="translated">Kryptoware认为，这些发现支持了“在供应链的每个阶段增加透明度”的观点。它已经向美国政府报告了固件分析，美国政府正在与公共和私营部门的合作伙伴合作，寻找“适当的缓解策略”。</p>
+<p class="translated">Kryptowire 追踪到个人数据传输到了 FOTA 固件空中下载更新软件系统的制造商上海东普科技有限公司。</p>
+<p class="translated">在其<a target="_blank" href="https://web.archive.org/web/20230316161203/http://www.adups.com/index.php">网站</a>上，Adups 表示，其在 200 多个国家和地区拥有超过 7 亿活跃用户和超过 70%的市场份额，其 FOTA 系统集成到 400 多家移动运营商、半导体供应商和设备制造商，涵盖移动设备、可穿戴设备、汽车和电视。</p>
+<p class="translated">在接受 NYT 采访时，一名代表 Adups 的律师表示，该固件功能是应一名身份不明的中国客户的要求开发的，该客户打算将其用于打击垃圾短信和客户支持。尽管该报指出，美国当局不排除中国政府收集美国手机用户情报的可能性。</p>
+<p class="translated">Adups 声称，自从 Kryptowire 接触它以来，已经删除了所有意外收集的数据。而 BLU 的首席执行官也告诉该报，其手机不再收集数据。大约 120，000 部智能手机显然已经受到影响，然后它推出了一个更新，以取消固件的监控。</p>
+<p class="translated">Kryptowire 指出，固件的软件和行为绕过了移动反病毒工具的检测，因为它们认为设备附带的软件不是恶意软件，因此将其列入白名单。</p>
+<p class="translated">采集的数据在传输过程中被 Adups 加密，但 Kryptoware 能够在分析过程中识别加密密钥，并解密短信内容——提供一条短信样本，内容为:“5 分钟后到”。</p>
+<p class="translated">其分析还发现，数据传输因数据类型而异，短信和通话记录数据每 72 小时传输一次，其他个人身份信息每 24 小时传输一次。它还确定了 Adups 服务器如何响应的附加功能，使监控系统能够支持搜索消息中使用的特定电话号码或关键字。</p>
+<p class="translated">Kryptoware 认为，这些发现支持了“在供应链的每个阶段增加透明度”的观点。它已经向美国政府报告了固件分析，美国政府正在与公共和私营部门的合作伙伴合作，寻找“适当的缓解策略”。</p>
 </div>
 </div>
 </section>

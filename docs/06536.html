@@ -4,7 +4,7 @@
 <link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1 class="translated">优化时序数据库的分析技术TechCrunch</h1>
+<h1 class="translated">优化时序数据库的分析技术 TechCrunch</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/http://techcrunch.com/2016/02/19/optimizing-analytics-on-time-series-databases-a-supply-chain-perspective/">https://web.archive.org/web/http://techcrunch.com/2016/02/19/optimizing-analytics-on-time-series-databases-a-supply-chain-perspective/</a></blockquote><div><div class="article-content">
 				<p id="speakable-summary">
 </p><div class="article__contributor-byline">
@@ -18,31 +18,31 @@
 	</div>
 
 <p class="translated">当<a target="_blank" href="https://web.archive.org/web/20230130001917/https://en.wikipedia.org/wiki/Matthew_Fontaine_Maury">马修·方丹·莫里</a>因为腿伤被限制在办公室工作时，他一点也不知道他展示了一个令人印象深刻的众包、开源和大数据时间序列分析的例子(今天全世界都知道了)。</p>
-<p class="translated">受伤后不久，他就致力于研究航海、气象学、风和海流。他研究了数千艘船只的日志和图表，分析了超过10亿个数据点，以发布风和天气图。他将这些图表广为传播，向世界各地的水手展示了如何利用洋流和风来缩短航程。</p>
-<p class="translated">快进大约150年，我们意识到时间序列数据对于今天推动数据驱动的决策是多么重要。如今，我们生活中的每一秒钟都有数百万个数据点被传感器、智能电表、RFIDs和其他传感器收集。</p>
-<p class="translated">世界变得越来越互联、智能和设备驱动，导致大数据的三个v:量、速度和多样性。随着存储成本在过去十年中大幅下降以及分布式计算的出现，公司希望捕获并利用这些数据来进行明智的分析。</p>
+<p class="translated">受伤后不久，他就致力于研究航海、气象学、风和海流。他研究了数千艘船只的日志和图表，分析了超过 10 亿个数据点，以发布风和天气图。他将这些图表广为传播，向世界各地的水手展示了如何利用洋流和风来缩短航程。</p>
+<p class="translated">快进大约 150 年，我们意识到时间序列数据对于今天推动数据驱动的决策是多么重要。如今，我们生活中的每一秒钟都有数百万个数据点被传感器、智能电表、RFIDs 和其他传感器收集。</p>
+<p class="translated">世界变得越来越互联、智能和设备驱动，导致大数据的三个 v:量、速度和多样性。随着存储成本在过去十年中大幅下降以及分布式计算的出现，公司希望捕获并利用这些数据来进行明智的分析。</p>
 <p class="translated"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-1278325" src="../Images/675cb5b3f3a65e589936df0419ed7452.png" alt="Logistics" srcset="https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg 5616w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=150,100 150w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=300,200 300w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=768,512 768w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=680,453 680w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=1536,1024 1536w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=2048,1365 2048w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=1200,800 1200w, https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?resize=50,33 50w" sizes="(max-width: 680px) 100vw, 680px" data-original-src="https://web.archive.org/web/20230130001917im_/https://techcrunch.com/wp-content/uploads/2016/02/logistics.jpg?w=680"/></p>
-<p class="translated">在现代供应链中，从源头到目的地的整个旅程都通过传感器进行严密监控，传感器不断传输数据。远程信息处理数据传输车辆信息，如发动机性能、燃料消耗、制动性能等。；全球定位系统数据持续传递位置信息；RFID标签用于跟踪中间枢纽的货物和在不同接口收集的客户数据。</p>
-<p class="translated">所有这些数据都非常有价值，并提供了优化和节约成本的巨大机会。例如，UPS自豪地宣称他们的卡车从不左转。在制造业、发电厂、能源和公用事业以及金融服务业也可以看到类似的例子。</p>
-<h2 class="translated">为什么不是RDBMS？</h2>
-<p class="translated">老实说，RDBMS的自然格式并不是为存储和分析时序数据而设计的。例如，像UPS这样的公司每天有<a target="_blank" href="https://web.archive.org/web/20230130001917/http://sustainability.ups.com/media/UPS-Big-Data-Infographic.pdf">1600万</a>的出货量。即使每小时传输一次数据，每小时也要增加1600万个数据点。</p>
-<p class="translated">也就是每天增加超过3亿个数据点。现在，如果数据每小时传输四次，我们一天就已经有超过十亿个数据点了。常规的关系数据库将数据存储在单独的行中，这意味着表保持垂直增长。此外，还有许多重复的数据，如静态的装运数据，如客户信息、来源和原产地数据等。每一行都重复。理想情况下，您可以通过规范化为多个表并创建索引来防止这一切。</p>
-<p class="translated">一个好的DBA会告诉你如何去除索引，以及如何去规范化。然而，即使我们创建表来有效地存储如此大量的数据，查询数据却是另一回事。随着每天增加超过10亿行，满足今天的客户SLA的确是一项挑战。</p>
+<p class="translated">在现代供应链中，从源头到目的地的整个旅程都通过传感器进行严密监控，传感器不断传输数据。远程信息处理数据传输车辆信息，如发动机性能、燃料消耗、制动性能等。；全球定位系统数据持续传递位置信息；RFID 标签用于跟踪中间枢纽的货物和在不同接口收集的客户数据。</p>
+<p class="translated">所有这些数据都非常有价值，并提供了优化和节约成本的巨大机会。例如，UPS 自豪地宣称他们的卡车从不左转。在制造业、发电厂、能源和公用事业以及金融服务业也可以看到类似的例子。</p>
+<h2 class="translated">为什么不是 RDBMS？</h2>
+<p class="translated">老实说，RDBMS 的自然格式并不是为存储和分析时序数据而设计的。例如，像 UPS 这样的公司每天有<a target="_blank" href="https://web.archive.org/web/20230130001917/http://sustainability.ups.com/media/UPS-Big-Data-Infographic.pdf">1600 万</a>的出货量。即使每小时传输一次数据，每小时也要增加 1600 万个数据点。</p>
+<p class="translated">也就是每天增加超过 3 亿个数据点。现在，如果数据每小时传输四次，我们一天就已经有超过十亿个数据点了。常规的关系数据库将数据存储在单独的行中，这意味着表保持垂直增长。此外，还有许多重复的数据，如静态的装运数据，如客户信息、来源和原产地数据等。每一行都重复。理想情况下，您可以通过规范化为多个表并创建索引来防止这一切。</p>
+<p class="translated">一个好的 DBA 会告诉你如何去除索引，以及如何去规范化。然而，即使我们创建表来有效地存储如此大量的数据，查询数据却是另一回事。随着每天增加超过 10 亿行，满足今天的客户 SLA 的确是一项挑战。</p>
 <h2 class="translated">问题在于阅读，而不是存储</h2>
 <p class="translated">在时序数据库中，通常的查询是对不同时间间隔内的数据点进行比较。<em>“今天送达的快件数量是比一年前多还是少？平均花在路上的时间比一年前多了还是少了？我的卡车最近半年的里程数下降了吗？”</em></p>
-<p class="translated">生成大量数据很容易，生成大量派生数据甚至更容易。解决方案？压缩所有数据。但是你如何回答这些问题呢？浏览数据。这会很快吗？肯定不是！等待查询永远不会有成效。我们需要压缩，但不能以速度为代价。为了减少查询时间，目标应该是通过减少每次回答查询时读取的记录数量来最小化IO时间。</p>
-<p class="translated">解决方案是基于开源技术的专门时间序列数据库和智能数据模型，以克服上述缺陷。我们在<a target="_blank" href="https://web.archive.org/web/20230130001917/http://www.sigmoid.com/"> Sigmoid </a>建议将<a target="_blank" href="https://web.archive.org/web/20230130001917/http://parquet.apache.org/">拼花</a>作为文件格式。Apache Parquet是一种列存储格式，适用于Hadoop生态系统中的任何项目，无论选择的是数据处理框架、数据建模还是语言。</p>
-<p class="translated">列存储有几个优点。首先，按列组织数据可以实现更好的压缩，因为数据是同质的。其次，IO显著减少，因为我们可以有效地只扫描列的子集。第三，由于相同类型的数据存储在每一列中，这允许有效的编码技术。最后，Spark<a target="_blank" href="https://web.archive.org/web/20230130001917/https://developer.ibm.com/hadoop/blog/2016/01/14/5-reasons-to-choose-parquet-for-spark-sql/">被认为</a>更适合拼花地板。</p>
+<p class="translated">生成大量数据很容易，生成大量派生数据甚至更容易。解决方案？压缩所有数据。但是你如何回答这些问题呢？浏览数据。这会很快吗？肯定不是！等待查询永远不会有成效。我们需要压缩，但不能以速度为代价。为了减少查询时间，目标应该是通过减少每次回答查询时读取的记录数量来最小化 IO 时间。</p>
+<p class="translated">解决方案是基于开源技术的专门时间序列数据库和智能数据模型，以克服上述缺陷。我们在<a target="_blank" href="https://web.archive.org/web/20230130001917/http://www.sigmoid.com/"> Sigmoid </a>建议将<a target="_blank" href="https://web.archive.org/web/20230130001917/http://parquet.apache.org/">拼花</a>作为文件格式。Apache Parquet 是一种列存储格式，适用于 Hadoop 生态系统中的任何项目，无论选择的是数据处理框架、数据建模还是语言。</p>
+<p class="translated">列存储有几个优点。首先，按列组织数据可以实现更好的压缩，因为数据是同质的。其次，IO 显著减少，因为我们可以有效地只扫描列的子集。第三，由于相同类型的数据存储在每一列中，这允许有效的编码技术。最后，Spark<a target="_blank" href="https://web.archive.org/web/20230130001917/https://developer.ibm.com/hadoop/blog/2016/01/14/5-reasons-to-choose-parquet-for-spark-sql/">被认为</a>更适合拼花地板。</p>
 <h2 class="translated">建议解决方案的优势</h2>
 <h3 class="translated">表演</h3>
 <p class="translated">建议解决方案的柱状设计提供了更高的速度和效率。它针对时序数据库进行了优化，极大地提高了查询、聚合和分析的性能。同时，它不限于特定的数据类型或行业。</p>
 <h3 class="translated">规模</h3>
-<p class="translated">建议的解决方案以HDFS和分布式计算为核心。随着数据量的增加，可以添加更多的机器来处理增加的负载。在金融机构、公用事业、电信以及石油和天然气等行业，越来越多的公司采用列存储来存储时序优化数据库。</p>
+<p class="translated">建议的解决方案以 HDFS 和分布式计算为核心。随着数据量的增加，可以添加更多的机器来处理增加的负载。在金融机构、公用事业、电信以及石油和天然气等行业，越来越多的公司采用列存储来存储时序优化数据库。</p>
 <h3 class="translated">速度</h3>
-<p class="translated">时间序列数据库通常面临两个挑战:添加新数据的速度非常快，并且查询所基于的历史数据不断增加。因此，任何解决方案都应该能够结合快速接收和快速响应时间。将用于分析的<a target="_blank" href="https://web.archive.org/web/20230130001917/http://spark.apache.org/"> Spark </a>和用于存储的Parquet结合起来，在这两方面都有所帮助。</p>
+<p class="translated">时间序列数据库通常面临两个挑战:添加新数据的速度非常快，并且查询所基于的历史数据不断增加。因此，任何解决方案都应该能够结合快速接收和快速响应时间。将用于分析的<a target="_blank" href="https://web.archive.org/web/20230130001917/http://spark.apache.org/"> Spark </a>和用于存储的 Parquet 结合起来，在这两方面都有所帮助。</p>
 <h3 class="translated">降低总拥有成本</h3>
 <p class="translated">使用开源技术和云基础设施有助于大幅降低总运营成本，尤其是当我们比较更昂贵的替代方案时。</p>
-<p class="translated">既然技术能够存储和分析海量数据，那我们能做什么呢？有各种各样的用例，包括BI、探索性分析以及异常的分类和检测。开源技术和分布式计算为时间序列数据库的商业智能打开了新的可能性和新的前沿。</p>
+<p class="translated">既然技术能够存储和分析海量数据，那我们能做什么呢？有各种各样的用例，包括 BI、探索性分析以及异常的分类和检测。开源技术和分布式计算为时间序列数据库的商业智能打开了新的可能性和新的前沿。</p>
 			</div>
 
 			</div>    

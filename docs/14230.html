@@ -4,10 +4,10 @@
 <link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1 class="translated">Salesforce正在使用人工智能使SQL民主化，这样任何人都可以用自然语言查询数据库TechCrunch</h1>
+<h1 class="translated">Salesforce 正在使用人工智能使 SQL 民主化，这样任何人都可以用自然语言查询数据库 TechCrunch</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/08/29/salesforce-is-using-ai-to-democratize-sql-so-anyone-can-query-databases-in-natural-language/">https://web.archive.org/web/https://techcrunch.com/2017/08/29/salesforce-is-using-ai-to-democratize-sql-so-anyone-can-query-databases-in-natural-language/</a></blockquote><div><header class="article__header ">
 	<p class="article__title-wrapper">
-						</p><h1 class="article__title translated">Salesforce正在使用人工智能来民主化SQL，这样任何人都可以用自然语言查询数据库</h1>
+						</p><h1 class="article__title translated">Salesforce 正在使用人工智能来民主化 SQL，这样任何人都可以用自然语言查询数据库</h1>
 		
 
 			
@@ -16,15 +16,15 @@
 	</header>
 
 			<div class="article-content">
-				<p id="speakable-summary" class="translated">SQL是编程世界中最简单的语言，然而它的学习曲线仍然很陡，足以阻止许多人与关系数据库进行交互。Salesforce的人工智能研究团队承担了探索机器学习如何为那些没有SQL知识的人打开大门的任务。</p>
-<p class="translated">他们最近的<a target="_blank" href="https://web.archive.org/web/20230205194852/https://einstein.ai/static/images/layouts/research/seq2sql/seq2sql.pdf">论文</a>，Seq2SQL:使用强化学习从自然语言生成结构化查询，建立在机器翻译中通常使用的序列到序列模型上。通过强化学习，该团队获得了将自然语言数据库查询翻译成SQL的有希望的结果。</p>
+				<p id="speakable-summary" class="translated">SQL 是编程世界中最简单的语言，然而它的学习曲线仍然很陡，足以阻止许多人与关系数据库进行交互。Salesforce 的人工智能研究团队承担了探索机器学习如何为那些没有 SQL 知识的人打开大门的任务。</p>
+<p class="translated">他们最近的<a target="_blank" href="https://web.archive.org/web/20230205194852/https://einstein.ai/static/images/layouts/research/seq2sql/seq2sql.pdf">论文</a>，Seq2SQL:使用强化学习从自然语言生成结构化查询，建立在机器翻译中通常使用的序列到序列模型上。通过强化学习，该团队获得了将自然语言数据库查询翻译成 SQL 的有希望的结果。</p>
 <p class="translated">在实践中，这意味着你可以简单地问谁是大学足球赛中获胜最多的球队，一个适当的数据库会被自动查询，告诉你实际上是密歇根大学。</p>
-<p class="translated">“我们实际上并不只有一种正确编写查询的方法，”参与该项目的Salesforce研究人员之一Victor Zhong在一次采访中向我解释说。“如果我给出一个自然语言问题，可能有两三种方式来编写查询。我们使用强化学习来鼓励使用获得相同结果的查询。”</p>
+<p class="translated">“我们实际上并不只有一种正确编写查询的方法，”参与该项目的 Salesforce 研究人员之一 Victor Zhong 在一次采访中向我解释说。“如果我给出一个自然语言问题，可能有两三种方式来编写查询。我们使用强化学习来鼓励使用获得相同结果的查询。”</p>
 <p class="translated">【T2<img decoding="async" class="alignnone size-full wp-image-1533001" src="../Images/995a07e6d54d58ee9bf454441d12581e.png" alt="" data-original-src="https://web.archive.org/web/20230205194852im_/https://techcrunch.com/wp-content/uploads/2017/08/unnamed2.gif"/></p>
-<p class="translated">你可以想象机器翻译问题如何迅速变得非常复杂，包含大量词汇。你越能限制每个缺失单词的可能翻译数量，你的问题就变得越简单。为此，Salesforce选择将其词汇表限制为数据库标签中使用的单词、被问问题中的单词以及SQL查询中通常使用的单词。</p>
-<p class="translated">SQL民主化的想法并不新鲜。像最近被Tableau收购的ClearGraph这样的初创公司已经把用英语而不是SQL开放数据作为他们的业务。</p>
+<p class="translated">你可以想象机器翻译问题如何迅速变得非常复杂，包含大量词汇。你越能限制每个缺失单词的可能翻译数量，你的问题就变得越简单。为此，Salesforce 选择将其词汇表限制为数据库标签中使用的单词、被问问题中的单词以及 SQL 查询中通常使用的单词。</p>
+<p class="translated">SQL 民主化的想法并不新鲜。像最近被 Tableau 收购的 ClearGraph 这样的初创公司已经把用英语而不是 SQL 开放数据作为他们的业务。</p>
 <p class="translated">“一些模型在数据库本身上执行，”钟补充说。"但是如果你问的是关于社会安全号码的问题，就有潜在的隐私问题."</p>
-<p class="translated">除了论文本身，Salesforce在这方面的最大贡献来自于它构建的WikiSQL数据集，该数据集有助于构建其模型。第一个HTML表格是从维基百科收集的。这些表成为随机生成的SQL查询的基础。这些查询被用来形成问题，然后传递给人类通过亚马逊机械土耳其人进行解释。每个解释都在额外的人工指导下被验证了两次。由此产生的数据集是现存的最大的数据集。</p>
+<p class="translated">除了论文本身，Salesforce 在这方面的最大贡献来自于它构建的 WikiSQL 数据集，该数据集有助于构建其模型。第一个 HTML 表格是从维基百科收集的。这些表成为随机生成的 SQL 查询的基础。这些查询被用来形成问题，然后传递给人类通过亚马逊机械土耳其人进行解释。每个解释都在额外的人工指导下被验证了两次。由此产生的数据集是现存的最大的数据集。</p>
 			</div>
 
 			</div>    

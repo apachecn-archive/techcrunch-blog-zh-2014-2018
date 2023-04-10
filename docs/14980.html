@@ -6,19 +6,19 @@
 <body>
 <h1 class="translated">移动电话公司似乎在向任何付费的人提供你的号码和位置</h1>
 <blockquote>原文：<a href="https://web.archive.org/web/https://techcrunch.com/2017/10/15/mobile-phone-companies-appear-to-be-providing-your-number-and-location-to-anyone-who-pays/">https://web.archive.org/web/https://techcrunch.com/2017/10/15/mobile-phone-companies-appear-to-be-providing-your-number-and-location-to-anyone-who-pays/</a></blockquote><div><div class="article-content">
-				<p id="speakable-summary" class="translated">你可能还记得去年，威瑞森(拥有<a target="_blank" href="https://web.archive.org/web/20230106155351/https://techcrunch.com/2017/04/03/pros-and-cons-of-oath-a-verizon-company/" rel="noopener"> Oath </a>，拥有TechCrunch)被<a target="_blank" href="https://web.archive.org/web/20230106155351/https://www.eff.org/deeplinks/2016/03/victory-verizon-will-stop-tagging-customers-tracking-without-consent" rel="noopener">联邦通信委员会</a>处罚，原因是向其用户的流量中注入信息，允许他们在未经同意的情况下被跟踪。尽管去年3月的一项裁决禁止这种做法，但这种做法似乎仍然存在，而且很好:公司似乎可以很容易地从你的移动提供商那里获得你的号码、位置和其他详细信息。</p>
-<p class="translated">Shotwell实验室的联合创始人Philip Neustrom发现了这种可能性，他在本周早些时候的博客文章中记录了这一点<a target="_blank" href="https://web.archive.org/web/20230106155351/https://medium.com/@philipn/want-to-see-something-crazy-open-this-link-on-your-phone-with-wifi-turned-off-9e0adb00d024" rel="noopener">。他发现了两个网站，如果通过移动数据连接访问，很快就会返回大量详细信息:全名、账单邮政编码、当前位置(根据手机信号塔数据推断)等等。(其他人发现了同样的事情，但结果因运营商而略有不同，但在我自己尝试之前，演示网站就被撤下了。)</a></p>
-<p class="translated">它似乎类似于威瑞森使用的唯一标识符报头。UIDH被附加到威瑞森用户的HTTP请求中，允许他们访问的网站看到他们的位置、账单数据等等(当然，如果他们向威瑞森支付了特权的话)。这种做法在运营商中普遍使用了十多年，在过去几年中受到了重视，最终FCC要求威瑞森(以及其他移动提供商)在实施之前获得积极的同意。</p>
-<p class="translated">现在，这并不是说整个事情是一个巨大的骗局:这些数据可能非常有用，例如，一个管理员想要确保员工的电话确实在他们的IP似乎指示的位置。如果一个服务可以通过查询你的移动服务提供商来验证你的身份，为什么还要麻烦一个基于文本的一次性密码呢？这至少是一种合理的可能性。</p>
-<p class="translated">这就是像Payfone和Danal这样的公司使用它的原因；此外，根据定义，他们服务的用户会选择这种跟踪，所以没有问题。需要澄清的是，并不是他们的服务提供了这些信息。</p>
-<p class="translated">我向Payfone首席执行官罗杰·德赛(Rodger Desai)寻求一点澄清。他在电子邮件中写道:</p>
-<blockquote><p class="translated">有一个非常严格的安全和数据隐私同意框架。主要问题是，随着所有合法的移动更改事件被欺诈者利用……例如，如果你今天下载了一个移动银行应用程序，银行不确定是你的新手机上的人还是有人冒充你——欺诈者只需要你的银行密码。像证书和设备打印这样的PC技术不太好用——因为这是一部新手机。</p></blockquote>
-<p class="translated">Danal的Abhishek Tiwari写信解释了该公司提供的演示:</p>
+				<p id="speakable-summary" class="translated">你可能还记得去年，威瑞森(拥有<a target="_blank" href="https://web.archive.org/web/20230106155351/https://techcrunch.com/2017/04/03/pros-and-cons-of-oath-a-verizon-company/" rel="noopener"> Oath </a>，拥有 TechCrunch)被<a target="_blank" href="https://web.archive.org/web/20230106155351/https://www.eff.org/deeplinks/2016/03/victory-verizon-will-stop-tagging-customers-tracking-without-consent" rel="noopener">联邦通信委员会</a>处罚，原因是向其用户的流量中注入信息，允许他们在未经同意的情况下被跟踪。尽管去年 3 月的一项裁决禁止这种做法，但这种做法似乎仍然存在，而且很好:公司似乎可以很容易地从你的移动提供商那里获得你的号码、位置和其他详细信息。</p>
+<p class="translated">Shotwell 实验室的联合创始人 Philip Neustrom 发现了这种可能性，他在本周早些时候的博客文章中记录了这一点<a target="_blank" href="https://web.archive.org/web/20230106155351/https://medium.com/@philipn/want-to-see-something-crazy-open-this-link-on-your-phone-with-wifi-turned-off-9e0adb00d024" rel="noopener">。他发现了两个网站，如果通过移动数据连接访问，很快就会返回大量详细信息:全名、账单邮政编码、当前位置(根据手机信号塔数据推断)等等。(其他人发现了同样的事情，但结果因运营商而略有不同，但在我自己尝试之前，演示网站就被撤下了。)</a></p>
+<p class="translated">它似乎类似于威瑞森使用的唯一标识符报头。UIDH 被附加到威瑞森用户的 HTTP 请求中，允许他们访问的网站看到他们的位置、账单数据等等(当然，如果他们向威瑞森支付了特权的话)。这种做法在运营商中普遍使用了十多年，在过去几年中受到了重视，最终 FCC 要求威瑞森(以及其他移动提供商)在实施之前获得积极的同意。</p>
+<p class="translated">现在，这并不是说整个事情是一个巨大的骗局:这些数据可能非常有用，例如，一个管理员想要确保员工的电话确实在他们的 IP 似乎指示的位置。如果一个服务可以通过查询你的移动服务提供商来验证你的身份，为什么还要麻烦一个基于文本的一次性密码呢？这至少是一种合理的可能性。</p>
+<p class="translated">这就是像 Payfone 和 Danal 这样的公司使用它的原因；此外，根据定义，他们服务的用户会选择这种跟踪，所以没有问题。需要澄清的是，并不是他们的服务提供了这些信息。</p>
+<p class="translated">我向 Payfone 首席执行官罗杰·德赛(Rodger Desai)寻求一点澄清。他在电子邮件中写道:</p>
+<blockquote><p class="translated">有一个非常严格的安全和数据隐私同意框架。主要问题是，随着所有合法的移动更改事件被欺诈者利用……例如，如果你今天下载了一个移动银行应用程序，银行不确定是你的新手机上的人还是有人冒充你——欺诈者只需要你的银行密码。像证书和设备打印这样的 PC 技术不太好用——因为这是一部新手机。</p></blockquote>
+<p class="translated">Danal 的 Abhishek Tiwari 写信解释了该公司提供的演示:</p>
 <blockquote><p class="translated">需要明确的是，该演示仅在与成功认证的用户/个人相关联的设备上运行。在演示中，我们仍然确定同意继续进行，并进行第二因素身份认证(以防有人拿走您的手机)，以确定是您——用户/个人。未经明确同意，任何人不得在演示网站上获取或确定个人信息，也不得通过特定用户/个人的手机获取或确定个人信息。</p></blockquote>
-<p class="translated">问题是，正如Neustrom发现的那样，移动提供商似乎并没有非常努力地在他们的终端核实这种同意。这两个网站都提供了它们的功能演示，向移动提供商查询数据并呈现给你。</p>
-<p class="translated">当然，如果你想让演示工作，你也可以选择跟踪。但是移动提供商要求你验证的短信或邮件在哪里呢？这种请求似乎可以通过多种方式进行欺诈，因为除了一些编程方式(匹配IP等)，提供者不会以任何方式验证它们。</p>
+<p class="translated">问题是，正如 Neustrom 发现的那样，移动提供商似乎并没有非常努力地在他们的终端核实这种同意。这两个网站都提供了它们的功能演示，向移动提供商查询数据并呈现给你。</p>
+<p class="translated">当然，如果你想让演示工作，你也可以选择跟踪。但是移动提供商要求你验证的短信或邮件在哪里呢？这种请求似乎可以通过多种方式进行欺诈，因为除了一些编程方式(匹配 IP 等)，提供者不会以任何方式验证它们。</p>
 <p class="translated">如果没有严格的同意标准，移动公司还不如像倡导组织指责他们之前一样，不加选择地出售数据。目前，似乎没有正式选择退出的方法，但也没有明显的眼前危险，如明显的骗子或批发商使用这种技术。</p>
-<p class="translated">我已经询问了T-Mobile、美国电话电报公司和威瑞森，他们是否参与了这种项目，向任何付费的人提供用户信息，而这些付费的人又可能向其他人提供用户信息。我也问过联邦通信委员会他们是否担心这种做法。如果有回音，我会更新这个帖子。</p>
+<p class="translated">我已经询问了 T-Mobile、美国电话电报公司和威瑞森，他们是否参与了这种项目，向任何付费的人提供用户信息，而这些付费的人又可能向其他人提供用户信息。我也问过联邦通信委员会他们是否担心这种做法。如果有回音，我会更新这个帖子。</p>
 			</div>
 
 			</div>    
