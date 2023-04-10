@@ -1,0 +1,27 @@
+# Spotify 收购区块链初创公司 Mediachain 以解决音乐的归属问题
+
+> 原文：<https://web.archive.org/web/https://techcrunch.com/2017/04/26/spotify-acquires-blockchain-startup-mediachain-to-solve-musics-attribution-problem/>
+
+Spotify[收购了](https://web.archive.org/web/20230404091926/https://press.spotify.com/us/2017/04/26/spotify-acquires-mediachain-labs/)位于布鲁克林的区块链初创公司 [Mediachain Labs](https://web.archive.org/web/20230404091926/http://www.mediachain.io/) ，他们的团队将加入该公司在纽约的办公室，在那里他们将致力于开发更好的技术，将艺术家和其他版权所有者与 Spotify 服务上托管的歌曲联系起来。在被收购之前，这家初创公司[已经开发了几项技术](https://web.archive.org/web/20230404091926/https://techcrunch.com/2016/06/01/mediachain-enivisions-a-blockchain-based-tool-for-identifying-artists-work-across-the-internet/)，可以帮助这些努力，包括一个分散的点对点数据库，将应用程序与媒体及其相关信息连接起来，以及[一个创作者的归属引擎](https://web.archive.org/web/20230404091926/https://blog.mediachain.io/introducing-mediachain-attribution-engine-2dc1ea6aa31f)和[一种奖励创作者作品的加密货币](https://web.archive.org/web/20230404091926/https://blog.mediachain.io/a-new-cryptocurrency-to-reward-creative-commons-creators-e41e1791c4c0#.tknedqimv)。
+
+简而言之，这家初创公司正致力于利用区块链技术来帮助解决归因问题。
+
+事实证明，Spotify 可以在这个领域获得一些帮助。去年，Spotify 与美国国家音乐出版商协会(NMPA)就未付版税问题解决了一场许可纠纷。
+
+据《NMPA》报道，Spotify 未能为其服务的大量歌曲获得机械许可——这是指版权所有者对复制音乐作品能力的控制,[纽约时报曾报道过](https://web.archive.org/web/20230404091926/https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html?_r=0)。NMPA 表示，这个问题也可能影响其他流媒体服务，估计目前流媒体平台上多达 25%的活动未经许可。
+
+作为和解的结果，Spotify 当时同意向音乐出版商支付 2000 多万美元，外加 500 万美元的罚款。虽然该公司可能因为和解而避免了几起集体诉讼，但它指出了业内一个更大的问题。
+
+Spotify 曾声称，它没有支付版税，因为它根本没有必要的数据来帮助它找出谁的主张是合法的，甚至不知道如何找到当事人。该公司表示，它缺乏一个涵盖所有现有音乐版权的权威数据库。这导致了诉讼，这显然不是管理这些支付的理想方式。
+
+![](img/cd2549819e4d928ccab59afa0ac4d8cd.png)
+
+有了 Mediachain，Spotify 可能会有一个解决方案——但它不是建立一个包含音乐版权信息的中央数据库，而是建立一个分散的数据库。
+
+正如 Mediachain 在一篇博客文章中解释的那样，它对归属问题的愿景是一个共享数据层，它说“是解决归属问题、赋予创作者和版权所有者权力、实现更高效和可持续的在线创意模式的关键。”
+
+Mediachain 的团队拥有音乐行业经验也有所帮助。该公司在帖子中指出，其首席技术官 Arkadiy Kukarkin 是音乐策展聚合器炒作机器的第一位工程人员，在创办 Mediachain Labs 之前，联合创始人杰西·沃尔登(Jesse Walden)曾共同创立并运营一家艺术家管理公司，该公司与索朗·诺尔斯、血橙(Blood Orange)和 Majical Cloudz 等艺术家合作。
+
+Mediachain 表示，随着它转向 Spotify，它将把已经建立的技术移交给开源社区。
+
+交易条款没有透露，但根据 CrunchBase 的消息，Mediachain 已经从包括 Andreessen Horowitz、Union Square Ventures 和其他投资者在内的 T2 投资者那里筹集了 150 万美元。

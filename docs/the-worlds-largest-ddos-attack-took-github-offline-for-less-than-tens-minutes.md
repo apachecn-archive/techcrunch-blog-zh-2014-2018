@@ -1,0 +1,26 @@
+# 世界上最大的 DDoS 攻击使 GitHub 离线不到 10 分钟 
+
+> 原文：<https://web.archive.org/web/https://techcrunch.com/2018/03/02/the-worlds-largest-ddos-attack-took-github-offline-for-less-than-tens-minutes/>
+
+# 世界上最大的 DDoS 攻击使 GitHub 离线不到 10 分钟
+
+越来越多的迹象表明，网络攻击和防御都越来越复杂，GitHub 透露，本周它经受住了历史上最大的 DDoS 攻击。
+
+DDoS——或完全分布式拒绝服务——是一种网络攻击，旨在通过轰炸网站和基于网络的服务，使其流量过大，以至于其服务和基础设施无法处理所有流量。这是一种相当常见的迫使目标下线的策略。
+
+GitHub 是一个常见的目标— [中国政府被广泛怀疑是 2015 年为期五天的攻击的幕后黑手—](https://web.archive.org/web/20221219210818/https://techcrunch.com/2015/04/10/china-great-cannon/)—而这次最新的攻击在峰值时达到了令人难以置信的 1.35Tbps。
+
+[在一篇复述事件](https://web.archive.org/web/20221219210818/https://githubengineering.com/ddos-incident-report/)的博客文章中，GitHub 表示，攻击者劫持了一种名为“memcaching”的东西——一种以高性能和高需求而闻名的分布式内存系统——以大幅放大 GitHub 的流量。为了做到这一点，他们最初伪造了 GitHub 的 IP 地址，并控制了 GitHub 所说的“在公共互联网上不经意间可访问的”memcached 实例。
+
+结果是大量的交通流量涌入。 [Wired 报道](https://web.archive.org/web/20221219210818/https://www.wired.com/story/github-ddos-memcached)在这种情况下，使用的 memcached 系统将数据量放大了大约 50 倍。
+
+
+> 在攻击期间，GitHub 的入站流量飙升
+
+GitHub 请求 Akamai Prolexic 的帮助，Akamai pro lexic 通过其“清理”中心将流量重新路由到 GitHub，清除并阻止被认为是恶意的数据。攻击进行了八分钟后，攻击者取消了攻击，DDoS 也停止了。
+
+总的来说，GitHub 在世界协调时 17:21 到 17:26 之间离线了 5 分钟，在世界协调时 17:26 到 17:30 之间有间歇性连接。
+
+这项服务对于任何处理代码的公司来说都是至关重要的——实际上非常多——因此，虽然宕机是不受欢迎的，但这种情况下的反应令人印象深刻，无疑是个好兆头。GitHub 表示，它将继续分析这次攻击和其他攻击，以确保它得到适当的防御。
+
+你可以在 GitHub 博客文章的[中阅读全部细节。](https://web.archive.org/web/20221219210818/https://githubengineering.com/ddos-incident-report/)
